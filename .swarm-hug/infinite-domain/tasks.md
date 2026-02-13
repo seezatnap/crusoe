@@ -47,7 +47,7 @@
 
 ## Act 4 Drafting (Chapters 15–17)
 
-- [ ] (#31) Draft `chapters/chapter-15.md` in the 4,000–6,000-word range: stage the choice architecture—remove limits, suppress truth, or open truth without forced collapse—while defining Juno’s third-path strategy [5 pts] (blocked by #30)
+- [x] (#31) Draft `chapters/chapter-15.md` in the 4,000–6,000-word range: stage the choice architecture—remove limits, suppress truth, or open truth without forced collapse—while defining Juno’s third-path strategy [5 pts] (blocked by #30) (A)
 - [ ] (#32) Draft `chapters/chapter-16.md` in the 4,000–6,000-word range: dramatize public exposure and resistance from Curators/Orin, with Cassiel and Fen pulled into the moral crisis and taking active roles [5 pts] (blocked by #31)
 - [ ] (#33) Draft `chapters/chapter-17.md` in the 4,000–6,000-word range: deliver resolution with mixed societal outcomes, final Maren farewell in full drift, and Juno’s return to an honestly uncertain but real future [5 pts] (blocked by #32)
 
@@ -55,7 +55,7 @@
 
 - [x] (#34) Run postmortem and revision cycle for `chapter-01.md`–`chapter-04.md` against all gates in #9; re-run all Rust checks and style workflow until chapter package is within spec [5 pts] (blocked by #17, #18, #19, #20) (B)
 - [x] (#35) Run postmortem and revision cycle for `chapter-05.md`–`chapter-10.md` with special review of tone transitions, act-level escalation, and continuity with #6 and #5 [5 pts] (blocked by #21, #22, #23, #24, #25, #26) (B)
-- [ ] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30)
+- [x] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30) (B)
 - [ ] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33)
 - [ ] (#38) Execute final integration release checklist: rerun tooling (#15), finalize roadmaps and unresolved-thread log, freeze artifact outputs, and produce final deliverable bundle for editorial handoff [5 pts] (blocked by #34, #35, #36, #37, #15)
 
@@ -122,4 +122,8 @@
 
 ## Follow-up tasks (from sprint review)
 - [ ] (#66) Update `writing-artifacts/roadmap.md` chapter-14 tracker row from `Not started` to `Completed draft (5,997)` and align the row metadata with `chapters/chapter-14.md` (blocked by #30).
-- [ ] (#67) Create the missing `writing-artifacts/quality/chapter-14/quality-orchestrator-*.md` artifact by running the chapter-14 quality session; there is currently no `chapter-14` quality directory or report (blocked by #30).
+- [x] (#67) Create the missing `writing-artifacts/quality/chapter-14/quality-orchestrator-*.md` artifact by running the chapter-14 quality session; there is currently no `chapter-14` quality directory or report (blocked by #30). (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#68) Resolve the blocking findings in `writing-artifacts/quality/chapter-14/quality-orchestrator-1770994354.md` (including cliche and voice-consistency blockers), then rerun quality for chapter-14 and replace the chapter-14 status with a passing report before treating the Act-3 postmortem cycle as truly complete. (blocked by #36)
+- [ ] (#69) Update `writing-artifacts/roadmap.md` chapter-15 tracker row from `Not started` to `Completed draft (4,847)` and sync its pacing/title metadata with `chapters/chapter-15.md`. (blocked by #31)
