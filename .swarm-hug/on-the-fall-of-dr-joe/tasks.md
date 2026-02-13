@@ -2,9 +2,9 @@
 
 ## Creative Foundation and Planning
 
-- [ ] (#1) Establish the writing workspace and project conventions in `chapters/` and `writing-artifacts/` (file naming, chapter IDs, metadata, word-count tracking, dependency notes, and handoff format) [5 pts]
-- [ ] (#2) Write the World Design Document covering setting, era, locations, atmosphere, and governing world rules with explicit mystery-genre constraints [5 pts] (blocked by #1)
-- [ ] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1)
+- [x] (#1) Establish the writing workspace and project conventions in `chapters/` and `writing-artifacts/` (file naming, chapter IDs, metadata, word-count tracking, dependency notes, and handoff format) [5 pts] (A)
+- [A] (#2) Write the World Design Document covering setting, era, locations, atmosphere, and governing world rules with explicit mystery-genre constraints [5 pts] (blocked by #1)
+- [A] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1)
 - [ ] (#4) Create the High-Level Plot Outline for all 25 chapters with inciting incident, rising action, midpoint reversal, climax, and denouement [5 pts] (blocked by #2, #3)
 - [ ] (#5) Produce the Chapter-by-Chapter Outline for all 25 chapters: scene sequencing, POV map, key revelations, clue placements, red herrings, and emotional beats [5 pts] (blocked by #2, #3, #4)
 - [ ] (#6) Build the Mystery Architecture: crime definition, clue tree, misdirection plan, reveal logic, and fair-play checklist to guarantee solvability [5 pts] (blocked by #2, #3, #4, #5)
@@ -44,3 +44,7 @@
 
 - [ ] (#35) Establish and run a mandatory chapter post-mortem workflow after each draft: 4,000-6,000 word check, continuity tracker updates, fairness audit for clue visibility, dialogue/POV consistency, and style rhythm scan [5 pts] (blocked by #9, #10, #11, #12, #13, #14, #15, #16, #17, #18, #19, #20, #21, #22, #23, #24, #25, #26, #27, #28, #29, #30, #31, #32, #33, #34)
 - [ ] (#36) Perform final novel-level integration edit across all 25 chapters for pacing arc, thematic completion, lore integrity, and unresolved-thread closure, then produce the release draft [5 pts] (blocked by #35, #34)
+
+## Follow-up tasks (from sprint review)
+- [B] (#37) Reconcile status enums across `chapters/README.md`, `writing-artifacts/README.md`, and `writing-artifacts/word-count.md` so blocked/review/finalization states are defined once and used consistently in both templates and tracking rows (`blocked` vs `draft`/`ready_for_review` mismatch). (blocked by #1)
+- [B] (#38) Replace the placeholder `CH-000` example in `chapters/README.md` with an explicit “no predecessor” pattern so invalid chapter IDs are not copied into production frontmatter. (blocked by #1)
