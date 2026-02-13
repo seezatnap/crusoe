@@ -72,6 +72,8 @@ She took the warning as instruction anyway.
 
 ---
 
+<!-- pov: juno -->
+
 The Lantern Quarter occupied the edge of an old Lattice district where architecture stood for no practical reason except to give the oldest minds something that resembled weather. No maps existed for this region unless someone had made one from memory, and memory in this place was a negotiated thing — prone to revision, prone to silence, prone to the particular generosity of spaces that had decided not to insist on accuracy.
 
 Juno walked past three false horizons before she found the corridor she remembered.
@@ -224,6 +226,8 @@ No one says goodbye in these places. She walked through three false horizons and
 
 ---
 
+<!-- pov: juno -->
+
 The return path felt too short.
 
 By the time she reached the station, her diagnostic line had updated itself twice.
@@ -303,6 +307,8 @@ Fen looked at her, then at Cassiel, then back at the line.
 She took the request.
 
 ---
+
+<!-- pov: juno -->
 
 Curator Office C-2 had one too many windows for a place that no longer opened to sunlight.
 
@@ -422,6 +428,8 @@ She left before he could add to it.
 
 ---
 
+<!-- pov: juno -->
+
 She did not go to the recording annex to solve anything. She went because the fragment Orin had released with her provisional status contained a supplement she had not opened — an unindexed notebook scan buried in the tail of EN-33-156, flagged high risk and marked *private reconstruction*.
 
 `EN-33-156 / legacy witness / supplemental`
@@ -534,6 +542,8 @@ She almost deleted it. Then she did not.
 
 ---
 
+<!-- pov: juno -->
+
 When she returned to the station, Fen had gone from practical silence to open annoyance.
 
 They looked up first, then down, then up again — holding a sentence against the wall and trying to determine if it would bear weight.
@@ -589,6 +599,8 @@ He nodded. "Or a governance trick."
 For the first time in days she felt the room return her in a shape that was not an order.
 
 ---
+
+<!-- pov: juno -->
 
 At the edge of the station, a delayed message from Maren arrived — held back by protocol, released now by the architecture's own timing.
 
@@ -699,6 +711,8 @@ The first bell approached.
 The room had not forgiven them for one honest hour, and she did not expect it to.
 
 ---
+
+<!-- pov: juno -->
 
 At shift end, she returned to lane one and opened her private queue.
 
