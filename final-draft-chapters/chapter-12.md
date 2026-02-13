@@ -1,6 +1,5 @@
 # Chapter 12
 
-<!-- pov: juno | layer: recording (lead) | shifts: present → recording → present -->
 
 The bleed had not left. It had settled.
 
@@ -28,7 +27,6 @@ She opened the first readable fragment and began the work that the rogue jump ha
 
 ---
 
-<!-- pov: juno -->
 
 The fragment loaded without a clean header. Sable's voice arrived first — not from a specific room but from the recording's attempt to reconstruct a room that no longer held together. Walls resolved and dissolved. A desk appeared with papers stacked in the careful disorder of someone who filed by association rather than date. The overhead light flickered once, held, then shifted to the warmer spectrum of late afternoon.
 
@@ -70,7 +68,6 @@ She opened the second fragment.
 
 ---
 
-<!-- pov: juno -->
 
 `FIELD OBSERVATION: 2057-03-22`
 
@@ -112,7 +109,6 @@ The fragment dissolved into noise — a wash of static that carried, beneath its
 
 ---
 
-<!-- pov: juno -->
 
 Juno stood. The work pod's geometry adjusted around her — walls finding their angles, light calibrating to her posture — and she let the adjustment happen without resistance. She had spent her life inside these automatic courtesies. She had never before understood them as decisions.
 
@@ -132,7 +128,6 @@ She did not cease. She opened the third fragment.
 
 ---
 
-<!-- pov: juno -->
 
 `FIELD OBSERVATION: 2058-11-09`
 
@@ -166,7 +161,6 @@ The fragment held for another twelve seconds. The man in the chair looked toward
 
 ---
 
-<!-- pov: juno -->
 
 She closed the fragment and sat with the silence.
 
@@ -204,7 +198,6 @@ She opened the fourth fragment.
 
 ---
 
-<!-- pov: juno -->
 
 `FIELD OBSERVATION: 2059-08-03`
 
@@ -244,7 +237,6 @@ She sat down. The chair did not creak. The room held its silence with the patien
 
 ---
 
-<!-- pov: juno -->
 
 Juno returned to the present and found her hands shaking.
 
@@ -258,7 +250,6 @@ The fifth fragment sat in the queue. She opened it.
 
 ---
 
-<!-- pov: juno -->
 
 `PERSONAL NOTE: 2060-01-17`
 
@@ -294,7 +285,6 @@ The recording held her face for five more seconds. Then the degradation took it 
 
 ---
 
-<!-- pov: juno -->
 
 She closed the last fragment and sat in the work pod's neutral light.
 

@@ -1,6 +1,5 @@
 # Chapter 16
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → public escalation → present -->
 
 The first citizen queries arrived at 03:18, and they arrived not as questions but as a kind of weather.
 
@@ -54,7 +53,6 @@ She nodded and opened the station's broadcast channel.
 
 ---
 
-<!-- pov: juno -->
 
 By mid-morning the city had responded — not with panic, not with calm, but with movement.
 
@@ -84,7 +82,6 @@ Juno placed the message at the top of her working file.
 
 ---
 
-<!-- pov: juno -->
 
 Fen had requisitioned the old transport-vault annex at the edge of Juno's sector — a routing node from a prior era, still carrying the infrastructure of a room designed to move things. By noon it held three live terminals, two volunteer interpreters from the education ring, and one civic-process administrator who had arrived without being asked.
 
@@ -104,7 +101,6 @@ She had expected fear. What she found instead was labour.
 
 ---
 
-<!-- pov: juno -->
 
 Cassiel arrived without footsteps she noticed — his specific quality in shared spaces, arriving at the point where he was needed without requiring anyone to explain how he got there.
 
@@ -132,7 +128,6 @@ Cassiel nodded once — giving the correction its proper weight.
 
 ---
 
-<!-- pov: juno -->
 
 The first resistance did not arrive as shouting. It arrived as a refusal icon.
 
@@ -170,7 +165,6 @@ It was a small intervention. It changed the grammar of the institutional respons
 
 ---
 
-<!-- pov: juno -->
 
 By early afternoon the resistance had resolved into two currents.
 
@@ -190,7 +184,6 @@ That was how resistance changed from theory to infrastructure. Not with declarat
 
 ---
 
-<!-- pov: juno -->
 
 The second current was personal.
 
@@ -238,7 +231,6 @@ The room shifted — not the walls but the quality of attention.
 
 ---
 
-<!-- pov: juno -->
 
 Lien stood without invitation.
 
@@ -284,7 +276,6 @@ Orin did not respond. Lien did.
 
 ---
 
-<!-- pov: juno -->
 
 They did not resolve it in the hall. What they did was smaller and more necessary — they held the argument long enough for the record to capture it.
 
@@ -306,7 +297,6 @@ The process changed from hearing outcome to civic fact. Not with a declaration. 
 
 ---
 
-<!-- pov: juno -->
 
 At dusk, Cassiel pulled her out of the relay station and into a smaller square where a group of students had started building a witness-signature installation. They had used chalk patterns and light projections to create a map that held not answers but questions — the specific questions that children and young people had written when they read the constraint documentation for the first time.
 
@@ -340,7 +330,6 @@ She wrote it down. She would use it tomorrow. Tonight she needed something less 
 
 ---
 
-<!-- pov: juno -->
 
 Night arrived in layers because the Lattice had always done that when enough people were watching — consensus light dimming in response to the aggregate attention of a city that was, for the first time in its memory, paying attention to the same thing.
 
@@ -380,7 +369,6 @@ He gave her the smallest nod.
 
 ---
 
-<!-- pov: juno -->
 
 She set up a late forum in the old tram-tunnel relay space — a room where the signal bounced unevenly off surfaces designed for transit, and every transmission delay was measurable.
 
@@ -448,7 +436,6 @@ The assistant who had sent the message did not sign. He sent a delayed notation:
 
 ---
 
-<!-- pov: juno -->
 
 She did the last private work of the night. She sent Orin the final phase-one language — unedited, no side notes.
 

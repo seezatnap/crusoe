@@ -1,6 +1,5 @@
 # Chapter 13
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → institutional forum → present -->
 
 The notification arrived before she was ready for it, which was how Orin's office had always worked — not by catching a person off guard but by ensuring the ground had already moved before the person thought to check.
 
@@ -58,7 +57,6 @@ She read it and set it aside. Orin's messages always ended with full stops befor
 
 ---
 
-<!-- pov: juno -->
 
 Fen stood in the corridor entrance with his jacket unbuttoned and his hands low in his sleeves. He did not knock. The habit had become unnecessary months ago, when his presence in her doorway had stopped being a visit and started being a practice.
 
@@ -106,7 +104,6 @@ Fen turned the brass disc in his pocket — the scrape of metal against fabric, 
 
 ---
 
-<!-- pov: juno -->
 
 The corridor to the Forum had acquired the geometry of intent. Two verification gates stood between the intake hall and the forum atrium — identity confirmation, purpose declaration, a chain-of-custody stamp that required her to name what she carried before the hallway would hold its shape. She had learned to read policy by the pressure on the floor. These surfaces were tight. The light was even. Every surface carried a single message: *you are being processed.*
 
@@ -128,7 +125,6 @@ She crossed the threshold alone.
 
 ---
 
-<!-- pov: juno -->
 
 The Forum Atrium did not look like a room. It looked like a protocol that had been given enough space to stand up in.
 
@@ -582,7 +578,6 @@ The room shifted once — the ambient parameters resetting to neutral as the ses
 
 ---
 
-<!-- pov: juno -->
 
 She walked out with the same straight posture she carried into every professional exit.
 

@@ -1,6 +1,5 @@
 # Chapter 11
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → recording → present -->
 
 She had the journals. She had the process handle. She had the three running tasks of the Rosetta Key displayed in a terminal window she had not closed in fourteen hours. And she had the particular knowledge that arrives when a person discovers the walls of the room they live in are not walls but decisions made by someone who could not sleep.
 
@@ -38,7 +37,6 @@ She opened the deep-channel routing map and felt nothing she could name as coura
 
 ---
 
-<!-- pov: juno -->
 
 Fen arrived before the routing map finished loading.
 
@@ -154,7 +152,6 @@ She pressed yes.
 
 ---
 
-<!-- pov: juno -->
 
 The first recording did not begin with a face. It began with rain.
 
@@ -216,7 +213,6 @@ She kept going.
 
 ---
 
-<!-- pov: juno -->
 
 The second file opened before she reached the exit command.
 
@@ -276,7 +272,6 @@ She opened the next file.
 
 ---
 
-<!-- pov: juno -->
 
 The third recording loaded with no clean header. Noise resolved into an old stairwell with a blue exit sign buzzing at a frequency that belonged to institutional buildings and borrowed electricity.
 
@@ -332,7 +327,6 @@ A hand-scrawled note appeared in the margin:
 
 ---
 
-<!-- pov: juno -->
 
 The final file had no name. Audio hiss separated into voices she recognised from different recordings, different years, different registers of certainty. Sable, older, each word paid for with effort:
 
@@ -424,7 +418,6 @@ The send bar cycled three times and accepted.
 
 ---
 
-<!-- pov: juno -->
 
 The first consequence arrived as a headache where her temple lines met the old ache of sustained focus. The second arrived as a metallic taste. The third arrived as language — syntax in her mouth that carried a delay, each sentence arriving half a beat late, edited by something that was not her.
 

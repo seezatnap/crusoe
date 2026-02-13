@@ -1,6 +1,5 @@
 # Chapter 14
 
-<!-- pov: juno | layer: recording (lead) | shifts: present → recording → present -->
 
 The message arrived through the private channel at what the system called 01:07 — a number that meant nothing except that someone had decided it should mean early, and the decision had held.
 
@@ -20,7 +19,6 @@ She had already started moving.
 
 ---
 
-<!-- pov: juno -->
 
 The lanes at this hour carried the particular emptiness of spaces that had been designed for transit and had never learned what to do with stillness. Juno walked through two districts where the architecture held its shape by habit rather than attention. Someone in the old quarter had left a small weather pattern running — a loop of dry wind that crossed the lane every twelve seconds and carried no temperature. She counted three crossings before she noticed she was counting.
 
@@ -50,7 +48,6 @@ The threshold opened.
 
 ---
 
-<!-- pov: juno -->
 
 Maren's space held the same shoreline it had held for as long as Juno could remember — a dock that extended into water that was not water, under a sky that followed no star field and kept no time. The architecture had the generous imprecision of a place designed for a mind that could no longer tolerate edges. No door. No nameplate. Only corners rounded to remove argument from geometry, and a bench that faced a horizon that existed only because Maren had once believed in horizons and the Lattice maintained the belief as a courtesy.
 
@@ -122,7 +119,6 @@ Maren nodded once.
 
 ---
 
-<!-- pov: juno -->
 
 The dock held its quiet. Wind existed only by memory. Still, the feeling of cold came from somewhere behind both of them, as though the space had decided to be honest about what comfort it could no longer provide.
 
@@ -238,7 +234,6 @@ Maren's expression shifted by a fraction — the grief of a woman who had weighe
 
 ---
 
-<!-- pov: juno -->
 
 The dock sharpened. The old shoreline narrowed, and the light acquired the institutional cast of a recording loading from deep storage. Juno felt the transition in her teeth — a change in the air's texture that meant the space was no longer fully present. Maren stood at the edge of the shift, half in the Lattice and half in something older, and the dock behind her folded into a corridor that smelled of coffee and cold steel and wet wool.
 
@@ -328,7 +323,6 @@ Sable said quietly: "Then no one does this better."
 
 ---
 
-<!-- pov: juno -->
 
 The scene shifted in a single jerk to a conference room with older chairs. Maren stood at one side. A younger Orin spoke with hands making a circle as if the room might close if he stopped moving.
 
@@ -368,7 +362,6 @@ Maren reached the notebook again and added one line.
 
 ---
 
-<!-- pov: juno -->
 
 The recording dropped one layer, and Juno felt the historical scene become less an event and more a seam she could cross. Maren in the recording grew older — or the recording held two versions of her, one still deciding and one already knowing what the decision would cost.
 
@@ -412,7 +405,6 @@ The old private joke — *same thing* — arrived with the particular gentleness
 
 ---
 
-<!-- pov: juno -->
 
 Maren straightened. The dock around them stabilised, as though her attention had decided to bear the weight of precision one more time.
 
@@ -472,7 +464,6 @@ Juno had once used those words for argument. Now they sounded like a diagnosis s
 
 ---
 
-<!-- pov: juno -->
 
 The system responded before she finished the alignment sequence.
 
@@ -624,7 +615,6 @@ The final packet:
 
 ---
 
-<!-- pov: juno -->
 
 She sat back. The infrastructure feed held its shape around her — translucent, patient, carrying the steady pulse of a process that had been running since before she existed.
 
@@ -740,7 +730,6 @@ Juno left the dock without turning back. The Lattice held its silence. She held 
 
 ---
 
-<!-- pov: juno -->
 
 The corridor to the intake lane was shorter than it should have been. The system had adjusted the transit distance while her session ran — a small administrative change that meant her hold parameters had been updated. Someone had noticed her access event. Someone was already reclassifying the session.
 

@@ -1,6 +1,5 @@
 # Chapter 17
 
-<!-- pov: juno | layer: present-lattice (single-layer) | shifts: none -->
 
 The first morning after honesty did not feel like morning.
 
@@ -32,7 +31,6 @@ The response felt insufficient. Every response felt insufficient. She sent it an
 
 ---
 
-<!-- pov: juno -->
 
 By mid-morning, the districts had begun answering themselves.
 
@@ -90,7 +88,6 @@ She nodded and opened the station's public broadcast channel.
 
 ---
 
-<!-- pov: juno -->
 
 They spent the morning moving. Three neighbourhoods before noon, relay panels under their arms, responding to translation requests in person because the institutional templates could not carry the weight of what people were actually asking.
 
@@ -120,7 +117,6 @@ She copied it into six plain-language versions and posted them to the translatio
 
 ---
 
-<!-- pov: juno -->
 
 At midday she found Orin waiting.
 
@@ -200,7 +196,6 @@ He left with one small bow toward neither of them — the old formal gesture str
 
 ---
 
-<!-- pov: juno -->
 
 The afternoon moved in three registers at once.
 
@@ -246,7 +241,6 @@ She took it not because the door to Maren's room needed a key but because she ne
 
 ---
 
-<!-- pov: juno -->
 
 The room where Maren spent her last clear hours was quieter than the station and held no projection lights.
 
@@ -382,7 +376,6 @@ Maren did not ask to be remembered exactly. She asked to be carried honestly.
 
 ---
 
-<!-- pov: juno -->
 
 On the way out, Fen waited with a relay panel in his hand and an expression he had rehearsed into steadiness.
 
@@ -430,7 +423,6 @@ No room had become a single story. The line between people who wanted no change 
 
 ---
 
-<!-- pov: juno -->
 
 She found Cassiel in the relay station at dusk. He arrived from a translation run with his coat unbuttoned and no dramatic air at all. He set his cup beside hers and read one line from the public channel.
 
@@ -474,7 +466,6 @@ He read the numbers and smiled — not because the news was good, but because th
 
 ---
 
-<!-- pov: juno -->
 
 She sent the evening update through the public channel. The language had taken her an hour to write because she refused to let it sound like prophecy.
 
@@ -514,7 +505,6 @@ Each entry arrived without ceremony. Each one carried the weight of a person dis
 
 ---
 
-<!-- pov: juno -->
 
 She did the last work of the night in the district-eleven square. The space was still occupied — not loud, only alert. An old transit shelter had been converted into a temporary support station for people who had asked for no change but still wanted to be present. On one side a teenager read the rollback-rights section to three others in a voice that suggested she had memorised the language not because she agreed with it but because she believed everyone deserved to understand what they were refusing.
 
@@ -546,7 +536,6 @@ Cassiel answered from somewhere behind Juno — not grandly, not as authority, b
 
 ---
 
-<!-- pov: juno -->
 
 She left the square at midnight with no sign that the city had chosen anything final.
 
@@ -602,7 +591,6 @@ She sent both to the public archive under a section the council had never used b
 
 ---
 
-<!-- pov: juno -->
 
 She stood from the floor when the station clock crossed from night into the first neutral hour — the one the city used to say was the hour before regret.
 
