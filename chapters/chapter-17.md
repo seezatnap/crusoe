@@ -1,6 +1,5 @@
 # Chapter 17
 ## The Honest Daybreak
-<!-- pov: juno -->
 
 The first packet was not for work.
 
@@ -41,7 +40,7 @@ In one square, people had begun scheduling their first public petitions to loose
 `unexpected effect: vivid sensory bleed from unresolved memory`  
 `advice: pause after each 40-minute cycle`
 
-One of the volunteers had asked for a support mirror and then signed out as temporarily unstable. Nobody in their room called it failure. They called it a real cost.
+One of the volunteers had asked for a support mirror and then signed out as temporarily unstable. Nobody in their room treated it as a failure. It was still a real cost.
 
 In district-09, most citizens had done the opposite. They had asked for a new declaration: no personal limit changes for now.
 
@@ -318,7 +317,7 @@ You left it because they would have hidden.
 
 `if you hide too long, the hiding becomes architecture`
 
-You always said it.
+You always meant it.
 
 `you finally heard.` 
 
