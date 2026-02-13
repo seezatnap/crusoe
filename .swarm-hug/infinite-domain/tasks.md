@@ -86,3 +86,7 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#49) Resolve remaining `voice-consistency` blockers in `chapters/chapter-04/chapter-03` (`VOICE-STYLE-001`, `DIAL-AMBIG-001`, `DIAL-TAG-002`) and generate a final passing `writing-artifacts/quality/chapter-03/quality-orchestrator-*` report before unfreezing completion of chapter-03 quality work. (blocked by #48) (B)
 - [x] (#50) Reconcile `#8` in `.swarm-hug/infinite-domain/tasks.md` with the JK Rowling-only target; it still contains the legacy “Ted Chiang/Kazuo Ishiguro” language despite prior style alignment work. (blocked by #47) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#51) Update `writing-artifacts/roadmap.md` chapter tracker status for chapters 01–05 so it reflects completed draft state (and current word counts) instead of all entries remaining “Not started,” now that the drafts are in place. (blocked by #21)
+- [ ] (#52) Resolve remaining `POV-MARKER-001`/voice-consistency metadata gaps in `chapters/chapter-05.md` (either by adding supported POV/dialogue markers or adjusting parser expectations) and rerun `scripts/run-quality-session.sh` to capture a cleaner `writing-artifacts/quality/chapter-05/quality-orchestrator-*` report.
