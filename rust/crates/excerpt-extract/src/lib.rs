@@ -3,6 +3,7 @@ use std::ffi::OsStr;
 use std::fmt;
 use std::fs;
 use std::path::{Path, PathBuf};
+use std::process::Command;
 
 use rand::seq::SliceRandom;
 
@@ -11,6 +12,10 @@ pub enum ExtractMode {
     Narrative,
     Dialogue,
 }
+
+pub const STYLE_REFERENCE_URLS: &[&str] = &[
+    "https://dgoldberg.sdsu.edu/515/harrypotter.txt",
+];
 
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 enum LengthTier {
@@ -23,17 +28,21 @@ enum LengthTier {
 pub enum ExtractError {
     Io(std::io::Error),
     NoMatchingFiles(PathBuf),
+    DownloadFailed { url: String, reason: String },
 }
 
 impl fmt::Display for ExtractError {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        match self {
-            Self::Io(err) => write!(f, "I/O error: {err}"),
-            Self::NoMatchingFiles(path) => {
-                write!(f, "No readable text files found in {}", path.display())
-            }
+    match self {
+        Self::Io(err) => write!(f, "I/O error: {err}"),
+        Self::NoMatchingFiles(path) => {
+            write!(f, "No readable text files found in {}", path.display())
+        }
+        Self::DownloadFailed { url, reason } => {
+            write!(f, "Failed to download {url}: {reason}")
         }
     }
+}
 }
 
 impl Error for ExtractError {}
@@ -83,6 +92,89 @@ fn split_paragraphs(content: &str) -> Vec<String> {
     }
 
     paragraphs.into_iter().filter(|p| !p.is_empty()).collect()
+}
+
+fn source_filename(url: &str, index: usize) -> String {
+    let mut trimmed = url.trim_end_matches('/').to_string();
+    if let Some(fragment_index) = trimmed.find('#') {
+        trimmed.truncate(fragment_index);
+    }
+    if let Some(query_index) = trimmed.find('?') {
+        trimmed.truncate(query_index);
+    }
+
+    let base = trimmed
+        .rsplit('/')
+        .next()
+        .unwrap_or("style-reference-source")
+        .to_string();
+
+    let base = base.chars().map(|ch| {
+        if ch.is_ascii_alphanumeric() || ch == '.' || ch == '-' || ch == '_' {
+            ch
+        } else {
+            '_'
+        }
+    });
+    let mut base: String = base.collect();
+    if base.is_empty() {
+        base.push_str("style-reference-source");
+    }
+
+    if !base.ends_with(".txt") && !base.contains('.') {
+        base.push_str(".txt");
+    }
+
+    format!("{index:02}_{base}")
+}
+
+fn download_text_file(url: &str, destination: &Path) -> Result<(), ExtractError> {
+    if let Ok(metadata) = fs::metadata(destination) {
+        if metadata.len() > 0 {
+            return Ok(());
+        }
+        fs::remove_file(destination)?;
+    }
+
+    let output = Command::new("curl")
+        .arg("-L")
+        .arg("-sS")
+        .arg("--fail")
+        .arg(url)
+        .arg("--output")
+        .arg(destination)
+        .output()
+        .map_err(|err| ExtractError::DownloadFailed {
+            url: url.to_string(),
+            reason: format!("unable to execute curl: {err}"),
+        })?;
+
+    if !output.status.success() {
+        let status = output.status.code().unwrap_or(-1);
+        let message = String::from_utf8_lossy(&output.stderr).into_owned();
+        let reason = if message.trim().is_empty() {
+            format!("curl exited with status code {status}")
+        } else {
+            message
+        };
+        fs::remove_file(destination).ok();
+        return Err(ExtractError::DownloadFailed {
+            url: url.to_string(),
+            reason,
+        });
+    }
+
+    Ok(())
+}
+
+pub fn sync_style_reference_sources(source_dir: &Path) -> Result<(), ExtractError> {
+    fs::create_dir_all(source_dir)?;
+    for (index, url) in STYLE_REFERENCE_URLS.iter().enumerate() {
+        let filename = source_filename(url, index + 1);
+        let destination = source_dir.join(filename);
+        download_text_file(url, &destination)?;
+    }
+    Ok(())
 }
 
 fn is_dialogue_paragraph(paragraph: &str) -> bool {
@@ -234,11 +326,20 @@ pub fn collect_examples(source_dir: &Path, mode: ExtractMode) -> Result<Vec<Stri
 
     let mut all_examples = Vec::new();
     for file in files {
-        let contents = fs::read_to_string(file)?;
+        let bytes = fs::read(file)?;
+        let contents = String::from_utf8_lossy(&bytes).into_owned();
         all_examples.extend(extract_units_from_text(&contents, mode));
     }
 
     Ok(all_examples)
+}
+
+pub fn collect_cached_examples(
+    source_dir: &Path,
+    mode: ExtractMode,
+) -> Result<Vec<String>, ExtractError> {
+    sync_style_reference_sources(source_dir)?;
+    collect_examples(source_dir, mode)
 }
 
 pub fn pick_examples(mut examples: Vec<String>, count: usize) -> Vec<String> {
@@ -523,6 +624,21 @@ mod tests {
         let root = write_temp_files(&[("a.txt", fixture)]);
         let examples = collect_examples(&root, ExtractMode::Narrative).unwrap();
         assert_eq!(examples, vec!["A narrative paragraph.".to_string()]);
+        let _ = fs::remove_dir_all(root);
+    }
+
+    #[test]
+    fn tolerates_non_utf8_files() {
+        let root = std::env::temp_dir().join("style-reference-tests-non-utf8");
+        fs::create_dir_all(&root).unwrap();
+        let mut file = fs::File::create(root.join("a.txt")).unwrap();
+        file.write_all(&[0x41, 0x20, 0xff, 0x42, 0x2e]).unwrap();
+
+        let examples = collect_examples(&root, ExtractMode::Narrative).unwrap();
+
+        assert_eq!(examples.len(), 1);
+        assert_eq!(examples[0], "A �B.".to_string());
+
         let _ = fs::remove_dir_all(root);
     }
 

@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 use clap::{Parser, ValueEnum};
-use excerpt_extract::{pick_examples, collect_examples, ExtractMode};
+use excerpt_extract::{pick_examples, collect_cached_examples, ExtractMode};
 
 #[derive(Parser)]
 #[command(name = "style-reference")]
@@ -11,9 +11,6 @@ struct Cli {
 
     #[arg(long, default_value_t = 5)]
     count: usize,
-
-    #[arg(value_name = "SOURCE_DIR", default_value = "style-reference")]
-    source_dir: PathBuf,
 }
 
 #[derive(ValueEnum, Clone)]
@@ -33,9 +30,10 @@ impl From<Mode> for ExtractMode {
 
 fn main() {
     let args = Cli::parse();
+    let source_dir = PathBuf::from(".downloads/style-reference");
 
     let mode = ExtractMode::from(args.mode);
-    match collect_examples(&args.source_dir, mode) {
+    match collect_cached_examples(&source_dir, mode) {
         Ok(examples) => {
             let selected = pick_examples(examples, args.count);
             match serde_json::to_string_pretty(&selected) {
