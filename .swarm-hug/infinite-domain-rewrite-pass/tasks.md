@@ -26,7 +26,7 @@
 
 - [x] (#11) Rewrite `final-draft-chapters/chapter-10.md` from scratch with all governing references and chapter-10 postmortem context, preserving reveal order and emotional trajectory while refining dialogue and transitions; output 4,000–6,000 word standalone chapter [5 pts] (blocked by #10) (A)
 
-- [ ] (#12) Rewrite `final-draft-chapters/chapter-11.md` using full required sources and prior chapter continuity checks, then craft a unified, precise, humane sci-fi prose draft within 4,000–6,000 words and consistent with roadmap pacing [5 pts] (blocked by #11)
+- [A] (#12) Rewrite `final-draft-chapters/chapter-11.md` using full required sources and prior chapter continuity checks, then craft a unified, precise, humane sci-fi prose draft within 4,000–6,000 words and consistent with roadmap pacing [5 pts] (blocked by #11)
 
 - [ ] (#13) Rewrite `final-draft-chapters/chapter-12.md` with complete fidelity to first draft beats but rebuilt prose consistency, incorporating style-reference calibration and all continuity/reveal constraints; deliver 4,000–6,000 words [5 pts] (blocked by #12)
 
@@ -84,10 +84,10 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#43) Run a continuity-check diagnostic on `final-draft-chapters/chapter-09.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–08 in tasks #23, #24, #27, #29, #35, and #38 (blocked by #10) (B)
 - [x] (#44) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-09.md` at each of its 10 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05, 06, 07, and 08 (blocked by #10) (B)
-- [ ] (#45) Run quality-orchestrator on `final-draft-chapters/chapter-08.md` (not `chapters/chapter-08.md`) — no valid quality report exists for the rewritten chapter-08 file; the only existing reports (timestamps 1770992152, 1770992563, 1770992635) all target the stale first-draft path (blocked by #9)
+- [B] (#45) Run quality-orchestrator on `final-draft-chapters/chapter-08.md` (not `chapters/chapter-08.md`) — no valid quality report exists for the rewritten chapter-08 file; the only existing reports (timestamps 1770992152, 1770992563, 1770992635) all target the stale first-draft path (blocked by #9)
 - [x] (#46) Clean up stale quality-orchestrator reports for chapter-09 in `writing-artifacts/quality/chapter-09/` that target `chapters/chapter-09.md` instead of `final-draft-chapters/chapter-09.md` — same pattern as chapter-07 task #41 and chapter-08 task #42 (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#47) Run a continuity-check diagnostic on `final-draft-chapters/chapter-10.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–09 in tasks #23, #24, #27, #29, #35, #38, and #43 (blocked by #11)
-- [ ] (#48) Clean up the 5 stale quality-orchestrator reports for chapter-10 (timestamps 1770992291, 1770992303, 1770992311, 1770992345, 1770992379) that target `chapters/chapter-10.md` instead of `final-draft-chapters/chapter-10.md` — no valid report exists for the rewritten file
-- [ ] (#49) Run quality-orchestrator on `final-draft-chapters/chapter-10.md` (not `chapters/chapter-10.md`) — all 5 existing chapter-10 quality reports target the stale first-draft path and are invalid for the rewritten file (blocked by #11)
+- [C] (#47) Run a continuity-check diagnostic on `final-draft-chapters/chapter-10.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–09 in tasks #23, #24, #27, #29, #35, #38, and #43 (blocked by #11)
+- [C] (#48) Clean up the 5 stale quality-orchestrator reports for chapter-10 (timestamps 1770992291, 1770992303, 1770992311, 1770992345, 1770992379) that target `chapters/chapter-10.md` instead of `final-draft-chapters/chapter-10.md` — no valid report exists for the rewritten file
+- [C] (#49) Run quality-orchestrator on `final-draft-chapters/chapter-10.md` (not `chapters/chapter-10.md`) — all 5 existing chapter-10 quality reports target the stale first-draft path and are invalid for the rewritten file (blocked by #11)
