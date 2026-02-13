@@ -1,6 +1,7 @@
 # Chapter 4 — Fog Hollow threshold
 
 At the start of the morning, the fog sat low over Haight Street as if someone had laid a wet blanket over the row houses and called it weather. The Weasleys moved through it with the solemn purpose of people who had all slept badly, eaten well, and now had to be in four places by noon even though there were fewer than four clocks and more than four opinions.
+The house held its hum in check now.
 
 Molly was in the kitchen before Harry had finished tying his boots. She held a tray of toasted biscuits under one arm and, with the other, nudged Ron toward the umbrella stand as though she could solve his pocket anxiety by shifting furniture.
 
@@ -50,7 +51,7 @@ Percy opened his folder anyway. “Operationally this is not a random visit. It 
 
 The family assembled at the door and stepped back into light that behaved like milk in a glass. Arthur went out first because he believed a leader should carry whatever was required and then apologize if it was wrong.
 
-The walk to Chinatown took them past two florist stands and a row of weathered yellow lamps. The city looked and sounded very American to Harry. At home, in the British way, he still imagined a spell could be the answer to almost everything. Here, the city was a machine with mood, and the family treated it like a conversation.
+The walk to Chinatown took them past two florist stands and a row of weathered yellow lamps. The city looked and sounded very American to Harry. At home, in the British way, he still imagined a spell could solve everything. Here, the city was a machine with mood, and the family treated it like a conversation.
 
 They found the dim sum place by following a red lantern and a woman arguing for half a minute with a delivery driver in rapid Cantonese. The woman noticed six people in assorted coats and nodded to the family with the neutral approval of someone who had managed tourists all day and no one else.
 
@@ -98,7 +99,7 @@ She came from the lane on the shadow side, in a dark leather jacket over her sch
 
 She gave him a quick nod. “You’re Arthur Weasley, I’m guessing. You made one of your sons look useful near the second lamp post.”
 
-“That's very observant,” said Molly, which in Weasley terms meant deeply impressed.
+“That’s very observant,” said Molly.
 
 “Could this be the gate?” Fred asked.
 

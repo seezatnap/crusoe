@@ -345,6 +345,7 @@ Percy softened by a fraction. "I can accept that." He looked at the younger Weas
 The class dissolved into chatter, coats, and umbrellas. Outside, the fog had thickened, and the Academy building looked like it had always been made of river breath and old brass.
 
 Before boarding the tram, Ginny looked once more at the brass plate beside the corridor door where the symbol sat. It seemed almost invisible now. She drew the outline once more from memory anyway, the way you draw a face you cannot shake.
+Harry had stepped close enough that he could follow the line with his eyes. He did not say anything, only made a small nod that said he was watching the same shape.
 
 The tram ride back moved slowly through streets where gulls rode the wind and fog turned corners into brief white doors. On the ride, no one talked for the first few stops, and then, as always, talk returned in fragments.
 
@@ -420,4 +421,5 @@ Ginny folded the note, tucked it into her journal over the symbol, and held the 
 
 Outside, the fog did not answer. It shifted. The same way fog always does, it moved one inch and then stopped, and in that stopped instant the street below seemed to draw a narrow line around itself.
 
-For the first time since they had entered this country, Ginny felt that line could be something more than weather.
+Harry stood in the doorway and watched her close the book, then stepped inside without waiting to be asked.
+For the first time since they had entered this country, Ginny and Harry both felt that line could be something more than weather.
