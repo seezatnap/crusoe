@@ -43,7 +43,7 @@
 - [x] (#27) Draft `chapters/chapter-11.md` in the 4,000–6,000-word range: Juno goes rogue with unauthorized deep jumps into restricted/degraded files and accepts immediate risk from prolonged bleed [5 pts] (blocked by #26) (A)
 - [x] (#28) Draft `chapters/chapter-12.md` in the 4,000–6,000-word range: shift into Sable’s direct perspective to reveal the constraint architecture governing perception, cognition, and self-modification [5 pts] (blocked by #27) (A)
 - [x] (#29) Draft `chapters/chapter-13.md` in the 4,000–6,000-word range: escalate confrontation with Orin and Curator enforcement; frame protective-deception ethics and civilizational-stability arguments [5 pts] (blocked by #28) (A)
-- [A] (#30) Draft `chapters/chapter-14.md` in the 4,000–6,000-word range: Maren’s final lucid confession confirms the hidden generational secret, and Juno finally gains access to Rosetta Key infrastructure [5 pts] (blocked by #29)
+- [x] (#30) Draft `chapters/chapter-14.md` in the 4,000–6,000-word range: Maren’s final lucid confession confirms the hidden generational secret, and Juno finally gains access to Rosetta Key infrastructure [5 pts] (blocked by #29) (A)
 
 ## Act 4 Drafting (Chapters 15–17)
 
@@ -116,6 +116,6 @@
 - [x] (#62) Resolve the chapter-12 quality blockers (`VOICES`, `DIAL-*`, `POV-*`) in `chapters/chapter-12.md` and rerun `scripts/run-quality-session.sh` so `writing-artifacts/quality/chapter-12/quality-orchestrator-*` has a `status: passed` report before unfreezing downstream chapter work (blocked by #28) (B)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#63) Update `writing-artifacts/roadmap.md` chapter-13 tracker status from `Not started` to `Completed draft (5,890)` and align row metadata (title/pacing/objective) with `chapters/chapter-13.md`. (blocked by #29)
-- [A] (#64) Fix chapter-13 quality failures (`CLIC-CLICHÉ-01`, `DIAL-*`, `POV-DRIFT-*`, `VOICE-STYLE-001`) in `chapters/chapter-13.md` and rerun `scripts/run-quality-session.sh` until `writing-artifacts/quality/chapter-13/quality-orchestrator-*` reports `status: passed` before starting `chapter-14.md`. (blocked by #29)
-- [B] (#65) Re-run chapter-12 quality after the most recent edits and make the latest artifact in `writing-artifacts/quality/chapter-12/` a passing report, as the newest current file (`quality-orchestrator-1770993489.md`) is `status: failed` despite task #62 being marked complete.
+- [x] (#63) Update `writing-artifacts/roadmap.md` chapter-13 tracker status from `Not started` to `Completed draft (5,890)` and align row metadata (title/pacing/objective) with `chapters/chapter-13.md`. (blocked by #29) (B)
+- [x] (#64) Fix chapter-13 quality failures (`CLIC-CLICHÉ-01`, `DIAL-*`, `POV-DRIFT-*`, `VOICE-STYLE-001`) in `chapters/chapter-13.md` and rerun `scripts/run-quality-session.sh` until `writing-artifacts/quality/chapter-13/quality-orchestrator-*` reports `status: passed` before starting `chapter-14.md`. (blocked by #29) (A)
+- [x] (#65) Re-run chapter-12 quality after the most recent edits and make the latest artifact in `writing-artifacts/quality/chapter-12/` a passing report, as the newest current file (`quality-orchestrator-1770993489.md`) is `status: failed` despite task #62 being marked complete. (B)
