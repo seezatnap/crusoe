@@ -133,3 +133,8 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#71) Update `writing-artifacts/roadmap.md` chapter 17 tracker row from `Not started` to `Completed draft (4,057)` and sync its pacing/title metadata with `chapters/chapter-17.md` (`The Honest Daybreak` / present-layer framing) (blocked by #33) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#72) Update `writing-artifacts/roadmap.md` chapter-15 row count from `Completed draft (4,847)` to `Completed draft (4,843)` to match the actual `chapters/chapter-15.md` word count and quality/postmortem evidence.
+- [ ] (#73) Correct `writing-artifacts/postmortems/chapter-15-postmortem-2026-02-13.md`, `writing-artifacts/postmortems/chapter-16-postmortem-2026-02-13.md`, and `writing-artifacts/postmortems/chapter-17-postmortem-2026-02-13.md` to reference existing quality artifacts (`quality-orchestrator-1770995444.md`) instead of non-existent `...1770995384.md` (blocked by #37).
+- [ ] (#74) Add quote-based dialogue formatting or parser-compatible dialogue markers in `chapters/chapter-16.md` and `chapters/chapter-17.md` (or adjust analyzer expectations) because `writing-artifacts/quality/chapter-16/quality-orchestrator-1770995444.md` and `writing-artifacts/quality/chapter-17/quality-orchestrator-1770995444.md` report `total_dialogue_blocks: 0` despite spoken dialogue present, then rerun quality sessions (blocked by #37).
