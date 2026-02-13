@@ -452,7 +452,7 @@ Lena gave a tired, exact smile. "Then watch closely. The room is not asking you 
 
 Lena nodded once. "It's both. We kept both because we could."
 
-The run ended. The room folded into data. The notebook's words followed Juno back through the transfer the way weather follows a person through a doorway — not visible to anyone watching, only present in the way the body moves differently afterward.
+The run ended. The room folded into data. The notebook's words did not stay behind. They followed Juno back through the transfer the way a key follows a locksmith home — no longer needed for its original door, but held anyway, because the hand has learned the weight.
 
 ---
 
