@@ -1,0 +1,15 @@
+[package]
+name = "voice-consistency"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+analysis-contracts = { path = "../analysis-contracts" }
+clap = { version = "4.5", features = ["derive"] }
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "voice-consistency"
+path = "src/main.rs"
