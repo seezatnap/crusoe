@@ -267,6 +267,8 @@ Second consequence is you are not the first person to want total disclosure.
 
 He was not. He was the one who asked that we remain in one sky.
 
+He had stood through one of the first public breaches and learned how quickly fear learns to sound like procedure.
+
 He ignored the jab.
 
 Third consequence, he said, is this: if the architecture underlying continuity is known before the public can hold it, we risk a systemic reaction we have no model for.
@@ -364,6 +366,8 @@ Debates. Delays. Committees.
 And then?
 
 Then rollout, he said. And drift incidents.
+
+She read it as memory from someone carrying one more responsible decision than they wanted.
 
 She took a breath that was too controlled.
 
@@ -557,6 +561,8 @@ Unknown, he said.
 Unknown is not a policy, she said.
 
 It is a risk we can't afford right now.
+
+Then name the burden for the people who survive the first breach.
 
 That was his line.
 

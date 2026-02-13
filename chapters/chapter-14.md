@@ -496,11 +496,13 @@ Juno did not trust the line. She trusted the effect.
 
 Juno had once used those words for argument. Now they sounded like a diagnosis.
 
-“Go home and call your witness names. Ask what they’d do if the door came open.”
+“Go home and call your witness names. Ask what they’d do if it opens.”
 
 “I can’t do this alone.”
 
-“You won’t. That is why you still have me.”
+You won’t.
+
+A witness is a mirror, not a shield.
 
 She had thought this would be the point where Maren turned to a metaphor. She did not.
 
