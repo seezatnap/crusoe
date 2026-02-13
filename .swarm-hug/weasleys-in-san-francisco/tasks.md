@@ -6,7 +6,7 @@
 - [x] (#2) Write complete character bibles for all major cast (Arthur, Molly, Bill, Percy, Fred, George, Ron, Ginny, Harry) with voice samples, emotional arcs, relationship dynamics, and behavioral constraints per the PRD [5 pts] (blocked by #1) (A)
 - [x] (#3) Write character bibles for San Francisco locals (Marisol Reyes, Gus Ferreira, Tomo Sato) and antagonists (Declan Voss, Isolde Crowe, Harlan Tuque) with backstories, motivations, voice samples, and relationship maps per the PRD [5 pts] (blocked by #1) (B)
 - [x] (#4) Create the world and setting bible for all locations: Haight House, Fog Hollow, Coit Academy, the Underlook, Alcatraz magical wing, and mundane SF landmarks. Include local magical laws, BMA structure, transportation, and cultural differences from British wizarding world [5 pts] (blocked by #1) (A)
-- [A] (#5) Build the Undertow antagonist dossier: ritual mechanics, resource chain, two-year operational timeline, ward-weakening methodology, fog-weaponization steps, and failure modes (Isolde's moral fracture, Voss's escalation, Harlan's overconfidence) [5 pts] (blocked by #3, #4)
+- [x] (#5) Build the Undertow antagonist dossier: ritual mechanics, resource chain, two-year operational timeline, ward-weakening methodology, fog-weaponization steps, and failure modes (Isolde's moral fracture, Voss's escalation, Harlan's overconfidence) [5 pts] (blocked by #3, #4) (A)
 
 ## Plot Architecture
 
