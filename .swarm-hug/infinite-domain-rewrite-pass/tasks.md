@@ -24,7 +24,7 @@
 
 - [x] (#10) Rewrite `final-draft-chapters/chapter-09.md` with complete pre-read pass and sequential dependency on rewritten prior chapters; improve sensory grounding in both Lattice and recording sequences, and enforce anti-cliche prose targets in 4,000–6,000 words [5 pts] (blocked by #9) (C)
 
-- [A] (#11) Rewrite `final-draft-chapters/chapter-10.md` from scratch with all governing references and chapter-10 postmortem context, preserving reveal order and emotional trajectory while refining dialogue and transitions; output 4,000–6,000 word standalone chapter [5 pts] (blocked by #10)
+- [x] (#11) Rewrite `final-draft-chapters/chapter-10.md` from scratch with all governing references and chapter-10 postmortem context, preserving reveal order and emotional trajectory while refining dialogue and transitions; output 4,000–6,000 word standalone chapter [5 pts] (blocked by #10) (A)
 
 - [ ] (#12) Rewrite `final-draft-chapters/chapter-11.md` using full required sources and prior chapter continuity checks, then craft a unified, precise, humane sci-fi prose draft within 4,000–6,000 words and consistent with roadmap pacing [5 pts] (blocked by #11)
 
@@ -75,14 +75,14 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#37) Add missing section-level `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-08.md` at scene and recording-fragment transitions — the chapter has only a top-level POV marker but multiple section breaks marked by `---` dividers, matching the same gap that required follow-up in chapters 05, 06, and 07 (blocked by #9) (A)
-- [C] (#38) Run a continuity-check diagnostic on `final-draft-chapters/chapter-08.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–07 in tasks #23, #24, #27, #29, and #35 (blocked by #9)
+- [x] (#38) Run a continuity-check diagnostic on `final-draft-chapters/chapter-08.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–07 in tasks #23, #24, #27, #29, and #35 (blocked by #9) (C)
 - [x] (#39) Fix 8 error-level DIAL-TAG-001 weak speaker attributions and 8 corresponding POV-DRIFT-001 errors in `final-draft-chapters/chapter-08.md` (lines 99, 145, 177, 265, 325, 329, 365, 371) flagged in quality-orchestrator report 1771005407 (blocked by #9) (A)
 - [x] (#40) Fix 6 error-level DIAL-TAG-001 weak speaker attributions and 6 corresponding POV-DRIFT-001 errors in `final-draft-chapters/chapter-07.md` (lines 139, 261, 389, 453, 481, 485) flagged in quality-orchestrator report 1771005163 — same pattern as chapter-06 task #36 (blocked by #9) (B)
 - [x] (#41) Clean up the 4 stale quality-orchestrator reports for chapter-07 (timestamps 1770991668, 1770992563, 1770992617, 1770992622) that target `chapters/chapter-07.md` instead of `final-draft-chapters/chapter-07.md` — task #34 generated a valid replacement but the old files remain (B)
-- [C] (#42) Clean up the 3 stale quality-orchestrator reports for chapter-08 (timestamps 1770992152, 1770992563, 1770992635) that target `chapters/chapter-08.md` instead of `final-draft-chapters/chapter-08.md` — report 1771005407 is the only valid one
+- [x] (#42) Clean up the 3 stale quality-orchestrator reports for chapter-08 (timestamps 1770992152, 1770992563, 1770992635) that target `chapters/chapter-08.md` instead of `final-draft-chapters/chapter-08.md` — report 1771005407 is the only valid one (C)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#43) Run a continuity-check diagnostic on `final-draft-chapters/chapter-09.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–08 in tasks #23, #24, #27, #29, #35, and #38 (blocked by #10)
-- [B] (#44) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-09.md` at each of its 10 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05, 06, 07, and 08 (blocked by #10)
+- [x] (#43) Run a continuity-check diagnostic on `final-draft-chapters/chapter-09.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–08 in tasks #23, #24, #27, #29, #35, and #38 (blocked by #10) (B)
+- [x] (#44) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-09.md` at each of its 10 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05, 06, 07, and 08 (blocked by #10) (B)
 - [ ] (#45) Run quality-orchestrator on `final-draft-chapters/chapter-08.md` (not `chapters/chapter-08.md`) — no valid quality report exists for the rewritten chapter-08 file; the only existing reports (timestamps 1770992152, 1770992563, 1770992635) all target the stale first-draft path (blocked by #9)
-- [A] (#46) Clean up stale quality-orchestrator reports for chapter-09 in `writing-artifacts/quality/chapter-09/` that target `chapters/chapter-09.md` instead of `final-draft-chapters/chapter-09.md` — same pattern as chapter-07 task #41 and chapter-08 task #42
+- [x] (#46) Clean up stale quality-orchestrator reports for chapter-09 in `writing-artifacts/quality/chapter-09/` that target `chapters/chapter-09.md` instead of `final-draft-chapters/chapter-09.md` — same pattern as chapter-07 task #41 and chapter-08 task #42 (A)
