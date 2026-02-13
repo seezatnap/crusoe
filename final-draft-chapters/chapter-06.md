@@ -48,6 +48,8 @@ The transfer came in one long, quiet pulse, and the present fell away.
 
 ## Recording: Engram Lab Annex, Autumn 2033
 
+<!-- pov: lena -->
+
 The annex corridor smelled of metal and scorched coffee.
 
 Lena stood there because she always arrived before the systems did — before the overhead strips reached full brightness, before the ventilation shook off its overnight idle, before anyone else had walked the linoleum that carried the particular scuff patterns of a team that spent too many hours in shoes not built for standing. She held a notebook in one hand and a mug she had filled from a kettle nobody else had thought to boil. The coffee was bad in the specific way lab coffee was always bad: over-extracted, slightly burnt, with a mineral edge from pipes that had never been properly flushed. She drank it as though bitterness were a calibration tool.
@@ -158,6 +160,8 @@ Lena did not need a manual for that. She had been watching what remained after p
 
 ---
 
+<!-- pov: juno -->
+
 Juno returned from the annex run with a sensation that had no honest name.
 
 Her station waited in its clean geometry — console, queue, the soft administrative hum of a system that had never known a draft or a delay it could not absorb. The corridor outside her lane held no weather. It held no evidence of anything she had just witnessed. The Lattice was a world without kitchens and without the particular texture of a mug held by a woman whose hands had shaken while she asked for a chip in the rim.
@@ -213,6 +217,8 @@ The transfer came with the old metallic smell and a whiteboard crowded with circ
 ---
 
 ## Recording: Engram Conference Room, Winter 2034
+
+<!-- pov: lena -->
 
 The conference room had one window nobody opened and one screen showing a map that pretended to be a view of outside. The fluorescent lights had the specific frequency of institutional lighting that made every skin tone look provisional.
 
@@ -277,6 +283,8 @@ Late that evening, after everyone had left, Lena remained. She sat in the emptie
 Lena stared at the word. She reached for it and stopped. She did not know why she left it. Later she would understand that leaving it was the first act of curation she had performed in Sable's name — the decision to let a label remain visible when every protocol in the building was designed to make it administrative and forgettable.
 
 ---
+
+<!-- pov: juno -->
 
 Juno returned from the conference run and had to sit down before the lane finished rebuilding around her.
 
@@ -392,6 +400,8 @@ The transfer returned her to a room where no tea had ever boiled and no one had 
 
 ---
 
+<!-- pov: lena -->
+
 The archive room was quiet when Lena entered, because the quiet was hers — she had arrived before the lights and before the screens and before the particular institutional hum that told a room it was expected to perform.
 
 Three monitors sat dark. A notebook lay open on the back shelf. Lena reached for it the way she reached for everything in the last years of the project — with the deliberation of someone who had learned that reaching was the first act of witness, and witness was the first act of cost.
@@ -445,6 +455,8 @@ Lena nodded once. "It's both. We kept both because we could."
 The run ended. The room folded into data. The notebook's words followed Juno back through the transfer the way weather follows a person through a doorway — not visible to anyone watching, only present in the way the body moves differently afterward.
 
 ---
+
+<!-- pov: juno -->
 
 She returned to a station that held no weather and no evidence of anything she had carried home.
 
