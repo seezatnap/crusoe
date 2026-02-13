@@ -119,3 +119,7 @@
 - [x] (#63) Update `writing-artifacts/roadmap.md` chapter-13 tracker status from `Not started` to `Completed draft (5,890)` and align row metadata (title/pacing/objective) with `chapters/chapter-13.md`. (blocked by #29) (B)
 - [x] (#64) Fix chapter-13 quality failures (`CLIC-CLICHÉ-01`, `DIAL-*`, `POV-DRIFT-*`, `VOICE-STYLE-001`) in `chapters/chapter-13.md` and rerun `scripts/run-quality-session.sh` until `writing-artifacts/quality/chapter-13/quality-orchestrator-*` reports `status: passed` before starting `chapter-14.md`. (blocked by #29) (A)
 - [x] (#65) Re-run chapter-12 quality after the most recent edits and make the latest artifact in `writing-artifacts/quality/chapter-12/` a passing report, as the newest current file (`quality-orchestrator-1770993489.md`) is `status: failed` despite task #62 being marked complete. (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#66) Update `writing-artifacts/roadmap.md` chapter-14 tracker row from `Not started` to `Completed draft (5,997)` and align the row metadata with `chapters/chapter-14.md` (blocked by #30).
+- [ ] (#67) Create the missing `writing-artifacts/quality/chapter-14/quality-orchestrator-*.md` artifact by running the chapter-14 quality session; there is currently no `chapter-14` quality directory or report (blocked by #30).
