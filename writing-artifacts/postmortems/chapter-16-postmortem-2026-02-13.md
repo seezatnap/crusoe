@@ -27,7 +27,7 @@
 
 ## Validation Note
 
-- Full quality session run passed at blocker threshold with `writing-artifacts/quality/chapter-16/quality-orchestrator-1770995444.md`.
+- Full quality session run passed at blocker threshold with `writing-artifacts/quality/chapter-16/quality-orchestrator-1770996320.md`.
 
 ## Final Gate Decision
 
