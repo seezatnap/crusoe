@@ -6,7 +6,7 @@ slug: "the-first-ledger"
 status: "ready_for_review"
 word_count_target_min: 4000
 word_count_target_max: 6000
-word_count_current: 5222
+word_count_current: 5219
 author: "Agent Aaron"
 pov: "Inspector Celia Pencombe"
 primary_location_id: "LOC-001"
