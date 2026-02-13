@@ -38,7 +38,7 @@
 | 03 | 1 | Orin’s commission and hidden constraints | Introduce contract-style tension and unusual compensation structure | 4,000–6,000 | Completed draft (5,609) |
 | 04 | 1 | First transformational Lena jump | Deliver Act 1 turning point and measurable behavioral change | 4,000–6,000 | Completed draft (4,367) |
 | 05 | 2 | Early Engram arc and ethical cost | Deepen Juno’s dependency on jumps and raise costs | 4,000–6,000 | Completed draft (4,828) |
-| 06 | 2 | Sable as pattern and pressure | Raise investigative stakes through repetition patterns and side effects in present | 4,000–6,000 | Not started |
+| 06 | 2 | Sable as pattern and pressure | Raise investigative stakes through repetition patterns and side effects in present | 4,000–6,000 | Completed draft (5,650) |
 | 07 | 2 | Isolation and returning relationships | Increase interpersonal pressure and emotional consequences | 4,000–6,000 | Not started |
 | 08 | 2 | Maren’s lucid warning | Deliver opaque clue and prepare re-interpretation | 4,000–6,000 | Not started |
 | 09 | 2 | Restricted archives and confrontation | Convert access friction into direct conflict and suspicion | 4,000–6,000 | Not started |
