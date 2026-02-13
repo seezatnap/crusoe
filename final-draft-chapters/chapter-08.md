@@ -98,7 +98,7 @@ She sat and let the dock hold them both.
 
 "No. I requested it."
 
-"No one requests me." Maren did not look at her. She said it the way she might describe the quality of light — without complaint, without emphasis, as though the fact were older than her opinion of it.
+"No one requests me," Maren said without looking at her — the way she might describe the quality of light, without complaint, without emphasis, as though the fact were older than her opinion of it.
 
 The warning was in her voice, not in the room.
 
@@ -144,7 +144,7 @@ Maren nodded. "Then hear it in fragments. The key was never made for doors. It w
 
 Juno felt the old fear arrive — not as terror and not as confusion, but as a specific shame. The shame of having looked so long in one direction that she had forgotten there were others.
 
-"I heard you say *returns*," she said. "I did not hear what it means."
+"I heard you say *returns*," Juno said. "I did not hear what it means."
 
 "You do not hear what you cannot hold still."
 
@@ -176,7 +176,7 @@ Maren's mouth moved into something that was not a smile. "Because the room has b
 
 "Who paid that price?"
 
-"Your elders. My generation. Everyone who learned we had not yet finished becoming what we said we were." Her gaze sharpened for a moment that might once have been dangerous. "We accepted a mercy and renamed it design."
+"Your elders. My generation. Everyone who learned we had not yet finished becoming what we said we were," Maren said. Her gaze sharpened for a moment that might once have been dangerous. "We accepted a mercy and renamed it design."
 
 Juno held the sentence and tried to understand it with the part of herself that had been trained to read evidence, not poetry.
 
@@ -266,7 +266,7 @@ Fen's expression settled into a neutral kind of fear — not panic, not anger, b
 
 "Did you ask which key?" Fen said.
 
-"I asked. She would not use the word."
+"I asked," Juno said. "She would not use the word."
 
 Cassiel frowned. "Did you ask what it means?"
 
@@ -328,11 +328,11 @@ Juno sat. That was her oldest defence and the only one she had left for rooms th
 
 Orin folded his fingers — patient, unhurried, with the composure of a man who had practised patience until it became indistinguishable from authority.
 
-"If you want this conversation to be useful," he said, "I need exact phrasing. Not metaphor."
+"If you want this conversation to be useful," Orin said, "I need exact phrasing. Not metaphor."
 
-She considered giving him something less than the truth. She decided against it.
+Juno considered giving him something less than the truth. She decided against it.
 
-"Maren says the Rosetta mechanism includes a restraint protocol. A mercy, she called it. A key not made for opening but for return stabilisation."
+"Maren says the Rosetta mechanism includes a restraint protocol. A mercy, she called it. A key not made for opening but for return stabilisation," Juno said.
 
 Orin's face changed once, minutely — a lens narrowing.
 
@@ -368,13 +368,13 @@ He gave the patient expression again — the one that served as both answer and 
 
 "You are asking me to choose between honesty and continuity," she said.
 
-"No," he said. "I am asking you to choose your timing."
+"No," Orin said. "I am asking you to choose your timing."
 
 Silence held for ten breaths. On the wall behind Orin, a small frame held a phrase she had seen before in these offices, the kind of institutional language everyone pretended to avoid and no one could escape: *continuity is not a promise; it is a labour.*
 
 She watched his hands. He had small scars along the knuckle of his right index finger, healed and old. The scars of someone who had held something too tightly for too long.
 
-"You are asking for a cleaner account than I can give," she said. "You want compliance language. You know what happened is not compliant."
+"You are asking for a cleaner account than I can give," Juno said. "You want compliance language. You know what happened is not compliant."
 
 "Then do not pretend I do not understand." He leaned forward. "But know this: there are restrictions because people asked for them once, when they were alive enough to fear what you are feeling now. If you can pass through without destroying that fear, pass."
 
