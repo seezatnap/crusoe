@@ -33,7 +33,7 @@
 
 - [x] (#21) Draft `chapters/chapter-05.md` in the 4,000–6,000-word range: map the Engram arc through Lena’s eyes, showing breakthroughs, ethical strain, and emotional cost while deepening first-person present/past contrast [5 pts] (blocked by #20) (A)
 - [x] (#22) Draft `chapters/chapter-06.md` in the 4,000–6,000-word range: expand Juno’s fixation as Sable appears in background details, and increase subtle bleed symptoms in present scenes [5 pts] (blocked by #21) (A)
-- [ ] (#23) Draft `chapters/chapter-07.md` in the 4,000–6,000-word range: show Juno’s withdrawal at work, Fen’s alarm, and Cassiel’s return as concern that strains their history [5 pts] (blocked by #22)
+- [A] (#23) Draft `chapters/chapter-07.md` in the 4,000–6,000-word range: show Juno’s withdrawal at work, Fen’s alarm, and Cassiel’s return as concern that strains their history [5 pts] (blocked by #22)
 - [ ] (#24) Draft `chapters/chapter-08.md` in the 4,000–6,000-word range: stage Maren’s lucid warning moment with initially opaque reference to the Rosetta Key that becomes legible through subsequent beats [5 pts] (blocked by #23)
 - [ ] (#25) Draft `chapters/chapter-09.md` in the 4,000–6,000-word range: Juno hits missing/restricted recordings, confronts Orin, and handles his deflection without resolving the deception yet [5 pts] (blocked by #24)
 - [ ] (#26) Draft `chapters/chapter-10.md` in the 4,000–6,000-word range: secure Sable journal recordings, reveal the hidden active infrastructure thesis, and close Act 2 with Juno realizing the Key is a living process [5 pts] (blocked by #25)
@@ -92,4 +92,4 @@
 - [x] (#52) Resolve remaining `POV-MARKER-001`/voice-consistency metadata gaps in `chapters/chapter-05.md` (either by adding supported POV/dialogue markers or adjusting parser expectations) and rerun `scripts/run-quality-session.sh` to capture a cleaner `writing-artifacts/quality/chapter-05/quality-orchestrator-*` report. (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#53) Update `writing-artifacts/roadmap.md` chapter tracker entry for `chapter-06` to `Completed draft (5,650)` so the roadmap reflects the delivered draft and actual word count (blocked by #22)
+- [A] (#53) Update `writing-artifacts/roadmap.md` chapter tracker entry for `chapter-06` to `Completed draft (5,650)` so the roadmap reflects the delivered draft and actual word count (blocked by #22)
