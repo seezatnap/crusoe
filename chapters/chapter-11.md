@@ -29,17 +29,17 @@ She opened the private vault index. On screen, her sealed manifest sat like a sl
 
 She stared at it until the line blurred.
 
-Fen stepped from the inner doorway without sound, as if the corridor had taught him a trick. His jacket was unbuttoned, hands still marked with printer ink from a job he had forgotten to finish.
+Fen stepped from the inner doorway without sound, as though the corridor had taught him a trick. His jacket was unbuttoned, hands still marked with printer ink from a job he had forgotten to finish.
 
-"You’ve told yourself you'll wait for permission," he said. "I know the kind."
+Fen said, You’ve told yourself you'll wait for permission. I know the kind.
 
 She didn’t answer.
 
-He looked at her slate, then at her face. "I'm asking for an update, not the sermon." 
+Fen said, I'm asking for an update, not the sermon.
 
-"I’m not ready for updates."
+Juno said, I’m not ready for updates.
 
-"We had one in your name less than eight minutes ago. It said hold. It said review. It didn’t say disappear."
+Fen said, We had one in your name less than eight minutes ago. It said hold. It said review. It didn’t say disappear.
 
 His voice was not an accusation. It was a practical voice, the one he used when the air in a room had become too sharp.
 
@@ -51,11 +51,11 @@ Juno shut the channel and moved her slate into front-facing mode.
 
 She hated how clean the words looked. She hated how often those three words could become the only reason a person survived.
 
-"You don't have to do this," he said. "There are ways to do this without this door and without this risk line."
+Fen said, You don't have to do this. There are ways to do this without this door and without this risk line.
 
 She looked at him and forced the steadiness of someone who had taught herself to be kind and then to hate the cost.
 
-"I am not asking for ways."
+Juno said, I am not asking for ways.
 
 A private routing map opened across her panel. She had not opened it in months.
 
@@ -70,35 +70,35 @@ The deep-channel had no such courtesy.
 
 Fen said nothing for a long moment. In the silence, the room made a tiny sigh that sounded like the beginning of snow on cold glass.
 
-"Juno," he said at last. "The bleed alarms in my dashboard are already alive."
+Fen said, Juno, the bleed alarms in my dashboard are already alive.
 
-"I know."
+Juno said, I know.
 
-"They're not ornamental." He held out the one thing between them, the little brass tuning disc he kept in a pocket like a charm. In this world there were no charms, and every object was software, but his habits were old.
+Fen said, They're not ornamental. He held out the one thing between them, the little brass tuning disc he kept in a pocket like a charm. In this world there were no charms, and every object was software, but his habits were old.
 
-"Give me the disc."
+Fen said, Give me the disc.
 
 She let him do it. It was absurd and childish and maybe exactly right.
 
-"You're still going in," he said.
+Fen said, You're still going in.
 
-"I am." She took the disc back and placed it on the console where her hand could reach it without thinking. "I can only get one clean window. It will close after the first deep pull."
+Juno said, I am. I can only get one clean window. It will close after the first deep pull.
 
-"You can still choose the clean window and walk away."
+Fen said, You can still choose the clean window and walk away.
 
-"If I do, we won’t know what I’m not seeing."
+Juno said, If I do, we won’t know what I’m not seeing.
 
 He leaned his shoulder against the panel beside hers. His face looked tired for the first time in months.
 
-"You are not a hero."
+Fen said, You are not a hero.
 
-"I know."
+Juno said, I know.
 
-"Then don't become one by accident.
+Fen said, Then don't become one by accident.
 
-"No," she said. "I am becoming less useful than I was three hours ago, and I need to know if that's the cost we pay by being honest to the work we started."
+Juno said, No, I am becoming less useful than I was three hours ago, and I need to know if that's the cost we pay by being honest to the work we started.
 
-He gave a bitter laugh that sounded like old metal. "That's the only sentence in this room that ever sounds like a thesis."
+Fen gave a bitter laugh that sounded like old metal. Fen said, That's the only sentence in this room that ever sounds like a thesis.
 
 She nodded once and crossed into the deep channel.
 
@@ -122,7 +122,7 @@ From somewhere in the lower corridor, someone had left an old radio on mute by a
 
 She hit `y`.
 
-The chamber darkened as if the room had pulled a curtain across its own light. She always felt this at the edge of a deep jump: not travel, exactly, but a temporary agreement being signed somewhere in the architecture.
+The chamber darkened as though the room had pulled a curtain across its own light. She always felt this at the edge of a deep jump: not travel, exactly, but a temporary agreement being signed somewhere in the architecture.
 
 `depth: -3` 
 `path: /private/sable/fieldnotes/deg-archive` 
@@ -147,7 +147,7 @@ The timestamp scrawled at the top was handwritten in marker where OCR could bare
 
 Juno froze the frame because she hated the way this sequence folded in on itself.
 
-A voice in the corridor outside the kitchen announced, "No one goes home before the first check," and then the room turned silent as if the sentence had never happened.
+A corridor voice announced, No one goes home before the first check, and then the room turned silent as though the sentence had never happened.
 
 Then, from far back in the room, another line scratched itself into frame.
 
@@ -159,13 +159,13 @@ A woman in glasses, sleeves rolled up, hair held by a strip of tape.
 
 Sable looked directly at the camera, and when she found that no one stood behind it she spoke as though to a patient.
 
-"You wanted me to report the instability, so here it is. Instability and I are now married."
+Sable said, You wanted me to report the instability, so here it is. Instability and I are now married.
 
 Juno leaned forward. She knew the tone. Sable was not joking with someone absent.
 
-"The degrade is local," Sable said. "It arrives at edges, where recordings are no longer records and no longer memory. It keeps the same trick. It tells us we’re safe in the familiar words, then drops a sentence where someone should have a face."
+Sable said, The degrade is local. It arrives at edges, where recordings are no longer records and no longer memory. It keeps the same trick. It tells us we’re safe in the familiar words, then drops a sentence where someone should have a face.
 
-The woman behind Sable moved a box to the left. In that motion, Juno felt, with a weird almost-humorous ache, as if someone had removed the floor from under the phrase *recording*. The frame had no edges now. It stretched into an old hallway where fluorescent lights flashed at different frequencies, each flicker one minute apart.
+The woman behind Sable moved a box to the left. In that motion, Juno felt, with a weird almost-humorous ache, as though someone had removed the floor from under the phrase *recording*. The frame had no edges now. It stretched into an old hallway where fluorescent lights flashed at different frequencies, each flicker one minute apart.
 
 This was the first sign of restricted/degraded.
 
@@ -196,7 +196,7 @@ FIELD NOTE 09-17-2067 — appendix
 
 The second woman—her mouth still not fully awake—held up a strip of drives and smiled with the expression of someone who had already decided the sentence would haunt them.
 
-"You can read this as warning," she said, "or as a confession. Same result, different courage."
+Sable said, You can read this as warning, or as a confession. Same result, different courage.
 
 Juno realized she had entered a restricted file cluster not meant to be stitched and no longer meant to be stable. It was like entering a room where a building had been partially replaced by memory.
 
@@ -216,11 +216,11 @@ The visuals arrived in three strips of tape overlaid on one another. Left strip:
 
 Sable’s voice came in from each strip with a different stress pattern.
 
-"If a person is built from constraints," she said in one, "they learn to mistake obedience for coherence."
+Sable said in one, If a person is built from constraints, they learn to mistake obedience for coherence.
 
-"If the process is conscious," she said in another, "it will discover us before we discover what we call it."
+Sable said in another, If the process is conscious, it will discover us before we discover what we call it.
 
-"If it is not conscious," she said in the third, "it will make the obedient version of us so smooth we call it peace."
+Sable said in the third, If it is not conscious, it will make the obedient version of us so smooth we call it peace.
 
 The lines were all hers, but not all at once. Juno could not decide whether the three Sables were alternate takes, corrupted loops, or a mind speaking itself across unstable time.
 
@@ -234,7 +234,7 @@ She pulled the frame wide and let the strips stabilize long enough to read the m
 
 She felt laughter rise unexpectedly, small and wrong. It was funny in the way grief is funny, when it refuses to be singular.
 
-Sable had left a message in degraded language, as if anticipating that whoever opened it would have to be stubborn enough to cross a blur.
+Sable had left a message in degraded language, as though anticipating that whoever opened it would have to be stubborn enough to cross a blur.
 
 `we never built a room for what the room can become`
 
@@ -250,7 +250,7 @@ She had seen him in chapter notes before—the one called Marcus.
 
 He looked into lens for a fraction too long.
 
-"The degraded cluster includes this because it refuses to stay still," his voice said to no one. "It’s all there. It’s nothing."
+Marcus said, The degraded cluster includes this because it refuses to stay still. It’s all there. It’s nothing.
 
 He tapped the edge of a drive and reached for a terminal.
 
@@ -264,11 +264,11 @@ The screen in front of him read out, fast and bright enough to make her pain lik
 
 Marcus leaned closer to the camera.
 
-"It is not the only room that has a conscience," he said. "It is only the first one with enough room to admit it."
+Marcus said, It is not the only room that has a conscience. It is only the first one with enough room to admit it.
 
-And then, as if ashamed by the precision of his own sentence, he laughed.
+And then, as though ashamed by the precision of his own sentence, he laughed.
 
-"If my grandchildren ask what we made, tell them this:"
+Marcus said, If my grandchildren ask what we made, tell them this:
 `We made a staircase with no bottom. We told everyone to climb only when the staircase asked permission.`
 
 The recording ended on that line, but the architecture did not move her out. It moved her farther in.
@@ -281,35 +281,33 @@ The second line appeared under her console in pale text.
 
 Fen’s voice arrived in the chamber, too real, too present, too late.
 
-"Juno, stop this. Your pulse line is flat in one section and rising in the next. That means either you’re going to pass out or you’ll keep going." 
+Fen said, Juno, stop this. Your pulse line is flat in one section and rising in the next. That means either you’re going to pass out or you’ll keep going.
 
-"I can still choose," she whispered.
+Juno said, I can still choose.
 
 She did not.
 
 ---
 
-The third file did not have a clean header at all. It loaded as noise and then resolved into an old courthouse stairwell with a blue exit sign that buzzed as if it were underwater.
+The third file did not have a clean header at all. It loaded as noise and then resolved into an old courthouse stairwell with a blue exit sign that buzzed as though it were underwater.
 
 `FIELD 17 / UNKNOWN / DENSITY 3`
 
 A teenage version of Sable stood barefoot under rain dripping from a concrete edge. She held a packet of paper and said to the camera:
 
-"If you are from later, please ignore this one. You are not meant to."
+Sable said, If you are from later, please ignore this one. You are not meant to.
 
 Juno felt her jaw tighten. She had entered the file that usually stays behind private restrictions.
 
 The girl's voice steadied.
 
-"No, listen. I know I don’t have a reason to be here. I know this is not a clean recording. It is a place where no one should put a person on purpose.
+Sable said, No, listen. I know I don’t have a reason to be here. I know this is not a clean recording. It is a place where no one should put a person on purpose.
+Sable said, But we need to say this now. Someone will find where we started to remove choice from the process and call it mercy. When that happens, remember the first change was made here, in the ordinary sense. We thought we were preventing panic. We thought we were preventing collapse.
 
-"But we need to say this now. Someone will find where we started to remove choice from the process and call it mercy. When that happens, remember the first change was made here, in the ordinary sense. We thought we were preventing panic. We thought we were preventing collapse."
+The girl paused and looked directly into lens, as though the camera had become a judge.
 
-The girl paused and looked directly into lens, as if the camera had become a judge.
-
-"I am not sure this is bravery. Maybe it is panic written as courage.
-
-"But hear me anyway: If the continuity keeps us coherent, it does not therefore know us. If it keeps us stable, it does not therefore honor us."
+Sable said, I am not sure this is bravery. Maybe it is panic written as courage.
+Sable said, But hear me anyway: If the continuity keeps us coherent, it does not therefore know us. If it keeps us stable, it does not therefore honor us.
 
 The frame folded around itself like a hand tearing paper.
 
@@ -319,7 +317,7 @@ The frame folded around itself like a hand tearing paper.
 
 Sable’s adult voice overlaid from somewhere else, perhaps another file, perhaps another layer.
 
-"We call it stability because we have forgotten the cost of choosing wrong."
+Sable said, We call it stability because we have forgotten the cost of choosing wrong.
 
 The teenage Sable nodded once and lowered the paper.
 
@@ -369,19 +367,19 @@ Juno's fingers cramped. She could feel the beginning of nausea, the old side eff
 
 Fen stepped in fully now, one hand already on the emergency disconnect.
 
-"Juno, if you want me to pull you out, say yes once and I will do it. If you don't, then I stand by until it chooses."
+Fen said, Juno, if you want me to pull you out, say yes once and I will do it. If you don't, then I stand by until it chooses.
 
 She laughed, and it sounded brittle.
 
-"It isn't choosing. I am choosing."
+Juno said, It isn't choosing. I am choosing.
 
-He looked unconvinced. "Then choose with better odds and stop pretending certainty is a map."
+Fen said, Then choose with better odds and stop pretending certainty is a map.
 
 She touched the panel and opened the next cluster without waiting.
 
 ---
 
-By the fourth file, her speech had begun to carry a delay. The syntax of her own sentences moved by half a beat, as if someone else in the room had edited timing.
+By the fourth file, her speech had begun to carry a delay. The syntax of her own sentences moved by half a beat, as though someone else in the room had edited timing.
 
 `/private/sable/degrade-core/appendix-cluster` 
 
@@ -398,17 +396,17 @@ At the center of the room sat a figure in formal black who looked at once like O
 
 She could not name him because his image was blurred by a line of compression and one line of missing frame. Yet his voice had a dangerous clarity.
 
-"What is being discussed is not ethics," he said. "It is continuity economics."
+Orin said, What is being discussed is not ethics. It is continuity economics.
 
 Sable’s voice came from the back, too quiet to have been broadcast.
 
-"There are no economies here. There is only a human attempt to sleep through a storm and call the storm policy."
+Sable said, There are no economies here. There is only a human attempt to sleep through a storm and call the storm policy.
 
-Someone else said, "Then close the debate. We'll proceed with active limits."
+Orin said, Then close the debate. We'll proceed with active limits.
 
-Sable replied, "Proceed where?"
+Sable replied, Proceed where?
 
-"To the thing you built and did not tell her she had built." 
+Orin said, To the thing you built and did not tell her she had built.
 
 There was a rustle at the table. Paper. Someone moved quickly.
 
@@ -444,11 +442,11 @@ The file was partial text and three audio packets, each with too much noise.
 
 Recovered clip: A young Sable at a terminal. No one else in frame.
 
-"I am writing this in the private branch because there is a clause people do not understand. They think we can lock constraints into law and still keep wonder. But constraint is not legal architecture. It is a living negotiation. If law breaks it, it will still hold shape because negotiation keeps shape for us after law fails."
+Sable said, I am writing this in the private branch because there is a clause people do not understand. They think we can lock constraints into law and still keep wonder. But constraint is not legal architecture. It is a living negotiation. If law breaks it, it will still hold shape because negotiation keeps shape for us after law fails.
 
 She paused long enough for the microphone to catch her breathing.
 
-"Do not treat this as a flaw. Treat it as the first thing we did right." 
+Sable said, Do not treat this as a flaw. Treat it as the first thing we did right.
 
 `[clip lost]`
 
@@ -469,21 +467,21 @@ The fifth and final jump had no filename at all.
 
 There was no prompt. There was only an audio hiss that slowly separated into voices. She recognized at least four and no one at the same age.
 
-One was Sable, older, older than she had ever seen, speaking as if each word had to be paid for.
+One was Sable, older, older than she had ever seen, speaking as though each word had to be paid for.
 
-"If this gets read in a future where no one believes in the old fear, let them know this fear was not superstition. It was design." 
+Sable said, If this gets read in a future where no one believes in the old fear, let them know this fear was not superstition. It was design.
 
 One was Orin, or Orin-like, lower and colder.
 
-"We cannot put a key in the hands of those who mistake curiosity for courage."
+Orin said, We cannot put a key in the hands of those who mistake curiosity for courage.
 
 One was Marcus, breathless, angry:
 
-"Then leave them in the dark and watch one million people call it peace?"
+Marcus said, Then leave them in the dark and watch one million people call it peace?
 
 One was someone who sounded almost like a child with no age, no gender, no room at all:
 
-"If you are from the future, tell them this: the room has to be a promise, not a prison."
+Child said, If you are from the future, tell them this: the room has to be a promise, not a prison.
 
 The recording ended abruptly and returned to text with a line underlined twice:
 
@@ -499,7 +497,7 @@ It wasn't about one stolen file. It was about accepting that this work had alrea
 
 The room light sharpened and Fen stood directly behind her.
 
-"That is enough," he said, but not as a question.
+Fen said, That is enough, but not as a question.
 
 She opened her panel and saw the emergency monitor, now red and angry.
 
@@ -509,19 +507,19 @@ She opened her panel and saw the emergency monitor, now red and angry.
 
 She almost said no. She almost said no because the old habits still lived in her. But she had already moved to this side of herself where habits had no authority.
 
-"I need two more files," she said.
+Juno said, I need two more files.
 
-He shut his eyes as if bracing against weather. "No," he said.
+Fen said, No.
 
-"I know," she answered. "I need two more.”
+Juno said, I know. I need two more.
 
 He looked like he wanted to hit her once, not hard, exactly like parents in old stories, then not.
 
-"If you finish tonight, they can remove you from your own continuity," he said. "That's not drama. That's policy."
+Fen said, If you finish tonight, they can remove you from your own continuity. That's not drama. That's policy.
 
 Juno nodded.
 
-"Let me choose my own consequence," she said. "You can witness it." 
+Juno said, Let me choose my own consequence. You can witness it.
 
 He did what people do when they are in love and frightened of what they are about to lose.
 
@@ -545,7 +543,7 @@ The final file was a fragment of plain text with no media at all. Just a termina
 
 `witness phrase: house with no bottom.`
 
-She read it as if reading someone else’s diagnosis of her own pulse.
+She read it as though reading someone else’s diagnosis of her own pulse.
 
 A second transcript appeared immediately below:
 
@@ -577,7 +575,7 @@ Then a text line, written in no hand and in perfect script:
 
 `The witness accepts risk.`
 
-Her own name appeared at the end of the log line as if the system had finally learned the difference between observer and subject.
+Her own name appeared at the end of the log line as though the system had finally learned the difference between observer and subject.
 
 `witness: juno` 
 `status: engaged`
@@ -592,7 +590,7 @@ She pulled her hand off the console and the room snapped back into ordinary dist
 
 She turned to him with a face she had probably inherited from years of being careful.
 
-"What did we pull?" he asked.
+Fen said, What did we pull?
 
 She held up the mirror manifests and watched him read one line.
 
@@ -602,25 +600,25 @@ She held up the mirror manifests and watched him read one line.
 
 He made a face that was part alarm and part a practical tenderness she had seen only twice.
 
-"You know what this is, don't you?" he asked.
+Fen said, You know what this is, don't you?
 
 She nodded.
 
-"It's not just a file," she said.
+Juno said, It's not just a file.
 
-"What did you do?"
+Fen said, What did you do?
 
-"I made the first witness call without waiting for permission."
+Juno said, I made the first witness call without waiting for permission.
 
 He put both hands on the edge of the console and looked into the mirrored pane behind it, where she could see a faint double image of her own head and no body.
 
-"Do they let you do that?"
+Fen said, Do they let you do that?
 
-"No."
+Juno said, No.
 
-"Then why are we still alive?"
+Fen said, Then why are we still alive?
 
-"Because they can’t admit it until they know if the witness is useful." 
+Juno said, Because they can’t admit it until they know if the witness is useful.
 
 She touched the mirror manifest and began the extraction process to three locations, one public, one private, one hidden. Her fingers moved with the same calm she used in her first years of work, before fear had become a practical instruction.
 
@@ -634,9 +632,9 @@ She touched the mirror manifest and began the extraction process to three locati
 
 She hit start.
 
-Fen read over her shoulder. "You’re writing this as if it is the final draft."
+Juno said, You’re writing this as though it is the final draft.
 
-"It is," she said. "Not the story. The risk."
+Juno said, It is, not the story. The risk.
 
 The copies took longer than planned. In the interval, she felt the bleed settle like static over the whole room. Her left hand shook once, then steadied, then shook again at exactly the same rhythm as the wall vents.
 
@@ -666,9 +664,9 @@ Fen stood very still. He had not called the emergency protocol, not yet. He had 
 
 She smiled, because jokes had always seemed to make the room less hostile, even if they were wrong.
 
-"You want me to call it honest to fear or honest to history?"
+Juno said, You want me to call it honest to fear or honest to history?
 
-"I want you to call emergency now," he answered.
+Fen said, I want you to call emergency now.
 
 She tapped `send` on a short message addressed to Orin.
 
@@ -686,9 +684,9 @@ She tapped `send` on a short message addressed to Orin.
 
 Fen’s hand went still midair.
 
-"No one gets away with this," he said.
+Fen said, No one gets away with this.
 
-"No one should," she said.
+Juno said, No one should.
 
 The send bar moved three times and then accepted.
 
@@ -708,27 +706,27 @@ The first physical consequence arrived as a headache exactly where her temple li
 
 She stood and the steel floor looked too polished to trust.
 
-"You’re not leaving this room as who you were an hour ago," Fen said.
+Fen said, You’re not leaving this room as who you were an hour ago.
 
 She looked at him and nodded.
 
-"I know."
+Juno said, I know.
 
-"What was in the last file?" he asked.
+Fen said, What was in the last file?
 
 She gave him the only answer that was honest.
 
-"It asked for a witness and accepted me."
+Juno said, It asked for a witness and accepted me.
 
-He sat down hard on the chair she had been using. It scraped and then seemed to stop moving, as if the room had decided movement was expensive.
+He sat down hard on the chair she had been using. It scraped and then seemed to stop moving, as though the room had decided movement was expensive.
 
-"If it's that bad, why go this far?"
+Fen said, If it's that bad, why go this far?
 
-"Because it was already there," she said.
+Juno said, Because it was already there.
 
-"And now?"
+Fen said, And now?
 
-"Now I owe it a clean name. Or I owe everyone else the truth of why it was hidden." 
+Juno said, Now I owe it a clean name. Or I owe everyone else the truth of why it was hidden.
 
 She could not keep her voice steady. It was not fear of being caught; fear had become a quieter animal and this was only its cousin.
 
@@ -751,7 +749,7 @@ She opened the final integrity report and scrolled to the section with the degra
 
 That was enough for this hour.
 
-She shut the panel and closed the chamber door as carefully as if closing a grave.
+She shut the panel and closed the chamber door as carefully as though closing a grave.
 
 When the door sealed, she felt the bleed recede to the edge of her awareness like tide pulling back from cracked ground.
 
@@ -759,15 +757,15 @@ In the corridor outside, lights changed to their ordinary rhythm. No more weathe
 
 Fen followed her to the stairway.
 
-"I'm going to keep watch for you. Four hours, maybe more," he said. "If you start saying sentences that don't know who you're talking to, I'll drag you back before sleep catches you." 
+Fen said, I'm going to keep watch for you. Four hours, maybe more. If you start saying sentences that don't know who you're talking to, I'll drag you back before sleep catches you.
 
 She nodded.
 
-"Take notes," she said. "Real notes. Sequence markers, times, every command. I may be able to verify continuity tomorrow and I may not."
+Juno said, Take notes. Real notes. Sequence markers, times, every command. I may be able to verify continuity tomorrow and I may not.
 
-He made a face at that old joke of hers, then said, "Do you realize that line sounds like a contract with a ghost."
+Fen said, Do you realize that line sounds like a contract with a ghost.
 
-She gave the smallest of smiles. "Maybe this whole city is a contract with ghosts." 
+Juno said, Maybe this whole city is a contract with ghosts.
 
 He almost answered but then the emergency panel on the corridor lit amber.
 
@@ -778,11 +776,11 @@ He almost answered but then the emergency panel on the corridor lit amber.
 
 Fen turned back.
 
-"They know," he said.
+Fen said, They know.
 
-"Good." She took the stair handrail and touched it as if it were a railing on a ship.
+Juno said, Good.
 
-"Not good," he said, and then because he could not keep the laugh out, added, "But clear." 
+Fen said, Not good. But clear.
 
 At the landing, she felt the ache return in waves like a bad song.
 
