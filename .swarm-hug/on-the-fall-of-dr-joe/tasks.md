@@ -53,3 +53,6 @@
 - [x] (#39) Correct the frontmatter example in `chapters/README.md` so the chapter-outline dependency ID/comment matches the canonical map (`DOC-004` for chapter outline, `DOC-005` for mystery architecture) (blocked by #1) (B)
 - [x] (#40) Reconcile status vocabulary in `writing-artifacts/README.md` by replacing the artifact comment token `deprecated` with the canonical `archived` value or removing it so all status examples align (blocked by #37) (C)
 - [x] (#41) Add the referenced process artifacts or remove dead references in `writing-artifacts/README.md`: `writing-artifacts/dependency-notes.md` and `writing-artifacts/handoff-format.md` (blocked by #1) (C)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#42) Correct `writing-artifacts/DOC-004-chapter-by-chapter-outline.md` clue-range notation in the “Notation” section to match actual clue IDs used in the outline (`C-001` through `C-073`), since it currently states `C-001` through `C-025`. (blocked by #5)
