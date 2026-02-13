@@ -61,3 +61,7 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#39) Update `analysis-contracts` `AnalysisInput` to resolve `target` against `working_directory` and use that resolved path in `validate_target_exists`, plus add tests for non-root working-directory invocation (currently only related paths are resolved, which can cause false “missing target” failures). (blocked by #11) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#40) Update `cliche-detection`, `voice-consistency`, and `continuity-check` to use `AnalysisInput::resolve_target_path()` for validation, file reads, and report `target` paths so `with_working_directory(...)` and relative targets behave consistently (blocked by #39)
+- [ ] (#41) Add regression tests for all three analyzer crates (`cliche-detection`, `voice-consistency`, `continuity-check`) that use a non-root `working_directory` with relative targets to confirm path resolution is applied end-to-end, including report metadata and file access (blocked by #39)
