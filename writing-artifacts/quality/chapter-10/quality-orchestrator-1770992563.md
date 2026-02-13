@@ -1,14 +1,14 @@
 # Quality Orchestrator Report
-- target: /tmp/chapter-10-work.md
-- generated_at_unix: 1770992364
+- target: chapters/chapter-10.md
+- generated_at_unix: 1770992563
 - fail_threshold: error
-- total_findings: 1
-- total_blocking_reports: 1
-- status: failed
+- total_findings: 0
+- total_blocking_reports: 0
+- status: passed
 
 ## cliche-detection
-- findings: 1
-- target: /tmp/chapter-10-work.md
+- findings: 0
+- target: chapters/chapter-10.md
 - metadata:
   - cliche_blocker_threshold: 8
   - cliche_error_threshold: 5
@@ -22,35 +22,32 @@
   - opening_pattern_warning_threshold: 5
   - opening_word_count: 4
   - sentences: 558
-- details:
-  - [error] CLIC-CLICHÉ-01 at /tmp/chapter-10-work.md:23:1
-    - Cliche phrase repeated 5 times: "as if".
-    - suggestion: Replace repeated phrase usage with image-grounded, character-specific language.
+- findings: none
 
 ## continuity-check
 - findings: 0
-- target: /tmp/chapter-10-work.md
+- target: chapters/chapter-10.md
 - metadata:
   - analyzer: continuity-check
   - scene_count: 0
   - status: no_scenes_found
-  - target: /tmp/chapter-10-work.md
+  - target: chapters/chapter-10.md
 - findings: none
 
 ## length-check
 - findings: 0
-- target: /tmp/chapter-10-work.md
+- target: chapters/chapter-10.md
 - metadata:
   - analyzer: length-check
   - max_words: 6000
   - min_words: 4000
-  - target: /tmp/chapter-10-work.md
-  - words: 4466
+  - target: chapters/chapter-10.md
+  - words: 4468
 - findings: none
 
 ## voice-consistency
 - findings: 0
-- target: /tmp/chapter-10-work.md
+- target: chapters/chapter-10.md
 - metadata:
   - ambiguous_dialogue_blocks: 0
   - ambiguous_margin: 0.12
@@ -61,7 +58,7 @@
   - error_confidence: 0.45
   - explicit_name_confidence: 0.95
   - pronoun_tag_confidence: 0.42
-  - target: /tmp/chapter-10-work.md
+  - target: chapters/chapter-10.md
   - total_dialogue_blocks: 0
   - tracked_characters: 0
   - untagged_dialogue_blocks: 0
@@ -74,4 +71,4 @@
 - findings: none
 
 
-signature: fnv1a64:2c561f8e650aaec9
+signature: fnv1a64:3672fafb6c425b95
