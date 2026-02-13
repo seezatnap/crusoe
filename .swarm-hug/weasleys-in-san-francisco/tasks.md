@@ -45,7 +45,7 @@
 ## Act Four: Resolution (Chapters 13–15)
 
 - [x] (#22) Write Chapter 13 (4,000–6,000 words): full convergence — Arthur, Bill, Molly, Tomo, Gus, and the kids regroup and plan the assault on the Underlook. Build-up tension, Isolde's wavering loyalty, Harlan's overconfidence [5 pts] (blocked by #21) (A)
-- [ ] (#23) Write Chapter 14 (4,000–6,000 words): the climactic cave battle — Bill and Tomo dismantle ward anchors, Arthur duels Voss (quiet, technically brilliant, two men who understand institutional magic), Molly's ferocious defensive magic protects the children, Isolde refuses to complete the ritual, Fred/George/Marisol take down Harlan [5 pts] (blocked by #22)
+- [A] (#23) Write Chapter 14 (4,000–6,000 words): the climactic cave battle — Bill and Tomo dismantle ward anchors, Arthur duels Voss (quiet, technically brilliant, two men who understand institutional magic), Molly's ferocious defensive magic protects the children, Isolde refuses to complete the ritual, Fred/George/Marisol take down Harlan [5 pts] (blocked by #22)
 - [ ] (#24) Write Chapter 15 (4,000–6,000 words): Voss's last-ditch compulsion on Harry and Harry's instinctive resistance, ritual collapse and tide surge escape, BMA custody of Voss and Harlan, Isolde's cooperation, Gus and Tomo begin re-warding. Final day in San Francisco — farewells, Marisol's promise to write, Harry on the Golden Gate Bridge at sunset thinking about the word "home" [5 pts] (blocked by #23)
 
 ## Revision
@@ -72,4 +72,4 @@
 - [x] (#34) Clean up malformed dialogue formatting in `chapters/chapter-09.md` by removing standalone trailing quote lines so closing quotation marks stay on the same line as their sentence text (e.g., 46 occurrences of `"` on its own line). (blocked by #18) (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#35) Trim `chapters/chapter-13.md` to stay within the required 4,000–6,000-word range (current count is 6,013 words), and re-validate chapter length after edits. (blocked by #22)
+- [A] (#35) Trim `chapters/chapter-13.md` to stay within the required 4,000–6,000-word range (current count is 6,013 words), and re-validate chapter length after edits. (blocked by #22)
