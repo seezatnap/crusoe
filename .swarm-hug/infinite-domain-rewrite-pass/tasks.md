@@ -12,7 +12,7 @@
 
 - [x] (#4) Rewrite `final-draft-chapters/chapter-03.md` using the full source stack (`character-bible`, `setting-bible`, `style-and-voice-protocol`, relevant roadmap section, continuity/reveal matrices, timeline, thread log, chapter-03 postmortem), prior rewritten chapters, and first draft baseline; calibrate prose via `style-reference` samples; deliver 4,000–6,000 words with preserved structure and pacing [5 pts] (blocked by #3) (A)
 
-- [A] (#5) Rewrite `final-draft-chapters/chapter-04.md` from scratch with the same evidence-driven process, ensuring chapter-to-chapter connective tissue with chapter 03 is seamless and all planned plot/character arcs are intact while avoiding cliché language and staying within 4,000–6,000 words [5 pts] (blocked by #4)
+- [x] (#5) Rewrite `final-draft-chapters/chapter-04.md` from scratch with the same evidence-driven process, ensuring chapter-to-chapter connective tissue with chapter 03 is seamless and all planned plot/character arcs are intact while avoiding cliché language and staying within 4,000–6,000 words [5 pts] (blocked by #4) (A)
 
 - [ ] (#6) Rewrite `final-draft-chapters/chapter-05.md` after ingesting chapter-05-specific postmortem and all governing bibles/roadmap/continuity artifacts plus prior rewritten chapters and first-draft chapter 05, then produce a polished 4,000–6,000 word chapter aligned to sequence and reveal timing [5 pts] (blocked by #5)
 
@@ -48,6 +48,6 @@
 - [x] (#20) Build or stub the `style-reference` CLI tool so that chapter rewrites can run automated style calibration instead of manual calibration (referenced in tasks #3–#18 and noted as missing in the chapter-01 rewrite log) (blocked by #2) (A)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#21) Address 23 Blocker-level VOICE-STYLE-001 findings in `final-draft-chapters/chapter-03.md` (concentrated in Juno and Orin dialogue lines ~97–193) by reconciling diction and rhythm with established character voice baselines from chapters 01–02 (blocked by #4)
-- [B] (#22) Add explicit dialogue tags to the 2 untagged and 3 ambiguous dialogue blocks in `final-draft-chapters/chapter-03.md` flagged by DIAL-TAG-001 and DIAL-AMBIG-001 (lines 45, 49, 91, 119) to resolve speaker-attribution warnings before chapter 04 builds on this text (blocked by #4)
-- [A] (#23) Run a continuity-check diagnostic on `final-draft-chapters/chapter-03.md` against `continuity-reveal-matrices.md` and produce an explicit continuity report artifact — the commit claims 0 violations but no continuity report was generated to verify (blocked by #4)
+- [x] (#21) Address 23 Blocker-level VOICE-STYLE-001 findings in `final-draft-chapters/chapter-03.md` (concentrated in Juno and Orin dialogue lines ~97–193) by reconciling diction and rhythm with established character voice baselines from chapters 01–02 (blocked by #4) (B)
+- [x] (#22) Add explicit dialogue tags to the 2 untagged and 3 ambiguous dialogue blocks in `final-draft-chapters/chapter-03.md` flagged by DIAL-TAG-001 and DIAL-AMBIG-001 (lines 45, 49, 91, 119) to resolve speaker-attribution warnings before chapter 04 builds on this text (blocked by #4) (B)
+- [x] (#23) Run a continuity-check diagnostic on `final-draft-chapters/chapter-03.md` against `continuity-reveal-matrices.md` and produce an explicit continuity report artifact — the commit claims 0 violations but no continuity report was generated to verify (blocked by #4) (A)
