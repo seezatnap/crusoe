@@ -162,3 +162,7 @@
 - [x] (#98) Fix 12 error-level findings in `final-draft-chapters/chapter-05.md` — 6 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 87, 229, 287, 347, 457, 483) and 6 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771017751, which caused the report to fail with 1 blocking report — same class of error fixed in every other chapter but chapter-05 was missed (A) (A)
 - [ ] (#99) Clean up the 11 stale quality-orchestrator reports for chapter-05 (timestamps 1770990699 through 1770992636) that target `chapters/chapter-05.md` instead of `final-draft-chapters/chapter-05.md` (C)
 - [ ] (#100) Re-run quality-orchestrator on `final-draft-chapters/chapter-05.md` after DIAL-TAG-001 fixes are applied — report 1771017751 was generated before both the dialogue-tag fixes and the POV marker stripping (task #94), so it does not reflect the current chapter state (blocked by #95) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#101) Mark tasks #97, #99, and #100 as complete — #99 duplicates the work done in task #96 (same 11 stale reports already deleted), and #97/#100 duplicate each other and were fulfilled by task #98's quality-orchestrator re-run producing passing report 1771018914
+- [ ] (#102) Clean up 2 intermediate quality-orchestrator reports for chapter-05 (timestamps 1771018592, 1771018694) generated during the task #95 fix process — only report 1771018914 (from task #98 verification) is the definitive post-fix result
