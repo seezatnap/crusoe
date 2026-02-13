@@ -48,7 +48,7 @@
 ## Act 4 Drafting (Chapters 15–17)
 
 - [x] (#31) Draft `chapters/chapter-15.md` in the 4,000–6,000-word range: stage the choice architecture—remove limits, suppress truth, or open truth without forced collapse—while defining Juno’s third-path strategy [5 pts] (blocked by #30) (A)
-- [ ] (#32) Draft `chapters/chapter-16.md` in the 4,000–6,000-word range: dramatize public exposure and resistance from Curators/Orin, with Cassiel and Fen pulled into the moral crisis and taking active roles [5 pts] (blocked by #31)
+- [x] (#32) Draft `chapters/chapter-16.md` in the 4,000–6,000-word range: dramatize public exposure and resistance from Curators/Orin, with Cassiel and Fen pulled into the moral crisis and taking active roles [5 pts] (blocked by #31) (B)
 - [ ] (#33) Draft `chapters/chapter-17.md` in the 4,000–6,000-word range: deliver resolution with mixed societal outcomes, final Maren farewell in full drift, and Juno’s return to an honestly uncertain but real future [5 pts] (blocked by #32)
 
 ## Quality Assurance and Release
@@ -121,9 +121,12 @@
 - [x] (#65) Re-run chapter-12 quality after the most recent edits and make the latest artifact in `writing-artifacts/quality/chapter-12/` a passing report, as the newest current file (`quality-orchestrator-1770993489.md`) is `status: failed` despite task #62 being marked complete. (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#66) Update `writing-artifacts/roadmap.md` chapter-14 tracker row from `Not started` to `Completed draft (5,997)` and align the row metadata with `chapters/chapter-14.md` (blocked by #30).
+- [x] (#66) Update `writing-artifacts/roadmap.md` chapter-14 tracker row from `Not started` to `Completed draft (5,997)` and align the row metadata with `chapters/chapter-14.md` (blocked by #30). (A)
 - [x] (#67) Create the missing `writing-artifacts/quality/chapter-14/quality-orchestrator-*.md` artifact by running the chapter-14 quality session; there is currently no `chapter-14` quality directory or report (blocked by #30). (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#68) Resolve the blocking findings in `writing-artifacts/quality/chapter-14/quality-orchestrator-1770994354.md` (including cliche and voice-consistency blockers), then rerun quality for chapter-14 and replace the chapter-14 status with a passing report before treating the Act-3 postmortem cycle as truly complete. (blocked by #36)
-- [ ] (#69) Update `writing-artifacts/roadmap.md` chapter-15 tracker row from `Not started` to `Completed draft (4,847)` and sync its pacing/title metadata with `chapters/chapter-15.md`. (blocked by #31)
+- [x] (#68) Resolve the blocking findings in `writing-artifacts/quality/chapter-14/quality-orchestrator-1770994354.md` (including cliche and voice-consistency blockers), then rerun quality for chapter-14 and replace the chapter-14 status with a passing report before treating the Act-3 postmortem cycle as truly complete. (blocked by #36) (B)
+- [x] (#69) Update `writing-artifacts/roadmap.md` chapter-15 tracker row from `Not started` to `Completed draft (4,847)` and sync its pacing/title metadata with `chapters/chapter-15.md`. (blocked by #31) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#70) Update `writing-artifacts/roadmap.md` chapter-16 tracker row from `Not started` to `Completed draft (4,706)` (or authoritative word count from canonical script) and align status metadata with `chapters/chapter-16.md` now that draft delivery task `#32` is marked complete (blocked by #32)
