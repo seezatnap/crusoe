@@ -28,7 +28,7 @@
 
 - [x] (#12) Rewrite `final-draft-chapters/chapter-11.md` using full required sources and prior chapter continuity checks, then craft a unified, precise, humane sci-fi prose draft within 4,000–6,000 words and consistent with roadmap pacing [5 pts] (blocked by #11) (A)
 
-- [ ] (#13) Rewrite `final-draft-chapters/chapter-12.md` with complete fidelity to first draft beats but rebuilt prose consistency, incorporating style-reference calibration and all continuity/reveal constraints; deliver 4,000–6,000 words [5 pts] (blocked by #12)
+- [x] (#13) Rewrite `final-draft-chapters/chapter-12.md` with complete fidelity to first draft beats but rebuilt prose consistency, incorporating style-reference calibration and all continuity/reveal constraints; deliver 4,000–6,000 words [5 pts] (blocked by #12) (A)
 
 - [ ] (#14) Rewrite `final-draft-chapters/chapter-13.md` based on required bibles, roadmap chapter constraints, continuity/reveal matrices, thread log, prior rewrites, and chapter 13 first draft; ensure scene transitions and chapter linkage are seamless, 4,000–6,000 words [5 pts] (blocked by #13)
 
@@ -93,9 +93,15 @@
 - [x] (#49) Run quality-orchestrator on `final-draft-chapters/chapter-10.md` (not `chapters/chapter-10.md`) — all 5 existing chapter-10 quality reports target the stale first-draft path and are invalid for the rewritten file (blocked by #11) (C)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#50) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-11.md` at each of its 6 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05–10 (blocked by #12)
-- [ ] (#51) Run a continuity-check diagnostic on `final-draft-chapters/chapter-11.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–10 in tasks #23, #24, #27, #29, #35, #38, #43, and #47 (blocked by #12)
-- [ ] (#52) Run quality-orchestrator on `final-draft-chapters/chapter-11.md` (not `chapters/chapter-11.md`) — the 2 existing chapter-11 quality reports (timestamps 1770992711, 1770993219) both target the stale first-draft path and are invalid for the rewritten file (blocked by #12)
+- [x] (#50) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-11.md` at each of its 6 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05–10 (blocked by #12) (A)
+- [x] (#51) Run a continuity-check diagnostic on `final-draft-chapters/chapter-11.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–10 in tasks #23, #24, #27, #29, #35, #38, #43, and #47 (blocked by #12) (C)
+- [x] (#52) Run quality-orchestrator on `final-draft-chapters/chapter-11.md` (not `chapters/chapter-11.md`) — the 2 existing chapter-11 quality reports (timestamps 1770992711, 1770993219) both target the stale first-draft path and are invalid for the rewritten file (blocked by #12) (C)
 - [ ] (#53) Clean up the 2 stale quality-orchestrator reports for chapter-11 (timestamps 1770992711, 1770993219) that target `chapters/chapter-11.md` instead of `final-draft-chapters/chapter-11.md`
-- [ ] (#54) Fix 4 error-level findings in `final-draft-chapters/chapter-10.md` — 2 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 334, 424) and 2 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771008780, which caused the report to fail with 1 blocking report (blocked by #11)
-- [ ] (#55) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-10.md` at each of its 6 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05–09 (blocked by #11)
+- [x] (#54) Fix 4 error-level findings in `final-draft-chapters/chapter-10.md` — 2 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 334, 424) and 2 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771008780, which caused the report to fail with 1 blocking report (blocked by #11) (B)
+- [x] (#55) Add missing section-level `<!-- pov: -->` markers to `final-draft-chapters/chapter-10.md` at each of its 6 `---` section dividers — the chapter has only a top-level POV marker, matching the same gap that required follow-up in chapters 05–09 (blocked by #11) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#56) Fix 6 error-level findings in `final-draft-chapters/chapter-11.md` — 3 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 87, 135, 481 using 'i'/'it' instead of named characters) and 3 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771009605, which caused the report to fail with 1 blocking report (blocked by #13)
+- [ ] (#57) Run quality-orchestrator on `final-draft-chapters/chapter-12.md` (not `chapters/chapter-12.md`) — no valid quality report exists for the rewritten chapter-12 file; all 5 existing reports in `writing-artifacts/quality/chapter-12/` target the stale first-draft path (blocked by #13)
+- [ ] (#58) Run a continuity-check diagnostic on `final-draft-chapters/chapter-12.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–11 in tasks #23, #24, #27, #29, #35, #38, #43, #47, and #51 (blocked by #13)
+- [ ] (#59) Clean up the 5 stale quality-orchestrator reports for chapter-12 (timestamps 1770992994, 1770993017, 1770993475, 1770993489, 1770993740) that target `chapters/chapter-12.md` instead of `final-draft-chapters/chapter-12.md`

@@ -38,6 +38,8 @@ She opened the deep-channel routing map and felt nothing she could name as coura
 
 ---
 
+<!-- pov: juno -->
+
 Fen arrived before the routing map finished loading.
 
 He stood in the alcove's narrow entrance with his jacket unbuttoned and printer ink still on his fingers from a job he had not finished. He did not say good morning. He looked at the console, at the routing map, at her face, and then at the bleed markers on the status display.
@@ -152,6 +154,8 @@ She pressed yes.
 
 ---
 
+<!-- pov: juno -->
+
 The first recording did not begin with a face. It began with rain.
 
 Not visual rain. Embodied rain — heavy, metallic, carrying the smell of old concrete and wet iron that Juno recognised from half a dozen borrowed bodies in her peripheral work. A kitchen appeared around the sensation: narrow, tiled, the kind of room that existed because someone needed to eat and had not expected the room to matter. A woman in her forties bent over a sink, silver threading her temples, one hand shaking when it reached for her coffee.
@@ -212,6 +216,8 @@ She kept going.
 
 ---
 
+<!-- pov: juno -->
+
 The second file opened before she reached the exit command.
 
 `/private/sable/fieldnotes/deg-archive/2068/phase-04.bin`
@@ -270,6 +276,8 @@ She opened the next file.
 
 ---
 
+<!-- pov: juno -->
+
 The third recording loaded with no clean header. Noise resolved into an old stairwell with a blue exit sign buzzing at a frequency that belonged to institutional buildings and borrowed electricity.
 
 `FIELD 17 / UNKNOWN / DENSITY 3`
@@ -323,6 +331,8 @@ A hand-scrawled note appeared in the margin:
 `bleed: +2.1`
 
 ---
+
+<!-- pov: juno -->
 
 The final file had no name. Audio hiss separated into voices she recognised from different recordings, different years, different registers of certainty. Sable, older, each word paid for with effort:
 
@@ -413,6 +423,8 @@ The send bar cycled three times and accepted.
 `delivery: accepted`
 
 ---
+
+<!-- pov: juno -->
 
 The first consequence arrived as a headache where her temple lines met the old ache of sustained focus. The second arrived as a metallic taste. The third arrived as language — syntax in her mouth that carried a delay, each sentence arriving half a beat late, edited by something that was not her.
 
