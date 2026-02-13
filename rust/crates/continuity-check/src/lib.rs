@@ -500,11 +500,12 @@ pub fn run_continuity_check(
     options: ContinuityOptions,
 ) -> Result<AnalysisReport, AnalysisError> {
     input.validate_target_exists()?;
-    let scenes = collect_scene_sequence(&input.target)?;
+    let target = input.resolve_target_path();
+    let scenes = collect_scene_sequence(&target)?;
 
-    let mut report = AnalysisReport::new("continuity-check", &input.target)
+    let mut report = AnalysisReport::new("continuity-check", &target)
         .add_metadata("analyzer", "continuity-check")
-        .add_metadata("target", input.target.display().to_string());
+        .add_metadata("target", target.display().to_string());
 
     let mut state = ReportState { findings: Vec::new() };
     check_timeline(&scenes, &options, &mut state);
@@ -702,5 +703,38 @@ noise
             .findings
             .iter()
             .any(|finding| finding.code == "CONT-REVEAL-001"));
+    }
+
+    #[test]
+    fn resolves_relative_target_with_working_directory() {
+        let mut workdir = env::temp_dir();
+        let nanos = SystemTime::now()
+            .duration_since(UNIX_EPOCH)
+            .expect("clock")
+            .as_nanos();
+        workdir.push(format!("continuity-check-tests-{nanos}"));
+        std::fs::create_dir_all(&workdir).unwrap();
+
+        let expected = workdir.join("chapter-01.md");
+        std::fs::write(
+            &expected,
+            "<!-- continuity:scene id=scene timeline=2050 drift=1 -->\nText.\n",
+        )
+        .unwrap();
+
+        let input = AnalysisInput::new("chapter-01.md").with_working_directory(&workdir);
+        let report = run_continuity_check(&input, default_options()).unwrap();
+
+        assert_eq!(report.target, expected);
+        assert_eq!(
+            report
+                .metadata
+                .get("target")
+                .expect("target metadata should be present"),
+            &workdir.join("chapter-01.md").display().to_string()
+        );
+
+        let _ = std::fs::remove_file(&expected);
+        let _ = std::fs::remove_dir(&workdir);
     }
 }

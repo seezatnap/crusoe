@@ -235,7 +235,7 @@ impl VoiceConsistencyAnalyzer {
     pub fn analyze_path(&self, input: &AnalysisInput) -> Result<AnalysisReport, AnalysisError> {
         input.validate_target_exists()?;
 
-        let target = input.target.clone();
+        let target = input.resolve_target_path();
         let content = fs::read_to_string(&target).map_err(|err| AnalysisError::Io {
             path: target.display().to_string(),
             reason: err.to_string(),
@@ -1050,5 +1050,28 @@ The sentence turns.",
         .expect("drift speech should produce a score");
 
         assert!(stable >= drift);
+    }
+
+    #[test]
+    fn resolves_relative_target_with_working_directory() {
+        let mut workdir = std::env::temp_dir();
+        let nanos = SystemTime::now()
+            .duration_since(UNIX_EPOCH)
+            .expect("clock")
+            .as_nanos();
+        workdir.push(format!("voice-consistency-tests-{nanos}"));
+        std::fs::create_dir_all(&workdir).unwrap();
+
+        let expected = workdir.join("chapter-01.md");
+        std::fs::write(&expected, "\"Are you listening?\" she said.\nHe nodded.").unwrap();
+
+        let analyzer = VoiceConsistencyAnalyzer::new(VoiceConsistencyConfig::default());
+        let input = AnalysisInput::new("chapter-01.md").with_working_directory(&workdir);
+        let report = analyzer.run(&input).expect("analysis should resolve working-directory target");
+
+        assert_eq!(report.target, expected);
+
+        let _ = std::fs::remove_file(&expected);
+        let _ = std::fs::remove_dir(&workdir);
     }
 }
