@@ -206,7 +206,7 @@ Marisol answered from the doorway. "That is why you have your visit now."
 
 As if on cue, the bell gave a second voice, thinner than before. At the entrance stood a woman in a dark charcoal coat, hair pinned close at the neck, umbrella folded with military neatness.
 
-"Tomoko Sato," she said to Gus, then to Arthur. "I'm not here for hospitality. I should have called, but this has moved past my calendar."
+"Tomo Sato," she said to Gus, then to Arthur. "I'm not here for hospitality. I should have called, but this has moved past my calendar."
 
 The name passed through the room and found a place to sit.
 
