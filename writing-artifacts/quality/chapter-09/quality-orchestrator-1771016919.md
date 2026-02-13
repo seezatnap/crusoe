@@ -1,0 +1,216 @@
+# Quality Orchestrator Report
+- target: final-draft-chapters/chapter-09.md
+- generated_at_unix: 1771016919
+- fail_threshold: error
+- total_findings: 47
+- total_blocking_reports: 1
+- status: failed
+
+## cliche-detection
+- findings: 1
+- target: final-draft-chapters/chapter-09.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 425
+- details:
+  - [error] CLIC-PATTERN-01 at final-draft-chapters/chapter-09.md:17:3
+    - Similar sentence start repeated 10 times: "-- pov juno --".
+    - suggestion: Vary sentence openings while preserving rhythm and narrative momentum.
+
+## continuity-check
+- findings: 0
+- target: final-draft-chapters/chapter-09.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: final-draft-chapters/chapter-09.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: final-draft-chapters/chapter-09.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: final-draft-chapters/chapter-09.md
+  - words: 5130
+- findings: none
+
+## voice-consistency
+- findings: 46
+- target: final-draft-chapters/chapter-09.md
+- metadata:
+  - ambiguous_dialogue_blocks: 9
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: answer, sable chen juno, tamsin orin, juno, orin, designed
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - juno:avg_confidence: 0.80
+  - pronoun_tag_confidence: 0.42
+  - target: final-draft-chapters/chapter-09.md
+  - total_dialogue_blocks: 35
+  - tracked_characters: 6
+  - untagged_dialogue_blocks: 0
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:265:1
+    - Ambiguous dialogue attribution: multiple candidates around line 265, likely 'juno' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:269:1
+    - Ambiguous dialogue attribution: multiple candidates around line 269, likely 'designed' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:273:1
+    - Ambiguous dialogue attribution: multiple candidates around line 273, likely 'orin' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:287:1
+    - Ambiguous dialogue attribution: multiple candidates around line 287, likely 'juno' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:301:1
+    - Ambiguous dialogue attribution: multiple candidates around line 301, likely 'juno' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:311:1
+    - Ambiguous dialogue attribution: multiple candidates around line 311, likely 'orin' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:317:1
+    - Ambiguous dialogue attribution: multiple candidates around line 317, likely 'answer' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:327:1
+    - Ambiguous dialogue attribution: multiple candidates around line 327, likely 'orin' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-09.md:355:1
+    - Ambiguous dialogue attribution: multiple candidates around line 355, likely 'juno' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:257:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:259:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:271:1
+    - Dialogue uses continuation inference for 'designed'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:277:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:295:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:303:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:315:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:349:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-09.md:351:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-09.md:271:1
+    - Dialogue speaker 'designed' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-09.md:277:1
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-09.md:349:1
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-09.md:351:1
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:265:1
+    - Voice drift risk for 'juno' (similarity 0.21, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:281:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:283:1
+    - Voice drift risk for 'juno' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:285:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:287:1
+    - Voice drift risk for 'juno' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:291:1
+    - Voice drift risk for 'orin' (similarity 0.32, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:293:1
+    - Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:295:1
+    - Voice drift risk for 'juno' (similarity 0.20, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:301:1
+    - Voice drift risk for 'juno' (similarity 0.20, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:303:1
+    - Voice drift risk for 'juno' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:305:1
+    - Voice drift risk for 'juno' (similarity 0.20, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:311:1
+    - Voice drift risk for 'orin' (similarity 0.33, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:313:1
+    - Voice drift risk for 'juno' (similarity 0.20, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:315:1
+    - Voice drift risk for 'juno' (similarity 0.21, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:321:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:323:1
+    - Voice drift risk for 'juno' (similarity 0.27, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:327:1
+    - Voice drift risk for 'orin' (similarity 0.32, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:331:1
+    - Voice drift risk for 'juno' (similarity 0.21, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:339:1
+    - Voice drift risk for 'juno' (similarity 0.22, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:341:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:347:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:349:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:351:1
+    - Voice drift risk for 'orin' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-09.md:355:1
+    - Voice drift risk for 'juno' (similarity 0.35, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:ee4c50e96bcca8e2

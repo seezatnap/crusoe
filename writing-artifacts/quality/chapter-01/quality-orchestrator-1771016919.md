@@ -1,0 +1,282 @@
+# Quality Orchestrator Report
+- target: final-draft-chapters/chapter-01.md
+- generated_at_unix: 1771016919
+- fail_threshold: error
+- total_findings: 68
+- total_blocking_reports: 1
+- status: failed
+
+## cliche-detection
+- findings: 0
+- target: final-draft-chapters/chapter-01.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 384
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: final-draft-chapters/chapter-01.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: final-draft-chapters/chapter-01.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: final-draft-chapters/chapter-01.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: final-draft-chapters/chapter-01.md
+  - words: 4215
+- findings: none
+
+## voice-consistency
+- findings: 68
+- target: final-draft-chapters/chapter-01.md
+- metadata:
+  - ambiguous_dialogue_blocks: 2
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: juno, people, fen, it, i, nari, drift ward, better, maren
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - i:avg_confidence: 0.57
+  - it:avg_confidence: 0.42
+  - juno:avg_confidence: 0.80
+  - nari:avg_confidence: 0.78
+  - pronoun_tag_confidence: 0.42
+  - target: final-draft-chapters/chapter-01.md
+  - total_dialogue_blocks: 40
+  - tracked_characters: 9
+  - untagged_dialogue_blocks: 1
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-01.md:55:1
+    - Ambiguous dialogue attribution: multiple candidates around line 55, likely 'better' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-01.md:97:1
+    - Ambiguous dialogue attribution: multiple candidates around line 97, likely 'drift ward' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:49:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:51:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:57:1
+    - Dialogue uses continuation inference for 'better'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:105:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:113:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:117:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:119:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:121:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:133:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:135:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:137:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:145:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:151:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:159:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:167:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:171:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:211:1
+    - Dialogue uses continuation inference for 'fen'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:217:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:219:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:221:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-01.md:223:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [warning] DIAL-TAG-001 at final-draft-chapters/chapter-01.md:15:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:49:1
+    - Dialogue speaker 'nari' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:51:1
+    - Dialogue speaker 'nari' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:57:1
+    - Dialogue speaker 'better' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:105:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:113:1
+    - Dialogue speaker 'juno' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:117:1
+    - Dialogue speaker 'juno' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:119:1
+    - Dialogue speaker 'juno' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:121:1
+    - Dialogue speaker 'juno' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:133:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:135:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:137:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:145:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:151:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:159:1
+    - Dialogue speaker 'maren' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:167:1
+    - Dialogue speaker 'juno' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:171:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:211:1
+    - Dialogue speaker 'fen' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:217:1
+    - Dialogue speaker 'nari' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:219:1
+    - Dialogue speaker 'nari' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:221:1
+    - Dialogue speaker 'nari' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:223:1
+    - Dialogue speaker 'nari' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:121:1
+    - Voice drift risk for 'juno' (similarity 0.20, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:127:1
+    - Voice drift risk for 'maren' (similarity 0.27, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:131:1
+    - Voice drift risk for 'maren' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:133:1
+    - Voice drift risk for 'maren' (similarity 0.36, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:135:1
+    - Voice drift risk for 'maren' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:137:1
+    - Voice drift risk for 'maren' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:141:1
+    - Voice drift risk for 'maren' (similarity 0.23, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:145:1
+    - Voice drift risk for 'maren' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:151:1
+    - Voice drift risk for 'maren' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:155:1
+    - Voice drift risk for 'maren' (similarity 0.27, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:159:1
+    - Voice drift risk for 'maren' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:165:1
+    - Voice drift risk for 'juno' (similarity 0.23, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:167:1
+    - Voice drift risk for 'juno' (similarity 0.20, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:217:1
+    - Voice drift risk for 'nari' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:219:1
+    - Voice drift risk for 'nari' (similarity 0.12, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:221:1
+    - Voice drift risk for 'nari' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-01.md:223:1
+    - Voice drift risk for 'nari' (similarity 0.26, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-01.md:45:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-01.md:169:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-01.md:269:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:45:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:169:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-01.md:269:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno | layer: present-lattice | single-layer'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+
+
+signature: fnv1a64:fd0e0bf2476678c8
