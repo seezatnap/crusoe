@@ -20,7 +20,7 @@
 - [x] (#10) Write Chapter 1 (4,000–6,000 words): Harry's rescue from the Dursleys, international Portkey travel, arrival at the Haight House, first emotional beat of belonging with the Weasley family chaos [5 pts] (blocked by #7, #8, #9) (A)
 - [x] (#11) Write Chapter 2 (4,000–6,000 words): settling into the Haight House, Arthur's rapturous Muggle explorations (Laundromat, parking meters, sourdough), Molly's stress-baking and quiet joy, Fred and George's lemon tree enchantment and cable car incident [5 pts] (blocked by #10) (A)
 - [x] (#12) Write Chapter 3 (4,000–6,000 words): SF landmarks montage (cable cars, Fisherman's Wharf, Golden Gate fog), Ron's insecurity about money dissolving in a place that doesn't care, family texture beats, Percy's Cultural Exchange Itinerary comedy [5 pts] (blocked by #11) (A)
-- [ ] (#13) Write Chapter 4 (4,000–6,000 words): first visit to Fog Hollow through the Chinatown alley, introduction of Marisol Reyes and Gus Ferreira, the Sourdough Cauldron, Pacifica Wands & Curios, comedy of British-vs-American magical culture [5 pts] (blocked by #12)
+- [A] (#13) Write Chapter 4 (4,000–6,000 words): first visit to Fog Hollow through the Chinatown alley, introduction of Marisol Reyes and Gus Ferreira, the Sourdough Cauldron, Pacifica Wands & Curios, comedy of British-vs-American magical culture [5 pts] (blocked by #12)
 
 ## Act One–Two Bridge (Chapter 5)
 
