@@ -67,3 +67,6 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#32) Fix opening-line typo in `chapters/chapter-08.md` by replacing “Which him?” with the intended phrasing (likely “Which one?”), then run a quick copy-edit pass around nearby lines for similar transcription artifacts. (A)
 - [x] (#33) Normalize Tomo’s naming in `chapters/chapter-08.md` by making the first introduction at “Tomoko Sato” consistent with later references (`Tomo Sato`) or explicitly establishing the full-form convention. (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#34) Clean up malformed dialogue formatting in `chapters/chapter-09.md` by removing standalone trailing quote lines so closing quotation marks stay on the same line as their sentence text (e.g., 46 occurrences of `"` on its own line). (blocked by #18)
