@@ -1053,7 +1053,7 @@ The sentence turns.",
     }
 
     #[test]
-    fn resolves_relative_target_with_working_directory() {
+    fn resolves_relative_target_with_working_directory_and_reads_content() {
         let mut workdir = std::env::temp_dir();
         let nanos = SystemTime::now()
             .duration_since(UNIX_EPOCH)
@@ -1061,17 +1061,36 @@ The sentence turns.",
             .as_nanos();
         workdir.push(format!("voice-consistency-tests-{nanos}"));
         std::fs::create_dir_all(&workdir).unwrap();
+        let chapter_dir = workdir.join("chapter-files");
+        std::fs::create_dir_all(&chapter_dir).unwrap();
 
-        let expected = workdir.join("chapter-01.md");
-        std::fs::write(&expected, "\"Are you listening?\" she said.\nHe nodded.").unwrap();
+        let expected = chapter_dir.join("chapter-01.md");
+        std::fs::write(
+            &expected,
+            "\"It happens each cycle.\"\n\nNarrative continues here without tag.\n\nThe sentence turns.",
+        )
+        .unwrap();
 
         let analyzer = VoiceConsistencyAnalyzer::new(VoiceConsistencyConfig::default());
-        let input = AnalysisInput::new("chapter-01.md").with_working_directory(&workdir);
+        let input = AnalysisInput::new("chapter-files/chapter-01.md").with_working_directory(&workdir);
         let report = analyzer.run(&input).expect("analysis should resolve working-directory target");
 
         assert_eq!(report.target, expected);
+        assert_eq!(
+            report
+                .metadata
+                .get("target")
+                .expect("target metadata should be present"),
+            &expected.display().to_string()
+        );
+        assert!(
+            report
+                .findings
+                .iter()
+                .any(|finding| finding.code == "DIAL-TAG-001"),
+            "expected untagged dialogue finding from the chapter content"
+        );
 
-        let _ = std::fs::remove_file(&expected);
-        let _ = std::fs::remove_dir(&workdir);
+        let _ = std::fs::remove_dir_all(&workdir);
     }
 }
