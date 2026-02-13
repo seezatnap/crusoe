@@ -1,0 +1,321 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-03.md
+- generated_at_unix: 1770989760
+- fail_threshold: error
+- total_findings: 80
+- total_blocking_reports: 2
+- status: failed
+
+## cliche-detection
+- findings: 2
+- target: chapters/chapter-03.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 509
+- details:
+  - [warning] CLIC-CLICHÉ-01 at chapters/chapter-03.md:121:1
+    - Cliche phrase repeated 3 times: "in a way".
+    - suggestion: Replace repeated phrase usage with image-grounded, character-specific language.
+  - [error] CLIC-CLICHÉ-01 at chapters/chapter-03.md:129:43
+    - Cliche phrase repeated 6 times: "as if".
+    - suggestion: Replace repeated phrase usage with image-grounded, character-specific language.
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-03.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-03.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-03.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-03.md
+  - words: 5514
+- findings: none
+
+## voice-consistency
+- findings: 78
+- target: chapters/chapter-03.md
+- metadata:
+  - all:avg_confidence: 0.75
+  - ambiguous_dialogue_blocks: 0
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: he, not, if, it, she, personhood, all, orin, that, sometimes
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - he:avg_confidence: 0.62
+  - if:avg_confidence: 0.79
+  - it:avg_confidence: 0.68
+  - not:avg_confidence: 0.75
+  - orin:avg_confidence: 0.75
+  - pronoun_tag_confidence: 0.42
+  - she:avg_confidence: 0.62
+  - target: chapters/chapter-03.md
+  - total_dialogue_blocks: 55
+  - tracked_characters: 10
+  - untagged_dialogue_blocks: 6
+  - voice_blocker_similarity: 0.25
+  - voice_error_similarity: 0.40
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:127:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:131:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:133:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:137:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:149:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:151:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:153:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:157:1
+    - Dialogue uses continuation inference for 'not'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:163:1
+    - Dialogue uses continuation inference for 'if'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:167:1
+    - Dialogue uses continuation inference for 'if'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:169:1
+    - Dialogue uses continuation inference for 'if'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:173:1
+    - Dialogue uses continuation inference for 'if'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:175:1
+    - Dialogue uses continuation inference for 'if'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:207:1
+    - Dialogue uses continuation inference for 'she'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:209:1
+    - Dialogue uses continuation inference for 'she'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:217:1
+    - Dialogue uses continuation inference for 'sometimes'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:223:1
+    - Dialogue uses continuation inference for 'he'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:229:1
+    - Dialogue uses continuation inference for 'he'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:233:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:235:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:237:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:255:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:257:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:259:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:263:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:269:1
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:277:1
+    - Dialogue uses continuation inference for 'all'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:279:1
+    - Dialogue uses continuation inference for 'all'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:283:1
+    - Dialogue uses continuation inference for 'all'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:287:1
+    - Dialogue uses continuation inference for 'all'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:307:1
+    - Dialogue uses continuation inference for 'all'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:329:1
+    - Dialogue uses continuation inference for 'all'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:345:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:347:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:351:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:355:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:360:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-03.md:362:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] POV-MARKER-001 at chapters/chapter-03.md:492:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-03.md:560:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-03.md:584:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [warning] DIAL-TAG-001 at chapters/chapter-03.md:17:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-03.md:61:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-03.md:65:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-03.md:67:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-03.md:71:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-03.md:75:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-03.md:269:1
+    - Voice drift risk for 'orin' (similarity 0.40, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] DIAL-TAG-001 at chapters/chapter-03.md:205:1
+    - Speaker attribution is weak (0.42) for 'she'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-03.md:221:1
+    - Speaker attribution is weak (0.42) for 'he'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-03.md:343:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:133:1
+    - Voice drift risk for 'not' (similarity 0.39, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:153:1
+    - Voice drift risk for 'not' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:167:1
+    - Voice drift risk for 'if' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:173:1
+    - Voice drift risk for 'if' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:175:1
+    - Voice drift risk for 'if' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:279:1
+    - Voice drift risk for 'all' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:283:1
+    - Voice drift risk for 'all' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:287:1
+    - Voice drift risk for 'all' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:355:1
+    - Voice drift risk for 'it' (similarity 0.27, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:362:1
+    - Voice drift risk for 'it' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-03.md:430:1
+    - Voice drift risk for 'if' (similarity 0.28, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:137:1
+    - Voice drift risk for 'not' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:149:1
+    - Voice drift risk for 'not' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:151:1
+    - Voice drift risk for 'not' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:157:1
+    - Voice drift risk for 'not' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:169:1
+    - Voice drift risk for 'if' (similarity 0.21, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:229:1
+    - Voice drift risk for 'he' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:237:1
+    - Voice drift risk for 'orin' (similarity 0.21, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:255:1
+    - Voice drift risk for 'orin' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:257:1
+    - Voice drift risk for 'orin' (similarity 0.20, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:259:1
+    - Voice drift risk for 'orin' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:263:1
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:307:1
+    - Voice drift risk for 'all' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:329:1
+    - Voice drift risk for 'all' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:347:1
+    - Voice drift risk for 'it' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:351:1
+    - Voice drift risk for 'it' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-03.md:360:1
+    - Voice drift risk for 'it' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:ed05b8ceb97d9e95
