@@ -43,3 +43,6 @@
 ## Final Consolidation & Release Readiness
 
 - [ ] (#19) Run a full manuscript-level pass over `final-draft-chapters/chapter-01.md` through `chapter-17.md` to verify word counts (4,000–6,000 each), continuity with `continuity-reveal-matrices.md`, roadmap pacing/POV adherence, anti-cliche and repetition diagnostics, unresolved-thread closure, and unresolved risks; compile final handoff report and status for remaining gaps [5 pts] (blocked by #18)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#20) Build or stub the `style-reference` CLI tool so that chapter rewrites can run automated style calibration instead of manual calibration (referenced in tasks #3–#18 and noted as missing in the chapter-01 rewrite log) (blocked by #2)
