@@ -48,7 +48,7 @@ Artifact files that represent planning documents should include:
 artifact_id: "DOC-001"
 artifact_type: "planning"    # planning | continuity | process
 title: "World Design Document"
-status: "draft"             # draft | in_progress | blocked | ready_for_review | revisions_needed | approved | deprecated
+status: "draft"             # draft | in_progress | blocked | ready_for_review | revisions_needed | approved | archived
 depends_on:
   - "DOC-000"               # parent/precedent dependency if any
 depends_on_note: "Dependency status and risk notes"
