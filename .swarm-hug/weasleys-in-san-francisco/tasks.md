@@ -34,7 +34,7 @@
 
 ## Act Two–Three Bridge (Chapters 9–10)
 
-- [ ] (#18) Write Chapter 9 (4,000–6,000 words): Ginny's sketch is recognized as a ward-breaking sigil by Bill, Ron's chess-player mind maps the pattern of disturbances converging underground, the investigation crystallizes, Undertow becomes aware they're being watched [5 pts] (blocked by #17)
+- [x] (#18) Write Chapter 9 (4,000–6,000 words): Ginny's sketch is recognized as a ward-breaking sigil by Bill, Ron's chess-player mind maps the pattern of disturbances converging underground, the investigation crystallizes, Undertow becomes aware they're being watched [5 pts] (blocked by #17) (B)
 - [ ] (#19) Write Chapter 10 (4,000–6,000 words): Bill and Tomo scout the Underlook caves' outer tunnels, find ritual materials, discover they are under counter-surveillance by Harlan, tension escalates as the professional investigators realize the scale of the threat [5 pts] (blocked by #18)
 
 ## Act Three: Confrontation (Chapters 11–12)
@@ -65,5 +65,8 @@
 - [x] (#31) Correct `writing-artifacts/summer-1994-scene-by-scene-breakdowns.md` so Chapter 10 is marked as `Act III` instead of `Act II`, and audit all chapter `Act` labels against `writing-artifacts/summer-1994-15-chapter-story-spine.md` for any remaining drift (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#32) Fix opening-line typo in `chapters/chapter-08.md` by replacing “Which him?” with the intended phrasing (likely “Which one?”), then run a quick copy-edit pass around nearby lines for similar transcription artifacts.
-- [ ] (#33) Normalize Tomo’s naming in `chapters/chapter-08.md` by making the first introduction at “Tomoko Sato” consistent with later references (`Tomo Sato`) or explicitly establishing the full-form convention.
+- [x] (#32) Fix opening-line typo in `chapters/chapter-08.md` by replacing “Which him?” with the intended phrasing (likely “Which one?”), then run a quick copy-edit pass around nearby lines for similar transcription artifacts. (A)
+- [x] (#33) Normalize Tomo’s naming in `chapters/chapter-08.md` by making the first introduction at “Tomoko Sato” consistent with later references (`Tomo Sato`) or explicitly establishing the full-form convention. (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#34) Clean up malformed dialogue formatting in `chapters/chapter-09.md` by removing standalone trailing quote lines so closing quotation marks stay on the same line as their sentence text (e.g., 46 occurrences of `"` on its own line). (blocked by #18)
