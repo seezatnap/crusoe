@@ -1,0 +1,278 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-01.md
+- generated_at_unix: 1770990647
+- fail_threshold: error
+- total_findings: 66
+- total_blocking_reports: 1
+- status: failed
+
+## cliche-detection
+- findings: 0
+- target: chapters/chapter-01.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 498
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-01.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-01.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-01.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-01.md
+  - words: 5817
+- findings: none
+
+## voice-consistency
+- findings: 66
+- target: chapters/chapter-01.md
+- metadata:
+  - ambiguous_dialogue_blocks: 0
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: it, come, juno, nari, map, he, maren, fen, i, only, this
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - he:avg_confidence: 0.62
+  - i:avg_confidence: 0.57
+  - it:avg_confidence: 0.42
+  - maren:avg_confidence: 0.80
+  - nari:avg_confidence: 0.77
+  - pronoun_tag_confidence: 0.42
+  - target: chapters/chapter-01.md
+  - this:avg_confidence: 0.80
+  - total_dialogue_blocks: 54
+  - tracked_characters: 11
+  - untagged_dialogue_blocks: 2
+  - voice_blocker_similarity: 0.25
+  - voice_error_similarity: 0.40
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:41:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:43:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:49:1
+    - Dialogue uses continuation inference for 'he'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:87:1
+    - Dialogue uses continuation inference for 'he'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:101:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:103:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:107:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:115:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:121:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:127:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:137:1
+    - Dialogue uses continuation inference for 'map'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:145:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:157:1
+    - Dialogue uses continuation inference for 'come'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:182:1
+    - Dialogue uses continuation inference for 'maren'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:240:1
+    - Dialogue uses continuation inference for 'fen'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:248:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:250:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:254:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:256:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:258:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:260:1
+    - Dialogue uses continuation inference for 'nari'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:286:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:288:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:290:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:294:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:296:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:300:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:302:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:306:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:323:1
+    - Dialogue uses continuation inference for 'this'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-01.md:325:1
+    - Dialogue uses continuation inference for 'this'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] POV-MARKER-001 at chapters/chapter-01.md:57:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-01.md:220:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-01.md:276:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-01.md:347:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [warning] DIAL-TAG-001 at chapters/chapter-01.md:19:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-01.md:29:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [error] DIAL-TAG-001 at chapters/chapter-01.md:47:1
+    - Speaker attribution is weak (0.42) for 'he'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-01.md:141:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-01.md:329:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:121:1
+    - Voice drift risk for 'juno' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:160:1
+    - Voice drift risk for 'maren' (similarity 0.35, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:182:1
+    - Voice drift risk for 'maren' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:260:1
+    - Voice drift risk for 'nari' (similarity 0.26, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:284:1
+    - Voice drift risk for 'juno' (similarity 0.30, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:286:1
+    - Voice drift risk for 'juno' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-01.md:302:1
+    - Voice drift risk for 'juno' (similarity 0.39, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:87:1
+    - Voice drift risk for 'he' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:115:1
+    - Voice drift risk for 'maren' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:119:1
+    - Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:123:1
+    - Voice drift risk for 'juno' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:127:1
+    - Voice drift risk for 'juno' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:151:1
+    - Voice drift risk for 'juno' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:248:1
+    - Voice drift risk for 'nari' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:250:1
+    - Voice drift risk for 'nari' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:254:1
+    - Voice drift risk for 'nari' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:256:1
+    - Voice drift risk for 'nari' (similarity 0.19, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:258:1
+    - Voice drift risk for 'nari' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:278:1
+    - Voice drift risk for 'maren' (similarity 0.21, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:288:1
+    - Voice drift risk for 'juno' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:290:1
+    - Voice drift risk for 'juno' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:294:1
+    - Voice drift risk for 'juno' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:296:1
+    - Voice drift risk for 'juno' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:300:1
+    - Voice drift risk for 'juno' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:306:1
+    - Voice drift risk for 'juno' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-01.md:325:1
+    - Voice drift risk for 'this' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:99d1b8bc6683ad3c

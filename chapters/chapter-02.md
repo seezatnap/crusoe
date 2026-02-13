@@ -24,15 +24,15 @@ She took a breath she did not need and entered her first jump.
 
 The world struck her as a pressure in the back of her head. A seam opened and the light shifted from placeless to too-bright amber. Then a narrow apartment hallway, narrow in the way hallways are narrow only when a body has learned how narrow them should be. She was standing in the shoes of a woman in her late thirties she did not know, bare feet on scratched laminate, one heel tapping against a stack of cardboard boxes. The apartment smelled of wet wool, instant coffee, and something citrusy left too long in an open tin.
 
-"Kora, you missed your second alarm," a voice said from the kitchen, rough and amused.
+Kora, you missed your second alarm, a voice from the kitchen said, rough and amused.
 
 That was the woman's name, the body name she had borrowed: Kora. She felt Kora's sleep-bagged shoulder ache and the weight of damp hair against her neck. Kora cursed softly, muttering about a storm and an old heating unit that always coughed when mornings were damp. The coffee machine clicked, hissed, and poured. Kora took a chipped mug, held it with both hands, and took a first sip that was too hot, too immediate, and just shy of burning the tongue at the center.
 
-Pain was immediate. Not elegant, not conceptual. A white-hot knot in the left side of her lower back from yesterday's lifting, a real ache that arrived as if a hand had reached in and pulled a thread taut through her spine.
+Pain was immediate. Not elegant, not conceptual. A white-hot knot in the left side of her lower back from yesterday's lifting, a real ache that arrived as though a hand had reached in and pulled a thread taut through her spine.
 
-She nearly pulled out of the jump, and that in itself was the point: this was a real body she had not built, and it had been built for mornings like this. Kora felt the chill in the tile beneath her feet, then the brief hot blast from the toaster, then the sharp, bitter hit of coffee that made the eyes water. The coffee was bad, over-powdered and acidic, and yet Kora drank it greedily as if caffeine were oxygen. Through Kora's mouth, Juno tasted bitterness and old copper and the sweetness of instant sugar stirring in haste.
+She nearly pulled out of the jump, and that in itself was the point: this was a real body she had not built, and it had been built for mornings like this. Kora felt the chill in the tile beneath her feet, then the brief hot blast from the toaster, then the sharp, bitter hit of coffee that made the eyes water. The coffee was bad, over-powdered and acidic, and yet Kora drank it greedily as though caffeine were oxygen. Through Kora's mouth, Juno tasted bitterness and old copper and the sweetness of instant sugar stirring in haste.
 
-She had entered one of these peripheral captures in the middle of its least important movement, and everything in it still moved forward as if her presence had never come. The woman's phone buzzed with a reminder: **8:10 bus stop**. She glanced at a weather feed in the corner of the room: 18°C and drizzling, wind 23 km/h from the east. A narrow life in drizzle.
+She had entered one of these peripheral captures in the middle of its least important movement, and everything in it still moved forward as though her presence had never come. The woman's phone buzzed with a reminder: **8:10 bus stop**. She glanced at a weather feed in the corner of the room: 18°C and drizzling, wind 23 km/h from the east. A narrow life in drizzle.
 
 When Juno returned, the apartment dissolved into data and then to nothing but a clean room with no smell at all.
 
@@ -46,13 +46,13 @@ Then she opened another.
 
 This time the world narrowed into a train car at the edge of a rain-soaked city. Kora was gone; a new shoulder, younger and narrower, belonged to a man with a scarf tied at the throat and a paper sleeve over his left wrist. He sat by a window and watched the storm smear across glass. The station platform at this hour was crowded, though the car smelled less of people than of damp coats, hot engine oil, and stale sugar.
 
-The man held a paper cup that had been printed over with a logo and two stickers from two different chains. He drank in small, precise increments, as if each sip cost him. He had a slight limp in his left leg and a habit of pressing the edge of his fingers into his inner knee every time the train lurched. Juno followed that movement with a sudden, sharp compassion. Body ache translated poorly to the abstract architecture. A limp was geometry. Pain was gravity. Gravity was a choice she could no longer take for granted.
+The man held a paper cup that had been printed over with a logo and two stickers from two different chains. He drank in small, precise increments, as though each sip cost him. He had a slight limp in his left leg and a habit of pressing the edge of his fingers into his inner knee every time the train lurched. Juno followed that movement with a sudden, sharp compassion. Body ache translated poorly to the abstract architecture. A limp was geometry. Pain was gravity. Gravity was a choice she could no longer take for granted.
 
-At the station, a child cried because the doors stuck for two heartbeats too long. A woman in a yellow rain jacket shouted, "Keep your hands to yourself," then laughed and offered the child an orange from a bag as if this too were ordinary. The child took it and smeared juice along the cuff. The citrus hit Juno as bright acid, sunlight through glass, as clear as anything in her ordinary world.
+At the station, a child cried because the doors stuck for two heartbeats too long. A woman in a yellow rain jacket shouted, Keep your hands to yourself, then laughed and offered the child an orange from a bag as though this too were ordinary. The child took it and smeared juice along the cuff. The citrus hit Juno as bright acid, sunlight through glass, as clear as anything in her ordinary world.
 
 The man leaned into the air vent and pulled back. The smell changed as the train passed beneath a tunnel: diesel, dust, metal, a hot breath of brakes, then back to damp air and wet concrete. When the lights flickered she felt it in her chest: not breathlessness, but the memory of a chest being briefly forgotten.
 
-She was allowed a longer duration than she intended, maybe because she had mistaken the recording for simple transport. In the corner, a cracked screen played an audio feed from traffic and a weather alert. "Wind advisory until ten," a synthetic voice announced. She almost smiled at the irony.
+She was allowed a longer duration than she intended, maybe because she had mistaken the recording for simple transport. In the corner, a cracked screen played an audio feed from traffic and a weather alert. Wind advisory until ten, a synthetic voice announced. She almost smiled at the irony.
 
 The jump cut. The station lights were gone.
 
@@ -62,7 +62,7 @@ The residue now came with the scent of wet concrete.
 
 She waited. She opened her third thread.
 
-This one was in a municipal office, fluorescent-lit and too clean to be real, with a woman who did not own her name but was addressed by it anyway: "Mina, you need that intake packet in room four." The office occupied a building with chipped paint and an old radiator that clicked each thirty seconds as if someone inside needed to be woken up. Mina moved through the morning with practiced impatience and a small folded pain inside her shoulders, something like a persistent thorn where the right trapezius met the base of her skull.
+This one was in a municipal office, fluorescent-lit and too clean to be real, with a woman who did not own her name but was addressed by it anyway. She was told, again and again, that the intake packet for room four waited for Mina. The office occupied a building with chipped paint and an old radiator that clicked each thirty seconds as though someone inside needed to be woken up. Mina moved through the morning with practiced impatience and a small folded pain inside her shoulders, something like a persistent thorn where the right trapezius met the base of her skull.
 
 She had a notebook beside her keyboard, and in that notebook a smudge of eyeliner, a bitten corner, three pressed lilies flattened under the top edge. In the pantry, someone had left a dish of burnt toast and an espresso. Mina stole two sugars from a jar and stirred with too much force. The liquid on the surface came up bitter and black as varnish.
 
@@ -70,7 +70,7 @@ The room smelled of toner, warm paper, and the lemon cleaner she used every hour
 
 Mina sneezed twice at once. The second one was wetter, involuntary. She muttered about dust that escaped filters and a maintenance man who never came. Somewhere near the copier, the air carried the metallic sweetness of old blood where someone had clipped a thumbnail. Juno flinched, then steadied herself on the edge of Mina's desk with that borrowed, very human balance.
 
-At 9:42, Mina stepped into an inner corridor and spoke into the wall speaker: "Routing is down again, yes, yes, the weather feed is wrong, but we can’t reroute while that node is down." The phrase "routing is down" floated in her ears like a warning, but there were no cables and no cables here, only a room of paper and someone calling for rainwater runoffs on a screen.
+At 9:42, Mina stepped into an inner corridor and spoke into the wall speaker. Routing was down again, and the weather feed was wrong, so no one could reroute while that node remained down. The phrase floated in her ears like a warning, but there were no cables and no cables here, only a room of paper and someone calling for rainwater runoffs on a screen.
 
 She took one of the two mugs left in the sink, sniffed it with disdain, drank anyway, and cursed the coffee from the floor below. This was a woman who measured endurance in small humiliations and one strong cup per hour.
 
@@ -85,7 +85,7 @@ One cluster of red marks sat around an old reference string:
 **KEY / ROSETTA / MAP / ENFORCED.
 **
 
-She stared at it as if it were a watermark from an old map burned into cloth.
+She stared at it as though it were a watermark from an old map burned into cloth.
 
 She should have dismissed it as indexing noise. Instead she selected the next file directly adjacent to that code.
 
@@ -95,17 +95,17 @@ The air in that place was cool and wrong in a way all labs are wrong before they
 
 She followed him with a pair of borrowed hands that had a scientist's precision and a janitor's fatigue. He clicked boxes, checked seals, spoke to a colleague in clipped syllables, then ran a hand across his face and reached for the vending machine with his left wrist still marked from an old watchband bite.
 
-"Need the black roast," he said without looking. "If you can't stay awake, don't touch this unit." The coffee that came out was machine-hot and chemical, and he drank with the expression of a man making a private bargain with the liquid.
+He said, Need the black roast. then, without looking back, If you can't stay awake, don't touch this unit. The coffee that came out was machine-hot and chemical, and he drank with the expression of a man making a private bargain with the liquid.
 
 At one point, she sat under a humming vent while rain pelted the rooftop and watched a single droplet of condensation gather on the back of her borrowed hand. Juno flinched from the drop. Not because it was wet, though it was. Because in the Lattice, rain was architecture. Here it was weather, and weather was another character entirely.
 
-A woman named Sia dropped in behind Tomas with a paper bag of crackers. Her shoes left wet tracks on the gridded floor. She said something about "phase drift" and laughed because she thought the phrase too academic for lunch hour. Then she sneezed and clamped the bridge of her nose, and the laugh came out as a cough she did not want in her throat.
+A woman named Sia dropped in behind Tomas with a paper bag of crackers. Her shoes left wet tracks on the gridded floor. She said something about phase drift and laughed because she thought the term too academic for lunch hour. Then she sneezed and clamped the bridge of her nose, and the laugh came out as a cough she did not want in her throat.
 
 In the middle of the day, someone opened a storage drawer. Inside were old hard drives wrapped in anti-static sleeve and three labels written with black marker: ARCHIVE, TRANS-CORE, R-SUBKEY.
 
 Juno did not know the word. Yet her attention snagged on it.
 
-The man Tomas said it aloud: "The Rosetta stack has better annotation than any of those. But it's never in approved scope."
+Tomas said it aloud: the Rosetta stack had better annotation than any of those, but it was never in approved scope.
 
 His phone buzzed. A message arrived with only three words: **Ask Marrow for permission.**
 
@@ -117,7 +117,7 @@ She stood still until she could separate what she had tasted from what she remem
 
 Juno spent the next hour refusing to open another jump, but refusal was only a name for delay. In the Lattice, delay did not feel like time, only like an empty region with no texture. She walked the synthetic boulevard, which changed from marble to pine to tidewater bridge at the pace of whim. Nothing bruised her feet. Nothing pressed her shoulders. Nothing smelled like rain. The world here was too polished, too agreeable, too willing.
 
-She opened her private queue and scrolled to a folder she had never touched before: **Peripheral / Archive / Edge / Human Contact — Minor Witness Threads**.
+She opened her private queue and scrolled to a folder she had never touched before: **Peripheral / Archive / Edge / Human Contact "" Minor Witness Threads**.
 
 The first line in that folder was tagged with the same cluster of words from the first jump. She had not touched the thread since that moment.
 
@@ -149,15 +149,15 @@ She would not have remembered any of it if she had not written the lines.
 
 She moved too quickly to the third file linked to the same tag, and this time she landed in a hospital loading dock as dusk settled. Rain had turned the concrete slick and dark, and a freight elevator coughed itself awake with a metallic shudder. Juno's borrowed body belonged to a paramedic in blue coveralls with tape on her fingers where the skin had split. The body was tired in the way bodies become tired when they have learned to keep other people's pain from becoming a private catastrophe.
 
-The first thing this world offered her was cold: not metaphorical and not symbolic, but the hard, clean cold of tile at the edge of a slab where someone had dragged a gurney too fast. The smell hit next—bleach, iodine, wet socks, fried plastic from a coffee machine in the staff room, and beneath it all, the dark green scent of rain.
+The first thing this world offered her was cold: not metaphorical and not symbolic, but the hard, clean cold of tile at the edge of a slab where someone had dragged a gurney too fast. The smell hit next""bleach, iodine, wet socks, fried plastic from a coffee machine in the staff room, and beneath it all, the dark green scent of rain.
 
 She stood in the emergency bay and listened to a pager buzz in bursts. The woman in body bent her elbow and cracked two fingers. Her wrists were sore, she muttered, but she had to finish one more intake before shift change. Her left knee locked every third stair and she accepted it as part of her body.
 
-She drank coffee from a chipped paper cup as if she were drinking courage. It tasted scorched, overdrawn, with a sweetness that never belonged but everyone in the loading dock knew.
+She drank coffee from a chipped paper cup as though she were drinking courage. It tasted scorched, overdrawn, with a sweetness that never belonged but everyone in the loading dock knew.
 
-A courier came in shivering, carrying a case wrapped in a tarp. He was too cold to be patient and cursed the rain in a low tone that hurt her ears. A child cried in triage. Someone said, "You don't want to be that close to the back door. Water's blowing in." They pulled a towel across the threshold and taped plastic to stop the draft. Juno felt the damp seam along the back of the borrowed neck and discovered there was such a thing as discomfort from humidity against skin.
+A courier came in shivering, carrying a case wrapped in a tarp. He was too cold to be patient and cursed the rain in a low tone that hurt her ears. A child cried in triage. Someone said, You don't want to be that close to the back door. Water's blowing in. They pulled a towel across the threshold and taped plastic to stop the draft. Juno felt the damp seam along the back of the borrowed neck and discovered there was such a thing as discomfort from humidity against skin.
 
-Someone called the paramedic's name over and over through static from a cracked monitor. "Maya, we need that chart now," a doctor said. The paramedic rolled her shoulders once, then drove her hand through her own hair. She looked almost like the woman Juno had been before she had become only consciousness and no body: a little annoyed, carrying pain, moving because there was no alternative.
+A doctor called over the static from a cracked monitor: Maya, we need that chart now. The paramedic rolled her shoulders once, then drove her hand through her own hair. She looked almost like the woman Juno had been before she had become only consciousness and no body: a little annoyed, carrying pain, moving because there was no alternative.
 
 When Juno returned to Lattice, she thought she could still hear the monitor tone, impossible for a place with no speakers and no heartbeats.
 
@@ -181,19 +181,19 @@ The chapter she was trying to write inside herself, if there was one, had reache
 
 She entered the next peripheral sequence.
 
-This was in the apartment of a student in 2032, near a window that looked over rail lines and a row of warehouses with wet red roofs. The alarm sounded at exactly ten past six. The student, age twenty-one, moved with the quickness of someone raised on deadlines. She wore wool socks with three holes, tied her hair with a paperclip, and pressed the heel of her hand to her temple as if she could flatten tomorrow by pushing on it.
+This was in the apartment of a student in 2032, near a window that looked over rail lines and a row of warehouses with wet red roofs. The alarm sounded at exactly ten past six. The student, age twenty-one, moved with the quickness of someone raised on deadlines. She wore wool socks with three holes, tied her hair with a paperclip, and pressed the heel of her hand to her temple as though she could flatten tomorrow by pushing on it.
 
 The room smelled of instant noodles, shampoo, and a cheap coffee from a pod machine that had gone sour. The coffee was poured into a mug that had a cartoon cloud on it and one chipped rim. She gulped it down in three breaths and grimaced.
 
-Outside, wind shook branches against the glass. Inside, the heating hissed and the student put on a heavy coat, then took a pen to a sheet titled: **ARCHIVE BETA — PHASE LOG**. Her hand cramped so she dropped the pen and pulled it out with a hiss. At the same moment she reached for her phone and rubbed an eye with the inside corner, annoyed by dryness from staring all night.
+Outside, wind shook branches against the glass. Inside, the heating hissed and the student put on a heavy coat, then took a pen to a sheet titled: **ARCHIVE BETA "" PHASE LOG**. Her hand cramped so she dropped the pen and pulled it out with a hiss. At the same moment she reached for her phone and rubbed an eye with the inside corner, annoyed by dryness from staring all night.
 
-The pain in her temple was not dramatic, but it made her slower. She pressed a palm against the temple and said, "I need a second cup" into the half-lit room.
+The pain in her temple was not dramatic, but it made her slower. She pressed a palm against the temple and asked for a second cup in the half-lit room.
 
 She brewed it badly. Too hot. Too fast. Too dark.
 
-In the margin of her notebook she had written three names and a fourth scratched out. The names were Lena, Dara, Marcus. The fourth line had been a smudge, as if she had erased it and written over it too quickly. Underneath the names was a tiny star, then another word: **Key**.
+In the margin of her notebook she had written three names and a fourth scratched out. The names were Lena, Dara, Marcus. The fourth line had been a smudge, as though she had erased it and written over it too quickly. Underneath the names was a tiny star, then another word: **Key**.
 
-Juno did not yet see it as anything except habit, a mnemonic. The student made a note that day as if she were trying to remember the shape of a thought.
+Juno did not yet see it as anything except habit, a mnemonic. The student made a note that day as though she were trying to remember the shape of a thought.
 
 When she ended the jump, rain tapped the frame one last time and the kettle clicked off. Back in the Lattice, Juno felt the smell of noodles and dry air with the precision of grief.
 
@@ -211,22 +211,22 @@ Not always in the same field. Sometimes in captions. Sometimes in private notes.
 
 This was not a coincidence. It was a hand.
 
-Juno returned to the study ring and looked at herself for a long moment. She could still remember the cold tile under Kora's feet, the child's damp glove, Mina's neck knot, the taste of burnt sugar on lab coffee, the emergency bay's disinfectant, the student’s chipped mug and sleepless temple. She could also remember a phrase from a lab recording she'd half-heard, only once, through a cough and a radio static:
+Juno returned to the study ring and looked at herself for a long moment. She could still remember the cold tile under Kora's feet, the child's damp glove, Mina's neck knot, the taste of burnt sugar on lab coffee, the emergency bay's disinfectant, the student""s chipped mug and sleepless temple. She could also remember a phrase from a lab recording she'd half-heard, only once, through a cough and a radio static:
 
-"The Rosetta stack has better annotation than any of those."
+The Rosetta stack has better annotation than any of those.
 
 In that phrase, she heard the oldest fear in her work: that someone had named the map before she arrived.
 
-She opened the archive index and selected one final peripheral record, this one from a late archive shelf she had marked "civic utility and local transit records" because it should mean nothing at all. She entered it carefully, half expecting ordinary bureaucracy and finding ordinary in the way things should be ordinary if civilization was honest with itself.
+She opened the archive index and selected one final peripheral record, this one from a late archive shelf she had marked civic utility and local transit records because it should mean nothing at all. She entered it carefully, half expecting ordinary bureaucracy and finding ordinary in the way things should be ordinary if civilization was honest with itself.
 
 A woman sat in a conference room with two cups of black coffee and a paper map of service lines pinned near the monitor. She wore a gray cardigan and had a small strip of tape along her lower spine where a belt had dug in for hours. Across the table, a colleague stood by the window with rain on his sleeve and spoke in exhausted jargon: latency, retention, drift, mapping layers, fail-safes.
 
 Juno sat in that woman's body as she listened. The conversation turned practical, then too curious.
 
-"We need the baseline key for all the 2030 runs," one said.
-"No,” another replied. “Not baseline. Not now." A pause. "Not with the Maren cohort still flagged as drift-sensitive." Then, lower, for the record and not for the room: "And if the key never leaves this branch, we don't have to explain limits."
+We need the baseline key for all the 2030 runs, one said.
+No,""" another replied. """Not baseline. Not now. A pause. Not with the Maren cohort still flagged as drift-sensitive. Then, lower, for the record and not for the room: And if the key never leaves this branch, we don't have to explain limits.
 
-The woman at the map table set down her mug and rubbed the back of her hand across the table's edge. A smear of coffee spread into the cheap varnish. She said quietly, "Call it Rosetta if you like. It's still a key, isn't it? We can write the word down and pretend it isn't a lock."
+The woman at the map table set down her mug and rubbed the back of her hand across the table's edge. A smear of coffee spread into the cheap varnish. She said quietly, Call it Rosetta if you like. It's still a key, isn't it? We can write the word down and pretend it isn't a lock.
 
 The rain thickened against the window. Somewhere down the hall, someone sneezed. The room held the smell of paper, steam, damp wool, and the faint singed scent of cheap office coffee that had gone beyond bitterness into bitterness itself.
 
@@ -236,7 +236,7 @@ Juno came home to a place with no weather. No rain. No tired back to rub with on
 
 Yet she had not stepped back from any of it. Instead she opened a fresh line in her log and copied the phrase exactly as spoken:
 
-*"call it Rosetta if you like. It's still a key, isn't it?"
+*call it Rosetta if you like. It's still a key, isn't it?
 
 She hesitated, then added her own annotation below it:
 
@@ -250,7 +250,7 @@ Three more jumps came easily then, too many for good policy, and she knew that e
 
 Each one smelled, sounded, ached, and cooled differently.
 
-In one, rainwater dripped through a cracked roof into a dented sink and tasted metallic when she licked it by reflex, which gave her a headache she carried like a bell for the rest of the jump. In another, the room was dry and hot and she smelled printer toner and bleach in alternating breaths as if her body were doing a weather report on itself. In another, a man laughed at his own joke while clenching his jaw around a cup of coffee so bitter that he coughed out half of it and blamed the grinder.
+In one, rainwater dripped through a cracked roof into a dented sink and tasted metallic when she licked it by reflex, which gave her a headache she carried like a bell for the rest of the jump. In another, the room was dry and hot and she smelled printer toner and bleach in alternating breaths as though her body were doing a weather report on itself. In another, a man laughed at his own joke while clenching his jaw around a cup of coffee so bitter that he coughed out half of it and blamed the grinder.
 
 She watched her borrowed hand shake while she reached for a napkin and realized she had to hold her shoulder still because she was too tired to keep it still. The world did not apologize for fatigue. It simply remained.
 
@@ -258,7 +258,7 @@ By the time she came back the final time, she had a single clear conviction: the
 
 She opened the node graph and looked for a path. There was one, hidden behind the peripheral layer and only accessible if she followed a key that appeared as both string and warning:
 
-**ROSETTA KEY — restricted in portions, unindexed in public chain.**
+**ROSETTA KEY "" restricted in portions, unindexed in public chain.**
 
 No further details.
 
@@ -299,4 +299,3 @@ It did not.
 She swallowed anyway.
 
 The bitterness was perfect.
-
