@@ -25,8 +25,8 @@ Scope: Chapters 01–17 + planning + quality + postmortem artifacts
 - chapter-13.md: 5,937
 - chapter-14.md: 6,000
 - chapter-15.md: 4,847
-- chapter-16.md: 4,706
-- chapter-17.md: 4,057
+- chapter-16.md: 4,739
+- chapter-17.md: 4,055
 
 ## Included quality artifact set
 - chapter-01-quality-orchestrator-1770995772.md
