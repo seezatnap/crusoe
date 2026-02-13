@@ -1,6 +1,6 @@
 # Postmortem: chapter-17.md
 
-- Chapter: `chapters/chapter-17.md`
+- Chapter: `final-draft-chapters/chapter-17.md`
 - Timestamp: 2026-02-13
 - Reviewer: Agent Aaron
 - Word count: `4,055`
@@ -27,7 +27,7 @@
 
 ## Validation Note
 
-- Full quality session run passed at blocker threshold with `writing-artifacts/quality/chapter-17/quality-orchestrator-1770996321.md`.
+- Stale quality reports (targeting `chapters/chapter-17.md`) have been removed. A fresh quality-orchestrator run against `final-draft-chapters/chapter-17.md` is pending.
 
 ## Final Gate Decision
 
