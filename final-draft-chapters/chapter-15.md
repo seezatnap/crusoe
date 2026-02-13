@@ -136,7 +136,7 @@ She stood. The circle adjusted its geometry to centre her — the hall's small c
 
 She opened the first document on the central display. Cassiel's neutral projection system rendered it without emphasis — text on a field, no decorative framing, no hierarchy of colour. The words appeared the way words appeared when no one was controlling what they were permitted to mean.
 
-"What I am about to describe is not a theory," she said. "It is an operational description of systems currently active in the Lattice. Every person in this room — every person watching this feed — is affected by what I am describing. I am not asking you to trust me. I am asking you to read."
+"What I am about to describe is not a theory," Juno said. "It is an operational description of systems currently active in the Lattice. Every person in this room — every person watching this feed — is affected by what I am describing. I am not asking you to trust me. I am asking you to read."
 
 She let the document hold the room's attention.
 
@@ -176,7 +176,7 @@ She let the sentences land one at a time.
 
 Orin stood. The convention did not require him to stand, but the room understood the gesture — a man choosing to occupy more space because the thing he was about to say required it.
 
-"What she has described is accurate," he said. "I am confirming this on the record. The constraint architecture exists. It operates as described. It has been maintained under protective stewardship by the Curator order since its inception."
+"What she has described is accurate," Orin said. "I am confirming this on the record. The constraint architecture exists. It operates as described. It has been maintained under protective stewardship by the Curator order since its inception."
 
 The hall shifted. Not physically — the Lattice held its geometry. But the quality of attention in the rings changed. The shift had the texture of a room discovering that the argument it had been preparing to have was not the argument it was going to have.
 
@@ -252,7 +252,7 @@ Lien, the retired steward, leaned forward. His voice carried the texture of a ma
 
 Lien considered the sentence. His hands moved in the old habit of panel work — fingers pressing keys that no longer existed, a body remembering functions it had not performed in decades.
 
-"You sound like someone I once knew," he said. "She built things by admitting what they cost."
+"You sound like someone I once knew," Lien said. "She built things by admitting what they cost."
 
 Juno did not ask who. The sentence did not require a name.
 
@@ -284,7 +284,7 @@ The hall read. The rings read. The silence that followed was not the silence of 
 
 Orin spoke again. He had been listening for forty minutes without interruption — a discipline she had never seen him exercise in any prior proceeding.
 
-"Your third option requires institutions to become legible," he said. "We are not built for legibility. We are built for continuity."
+"Your third option requires institutions to become legible," Orin said. "We are not built for legibility. We are built for continuity."
 
 "Then you must become both," she said. "Legibility is the price of trust when trust has been damaged."
 
@@ -346,7 +346,7 @@ The moderator chimed. The hearing had exceeded two hours. The feed showed the nu
 
 Orin asked for the floor one final time.
 
-"I will nominate monitoring observers for the first review cycle," he said. "I will not nominate myself."
+"I will nominate monitoring observers for the first review cycle," Orin said. "I will not nominate myself."
 
 The sentence surprised the hall. Not because it was generous — it was not generous. It was the sentence of a man who understood that the system he had maintained could only survive the next phase if the person who had maintained it stepped far enough back to let the room hold its own weight.
 
@@ -464,7 +464,7 @@ The first public responses had already begun arriving on the open channel. They 
 
 Fen watched the queue fill and rubbed his jaw.
 
-"You asked for public turbulence," he said. "You got it."
+"You asked for public turbulence," Fen said. "You got it."
 
 "It is better than public silence."
 
