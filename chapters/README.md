@@ -37,8 +37,7 @@ dependency_ids:
   - "DOC-001"  # world_design
   - "DOC-002"  # character_bible
   - "DOC-005"  # chapter_outline
-depends_on_chapter_ids:
-  - "CH-000"   # if directly continuing from a prior chapter
+depends_on_chapter_ids: []  # no predecessor (first chapter); do not use CH-000
 dependencies_note:
   - "Uses Dr. Joe’s clinic setting and chapter-beat requirements."
 word_count_updated_utc: "2026-02-13T00:00:00Z"
