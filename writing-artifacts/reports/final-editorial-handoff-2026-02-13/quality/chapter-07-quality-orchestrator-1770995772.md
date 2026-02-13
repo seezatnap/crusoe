@@ -1,0 +1,1109 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-07.md
+- generated_at_unix: 1770995772
+- fail_threshold: info
+- total_findings: 343
+- total_blocking_reports: 1
+- status: failed
+
+## cliche-detection
+- findings: 0
+- target: chapters/chapter-07.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 645
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-07.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-07.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-07.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-07.md
+  - words: 5585
+- findings: none
+
+## voice-consistency
+- findings: 343
+- target: chapters/chapter-07.md
+- metadata:
+  - ambiguous_dialogue_blocks: 1
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: you, i, it, fen, mine, cassiel, juno, fine, no cassiel
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - fine:avg_confidence: 0.77
+  - i:avg_confidence: 0.69
+  - it:avg_confidence: 0.63
+  - juno:avg_confidence: 0.78
+  - mine:avg_confidence: 0.73
+  - pronoun_tag_confidence: 0.42
+  - target: chapters/chapter-07.md
+  - total_dialogue_blocks: 131
+  - tracked_characters: 9
+  - untagged_dialogue_blocks: 2
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+  - you:avg_confidence: 0.69
+- details:
+  - [info] DIAL-AMBIG-001 at chapters/chapter-07.md:474:1
+    - Ambiguous dialogue attribution: multiple candidates around line 474, likely 'fen' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:178:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:224:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:248:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:278:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:282:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:290:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:298:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:302:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:306:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:308:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:320:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:326:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:330:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:334:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:338:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:340:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:346:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:350:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:358:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:362:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:372:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:402:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:452:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:456:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:458:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:460:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:464:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:468:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:472:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:498:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:502:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:504:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:506:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:540:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:546:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:570:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:574:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:576:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:578:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:592:1
+    - Dialogue uses continuation inference for 'fine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:620:1
+    - Dialogue uses continuation inference for 'fine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:624:1
+    - Dialogue uses continuation inference for 'fine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:648:1
+    - Dialogue uses continuation inference for 'fine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:664:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:668:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:672:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:678:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:704:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:712:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:716:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:718:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:720:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:722:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:724:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:726:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:732:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:736:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:740:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:744:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:748:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:768:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:770:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:772:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:782:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:784:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:786:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:790:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:794:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:798:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:800:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:802:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:806:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:810:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:812:1
+    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:820:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:826:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:830:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:832:1
+    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:848:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:850:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:854:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:858:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:866:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:874:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:876:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:878:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:880:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:896:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:898:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:900:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:904:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:906:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:910:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:914:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:918:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:922:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:924:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:926:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:930:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:934:1
+    - Dialogue uses continuation inference for 'mine'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:962:1
+    - Dialogue uses continuation inference for 'cassiel'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:972:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:978:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:984:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:986:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:1002:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:1004:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:1008:1
+    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:1012:1
+    - Dialogue uses continuation inference for 'fen'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-07.md:1074:1
+    - Dialogue uses continuation inference for 'fen'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [warning] DIAL-TAG-001 at chapters/chapter-07.md:74:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-07.md:120:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:178:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:224:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:248:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:278:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:282:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:290:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:298:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:302:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:306:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:308:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:320:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:326:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:330:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:334:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:338:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:340:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:346:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:350:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:358:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:362:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:372:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:402:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:452:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:456:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:458:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:460:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:464:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:468:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:472:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:498:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:502:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:504:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:506:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:540:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:546:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:570:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:574:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:576:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:578:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:592:1
+    - Dialogue speaker 'fine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:620:1
+    - Dialogue speaker 'fine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:624:1
+    - Dialogue speaker 'fine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:648:1
+    - Dialogue speaker 'fine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:664:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:668:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:672:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:678:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:704:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:712:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:716:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:718:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:720:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:722:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:724:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:726:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:732:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:736:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:740:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:744:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:748:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:782:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:784:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:786:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:790:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:794:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:798:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:800:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:802:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:806:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:810:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:812:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:820:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:826:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:830:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:832:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:848:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:850:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:854:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:858:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:866:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:874:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:876:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:878:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:880:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:896:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:898:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:900:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:904:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:906:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:910:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:914:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:918:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:922:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:924:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:926:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:930:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:934:1
+    - Dialogue speaker 'mine' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:962:1
+    - Dialogue speaker 'cassiel' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:972:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:978:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:984:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:986:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:1002:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:1004:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:1008:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:1012:1
+    - Dialogue speaker 'fen' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at chapters/chapter-07.md:1074:1
+    - Dialogue speaker 'fen' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:248:1
+    - Voice drift risk for 'i' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:278:1
+    - Voice drift risk for 'i' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:282:1
+    - Voice drift risk for 'i' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:290:1
+    - Voice drift risk for 'i' (similarity 0.27, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:298:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:302:1
+    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:306:1
+    - Voice drift risk for 'i' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:308:1
+    - Voice drift risk for 'i' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:320:1
+    - Voice drift risk for 'i' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:326:1
+    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:330:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:334:1
+    - Voice drift risk for 'i' (similarity 0.26, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:338:1
+    - Voice drift risk for 'i' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:340:1
+    - Voice drift risk for 'i' (similarity 0.27, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:344:1
+    - Voice drift risk for 'i' (similarity 0.35, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:346:1
+    - Voice drift risk for 'i' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:350:1
+    - Voice drift risk for 'i' (similarity 0.33, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:358:1
+    - Voice drift risk for 'i' (similarity 0.36, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:362:1
+    - Voice drift risk for 'i' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:372:1
+    - Voice drift risk for 'i' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:402:1
+    - Voice drift risk for 'i' (similarity 0.26, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:452:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:456:1
+    - Voice drift risk for 'i' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:458:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:460:1
+    - Voice drift risk for 'i' (similarity 0.39, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:464:1
+    - Voice drift risk for 'i' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:468:1
+    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:472:1
+    - Voice drift risk for 'i' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:502:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:504:1
+    - Voice drift risk for 'you' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:506:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:540:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:546:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:570:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:574:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:576:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:578:1
+    - Voice drift risk for 'you' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:654:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:664:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:668:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:672:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:678:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:696:1
+    - Voice drift risk for 'i' (similarity 0.32, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:708:1
+    - Voice drift risk for 'i' (similarity 0.28, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:712:1
+    - Voice drift risk for 'i' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:716:1
+    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:718:1
+    - Voice drift risk for 'i' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:720:1
+    - Voice drift risk for 'i' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:722:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:724:1
+    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:726:1
+    - Voice drift risk for 'i' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:732:1
+    - Voice drift risk for 'i' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:736:1
+    - Voice drift risk for 'i' (similarity 0.20, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:740:1
+    - Voice drift risk for 'i' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:744:1
+    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:748:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:780:1
+    - Voice drift risk for 'you' (similarity 0.28, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:782:1
+    - Voice drift risk for 'you' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:784:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:786:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:790:1
+    - Voice drift risk for 'you' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:794:1
+    - Voice drift risk for 'you' (similarity 0.40, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:798:1
+    - Voice drift risk for 'you' (similarity 0.33, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:800:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:802:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:806:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:810:1
+    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:812:1
+    - Voice drift risk for 'you' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:826:1
+    - Voice drift risk for 'it' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:830:1
+    - Voice drift risk for 'it' (similarity 0.20, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:832:1
+    - Voice drift risk for 'it' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:850:1
+    - Voice drift risk for 'mine' (similarity 0.19, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:854:1
+    - Voice drift risk for 'mine' (similarity 0.21, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:858:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:866:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:874:1
+    - Voice drift risk for 'mine' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:876:1
+    - Voice drift risk for 'mine' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:878:1
+    - Voice drift risk for 'mine' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:880:1
+    - Voice drift risk for 'mine' (similarity 0.27, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:896:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:898:1
+    - Voice drift risk for 'mine' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:900:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:904:1
+    - Voice drift risk for 'mine' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:906:1
+    - Voice drift risk for 'mine' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:910:1
+    - Voice drift risk for 'mine' (similarity 0.26, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:914:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:918:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:922:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:924:1
+    - Voice drift risk for 'mine' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:926:1
+    - Voice drift risk for 'mine' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:930:1
+    - Voice drift risk for 'mine' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:934:1
+    - Voice drift risk for 'mine' (similarity 0.38, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:966:1
+    - Voice drift risk for 'i' (similarity 0.42, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:972:1
+    - Voice drift risk for 'i' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:978:1
+    - Voice drift risk for 'i' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:984:1
+    - Voice drift risk for 'i' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:986:1
+    - Voice drift risk for 'i' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:1002:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:1004:1
+    - Voice drift risk for 'i' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:1008:1
+    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:1010:1
+    - Voice drift risk for 'fen' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:1012:1
+    - Voice drift risk for 'fen' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-07.md:1074:1
+    - Voice drift risk for 'fen' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:164:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:344:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:494:1
+    - Speaker attribution is weak (0.42) for 'you'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:654:1
+    - Speaker attribution is weak (0.42) for 'you'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:696:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:700:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:708:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:780:1
+    - Speaker attribution is weak (0.42) for 'you'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:814:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-07.md:966:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:164:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:344:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:494:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:654:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:696:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:700:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:708:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:780:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:814:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-07.md:966:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+
+
+signature: fnv1a64:71080835c0c0455c

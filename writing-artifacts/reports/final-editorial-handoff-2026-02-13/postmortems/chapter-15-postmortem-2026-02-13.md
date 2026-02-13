@@ -27,9 +27,10 @@
 
 ## Validation Note
 
-- Full quality session run for this chapter now uses `quality-orchestrator-1770995444.md` and passes blocker threshold (`status: passed`, total findings: 230).
+- Full quality session run for this chapter now uses `quality-orchestrator-1770995384.md` and passes blocker threshold (`status: passed`, total findings: 230).
 - Remaining warnings are dialogue-attribution hygiene and should be treated as a cleanup pass, not a lore/continuity blocker.
 
 ## Final Gate Decision
 
 `PASS`
+
