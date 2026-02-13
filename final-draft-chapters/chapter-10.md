@@ -40,6 +40,8 @@ Then she sent a message.
 
 ---
 
+<!-- pov: juno -->
+
 Fen arrived carrying two mugs of something that smelled like bruised mint and a silence that made the small space feel like it had walls instead of suggestions.
 
 He set one mug on the decommissioned terminal. The mint had no business existing in archive air, but the Lattice was generous with minor sensory requests, and Fen had always understood that a cup of something warm was worth more than it cost.
@@ -105,6 +107,8 @@ She did not open anything. She copied the manifest first — the full package, e
 
 ---
 
+<!-- pov: juno -->
+
 She selected `journal-17b-sable-private` and spoke the launch phrase.
 
 The recording took her before she was ready for it.
@@ -152,6 +156,8 @@ She paused the recording. The maintenance alcove reassembled around her — Fen'
 She took a breath that had no lungs behind it and re-entered the recording at minute forty-nine.
 
 ---
+
+<!-- pov: juno -->
 
 The timestamp had changed. `Journal entry, 8/02/2065.`
 
@@ -205,6 +211,8 @@ The recording continued. Juno let it run.
 
 ---
 
+<!-- pov: juno -->
+
 She moved through the remaining journals without pausing between them, because pausing meant returning to the present and returning to the present meant processing what she was learning, and she was not ready to process it. She was ready to gather.
 
 `journal-08c-sable-private` opened on a kitchen. Sable stood at a metal sink, washing her hands in water that ran yellow from a filter cartridge no one had replaced. She was twenty-six in the recording and furious at the smallest sound. Two mugs sat on the counter. The kitchen smelled like cheap jasmine tea and machine oil. Someone had burned toast earlier. Someone had not been home long enough to care.
@@ -250,6 +258,8 @@ Default boundaries. The soft ceilings Sable had described on her whiteboard were
 Sable looked at her own policy line and repeated it: "Default boundaries. Not because we fear them. Because without them, we become weather."
 
 ---
+
+<!-- pov: juno -->
 
 In the maintenance alcove, Fen's hand appeared at the edge of her attention. He had not touched her — he would not touch a person mid-jump without her signal — but his presence registered as pressure — the Lattice translating proximity into something her attention could not ignore.
 
@@ -315,6 +325,8 @@ This was what Orin had sealed. Not the journals. Not the testimony from the gove
 
 ---
 
+<!-- pov: juno -->
+
 She opened the last journal.
 
 `journal-21-sable-private. 7/11/2068.`
@@ -356,6 +368,8 @@ Sable closed the notebook. Then she opened it again, wrote one final entry, and 
 The recording ended without a closing phrase. No goodbye. No date stamp. No signature. Just the awning, the absent rain, and Sable standing with her notebook closed, having finished writing to someone she would never meet.
 
 ---
+
+<!-- pov: juno -->
 
 Juno returned to the maintenance alcove and found her hands steadier than they should have been.
 
