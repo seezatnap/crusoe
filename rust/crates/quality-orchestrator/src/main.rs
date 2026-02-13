@@ -532,7 +532,7 @@ mod tests {
     fn cli_parses_hyphenated_quality_orchestrator_flags() {
         let args = Cli::parse_from([
             "quality-orchestrator",
-            "chapters",
+            "final-draft-chapters",
             "--fail-on",
             "blocker",
             "--no-artifact",
@@ -546,7 +546,7 @@ mod tests {
     fn cli_parses_legacy_underscored_quality_orchestrator_flags() {
         let args = Cli::parse_from([
             "quality-orchestrator",
-            "chapters",
+            "final-draft-chapters",
             "--fail_on",
             "warning",
             "--no_artifact",
