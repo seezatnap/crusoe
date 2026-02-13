@@ -2,7 +2,7 @@
 
 ## Creative Foundation and Planning
 
-- [ ] (#1) Establish the writing workspace and project conventions in `chapters/` and `writing-artifacts/` (file naming, chapter IDs, metadata, word-count tracking, dependency notes, and handoff format) [5 pts]
+- [A] (#1) Establish the writing workspace and project conventions in `chapters/` and `writing-artifacts/` (file naming, chapter IDs, metadata, word-count tracking, dependency notes, and handoff format) [5 pts]
 - [ ] (#2) Write the World Design Document covering setting, era, locations, atmosphere, and governing world rules with explicit mystery-genre constraints [5 pts] (blocked by #1)
 - [ ] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1)
 - [ ] (#4) Create the High-Level Plot Outline for all 25 chapters with inciting incident, rising action, midpoint reversal, climax, and denouement [5 pts] (blocked by #2, #3)
