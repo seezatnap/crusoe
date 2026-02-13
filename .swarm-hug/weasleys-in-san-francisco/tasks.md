@@ -10,7 +10,7 @@
 
 ## Plot Architecture
 
-- [ ] (#6) Lock the 15-chapter story spine from the 4-act PRD structure with chapter-level objectives, cliffhangers, reversals, POV assignments (Harry primary, plus one Ginny, one Ron, one Arthur chapter minimum), and end-of-act resolution conditions [5 pts] (blocked by #2, #3, #4, #5)
+- [A] (#6) Lock the 15-chapter story spine from the 4-act PRD structure with chapter-level objectives, cliffhangers, reversals, POV assignments (Harry primary, plus one Ginny, one Ron, one Arthur chapter minimum), and end-of-act resolution conditions [5 pts] (blocked by #2, #3, #4, #5)
 - [ ] (#7) Draft scene-by-scene breakdowns for each chapter: setup, escalation, complication, mini-resolution, with required character beats and stakes progression [5 pts] (blocked by #6)
 - [ ] (#8) Map foreshadowing and evidence for the mystery thread (Ginny's sigil sketch, ward decay clues, fog compulsion preview, Barnacle sightings) to ensure payoffs and reveal timing across Acts 2–4 [3 pts] (blocked by #6)
 - [ ] (#9) Map thematic threads (belonging, family as shelter, institutional failure, UK-US magical contrast) to specific character beats and chapter transitions [3 pts] (blocked by #6)
