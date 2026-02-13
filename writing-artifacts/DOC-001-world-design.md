@@ -1,3 +1,14 @@
+---
+artifact_id: "DOC-001"
+artifact_type: "planning"
+title: "World Design Document"
+status: "approved"
+depends_on: []
+depends_on_note: "First foundational artifact; all world-level continuity flows from this source."
+last_updated_utc: "2026-02-13T00:00:00Z"
+owner: "Agent Aaron"
+---
+
 # World Design Document — *On the Fall of Dr. Joe*
 
 ## 1) Core Premise

@@ -2,7 +2,7 @@
 artifact_id: "DOC-006"
 artifact_type: "continuity"
 title: "Timeline and Continuity Tracker"
-status: "in_progress"
+status: "approved"
 depends_on:
   - "DOC-001"
   - "DOC-002"

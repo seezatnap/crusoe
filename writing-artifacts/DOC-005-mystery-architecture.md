@@ -2,7 +2,7 @@
 artifact_id: "DOC-005"
 artifact_type: "planning"
 title: "Mystery Architecture"
-status: "in_progress"
+status: "approved"
 depends_on:
   - "DOC-001"
   - "DOC-002"
