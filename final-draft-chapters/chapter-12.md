@@ -100,7 +100,7 @@ Sable wrote something Juno could not see. The pen moved for longer than the sent
 
 The woman smiled. The smile was genuine. That was the worst part.
 
-"No," she said. "It feels like clarity."
+"No," the woman said. "That feels like clarity."
 
 Sable closed the notebook. The recording held her face for three seconds — long enough for Juno to see what the woman across the table could not: the particular expression of a person who has just been told their work is succeeding and who understands, in the privacy of that success, that success and harm are wearing the same face.
 
@@ -140,7 +140,7 @@ She did not cease. She opened the third fragment.
 
 `location: continuity ward, building 7`
 
-The ward had changed since the earlier recording. The glass partition was gone. In its place, an open space where the chairs sat in a looser arrangement — not a half-circle but a scatter, as though the occupants had been allowed to choose their own positions and had chosen to be near each other without facing each other. Progress, Sable's notes called it. Juno could see the word in the margin of the clipboard that appeared at the edge of the frame.
+The ward had changed since the earlier recording. The glass partition was gone, replaced by an open space where the chairs sat in a looser arrangement — not a half-circle but a scatter, as though the occupants had been allowed to choose their own positions and had chosen to be near each other without facing each other. Progress, Sable's notes called the arrangement. Juno could see the word in the margin of the clipboard that appeared at the edge of the frame.
 
 A younger man — not Subject 14, someone new — sat at the centre of the scatter with his hands pressed together between his knees. He was rocking. Not dramatically. The motion was small, rhythmic, self-consoling — the kind of movement a body makes when it needs to remind itself that it occupies space.
 
