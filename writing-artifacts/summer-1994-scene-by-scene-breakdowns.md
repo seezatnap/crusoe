@@ -114,7 +114,7 @@ POV: Harry | Act I
 
 ## Chapter 5 — Culture, classes, and patterning
 
-POV: Ginny | Act I
+POV: Ginny | Act II
 
 - Setup
   - Coit Academy visit reveals academic and cultural differences: first class with Muggle Integration expectations.
@@ -139,7 +139,7 @@ POV: Ginny | Act I
 
 ## Chapter 6 — Alcatraz resonance
 
-POV: Harry | Act I/II bridge
+POV: Harry | Act II
 
 - Setup
   - The family joins a historical Alcatraz tour, positioning the old magical wing as scenic backdrop.
@@ -214,7 +214,7 @@ POV: Harry | Act II
 
 ## Chapter 9 — Pattern converges
 
-POV: Ron | Act II bridge
+POV: Ron | Act III
 
 - Setup
   - Ginny's symbol work and Harry's sensory readings are brought into one workspace.
