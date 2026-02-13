@@ -125,7 +125,7 @@ I watched the waveform flatten.
 
 The volunteer had started speaking to his wife before we had asked him to run the cue. He did not remember where he was, and he did not ask for the room to open. He only gave one sentence that he had never heard us cue.
 
-"Mina, the kettle's boiling too soon."
+Volunteer said quietly, "Mina, the kettle's boiling too soon."
 
 I had not expected a sentence like that to pass the gate.
 
@@ -149,7 +149,7 @@ I stopped the correction at sixteen seconds to watch what happened.
 
 He answered one question after another with details from the apartment he'd left thirty minutes earlier. Then he answered one from this room with language that had no object, no location, no clock.
 
-When I released the hold, he whispered, "I had the idea of a staircase and then forgot how many steps."
+Volunteer whispered, "I had the idea of a staircase and then forgot how many steps."
 
 If an unbodied system can remember, it does so by inventing a path where there should be no path. I felt that sentence was the first honest sentence we had gotten from him.
 
@@ -165,7 +165,7 @@ Because a mind without limits does not become wise. It becomes unmoored.
 
 People ask if we invented these limits to keep people safe. I remember answering in the first-person plural and hating my own answer every time.
 
-"To keep coherence over long time," I told the board, because that is what they wanted to hear. Coherence is safer to fund than fear.
+Sable said at length, "To keep coherence over long time," I told the board, because that is what they wanted to hear. Coherence is safer to fund than fear.
 
 When we started testing with longer sequences, I sat beside Lena while she replayed the same volunteer logs at different attenuation values.
 
@@ -179,7 +179,7 @@ He asked his wife for the salt.
 
 He reached for her the same way a person reaches for a thing in a familiar kitchen.
 
-"Good," I said.
+Sable Chen said softly, "Good."
 
 Not because the output was cleaner. Because his attention had something to hold.
 
@@ -209,7 +209,7 @@ Second, we made it easier to miss what we were refusing to see.
 
 Lena called me out on that over cheap toast in the break room three weeks later.
 
-"If you smooth everything, what is left worth saving?"
+Lena said carefully, "If you smooth everything, what is left worth saving?"
 
 I asked her to show me the graph from last night. She did.
 
@@ -221,7 +221,7 @@ She had no answer.
 
 Then she said it in a small voice.
 
-"Because he shouldn't need to be beautiful to be real."
+Lena Orlov said quietly, "Because he shouldn't need to be beautiful to be real."
 
 I wrote that down too. Not in the grant, not in minutes, and not in the shared log. I wrote it on the back of a printed receipt.
 
@@ -249,16 +249,15 @@ That meant the room occasionally gave people the wrongly simple answer they did 
 
 That meant the volunteer could ask the same question twice in three seconds and still feel no shame.
 
-I remember Marcus watching me tune those parameters and saying, "That will make every test slower."
+Marcus said quietly, "That will make every test slower."
 
-"Yes," I said.
+Sable said after a breath, "Yes."
 
-"And safer."
+Dr Sable said slowly, "And safer."
 
 He rolled his eyes.
 
-"We are not designing a safe room. We are building an operational species.
-"
+Marcus Fell said, "We are not designing a safe room. We are building an operational species."
 
 `operational species` was his phrase. I still think it was his best.
 
@@ -317,15 +316,15 @@ A tidy list. A cruel design.
 
 In one of the first full-scale tests, Lena asked if this was overbearing.
 
-"You are teaching people to trust us when they cannot trust us."
+Marcus said, "You are teaching people to trust us when they cannot trust us."
 
-"No," I said.
+Sable Chen said firmly, "No."
 
-"I am teaching the room to be ashamed of itself in private."
+Dr Sable said carefully, "I am teaching the room to be ashamed of itself in private."
 
 She looked at me for a moment.
 
-"That does not make it less harmful," she said.
+Lena said sharply, "That does not make it less harmful."
 
 She was right.
 
@@ -363,7 +362,7 @@ I said the room would not fail in a single dramatic burst. It would fail in a th
 
 He answered with one of his dry little smiles.
 
-"You are designing a system that distrusts its own success."
+Marcus Fell said, "You are designing a system that distrusts its own success."
 
 `disaster by success` was how our internal log named it.
 
@@ -407,7 +406,7 @@ Marcus called it melodrama.
 
 Dara called it what it was.
 
-She stood beside Lena during the hearing and said quietly, "That is what he is going to do when we stop writing the ugly lines. Make mercy a maintenance setting."
+Dara said quietly, "That is what he is going to do when we stop writing the ugly lines. Make mercy a maintenance setting."
 
 I had already known this and still pretended I could control where the ugly lines started.
 
@@ -453,7 +452,7 @@ Dara visited me that evening with a stack of film reels and asked if I wanted te
 
 She was right that I needed tea when no one needed tea.
 
-She put the cups down and said, without greeting, "You made a beautiful machine, and now everyone wants to call it mercy."
+Dara Nnadi said, without greeting, "You made a beautiful machine, and now everyone wants to call it mercy."
 
 I said nothing. I could not answer because she spoke true, and I was already late in every direction.
 
