@@ -14,8 +14,8 @@
 
 ## Chapter Prose Authoring
 
-- [x] (#10) Write Chapter 1 full prose (4,000-6,000 words), matching all foundational artifacts and chapter outline requirements (scene order, first-chapter hook, clue seeding, and POV continuity) [5 pts] (blocked by #9) (A)
-- [A] (#11) Write Chapter 2 full prose (4,000-6,000 words), extending momentum, escalating stakes, and preserving character voice and timeline consistency [5 pts] (blocked by #9, #10) (A)
+- [x] (#10) Write Chapter 1 full prose (4,000-6,000 words), matching all foundational artifacts and chapter outline requirements (scene order, first-chapter hook, clue seeding, and POV continuity) [5 pts] (blocked by #9) (A) (A)
+- [x] (#11) Write Chapter 2 full prose (4,000-6,000 words), extending momentum, escalating stakes, and preserving character voice and timeline consistency [5 pts] (blocked by #9, #10) (A) (A)
 - [ ] (#12) Write Chapter 3 full prose (4,000-6,000 words), implementing planned revelations, emotional beat progression, and planned red herrings [5 pts] (blocked by #9, #11) (A)
 - [ ] (#13) Write Chapter 4 full prose (4,000-6,000 words), deepening the investigative thread and advancing the mystery architecture constraints [5 pts] (blocked by #9, #12) (A)
 - [ ] (#14) Write Chapter 5 full prose (4,000-6,000 words), balancing clue exposure and misdirection while preserving fair-play logic [5 pts] (blocked by #9, #13)
@@ -64,4 +64,4 @@
 - [x] (#44) Reconcile Chapter 2 word-count metadata: recalculate `CH-002` and update `word_count_current` in `chapters/CH-002-the-first-ledger.md` plus `LOG-WC-002` `words` and `delta_to_min` in `writing-artifacts/word-count.md` (currently `5222` vs actual `wc -w` result `5219`). (A)
 
 ## Follow-up tasks (from sprint review)
-- [x] (#45) Update `tasks.md` to mark `#10` as complete so task tracking matches the committed `CH-001-the-strange-request.md` delivery (word-complete chapter in `ready_for_review`).
+- [x] (#45) Update `tasks.md` to mark `#10` as complete so task tracking matches the committed `CH-001-the-strange-request.md` delivery (word-complete chapter in `ready_for_review`). (A)
