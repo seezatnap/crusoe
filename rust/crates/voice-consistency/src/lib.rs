@@ -130,7 +130,13 @@ impl CharacterProfile {
         }
     }
 
-    fn record_utterance(&mut self, words: &[String], exclamations: u32, questions: u32, confidence: f32) {
+    fn record_utterance(
+        &mut self,
+        words: &[String],
+        exclamations: u32,
+        questions: u32,
+        confidence: f32,
+    ) {
         self.utterance_count += 1;
         self.words_seen += words.len();
         self.exclamation_count += exclamations as usize;
@@ -141,7 +147,10 @@ impl CharacterProfile {
             if is_stop_word(word) {
                 continue;
             }
-            *self.word_frequencies.entry(word.to_ascii_lowercase()).or_insert(0) += 1;
+            *self
+                .word_frequencies
+                .entry(word.to_ascii_lowercase())
+                .or_insert(0) += 1;
         }
     }
 
@@ -179,6 +188,13 @@ struct AnalyzerState {
     ambiguous_dialogue_blocks: usize,
 }
 
+#[derive(Debug, Clone)]
+struct ParagraphMarkers {
+    pov_marker: Option<String>,
+    dialogue_speaker: Option<String>,
+    has_dialogue_marker: bool,
+}
+
 impl AnalyzerState {
     fn new() -> Self {
         Self {
@@ -207,11 +223,23 @@ impl AnalyzerState {
                 profile: CharacterProfile::new(),
             });
         state.last_seen_line = line;
-        state.profile.record_utterance(words, exclamations, questions, confidence);
+        state
+            .profile
+            .record_utterance(words, exclamations, questions, confidence);
     }
 
     fn character_profile(&self, name: &str) -> Option<&CharacterProfile> {
         self.characters.get(name).map(|state| &state.profile)
+    }
+}
+
+impl Default for ParagraphMarkers {
+    fn default() -> Self {
+        Self {
+            pov_marker: None,
+            dialogue_speaker: None,
+            has_dialogue_marker: false,
+        }
     }
 }
 
@@ -260,7 +288,10 @@ impl VoiceConsistencyAnalyzer {
                 "warning_confidence",
                 format!("{:.2}", self.config.warning_confidence),
             )
-            .add_metadata("error_confidence", format!("{:.2}", self.config.error_confidence))
+            .add_metadata(
+                "error_confidence",
+                format!("{:.2}", self.config.error_confidence),
+            )
             .add_metadata(
                 "blocker_confidence",
                 format!("{:.2}", self.config.blocker_confidence),
@@ -281,14 +312,17 @@ impl VoiceConsistencyAnalyzer {
                 "voice_blocker_similarity",
                 format!("{:.2}", self.config.voice_blocker_similarity),
             )
-            .add_metadata("voice_min_sample_words", self.config.voice_min_sample_words.to_string())
+            .add_metadata(
+                "voice_min_sample_words",
+                self.config.voice_min_sample_words.to_string(),
+            )
             .add_metadata("voice_top_words", self.config.voice_top_words.to_string());
 
         for (key, value) in &input.options {
             report = report.add_metadata(format!("option:{key}"), value.clone());
         }
 
-        let (paragraphs, marker_lines) = split_paragraphs_with_markers(&content);
+        let (paragraphs, paragraph_markers) = split_paragraphs_with_markers(&content);
         let mut state = AnalyzerState::new();
         let mut active_pov: Option<String> = None;
 
@@ -299,11 +333,25 @@ impl VoiceConsistencyAnalyzer {
                 continue;
             }
 
-            if let Some(marker) = marker_lines.get(index).and_then(|name| name.clone()) {
+            let markers = paragraph_markers.get(index).cloned().unwrap_or_default();
+
+            if let Some(marker) = markers.pov_marker.clone() {
                 active_pov = Some(marker.clone());
             }
 
-            if !is_dialogue_paragraph(text) {
+            let mut candidates = extract_speakers(text, &self.config);
+            if let Some(dialogue_speaker) = markers.dialogue_speaker.clone() {
+                candidates.push(SpeakerCandidate::new(
+                    dialogue_speaker,
+                    AttributionSource::ExplicitName,
+                    self.config.explicit_name_confidence,
+                ));
+            }
+
+            let is_likely_dialogue =
+                is_dialogue_paragraph(text, &self.config) || markers.has_dialogue_marker;
+
+            if !is_likely_dialogue && candidates.is_empty() {
                 if active_pov.is_none() && has_first_person_cues(text) {
                     report.findings.push(
                         Finding::new(
@@ -321,7 +369,7 @@ impl VoiceConsistencyAnalyzer {
             }
 
             state.total_dialogue_blocks += 1;
-            let mut candidates = extract_speakers(text, &self.config);
+            let mut candidates = deduplicate_candidates(candidates);
 
             if candidates.is_empty() {
                 if let Some(last) = state.last_named_speaker.clone() {
@@ -333,7 +381,9 @@ impl VoiceConsistencyAnalyzer {
                 }
             }
 
-            let Some((selected, ambiguous)) = pick_top_candidate(&candidates, self.config.ambiguity_margin) else {
+            let Some((selected, ambiguous)) =
+                pick_top_candidate(&candidates, self.config.ambiguity_margin)
+            else {
                 state.untagged_dialogue_blocks += 1;
                 report.findings.push(
                     Finding::new(
@@ -420,7 +470,9 @@ impl VoiceConsistencyAnalyzer {
             let (excl, q) = count_question_like_words(text);
 
             if let Some(previous) = state.character_profile(&selected.name).cloned() {
-                if previous.utterance_count > 1 && previous.words_seen >= self.config.voice_min_sample_words {
+                if previous.utterance_count > 1
+                    && previous.words_seen >= self.config.voice_min_sample_words
+                {
                     let signature_sim = voice_signature_similarity(
                         &previous,
                         &tokens,
@@ -457,14 +509,7 @@ impl VoiceConsistencyAnalyzer {
                 }
             }
 
-            state.touch_character(
-                &selected.name,
-                line,
-                &tokens,
-                excl,
-                q,
-                selected.confidence,
-            );
+            state.touch_character(&selected.name, line, &tokens, excl, q, selected.confidence);
             state.last_named_speaker = Some(selected.name.clone());
 
             if let Some(pov) = active_pov.as_ref() {
@@ -505,7 +550,9 @@ impl VoiceConsistencyAnalyzer {
                 .character_profile(&selected.name)
                 .is_some_and(|profile| profile.average_confidence() < 0.80)
             {
-                let profile = state.character_profile(&selected.name).expect("profile must exist");
+                let profile = state
+                    .character_profile(&selected.name)
+                    .expect("profile must exist");
                 report.metadata.insert(
                     format!("{}:avg_confidence", selected.name),
                     format!("{:.2}", profile.average_confidence()),
@@ -514,9 +561,18 @@ impl VoiceConsistencyAnalyzer {
         }
 
         report = report
-            .add_metadata("total_dialogue_blocks", state.total_dialogue_blocks.to_string())
-            .add_metadata("untagged_dialogue_blocks", state.untagged_dialogue_blocks.to_string())
-            .add_metadata("ambiguous_dialogue_blocks", state.ambiguous_dialogue_blocks.to_string())
+            .add_metadata(
+                "total_dialogue_blocks",
+                state.total_dialogue_blocks.to_string(),
+            )
+            .add_metadata(
+                "untagged_dialogue_blocks",
+                state.untagged_dialogue_blocks.to_string(),
+            )
+            .add_metadata(
+                "ambiguous_dialogue_blocks",
+                state.ambiguous_dialogue_blocks.to_string(),
+            )
             .add_metadata("tracked_characters", state.characters.len().to_string());
 
         let characters: Vec<_> = state.characters.keys().cloned().collect();
@@ -539,12 +595,7 @@ impl AnalysisBinary for VoiceConsistencyAnalyzer {
     }
 }
 
-fn severity_for_confidence(
-    confidence: f32,
-    warning: f32,
-    error: f32,
-    blocker: f32,
-) -> Severity {
+fn severity_for_confidence(confidence: f32, warning: f32, error: f32, blocker: f32) -> Severity {
     if confidence <= blocker {
         Severity::Blocker
     } else if confidence <= error {
@@ -556,12 +607,7 @@ fn severity_for_confidence(
     }
 }
 
-fn severity_from_similarity(
-    similarity: f32,
-    warning: f32,
-    error: f32,
-    blocker: f32,
-) -> Severity {
+fn severity_from_similarity(similarity: f32, warning: f32, error: f32, blocker: f32) -> Severity {
     if similarity <= blocker {
         Severity::Blocker
     } else if similarity <= error {
@@ -573,7 +619,7 @@ fn severity_from_similarity(
     }
 }
 
-fn split_paragraphs_with_markers(content: &str) -> (Vec<(u32, String)>, Vec<Option<String>>) {
+fn split_paragraphs_with_markers(content: &str) -> (Vec<(u32, String)>, Vec<ParagraphMarkers>) {
     let normalized = content.replace("\r\n", "\n").replace('\r', "\n");
     let mut out = Vec::new();
     let mut markers = Vec::new();
@@ -587,8 +633,11 @@ fn split_paragraphs_with_markers(content: &str) -> (Vec<(u32, String)>, Vec<Opti
                 let text = compact_ws(&current_lines.join("\n"));
                 if let Some(start_line) = current_start_line {
                     out.push((start_line, text));
-                    let lines: Vec<&str> = current_lines.iter().map(|line: &String| line.as_str()).collect();
-                    markers.push(pov_marker_for_paragraph(lines));
+                    let lines: Vec<&str> = current_lines
+                        .iter()
+                        .map(|line: &String| line.as_str())
+                        .collect();
+                    markers.push(markers_for_paragraph(lines));
                 }
                 current_lines.clear();
                 current_start_line = None;
@@ -609,10 +658,13 @@ fn split_paragraphs_with_markers(content: &str) -> (Vec<(u32, String)>, Vec<Opti
         let start_line = current_start_line.unwrap_or(cursor);
         let text = compact_ws(&current_lines.join("\n"));
         out.push((start_line, text));
-        let lines: Vec<&str> = current_lines.iter().map(|line: &String| line.as_str()).collect();
-        markers.push(pov_marker_for_paragraph(lines));
+        let lines: Vec<&str> = current_lines
+            .iter()
+            .map(|line: &String| line.as_str())
+            .collect();
+        markers.push(markers_for_paragraph(lines));
     } else {
-        markers.push(None);
+        markers.push(ParagraphMarkers::default());
     }
 
     if out.is_empty() {
@@ -620,7 +672,7 @@ fn split_paragraphs_with_markers(content: &str) -> (Vec<(u32, String)>, Vec<Opti
     }
 
     while markers.len() < out.len() {
-        markers.push(None);
+        markers.push(ParagraphMarkers::default());
     }
 
     (out, markers)
@@ -630,11 +682,17 @@ fn compact_ws(text: &str) -> String {
     text.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
-fn pov_marker_for_paragraph(lines: Vec<&str>) -> Option<String> {
-    let mut found = None;
+fn markers_for_paragraph(lines: Vec<&str>) -> ParagraphMarkers {
+    let mut found = ParagraphMarkers::default();
     for raw in lines {
         if let Some(marker) = parse_pov_marker(raw) {
-            found = Some(marker);
+            found.pov_marker = Some(marker);
+        }
+        if let Some(speaker) = parse_dialogue_marker(raw) {
+            found.has_dialogue_marker = true;
+            if let Some(dialogue_speaker) = speaker {
+                found.dialogue_speaker = Some(dialogue_speaker);
+            }
         }
     }
     found
@@ -665,15 +723,40 @@ fn parse_pov_marker(line: &str) -> Option<String> {
     None
 }
 
-fn is_dialogue_paragraph(text: &str) -> bool {
-    text.contains('"') || text.contains('“') || text.contains('”')
+fn parse_dialogue_marker(line: &str) -> Option<Option<String>> {
+    let lower = line.trim().to_ascii_lowercase();
+    if !lower.starts_with("<!-- dialogue") {
+        return None;
+    }
+
+    let marker_content = lower
+        .split_once("-->")
+        .map_or(lower.as_str(), |(prefix, _)| prefix);
+    let content = marker_content
+        .trim_start_matches("<!--")
+        .trim_start_matches("dialogue")
+        .trim()
+        .trim_start_matches(':')
+        .trim_start_matches('=')
+        .trim();
+
+    if content.is_empty() {
+        return Some(None);
+    }
+
+    Some(Some(normalize_name(content)))
+}
+
+fn is_dialogue_paragraph(text: &str, config: &VoiceConsistencyConfig) -> bool {
+    if text.contains('"') || text.contains('“') || text.contains('”') {
+        return true;
+    }
+    !extract_speakers(text, config).is_empty()
 }
 
 fn tokenize_content(text: &str) -> Vec<String> {
     text.to_ascii_lowercase()
-        .split(|ch: char| {
-            !ch.is_ascii_alphabetic() && ch != '\'' && ch != '-'
-        })
+        .split(|ch: char| !ch.is_ascii_alphabetic() && ch != '\'' && ch != '-')
         .filter(|token| !token.trim().is_empty())
         .map(|token| token.to_string())
         .collect()
@@ -803,7 +886,16 @@ fn has_first_person_cues(text: &str) -> bool {
     tokens.iter().any(|token| {
         matches!(
             token.as_str(),
-            "i" | "me" | "my" | "mine" | "myself" | "i'm" | "i’ve" | "i’d" | "i’ll" | "i've" | "i'd"
+            "i" | "me"
+                | "my"
+                | "mine"
+                | "myself"
+                | "i'm"
+                | "i’ve"
+                | "i’d"
+                | "i’ll"
+                | "i've"
+                | "i'd"
         )
     })
 }
@@ -811,19 +903,49 @@ fn has_first_person_cues(text: &str) -> bool {
 fn is_stop_word(word: &str) -> bool {
     matches!(
         word,
-        "the" | "a" | "an" | "and" | "or" | "to" | "of"
-            | "in" | "on" | "at" | "for" | "with" | "as" | "by" | "that"
-            | "this" | "it" | "his" | "her" | "they" | "them" | "we"
-            | "us" | "i" | "me" | "my" | "you" | "was" | "were" | "is" | "are"
-            | "am" | "be" | "been" | "from" | "not" | "but"
+        "the"
+            | "a"
+            | "an"
+            | "and"
+            | "or"
+            | "to"
+            | "of"
+            | "in"
+            | "on"
+            | "at"
+            | "for"
+            | "with"
+            | "as"
+            | "by"
+            | "that"
+            | "this"
+            | "it"
+            | "his"
+            | "her"
+            | "they"
+            | "them"
+            | "we"
+            | "us"
+            | "i"
+            | "me"
+            | "my"
+            | "you"
+            | "was"
+            | "were"
+            | "is"
+            | "are"
+            | "am"
+            | "be"
+            | "been"
+            | "from"
+            | "not"
+            | "but"
     )
 }
 
 fn extract_speakers(text: &str, config: &VoiceConsistencyConfig) -> Vec<SpeakerCandidate> {
     let tokens_raw: Vec<&str> = text
-        .split(|ch: char| {
-            !ch.is_ascii_alphabetic() && ch != '\'' && ch != '-'
-        })
+        .split(|ch: char| !ch.is_ascii_alphabetic() && ch != '\'' && ch != '-')
         .filter(|token| !token.is_empty())
         .collect();
 
@@ -919,10 +1041,7 @@ fn voice_signature_similarity(
         current_set.insert(word.to_ascii_lowercase());
     }
 
-    let profile_set: HashSet<String> = profile
-        .top_words(top_word_count)
-        .into_iter()
-        .collect();
+    let profile_set: HashSet<String> = profile.top_words(top_word_count).into_iter().collect();
 
     if current_set.is_empty() || profile_set.is_empty() {
         return None;
@@ -952,9 +1071,9 @@ fn voice_signature_similarity(
     let current_excl_share = exclamation_count as f32 / utterance_count;
     let current_q_share = question_count as f32 / utterance_count;
 
-    let punctuation_penalty =
-        ((profile_excl_share - current_excl_share).abs() + (profile_q_share - current_q_share).abs())
-            / 2.0;
+    let punctuation_penalty = ((profile_excl_share - current_excl_share).abs()
+        + (profile_q_share - current_q_share).abs())
+        / 2.0;
     let punctuation_similarity = (1.0 - punctuation_penalty).max(0.0);
 
     Some((0.75 * lexical) + (0.25 * punctuation_similarity))
@@ -996,7 +1115,9 @@ mod tests {
 
     #[test]
     fn extract_dialogue_body_handles_curly_quotes() {
-        let body = extract_dialogue_body("“Walk,” Fen said from a side channel, his voice close to the ear.");
+        let body = extract_dialogue_body(
+            "“Walk,” Fen said from a side channel, his voice close to the ear.",
+        );
         assert_eq!(body, "Walk,");
     }
 
@@ -1013,6 +1134,51 @@ mod tests {
     }
 
     #[test]
+    fn counts_dialogue_paragraphs_without_quote_marks() {
+        let report = run_analysis(
+            "Lena said the district would remain in emergency posture for one more hour.",
+            VoiceConsistencyConfig::default(),
+        );
+        assert_eq!(
+            report
+                .metadata
+                .get("total_dialogue_blocks")
+                .expect("metadata should include total dialogue"),
+            "1"
+        );
+        assert_eq!(
+            report
+                .findings
+                .iter()
+                .filter(|finding| {
+                    finding.code == "DIAL-TAG-001" || finding.code == "POV-DRIFT-001"
+                })
+                .count(),
+            0
+        );
+    }
+
+    #[test]
+    fn counts_dialogue_blocks_with_explicit_parser_marker() {
+        let report = run_analysis(
+            "<!-- dialogue: lena -->\nThe room held steady while the relay shifted for another minute.\n\nThe next paragraph is narrative.",
+            VoiceConsistencyConfig::default(),
+        );
+        assert_eq!(
+            report
+                .metadata
+                .get("total_dialogue_blocks")
+                .expect("metadata should include total dialogue"),
+            "1"
+        );
+        assert!(report
+            .metadata
+            .get("character_list")
+            .expect("metadata should include character list")
+            .contains("lena"));
+    }
+
+    #[test]
     fn detects_untagged_dialogue_blocks() {
         let report = run_analysis(
             "\"It happens each cycle.\"
@@ -1022,12 +1188,10 @@ Narrative continues here without tag.
 The sentence turns.",
             VoiceConsistencyConfig::default(),
         );
-        assert!(
-            report
-                .findings
-                .iter()
-                .any(|finding| finding.code == "DIAL-TAG-001")
-        );
+        assert!(report
+            .findings
+            .iter()
+            .any(|finding| finding.code == "DIAL-TAG-001"));
     }
 
     #[test]
@@ -1052,8 +1216,14 @@ The sentence turns.",
             0.95,
         );
 
-        let stable = voice_signature_similarity(&profile, &tokenize_content("check the lantern and keep it warm"), 4, 0, 0)
-            .expect("stable speech should produce a score");
+        let stable = voice_signature_similarity(
+            &profile,
+            &tokenize_content("check the lantern and keep it warm"),
+            4,
+            0,
+            0,
+        )
+        .expect("stable speech should produce a score");
         let drift = voice_signature_similarity(
             &profile,
             &tokenize_content("quantum architecture drifts through the glassy matrix"),
@@ -1086,8 +1256,11 @@ The sentence turns.",
         .unwrap();
 
         let analyzer = VoiceConsistencyAnalyzer::new(VoiceConsistencyConfig::default());
-        let input = AnalysisInput::new("chapter-files/chapter-01.md").with_working_directory(&workdir);
-        let report = analyzer.run(&input).expect("analysis should resolve working-directory target");
+        let input =
+            AnalysisInput::new("chapter-files/chapter-01.md").with_working_directory(&workdir);
+        let report = analyzer
+            .run(&input)
+            .expect("analysis should resolve working-directory target");
 
         assert_eq!(report.target, expected);
         assert_eq!(

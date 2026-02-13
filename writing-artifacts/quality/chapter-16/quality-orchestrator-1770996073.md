@@ -1,0 +1,151 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-16.md
+- generated_at_unix: 1770996073
+- fail_threshold: error
+- total_findings: 24
+- total_blocking_reports: 1
+- status: failed
+
+## cliche-detection
+- findings: 0
+- target: chapters/chapter-16.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 493
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-16.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-16.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-16.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-16.md
+  - words: 4706
+- findings: none
+
+## voice-consistency
+- findings: 24
+- target: chapters/chapter-16.md
+- metadata:
+  - ambiguous_dialogue_blocks: 1
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: what, some, let's, we, fen, it, if, and, that's, now, juno, the, at, everyone, i, we're, tonight, but, they, you
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - i:avg_confidence: 0.42
+  - it:avg_confidence: 0.42
+  - pronoun_tag_confidence: 0.42
+  - target: chapters/chapter-16.md
+  - they:avg_confidence: 0.42
+  - total_dialogue_blocks: 28
+  - tracked_characters: 20
+  - untagged_dialogue_blocks: 0
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+  - we:avg_confidence: 0.42
+  - you:avg_confidence: 0.42
+- details:
+  - [info] DIAL-AMBIG-001 at chapters/chapter-16.md:39:1
+    - Ambiguous dialogue attribution: multiple candidates around line 39, likely 'everyone' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-16.md:314:1
+    - Voice drift risk for 'if' (similarity 0.33, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-16.md:431:1
+    - Voice drift risk for 'i' (similarity 0.30, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-16.md:439:1
+    - Voice drift risk for 'i' (similarity 0.28, weighted confidence 0.42).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:203:1
+    - Speaker attribution is weak (0.42) for 'you'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:250:1
+    - Speaker attribution is weak (0.42) for 'we'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:256:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:274:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:310:1
+    - Speaker attribution is weak (0.42) for 'they'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:431:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:439:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:536:1
+    - Speaker attribution is weak (0.42) for 'they'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:538:1
+    - Speaker attribution is weak (0.42) for 'we'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-16.md:600:1
+    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:203:1
+    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:250:1
+    - Dialogue speaker 'we' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:256:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:274:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:310:1
+    - Dialogue speaker 'they' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:431:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:439:1
+    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:536:1
+    - Dialogue speaker 'they' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:538:1
+    - Dialogue speaker 'we' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [error] POV-DRIFT-001 at chapters/chapter-16.md:600:1
+    - Dialogue speaker 'it' does not match active POV marker 'juno'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+
+
+signature: fnv1a64:42b3e3f16a032939
