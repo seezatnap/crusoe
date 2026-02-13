@@ -42,7 +42,7 @@
 
 - [x] (#27) Draft `chapters/chapter-11.md` in the 4,000–6,000-word range: Juno goes rogue with unauthorized deep jumps into restricted/degraded files and accepts immediate risk from prolonged bleed [5 pts] (blocked by #26) (A)
 - [x] (#28) Draft `chapters/chapter-12.md` in the 4,000–6,000-word range: shift into Sable’s direct perspective to reveal the constraint architecture governing perception, cognition, and self-modification [5 pts] (blocked by #27) (A)
-- [A] (#29) Draft `chapters/chapter-13.md` in the 4,000–6,000-word range: escalate confrontation with Orin and Curator enforcement; frame protective-deception ethics and civilizational-stability arguments [5 pts] (blocked by #28)
+- [x] (#29) Draft `chapters/chapter-13.md` in the 4,000–6,000-word range: escalate confrontation with Orin and Curator enforcement; frame protective-deception ethics and civilizational-stability arguments [5 pts] (blocked by #28) (A)
 - [ ] (#30) Draft `chapters/chapter-14.md` in the 4,000–6,000-word range: Maren’s final lucid confession confirms the hidden generational secret, and Juno finally gains access to Rosetta Key infrastructure [5 pts] (blocked by #29)
 
 ## Act 4 Drafting (Chapters 15–17)
@@ -112,5 +112,5 @@
 - [x] (#60) Address failing chapter-11 quality gates in `writing-artifacts/quality/chapter-11/quality-orchestrator-1770992711.md` (notably `CLIC-CLICHÉ-01` and dialogue-tagging/ambiguity findings), then rerun quality checks so the chapter has a clean artifact before moving to `chapter-12.md` (blocked by #27) (B)
 
 ## Follow-up tasks (from sprint review)
-- [A] (#61) Update `writing-artifacts/roadmap.md` chapter-12 tracker row from `Not started` to `Completed draft (4,568)` and align its title/pacing/act metadata with `chapters/chapter-12.md` (blocked by #28)
-- [B] (#62) Resolve the chapter-12 quality blockers (`VOICES`, `DIAL-*`, `POV-*`) in `chapters/chapter-12.md` and rerun `scripts/run-quality-session.sh` so `writing-artifacts/quality/chapter-12/quality-orchestrator-*` has a `status: passed` report before unfreezing downstream chapter work (blocked by #28)
+- [x] (#61) Update `writing-artifacts/roadmap.md` chapter-12 tracker row from `Not started` to `Completed draft (4,568)` and align its title/pacing/act metadata with `chapters/chapter-12.md` (blocked by #28) (A)
+- [x] (#62) Resolve the chapter-12 quality blockers (`VOICES`, `DIAL-*`, `POV-*`) in `chapters/chapter-12.md` and rerun `scripts/run-quality-session.sh` so `writing-artifacts/quality/chapter-12/quality-orchestrator-*` has a `status: passed` report before unfreezing downstream chapter work (blocked by #28) (B)
