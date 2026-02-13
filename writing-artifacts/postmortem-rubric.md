@@ -34,7 +34,7 @@ A chapter is eligible for release only when it passes all checks or explicitly d
 - Required evidence:
   - State one primary forward-moving plot action in present-Lattice and one in recording-era line (if present in the chapter).
   - Identify which unresolved thread(s) this chapter advances.
-+- Must confirm:
+- Must confirm:
   - The chapter reaches a meaningful turning point, complication, or payoff tied to the current act objectives.
   - No major scene ends without an observable consequence in the next chapter scaffold.
 - Failure criteria:
