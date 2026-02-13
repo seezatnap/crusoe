@@ -32,11 +32,11 @@ struct Cli {
     artifact_dir: PathBuf,
 
     /// Exit with non-zero if any finding is at least this severity.
-    #[arg(long, default_value = "error")]
+    #[arg(long, alias = "fail_on", default_value = "error")]
     fail_on: CliSeverity,
 
     /// Set this flag to skip artifact output.
-    #[arg(long)]
+    #[arg(long, alias = "no_artifact")]
     no_artifact: bool,
 }
 
@@ -435,7 +435,18 @@ fn chapter_name(target: &Path) -> String {
 
 #[cfg(test)]
 mod tests {
-    use super::{collect_targets, count_words, run_length_check_report, chapter_name, write_signed_quality_artifact, signature};
+    use clap::Parser;
+
+    use super::{
+        chapter_name,
+        collect_targets,
+        count_words,
+        run_length_check_report,
+        signature,
+        write_signed_quality_artifact,
+        Cli,
+        CliSeverity,
+    };
     use analysis_contracts::Severity;
     use std::time::{SystemTime, UNIX_EPOCH};
     use std::{fs, path::PathBuf};
@@ -515,6 +526,34 @@ mod tests {
         let third = signature("different-text");
         assert_eq!(first, second);
         assert_ne!(first, third);
+    }
+
+    #[test]
+    fn cli_parses_hyphenated_quality_orchestrator_flags() {
+        let args = Cli::parse_from([
+            "quality-orchestrator",
+            "chapters",
+            "--fail-on",
+            "blocker",
+            "--no-artifact",
+        ]);
+
+        assert_eq!(args.fail_on, CliSeverity::Blocker);
+        assert!(args.no_artifact);
+    }
+
+    #[test]
+    fn cli_parses_legacy_underscored_quality_orchestrator_flags() {
+        let args = Cli::parse_from([
+            "quality-orchestrator",
+            "chapters",
+            "--fail_on",
+            "warning",
+            "--no_artifact",
+        ]);
+
+        assert_eq!(args.fail_on, CliSeverity::Warning);
+        assert!(args.no_artifact);
     }
 
     #[test]

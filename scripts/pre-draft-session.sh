@@ -14,7 +14,7 @@ Runs contributor reminders before drafting:
 Examples:
   scripts/pre-draft-session.sh
   scripts/pre-draft-session.sh chapters/chapter-01.md
-  scripts/pre-draft-session.sh chapters --fail_on blocker
+  scripts/pre-draft-session.sh chapters --fail-on blocker
 USAGE
 }
 
