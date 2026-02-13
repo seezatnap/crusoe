@@ -68,3 +68,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#42) Reconcile user-facing examples for `quality-orchestrator` flags so `./scripts/run-quality-session.sh`/`./scripts/pre-draft-session.sh` guidance matches actual accepted CLI options (use `--fail-on` and `--no-artifact`, or add underscore aliases in `rust/crates/quality-orchestrator`). (blocked by #16) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#43) Update `writing-artifacts/style-and-voice-protocol.md` to align the protocol with the project’s required JK Rowling style direction in AGENTS.md, including any contradictory references currently framing style as Ted Chiang/Kazuo Ishiguro, and sync task `#8` wording to match. (blocked by #8)
