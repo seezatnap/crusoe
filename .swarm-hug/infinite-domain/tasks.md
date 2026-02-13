@@ -99,3 +99,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#55) Update `writing-artifacts/roadmap.md` to mark `chapter-08` as completed with its actual draft word count and confirm chapter-level metadata (pacing objective/act notes) matches the delivered draft `(blocked by #24)` (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#56) Update `writing-artifacts/roadmap.md` chapter-09 entry to `Completed draft (...)` with the actual committed word count and synchronized act/pacing metadata now that `chapters/chapter-09.md` was drafted (blocked by #25)
