@@ -146,13 +146,28 @@ impl AnalysisInput {
         self
     }
 
+    /// Resolves the configured target path relative to the working directory when present.
+    pub fn resolve_target_path(&self) -> PathBuf {
+        if let Some(base) = &self.working_directory {
+            if self.target.is_relative() {
+                base.join(&self.target)
+            } else {
+                self.target.clone()
+            }
+        } else {
+            self.target.clone()
+        }
+    }
+
     /// Returns `Ok(())` when the target exists and is a file or directory.
     pub fn validate_target_exists(&self) -> Result<(), AnalysisError> {
-        if self.target.exists() {
+        let resolved_target = self.resolve_target_path();
+
+        if resolved_target.exists() {
             Ok(())
         } else {
             Err(AnalysisError::MissingTarget {
-                path: self.target.display().to_string(),
+                path: resolved_target.display().to_string(),
             })
         }
     }
@@ -291,6 +306,45 @@ mod tests {
 
         let missing = AnalysisInput::new("./definitely-missing-path.md");
         assert!(missing.validate_target_exists().is_err());
+    }
+
+    #[test]
+    fn analysis_input_validation_uses_working_directory_for_target() {
+        let tmp_root = std::env::temp_dir().join(format!(
+            "analysis-contract-target-{}",
+            std::time::SystemTime::now()
+                .duration_since(std::time::UNIX_EPOCH)
+                .unwrap()
+                .as_millis()
+        ));
+        std::fs::create_dir_all(&tmp_root).unwrap();
+        let target_path = tmp_root.join("chapter.md");
+        std::fs::write(&target_path, "sample").unwrap();
+
+        let input = AnalysisInput::new("chapter.md").with_working_directory(&tmp_root);
+        assert!(input.validate_target_exists().is_ok());
+
+        let missing = AnalysisInput::new("missing-chapter.md").with_working_directory(&tmp_root);
+        assert!(missing.validate_target_exists().is_err());
+        let _ = std::fs::remove_dir_all(&tmp_root);
+    }
+
+    #[test]
+    fn analysis_input_validation_keeps_absolute_target_absolute() {
+        let tmp_root = std::env::temp_dir().join(format!(
+            "analysis-contract-target-abs-{}",
+            std::time::SystemTime::now()
+                .duration_since(std::time::UNIX_EPOCH)
+                .unwrap()
+                .as_millis()
+        ));
+        std::fs::create_dir_all(&tmp_root).unwrap();
+        let target_path = tmp_root.join("chapter.md");
+        std::fs::write(&target_path, "sample").unwrap();
+
+        let input = AnalysisInput::new(&target_path).with_working_directory("/tmp/does-not-exist");
+        assert!(input.validate_target_exists().is_ok());
+        let _ = std::fs::remove_dir_all(&tmp_root);
     }
 
     #[test]
