@@ -36,7 +36,7 @@
 
 - [x] (#16) Rewrite `final-draft-chapters/chapter-15.md` after full-reference read + prior rewrite chain validation, then produce a coherent, stylistically aligned 4,000–6,000 word chapter with consistent dialogue cadence and narrative momentum [5 pts] (blocked by #15) (A)
 
-- [A] (#17) Rewrite `final-draft-chapters/chapter-16.md` with complete source and sequence validation, preserving roadmap-aligned stakes escalation and POV flow, while refining rhythm and sensory detail; output 4,000–6,000 words [5 pts] (blocked by #16)
+- [x] (#17) Rewrite `final-draft-chapters/chapter-16.md` with complete source and sequence validation, preserving roadmap-aligned stakes escalation and POV flow, while refining rhythm and sensory detail; output 4,000–6,000 words [5 pts] (blocked by #16) (A)
 
 - [ ] (#18) Rewrite `final-draft-chapters/chapter-17.md` from scratch using chapter-17 postmortem and all governing artifacts plus full prior rewrite context, preserving final structural reveal and emotional resolution while maintaining 4,000–6,000 words and final draft voice coherence [5 pts] (blocked by #17)
 
@@ -119,10 +119,10 @@
 - [x] (#67) Run a continuity-check diagnostic on `final-draft-chapters/chapter-14.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–13 in tasks #23, #24, #27, #29, #35, #38, #43, #47, #51, #58, and #63 (blocked by #15) (B)
 - [x] (#68) Clean up the stale chapter-14 quality-orchestrator report 1770994354 which targets `chapters/chapter-14.md` instead of `final-draft-chapters/chapter-14.md` (C)
 - [x] (#69) Clean up the duplicate voice-consistency report for chapter-12 (timestamps 1771011554 and 1771011559 are near-identical) — retain one and remove the duplicate (C)
-- [A] (#70) Clean up the stale chapter-12 quality-orchestrator report 1771009897 which was generated pre-fix before task #60 completed — report 1771011575 is the valid post-fix replacement
+- [x] (#70) Clean up the stale chapter-12 quality-orchestrator report 1771009897 which was generated pre-fix before task #60 completed — report 1771011575 is the valid post-fix replacement (A)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#71) Fix 10 error-level findings in `final-draft-chapters/chapter-14.md` — 5 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 103, 137, 139, 455, 647) and 5 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771012053, which caused the report to fail with 2 blocking reports (blocked by #16)
-- [C] (#72) Run quality-orchestrator on `final-draft-chapters/chapter-15.md` (not `chapters/chapter-15.md`) — no valid quality report exists for the rewritten chapter-15 file; the 2 existing reports (timestamps 1770994041, 1770995444) target the stale first-draft path (blocked by #16)
-- [C] (#73) Run a continuity-check diagnostic on `final-draft-chapters/chapter-15.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–14 in tasks #23, #24, #27, #29, #35, #38, #43, #47, #51, #58, #63, and #67 (blocked by #16)
-- [B] (#74) Clean up the 2 stale chapter-15 quality-orchestrator reports (timestamps 1770994041, 1770995444) that target `chapters/chapter-15.md` instead of `final-draft-chapters/chapter-15.md`
+- [x] (#71) Fix 10 error-level findings in `final-draft-chapters/chapter-14.md` — 5 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 103, 137, 139, 455, 647) and 5 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771012053, which caused the report to fail with 2 blocking reports (blocked by #16) (B)
+- [x] (#72) Run quality-orchestrator on `final-draft-chapters/chapter-15.md` (not `chapters/chapter-15.md`) — no valid quality report exists for the rewritten chapter-15 file; the 2 existing reports (timestamps 1770994041, 1770995444) target the stale first-draft path (blocked by #16) (C)
+- [x] (#73) Run a continuity-check diagnostic on `final-draft-chapters/chapter-15.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–14 in tasks #23, #24, #27, #29, #35, #38, #43, #47, #51, #58, #63, and #67 (blocked by #16) (C)
+- [x] (#74) Clean up the 2 stale chapter-15 quality-orchestrator reports (timestamps 1770994041, 1770995444) that target `chapters/chapter-15.md` instead of `final-draft-chapters/chapter-15.md` (B)
