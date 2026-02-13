@@ -28,7 +28,7 @@
 
 ## Act Two: Discovery (Chapters 6–8)
 
-- [A] (#15) Write Chapter 6 (4,000–6,000 words): Alcatraz tour — Harry senses dark magic wrongness, Bill identifies ward degradation on the decommissioned magical wing, connecting anomalies across Fog Hollow and the island [5 pts] (blocked by #14)
+- [x] (#15) Write Chapter 6 (4,000–6,000 words): Alcatraz tour — Harry senses dark magic wrongness, Bill identifies ward degradation on the decommissioned magical wing, connecting anomalies across Fog Hollow and the island [5 pts] (blocked by #14) (A)
 - [ ] (#16) Write Chapter 7 (4,000–6,000 words): Fred, George, and Marisol's nighttime Fog Hollow exploration, discovery of Undertow activity near the waterfront, Barnacle the pelican's first ominous appearance, comic mischief layered over genuine discovery [5 pts] (blocked by #15)
 - [ ] (#17) Write Chapter 8 (4,000–6,000 words): Arthur and Gus bonding over government careers and family life, Gus shares Alcatraz ward history and Eileen's legacy, Tomo Sato's introduction as reluctant BMA ally, Bill and Tomo's first professional exchange [5 pts] (blocked by #16)
 
@@ -50,7 +50,7 @@
 
 ## Revision
 
-- [A] (#25) Revise Act 1 (Chapters 1–5): verify POV consistency, comedic pacing, canon compliance, word-count targets (4k–6k each), continuity across chapters, and emotional arc progression [5 pts] (blocked by #10, #11, #12, #13, #14)
+- [x] (#25) Revise Act 1 (Chapters 1–5): verify POV consistency, comedic pacing, canon compliance, word-count targets (4k–6k each), continuity across chapters, and emotional arc progression [5 pts] (blocked by #10, #11, #12, #13, #14) (A)
 - [ ] (#26) Revise Act 2 (Chapters 6–10): audit foreshadowing cadence, mystery-thread coherence, escalation logic, dialogue density, and character voice consistency [5 pts] (blocked by #15, #16, #17, #18, #19, #25)
 - [ ] (#27) Revise Acts 3–4 (Chapters 11–15): enforce climax coherence, thematic payoff, antagonist resolution logic, emotional stakes, and style consistency [5 pts] (blocked by #20, #21, #22, #23, #24, #26)
 - [ ] (#28) Final integrated QA pass: reconcile all unresolved threads, verify chapter ordering and count, confirm canon compliance end-to-end, and produce release-ready chapter set in `chapters/` [5 pts] (blocked by #25, #26, #27)
