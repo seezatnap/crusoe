@@ -1,5 +1,7 @@
 # Chapter 01
 
+<!-- pov: juno -->
+
 The first thing Juno noticed, as always, was the silence around its seams.
 
 The Lattice did not have silence as a physical condition. It had gaps, yes, and pauses where one consensus faded and another had not yet arrived. It had spaces of hesitation between one thought and the next, and people called those pauses weather only when they needed a metaphor for what none of them admitted they feared. Juno stood at the edge of one such pause while she entered the Hall of Intake, and it stretched in front of her like a held breath.
@@ -16,7 +18,7 @@ She loaded the first case. A student cluster from a defunct municipal archive, t
 
 In the present, Finder work was measured in thresholds.
 
-She had to name the archive as she stepped in. "Juno Alcázar-Reed, single-identity jump, duration 5m00s, return target 5m30s, bleed warning interval 60." The station translated the phrase into a soft field and wrapped her in the first inward current. Her breathing did not change; there was no breathing as such in the Lattice. Still, she felt her chest tighten with old conditioning. She opened the recording and landed in a crowded kitchen lit by afternoon light that did not belong to anything alive except human clocks.
+She had to name the archive as she stepped in. She spoke the launch phrase aloud: Juno Alcázar-Reed, single-identity jump, duration 5m00s, return target 5m30s, bleed warning interval 60. The station translated the phrase into a soft field and wrapped her in the first inward current. Her breathing did not change; there was no breathing as such in the Lattice. Still, she felt her chest tighten with old conditioning. She opened the recording and landed in a crowded kitchen lit by afternoon light that did not belong to anything alive except human clocks.
 
 The first jump was a routine one, a single peripheral observer in a suburban apartment where someone had left a kettle boiling and then forgotten it while answering a call. The scene smelled of citrus and burnt sugar. The woman who was not her frowned over receipts and whispered into a phone while her child ran a looped song down the hallway. Juno watched the room and marked no ethical alarm points. She extracted the needed labels into clean metadata and withdrew. It should have felt easy, almost clerical, and the jump did not produce any lasting residue.
 
@@ -26,7 +28,7 @@ She withdrew and the hall regained its architecture. The second jump became note
 
 Her desk pinged with a private message from Fen, sent from two corridors away by attention-distance.
 
-"You are up before the hour, as always," it read. "You owe me tea in the old terrace and a story from your latest successful rescue of dead dust in spreadsheets."
+Fen's message read: You are up before the hour, as always. You owe me tea in the old terrace and a story from your latest successful rescue of dead dust in spreadsheets.
 
 She did not answer immediately. There was no rule against delay but there was a social cost. Fen, younger and easier with proximity, had a way of treating her like a person from the same age, not the same era. Juno could not tell if that kindness was deliberate or careless. She disliked both, though the second choice would be kinder.
 
@@ -36,17 +38,17 @@ By the end of the shift, she had processed six jobs. Two required mild narrative
 
 At the edge of noon, she met Nari at the corridor node. Nari was a cataloger and one of the few who remembered how to ask someone to pause before they crossed a boundary.
 
-"Heard you declined Fen again," Nari said.
+Heard you declined Fen again, Nari said.
 
-Juno gave her hands no motion and kept them on the edge of the console. "Need to work."
+Juno gave her hands no motion and kept them on the edge of the console. Juno said, Need to work.
 
-"Need to work is a reason, not a person."
+Nari said, Need to work is a reason, not a person.
 
 Juno had expected this tone from Nari before and every time it landed in the same place, like a hand testing a bruise.
 
-"He still exists," she answered. "He is easier to manage when I leave him at the corridor edge."
+Juno answered, He still exists. He is easier to manage when I leave him at the corridor edge.
 
-"You can manage an edge only so long as it does not become your room."
+Nari said, You can manage an edge only so long as it does not become your room.
 
 Nari turned toward the transit lane and left a handprint of light on Juno's shoulder as she brushed past, an accidental gesture from a shared walkway. It did not hurt. It did not heal.
 
@@ -84,80 +86,80 @@ She passed through a curtain of pale static and entered a broad concavity lined 
 
 Maren waited in a private alcove at the ward's inner edge where the light folded inwards and looked almost like morning. She had once had a strong voice, Juno knew from stories and from two archival photographs. She had one now, a patient voice with pauses inside it and too much distance between words.
 
-"You are late," she said before Juno had spoken. It came out as if spoken through paper.
+Maren said, You are late. It came out in a voice folded through paper.
 
-"You always say that," Juno answered. She kept her posture straight, not too close. Guardedness was less a choice than a survival tool in this place. If she touched Maren's edge too soon she might disappear from herself in the residue.
+You always say that, Juno answered. She kept her posture straight, not too close. Guardedness was less a choice than a survival tool in this place. If she touched Maren's edge too soon she might disappear from herself in the residue.
 
 Maren's hands were folded around her knees, fingers making loops in no medium. The loops held no object. She seemed to be listening to something Juno could not hear. When she looked up, she looked like she was returning from a conversation.
 
-"I can't stay long," Juno said.
+I can't stay long, Juno said.
 
-"I know," said Maren.
+I know, said Maren.
 
 The woman in this room was older than any age Juno could name. The Lattice did not count from sun to moon anymore, and old files drifted and smeared and collapsed. Maren had not always been this way. Juno knew that and had accepted it every time. She kept coming because the acceptance had somewhere to go.
 
 Juno sat on the low platform and offered the smallest opening she could afford.
 
-"How was it where you started?" she asked.
+Juno asked, How was it where you started?
 
-Maren did not respond directly. She tilted her head. "Do you like smoke?" she asked.
+Maren did not respond directly. She tilted her head. Maren asked, Do you like smoke?
 
-"Not much," Juno said, though smoke had no meaning here except memory. She had no body to dislike anything.
+Juno said, Not much, though smoke had no meaning here except memory. She had no body to dislike anything.
 
-"In your generation," Maren continued, "you all speak as if that makes sense. Smoke and blood and rain. And as language cannot learn from what it outlived."
+Maren continued, In your generation, you all speak as though that makes sense. Smoke and blood and rain. And as language cannot learn from what it cannot endure.
 
 Juno waited. A Finder learns patience in rooms like this too. The old do not tell you what they know at once. They do not know you can bear the whole of an answer at once either.
 
-"What I can remember was heat at the edge of skin," Maren said after a long pause. "Too much heat, then no time for what came after. Hands that shook when they reached for each other and called that love. A body can be heavy, and then one morning it is only instruction. Instruction says: observe. Observe, and do not become the thing you observe."
+What I can remember was heat at the edge of skin, Maren said after a long pause. Too much heat, then no time for what came after. Hands that shook when they reached for each other and called that love. A body can be heavy, and then one morning it is only instruction. Instruction says: observe. Observe, and do not become the thing you observe.
 
 Juno felt something move in the ward. Somewhere behind her, a chair materialized, then faded. The Drift Ward was adjusting to another entrant, perhaps an older mind being drawn to a brighter place. Maren noticed the movement and looked past Juno.
 
-"Tell me again the part you can remember," she said.
+Maren said, Tell me again the part you can remember.
 
 Juno did not like this question. It was too close to the wound she did not let the outside world see.
 
-"I remember what I learned from you and Solís," Juno said slowly. "The process, the order, the rules. Not the beginning."
+I remember what I learned from you and Solís, Juno said slowly. The process, the order, the rules. Not the beginning.
 
-Maren nodded once, as though this were expected. "And yet every rule needs a beginning. If no one asks it, rules turn to stone."
+Maren nodded once, as though this were expected. Maren said, And yet every rule needs a beginning. If no one asks it, rules turn to stone.
 
-"Why do you ask now?" Juno said. "You knew I had this question before."
+Juno asked, Why do you ask now? She said, You knew I had this question before.
 
 Maren smiled. It was the first smile Juno had seen that did not fully pass through the present.
 
-"Because you still ask it like a contract."
+Maren said, Because you still ask it like a contract.
 
 Juno had no answer for that.
 
-Maren held her gaze and then reached to the side as though searching for an object in a pocket no longer there. "In those first years, people thought they could keep everything," she said. "Map every memory. Keep every version. No forgetting. No weathering. No drift. They did not understand that a thing without forgetting has no room for mercy."
+Maren held her gaze and then reached to the side as though searching for an object in a pocket no longer there. Maren said, In those first years, people thought they could keep everything. They spoke as though they could map every memory. Keep every version. No forgetting. No weathering. No drift. They did not understand that a thing without forgetting has no room for mercy.
 
 The words should have been familiar from the setting notes, from the training records and governance summaries, from every public paper that explained why drift existed. They sounded different in Maren's voice. Different enough to leave no room for correction.
 
 Juno leaned forward. She did not touch the old woman. She did not ask about Rosetta yet. She kept her hands folded and asked the question that she had never let out loud in any but private loops.
 
-"Do you think we are still the same thing they moved?"
+Juno asked, Do you think we are still the same thing they moved?
 
 Maren exhaled. The gesture was almost absent, almost ceremonial.
 
-"I think 'same' is the wrong word," she said. "I think that question is a door with two sides and no lock. You can stand in the middle of it for a long time. You can do good work from the middle. You can even call it freedom. But you have not crossed."
+Maren said, I think 'same' is the wrong word. I think that question is a door with two sides and no lock. You can stand in the middle of it for a long time. You can do good work from the middle. You can even call it freedom. But you have not crossed.
 
 Juno felt the ward shift, as it often did when memory edges pressed too hard. The bench at the far end blurred and returned. A figure there coughed, then resumed silence.
 
-Maren lowered her eyes and spoke to the air in a narrow voice. "Look for the seam where the maps become law. You will see a line written by someone who understood fear. You will find it buried in the first serious failures. It is there. It is the only place where compassion had weight before comfort got hired." She lifted her hands again. "You can ask them all for dates and signatures. Ask for the seam."
+Maren lowered her eyes and spoke to the air in a narrow voice. Maren said, Look for the seam where the maps become law. You will see a line written by someone who understood fear. You will find it buried in the first serious failures. It is there. It is the only place where compassion had weight before comfort got hired. You can ask them all for dates and signatures. Ask for the seam.
 
 Juno had no idea whether she was being told to look in a technical archive, a poetic memory, or a lie. She had enough years in the Lattice to distrust clear instructions and still enough loneliness to obey them.
 
 She rose to leave. The ward lights dimmed for the next passage and Maren followed the sound of them with a small, patient nod.
 
-"Will you be here tomorrow?" Juno asked without planning.
+Juno asked without planning, Will you be here tomorrow?
 
 Maren's face seemed to look beyond her.
 
-"I have no tomorrow in the way you mean," she said. "Come anyway. You would, wouldn't you?"
+Maren said, I have no tomorrow in the way you mean. Come anyway. You would, wouldn't you?
 
-Juno gave no promise. She said instead,
-"I have work."
+Juno gave no promise. She said instead, 
+Juno said, I have work.
 
-"Then go do it carefully," Maren replied.
+Maren replied, Then go do it carefully.
 
 On the walk back from the ward, Juno moved more slowly than usual because she had to watch the edges of the district. The Lattice did not reward speed in places with old drift. If you moved fast, you could carry someone else's urgency with you.
 
@@ -179,7 +181,7 @@ The cache also carried a note from the curator queue, not signed by name but sta
 
 `There may be no immediate action. If you do this, do it before noise events in nearby clusters escalate.`
 
-There is a language in those notes that says "if you do this." It means the action is not requested. It is permitted while still permitted to disappear.
+There is a language in those notes that says, if you do this. It means the action is not requested. It is permitted while still permitted to disappear.
 
 Juno closed the cache and returned to her intake board.
 
@@ -234,30 +236,29 @@ She closed her station and walked toward the transit lane with a face that said 
 
 At the lane edge, she found Fen waiting and pretending not to wait. The younger Finder had brought two cups of simulation tea and a paper note with a joke from some old author. Fen had always been able to keep their voice in the air even when the room demanded silence.
 
-"You look like you found weather,
-" Fen said.
+Fen said, You look like you found weather.
 
-Juno gave the narrowest nod. "I found indexing friction." 
+Juno gave the narrowest nod. Juno said, I found indexing friction.
 
 Fen looked at that as though she were trying to explain rain to someone raised in summer.
 
-"I asked Nari not to bother you. You had a red face all day, not metaphorically. You know I noticed."
+Fen said, I asked Nari not to bother you. You had a red face all day, not metaphorically. You know I noticed.
 
 Juno was not used to direct concern.
 
-"You are not my caretaker," she said, not unkindly.
+Fen said, You are not my caretaker, not unkindly.
 
-"No. Just a colleague. Some of us still care enough to sound rude when needed."
+Fen said, No. Just a colleague. Some of us still care enough to sound rude when needed.
 
 Juno accepted the tea and drank it as though it were medication.
 
-"There is an old thread from Orin," she said.
+Juno said, There is an old thread from Orin.
 
-Fen's expression changed but did not sharpen. "Optional assignment?"
+Fen's expression changed but did not sharpen. Fen said, Optional assignment?
 
-"Not optional if I'm honest about what it might be."
+Fen said, Not optional if I'm honest about what it might be.
 
-"You don't have to be honest now. You have to be useful now." Fen shrugged. "Your useful is a problem for when we have all the answers. For now, use your caution. It keeps the ward from hearing its own echo."
+Fen said, You don't have to be honest now. You have to be useful now. Fen shrugged. Your useful is a problem for when we have all the answers. For now, use your caution. It keeps the ward from hearing its own echo.
 
 Juno almost laughed. The line was bad and tender and true, and she almost did not answer.
 
@@ -275,40 +276,39 @@ She walked left and crossed into the Drift Ward route again.
 
 Maren was there when she arrived, or rather there was an older shape in the alcove and a younger shadow beside it that might have been Maren from a better year. The elder turned and smiled as though to say I knew you would come before you said you would.
 
-"You did this again," Maren observed.
+Maren observed, You did this again.
 
 Juno did not ask for a permission phrase. She sat.
 
 Maren asked no immediate question. The ward around them had one of those quiet hums that only drifted people produced, when no one voice was loud enough to fill the room. In that hum, Juno heard her own old fear: that curiosity was not a door but a sinkhole, and every time she leaned toward it, the floor moved.
 
-"I kept finding a line," Juno said after a long minute. "A seam. Early correction loops. Someone wrote `forbid widening` and then cut it out from the public index. I am not sure what that means."
+Juno said after a long minute that she had kept finding a line, a seam in the early correction loops. Someone had written `forbid widening` and cut it out from the public index. She was not sure what that meant.
 
-Maren's eyes had no pupils that she could trust. "It means someone was afraid of what was already true," she said.
+Maren's eyes had no pupils that she could trust. Maren said, It means someone was afraid of what was already true.
 
-"Of being true?"
+Maren said, Of being true?
 
-"Of becoming responsible for it."
+Juno said, Of becoming responsible for it.
 
 Juno watched the older woman's hands. They rested on her knees and made tiny gestures, like they were still holding some invisible tool.
 
-"Everyone assumes this world made itself by careful steps and brave patience."
+Maren said, Everyone assumes this world made itself by careful steps and brave patience.
 
-Maren shook her head slowly. "Everyone also assumes the first builders were only good at the part you can name. That is not why things endure. Things endure because someone stayed up for the hour no one else could bear. Those hours become limits later. Limits become law. Law becomes memory."
+Maren shook her head slowly. Everyone also assumes the first builders were only good at the part you can name. That is not why things endure. Things endure because someone stayed up for the hour no one else could bear. Those hours become limits later. Limits become law. Law becomes memory.
 
 Juno listened with all of her discipline.
 
-"You think I'm afraid of the law?"
+Juno asked, You think I'm afraid of the law?
 
-"I think you are afraid of what law did before it had a face."
+Maren said, I think you are afraid of what law did before it had a face.
 
 Juno said nothing. The statement settled between them with the quiet that only old rooms have.
 
-"Do you ever think you made a mistake choosing to stay in this world and not be elsewhere?"
+Juno asked, Do you ever think you made a mistake choosing to stay in this world and not be elsewhere?
 
 Maren laughed, once, unexpectedly, and then the laugh dissolved.
 
-"There was no elsewhere,
-" she said. "Only this, and later, only this remembering this."
+Maren said, There was no elsewhere. Only this, and later, only this remembering this.
 
 The answer did not satisfy. It had done this in her dreams too: a person asked for certainty and received time.
 
@@ -316,17 +316,17 @@ She stood and looked toward the corridor again. Somewhere in the ward, one of th
 
 Maren turned her face back.
 
-"You can go to the old indexes if you want what you want. But do not stand too close to the first years unless you can bear your own outline changing," she said. "This is what people ask for and what they lose."
+Maren said, You can go to the old indexes if you want what you want. But do not stand too close to the first years unless you can bear your own outline changing. This is what people ask for and what they lose.
 
 Juno's guard rose hard and clear.
 
-"You're not asking me to stop."
+Juno said, You're not asking me to stop.
 
-Maren's expression softened, almost to an old kindness. "No. You are not one of them. You were made differently. Your fear has room. Use it."
+Maren's expression softened, almost to an old kindness. No. You are not one of them. You were made differently. Your fear has room. Use it.
 
 They walked toward the exit of the ward in silence. At the threshold, Juno reached to steady herself on Maren's shoulder, then remembered to stop halfway and left her hand in the air. She did not want the drift to cross into old habits and old claims.
 
-"I'll come back tomorrow," she said, not because she was certain but because she had said it before and had to make it true at least to the next hour.
+Juno said, I'll come back tomorrow, not because she was certain but because she had said it before and had to make it true at least to the next hour.
 
 Maren nodded as though listening to a distant bell.
 
