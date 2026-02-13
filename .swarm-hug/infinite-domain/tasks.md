@@ -130,3 +130,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#70) Update `writing-artifacts/roadmap.md` chapter-16 tracker row from `Not started` to `Completed draft (4,706)` (or authoritative word count from canonical script) and align status metadata with `chapters/chapter-16.md` now that draft delivery task `#32` is marked complete (blocked by #32) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#71) Update `writing-artifacts/roadmap.md` chapter 17 tracker row from `Not started` to `Completed draft (4,057)` and sync its pacing/title metadata with `chapters/chapter-17.md` (`The Honest Daybreak` / present-layer framing) (blocked by #33)
