@@ -3,7 +3,7 @@
 ## Foundation and Planning
 
 - [x] (#1) Create the project’s chapter/artifact delivery contract so every draft is written to `chapters/chapter-01.md` through `chapters/chapter-17.md` and all analytical outputs land in `writing-artifacts/` with explicit update rules and retention policy [5 pts] (A)
-- [ ] (#2) Establish the master chapter tracker (`writing-artifacts/roadmap.md`) with act boundaries (1–4, 5–10, 11–14, 15–17), pacing goals, and mandatory 4,000–6,000-word target range per chapter [5 pts] (blocked by #1)
+- [A] (#2) Establish the master chapter tracker (`writing-artifacts/roadmap.md`) with act boundaries (1–4, 5–10, 11–14, 15–17), pacing goals, and mandatory 4,000–6,000-word target range per chapter [5 pts] (blocked by #1)
 - [ ] (#3) Build and maintain a canonical character bible covering Juno, Orin, Maren, Cassiel, Fen, Lena, Sable, Dara, Marcus, and Curator/Faded roles with secrets, motivations, relationships, and reveal timing [5 pts] (blocked by #1, #2)
 - [ ] (#4) Build the setting and mechanics bible for the Lattice, Archive, drift, noise, mind-jump bleed, and transition-era context, including what is explicit vs forbidden lore [5 pts] (blocked by #3)
 - [ ] (#5) Construct a historical timeline for the Transition Era (2025–2090) tied to Lena, Sable, Marcus, and major Engram milestones, including scene anchors for each major recording-era beat [5 pts] (blocked by #3, #4)
@@ -15,7 +15,7 @@
 
 ## Technical Tooling
 
-- [ ] (#11) Scaffold `rust/` as a Cargo workspace and establish shared crate layout plus utility contracts for all analysis binaries [5 pts] (blocked by #1)
+- [A] (#11) Scaffold `rust/` as a Cargo workspace and establish shared crate layout plus utility contracts for all analysis binaries [5 pts] (blocked by #1)
 - [ ] (#12) Implement a Rust CLI for repetitive cliché and sentence-pattern detection with per-chapter output and severity thresholds tuned for literary prose [5 pts] (blocked by #11)
 - [ ] (#13) Implement a Rust CLI for dialogue-tag, POV, and character-voice consistency validation with named-character state tracking and confidence scoring [5 pts] (blocked by #11)
 - [ ] (#14) Implement a Rust CLI for continuity checks (timeline, lore constraints, drift progression, scene dependencies, revealed information order) with diff-style violation reports [5 pts] (blocked by #11)
