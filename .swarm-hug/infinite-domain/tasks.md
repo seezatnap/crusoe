@@ -9,7 +9,7 @@
 - [x] (#5) Construct a historical timeline for the Transition Era (2025–2090) tied to Lena, Sable, Marcus, and major Engram milestones, including scene anchors for each major recording-era beat [5 pts] (blocked by #3, #4) (A)
 - [x] (#6) Build continuity and reveal matrices mapping each character arc, unresolved threads, and cross-chapter dependency graph from Act 1 through Act 4 [5 pts] (blocked by #3, #5) (A)
 - [x] (#7) Publish chapter-level POV/scene alternation rules and thematic progression (present-Lattice vs recording chapters), with required emotional pacing and perspective shifts per chapter [5 pts] (blocked by #2, #4, #6) (A)
-- [A] (#8) Define the style-and-voice protocol targeting literary sci-fi in the vein of Ted Chiang meets Kazuo Ishiguro: precise, humane, quietly devastating prose with emotional restraint and moments of devastating clarity; include anti-cliché constraints and tone-alternation rules for Lattice vs recording chapters [5 pts] (blocked by #2, #7)
+- [x] (#8) Define the style-and-voice protocol targeting literary sci-fi in the vein of Ted Chiang meets Kazuo Ishiguro: precise, humane, quietly devastating prose with emotional restraint and moments of devastating clarity; include anti-cliché constraints and tone-alternation rules for Lattice vs recording chapters [5 pts] (blocked by #2, #7) (A)
 - [ ] (#9) Define the postmortem rubric with mandatory checks: word-count compliance, plot progression, continuity, cliches, dialogue realism, pacing, tone stability, and lore safety flags [5 pts] (blocked by #7, #8)
 - [ ] (#10) Create an unresolved-thread log and risk register in `writing-artifacts/`, linking all open questions, secrets, and ethical dilemmas to specific chapters [5 pts] (blocked by #6, #9)
 
