@@ -27,7 +27,7 @@
 
 ## Validation Note
 
-- Full quality session run for this chapter now uses `quality-orchestrator-1771014239.md` (targeting `final-draft-chapters/chapter-16.md`) and fails at error threshold (`status: failed`, total findings: 143, 2 blocking reports).
+- Full quality session run for this chapter now uses `quality-orchestrator-1771016923.md` (targeting `final-draft-chapters/chapter-16.md`) and fails at error threshold (`status: failed`, total findings: 124, 1 blocking report). Previous stale report `quality-orchestrator-1771014239.md` (pre-fix, 143 findings) was removed.
 
 ## Final Gate Decision
 
