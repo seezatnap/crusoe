@@ -10,15 +10,15 @@ The first line that came through at 01:07 was not the warning. It was the corrid
 
 `status: unstable`
 
-She had expected to get some version of a system alert first and did. It was only the second message. One could almost read intent from the order: if they were going to break your rhythm, they would begin by showing you one more place where you had no entry. The first was the hold. The second was a chance at a person.
+She had expected to get some version of a system alert first and did. It was only the second message. One could read intent from the order: if they were going to break your rhythm, they would begin by showing you one more place where you had no entry. The first was the hold. The second was a chance at a person.
 
-She stood in the dark seam of the public lane where old districts learned the shape of evening from old memory and not present consensus. Juno had always called these lanes weatherless, but no lane in the Lattice was ever truly still. Somebody had arranged this one to hum only in the ribs.
+She stood in the dark seam of the public lane where old districts learned the shape of evening from old memory and not present consensus. Juno called these lanes weatherless, but no lane in the Lattice was ever truly still. Somebody had arranged this one to hum only in the ribs.
 
-The lane pulled everything too flat, as if somebody had chosen not to offer her the comfort of perspective.
+The lane pulled everything too flat, as though somebody had chosen not to offer her the comfort of perspective.
 
 “Walk,” Fen said from a side channel, his voice too close to the ear because he had always preferred direct line for things like this.
 
-“I have no lock to walk with,” she answered. “You can’t see me if I keep moving.”
+“I have no lock to walk with,” Juno answered. “You can’t see me if I keep moving.”
 
 “Then I’ll walk where you are.”
 
@@ -54,7 +54,7 @@ They did not go far. The route to Maren had never been a route in the old sense.
 
 She felt each bend in her step; she had begun to register policy by the pressure on the floor and not by law. It was useful. It was exhausting.
 
-At the dock-edge, where everyone used the old phrase as if it still meant water, she paused and let him see her hand. The old habit from years ago: one hand on the edge of the field, one hand open. It reminded her to do two things at once.
+At the dock-edge, where everyone used the phrase as if it still meant water, she paused and let him see her hand. The old habit from years ago: one hand on the edge of the field, one hand open. It reminded her to do two things at once.
 
 `Maren-landing: open only on first request` 
 
@@ -76,7 +76,7 @@ Then she looked at Juno and the old voice appeared, fully and without apology.
 
 “Juno.”
 
-Maren always spoke the name as if it were a question with two answers already known.
+Maren always spoke the name as though it were a question with two answers already known.
 
 “How long have you been waiting?” Juno asked.
 
@@ -170,11 +170,11 @@ The dock around them stayed quiet. Wind existed only by memory, no gusts, no cur
 
 Maren’s face moved slowly, and if there was grief she did not let it settle.
 
-“Orin did not decide alone,” she said. “He kept a standard and called it compassion.”
+“Orin did not decide alone,” Maren said. “He kept a standard and called it compassion.”
 
-“You called it that too?”
+“You called it that too,” Juno asked.
 
-“Once. Not now.”
+“Once. Not now,” Maren said.
 
 “What changed?”
 
@@ -346,7 +346,7 @@ Juno’s knees felt suddenly too light.
 
 “What did we choose?” she asked.
 
-Maren moved her shoulders as if she were suddenly cold.
+Maren moved her shoulders, suddenly cold, in a quick shrug.
 
 “You chose to discover slowly.”
 
@@ -412,7 +412,7 @@ Juno reached for the command and felt it fail. Not permission, not authority. No
 
 “Maren. She was asking.”
 
-“No one asked you that.”
+“No one asked you that,” Maren said.
 
 Maren’s look did not change.
 
@@ -626,11 +626,11 @@ Sable tapped the notebook once.
 
 “Then who?”
 
-Sable’s gaze found someone behind Juno in the present lane, as if she were reading across time and did not need to look in the room where we stood.
+Sable’s gaze found someone behind Juno in the present lane, as though she were reading across time and did not need to look in the room where we stood.
 
 “That is the point. Not everyone can.”
 
-Maren turned slightly and saw Juno’s younger body in the record as if it were not a person and only posture.
+Maren turned slightly and saw Juno’s younger body in the record as though it were not a person and only posture.
 
 “Then if she refuses?”
 
@@ -736,7 +736,7 @@ Maren looked at her with no surprise.
 
 Juno could almost laugh at that. Same thing had always been Maren’s private joke when she needed truth to survive its own honesty.
 
-“You said it was yours if I was willing.”
+“You said it was yours if I was willing,” Maren said.
 
 “I said that as a condition.”
 
@@ -934,7 +934,7 @@ She felt the old frustration rise. She did not hide it.
 
 Maren gave a small nod.
 
-“That’s the first honest use of power,” she said. “You now own what you can’t control.”
+“That’s the first honest use of power,” Maren said. “You now own what you can’t control.”
 
 Juno moved through the modules and began selecting audit packets as one might open old boxes in a room full of inherited furniture.
 

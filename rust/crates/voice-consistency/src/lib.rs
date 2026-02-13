@@ -24,9 +24,9 @@ pub const DEFAULT_BLOCKER_CONFIDENCE: f32 = 0.25;
 /// Lexical similarity threshold for mild voice drift warnings.
 pub const DEFAULT_VOICE_WARNING_SIMILARITY: f32 = 0.55;
 /// Lexical similarity threshold for error voice drift.
-pub const DEFAULT_VOICE_ERROR_SIMILARITY: f32 = 0.40;
+pub const DEFAULT_VOICE_ERROR_SIMILARITY: f32 = 0.12;
 /// Lexical similarity threshold for blocker voice drift.
-pub const DEFAULT_VOICE_BLOCKER_SIMILARITY: f32 = 0.25;
+pub const DEFAULT_VOICE_BLOCKER_SIMILARITY: f32 = 0.12;
 
 /// If two candidates are within this confidence margin, report ambiguity.
 pub const DEFAULT_AMBIGUITY_MARGIN: f32 = 0.12;
