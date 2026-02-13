@@ -5,7 +5,7 @@
 - [x] (#1) Create the project’s chapter/artifact delivery contract so every draft is written to `chapters/chapter-01.md` through `chapters/chapter-17.md` and all analytical outputs land in `writing-artifacts/` with explicit update rules and retention policy [5 pts] (A)
 - [x] (#2) Establish the master chapter tracker (`writing-artifacts/roadmap.md`) with act boundaries (1–4, 5–10, 11–14, 15–17), pacing goals, and mandatory 4,000–6,000-word target range per chapter [5 pts] (blocked by #1) (A)
 - [x] (#3) Build and maintain a canonical character bible covering Juno, Orin, Maren, Cassiel, Fen, Lena, Sable, Dara, Marcus, and Curator/Faded roles with secrets, motivations, relationships, and reveal timing [5 pts] (blocked by #1, #2) (A)
-- [A] (#4) Build the setting and mechanics bible for the Lattice, Archive, drift, noise, mind-jump bleed, and transition-era context, including what is explicit vs forbidden lore [5 pts] (blocked by #3)
+- [x] (#4) Build the setting and mechanics bible for the Lattice, Archive, drift, noise, mind-jump bleed, and transition-era context, including what is explicit vs forbidden lore [5 pts] (blocked by #3) (A)
 - [ ] (#5) Construct a historical timeline for the Transition Era (2025–2090) tied to Lena, Sable, Marcus, and major Engram milestones, including scene anchors for each major recording-era beat [5 pts] (blocked by #3, #4)
 - [ ] (#6) Build continuity and reveal matrices mapping each character arc, unresolved threads, and cross-chapter dependency graph from Act 1 through Act 4 [5 pts] (blocked by #3, #5)
 - [ ] (#7) Publish chapter-level POV/scene alternation rules and thematic progression (present-Lattice vs recording chapters), with required emotional pacing and perspective shifts per chapter [5 pts] (blocked by #2, #4, #6)
@@ -19,7 +19,7 @@
 - [x] (#12) Implement a Rust CLI for repetitive cliché and sentence-pattern detection with per-chapter output and severity thresholds tuned for literary prose [5 pts] (blocked by #11) (B)
 - [x] (#13) Implement a Rust CLI for dialogue-tag, POV, and character-voice consistency validation with named-character state tracking and confidence scoring [5 pts] (blocked by #11) (B)
 - [x] (#14) Implement a Rust CLI for continuity checks (timeline, lore constraints, drift progression, scene dependencies, revealed information order) with diff-style violation reports [5 pts] (blocked by #11) (C)
-- [A] (#15) Build a Rust orchestration binary that runs #12–#14 plus basic length checks in one command and writes signed artifacts per chapter to `writing-artifacts/quality/` [5 pts] (blocked by #12, #13, #14)
+- [x] (#15) Build a Rust orchestration binary that runs #12–#14 plus basic length checks in one command and writes signed artifacts per chapter to `writing-artifacts/quality/` [5 pts] (blocked by #12, #13, #14) (A)
 - [ ] (#16) Add contributor-facing command docs and scripts to run the full quality pipeline plus style-reference reminders before drafting sessions [5 pts] (blocked by #15)
 
 ## Act 1 Drafting (Chapters 01–04)
@@ -63,5 +63,5 @@
 - [x] (#39) Update `analysis-contracts` `AnalysisInput` to resolve `target` against `working_directory` and use that resolved path in `validate_target_exists`, plus add tests for non-root working-directory invocation (currently only related paths are resolved, which can cause false “missing target” failures). (blocked by #11) (A)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#40) Update `cliche-detection`, `voice-consistency`, and `continuity-check` to use `AnalysisInput::resolve_target_path()` for validation, file reads, and report `target` paths so `with_working_directory(...)` and relative targets behave consistently (blocked by #39)
-- [B] (#41) Add regression tests for all three analyzer crates (`cliche-detection`, `voice-consistency`, `continuity-check`) that use a non-root `working_directory` with relative targets to confirm path resolution is applied end-to-end, including report metadata and file access (blocked by #39)
+- [x] (#40) Update `cliche-detection`, `voice-consistency`, and `continuity-check` to use `AnalysisInput::resolve_target_path()` for validation, file reads, and report `target` paths so `with_working_directory(...)` and relative targets behave consistently (blocked by #39) (B)
+- [x] (#41) Add regression tests for all three analyzer crates (`cliche-detection`, `voice-consistency`, `continuity-check`) that use a non-root `working_directory` with relative targets to confirm path resolution is applied end-to-end, including report metadata and file access (blocked by #39) (B)
