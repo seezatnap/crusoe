@@ -51,6 +51,41 @@
 | 16 | 4 | Public exposure and resistance | Resolve the governance/public struggle and alliance dynamics | 4,000–6,000 | Not started |
 | 17 | 4 | Resolution and return to honesty | Complete emotional closure while preserving strategic ambiguity | 4,000–6,000 | Not started |
 
+## Chapter-level POV / scene alternation rules and emotional progression (Task #7)
+
+### Global rules
+
+- Chapter layers should alternate between **Present-Lattice** and **Recording** where possible, with exceptions documented in `notes`.
+- Every chapter must begin on the lead layer for that chapter.
+- Each chapter must include at least one layer transition, unless explicitly marked as single-layer.
+- Emotional progression must be cumulative: each chapter increases urgency, raises emotional cost, or amplifies moral stakes relative to the prior chapter.
+- The alternation model is:
+  - Recording chapters heighten embodiment and historical causality.
+  - Present-Lattice chapters escalate social consequence, present-tense pressure, and behavioral drift.
+  - Present chapters must process the fallout of the prior recording beats.
+
+### Chapter-level matrix
+
+| Chapter | Lead layer | Required perspective shifts | Emotional pacing objective | Thematic progression note |
+|---|---|---|---|---|
+| 01 | Present-Lattice | No shift (single-layer) | Establish emotional equilibrium, isolation, and curiosity pressure | Open Act 1 with present-world texture before historical pull |
+| 02 | Recording | Present → Recording → Present | Move from curiosity into embodied attachment with mild disorientation | Begin tactile/physical contrast between now and the recordings |
+| 03 | Present-Lattice | Present → Commission-room perspective → Present | Maintain composure while introducing guarded suspicion | Establish Orin as trusted gate through controlled authority |
+| 04 | Recording | Present → Recording → Present | Convert observational jump into emotional hook and behavioral residue | First major Lena inflection and the beginning of obsession |
+| 05 | Recording | Present → Recording → Present | Increase ethical intensity and investigative momentum | Frame the Engram arc as a living choice architecture |
+| 06 | Recording | Present → Recording → Present | Track recurring signs of Sable and sharpen present anxiety | Pattern recognition becomes a structural imperative |
+| 07 | Present-Lattice | Present → Recording flash fragment → Present | Heighten social pressure and visible Juno decompensation | Act 2 turns private cost into interpersonal consequence |
+| 08 | Present-Lattice | Present → Memory echo → Present | Preserve uncertainty while escalating dread | Maren’s warning becomes emotionally legible by sequence |
+| 09 | Present-Lattice | Present → Access-denied record scene → Present | Convert policy friction into active confrontation | Restriction and deflection become undeniable narrative force |
+| 10 | Recording | Present → Recording → Present | Deliver first hard reveal: infrastructure is active and strategic | End Act 2 with technical truth as emotional event |
+| 11 | Present-Lattice | Present → Recording → Present | Break safety rhythm by choosing dangerous access | Mark the first major rogue-jump cost decision point |
+| 12 | Recording | Present → Recording → Present | Resolve uncertainty around constraints; deepen stakes of choice | Show maintenance logic as care-with-boundaries paradox |
+| 13 | Present-Lattice | Present → Institutional forum → Present | Shift from motive to control through policy enforcement | Orin’s protective strategy is now explicit and coercive |
+| 14 | Recording | Present → Recording → Present | Move from inquiry to responsibility and explicit confession | Maren/Key linkage reaches emotional and historical closure |
+| 15 | Present-Lattice | Present → Public deliberation → Present | Force irreversible triage among three competing ethics | Define the third option as hard, costly, and credible |
+| 16 | Present-Lattice | Present → Public escalation → Present | Convert private truth into contested civic consequence | Track alliance strain, resistance, and social reorganization |
+| 17 | Present-Lattice | No shift (single-layer) | Resolve with grief, tenderness, and forward consent | Close with informed uncertainty and emotional steadiness |
+
 ## Operating notes
 
 - Any chapter marked finished must be within the 4,000–6,000 word band before moving forward in planning or postmortem sequencing.
