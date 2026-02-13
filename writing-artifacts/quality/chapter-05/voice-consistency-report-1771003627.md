@@ -1,0 +1,518 @@
+# Voice/POV Report: final-draft-chapters/chapter-05.md
+
+## Summary
+- Analyzer: voice-consistency
+- Findings: 121
+- ambiguous_dialogue_blocks: 1
+- ambiguous_margin: 0.12
+- analyzer: voice-consistency
+- blocker_confidence: 0.25
+- character_list: i, lena, dara, they, marcus, sable, it, he
+- continuation_confidence: 0.72
+- dara:avg_confidence: 0.79
+- error_confidence: 0.45
+- explicit_name_confidence: 0.95
+- he:avg_confidence: 0.42
+- i:avg_confidence: 0.42
+- it:avg_confidence: 0.54
+- lena:avg_confidence: 0.79
+- pronoun_tag_confidence: 0.42
+- sable:avg_confidence: 0.77
+- target: final-draft-chapters/chapter-05.md
+- they:avg_confidence: 0.68
+- total_dialogue_blocks: 59
+- tracked_characters: 8
+- untagged_dialogue_blocks: 0
+- voice_blocker_similarity: 0.25
+- voice_error_similarity: 0.40
+- voice_min_sample_words: 24
+- voice_top_words: 8
+- voice_warning_similarity: 0.55
+- warning_confidence: 0.70
+
+## Findings
+
+- Info final-draft-chapters/chapter-05.md:65
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'dara'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:65
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'dara' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:67
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'dara'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:67
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'dara' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:69
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'dara'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:69
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:69
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'dara' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:79
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'dara'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:79
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'dara' (similarity 0.33, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:79
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'dara' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:81
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'dara'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:81
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'dara' (similarity 0.30, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:81
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'dara' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-05.md:87
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'he'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-05.md:87
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'he' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:91
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:91
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.19, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:93
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:93
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:95
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:95
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:97
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:97
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.22, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Blocker final-draft-chapters/chapter-05.md:125
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.23, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:141
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:141
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.23, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:153
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:153
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:155
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:155
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:157
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:157
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:157
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:159
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:159
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:159
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:161
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:161
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:161
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:163
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:163
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.29, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:163
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:165
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:165
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:165
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:167
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:167
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:167
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:169
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:169
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:169
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:219
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:219
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:219
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:221
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:221
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:221
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:223
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:223
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:223
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:225
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:225
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:225
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:227
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:227
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:227
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-05.md:229
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'they'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-05.md:229
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:231
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'they'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:231
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:233
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'they'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:233
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'they' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:233
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:255
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'they'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:255
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'they' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:255
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:257
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'they'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:257
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'they' (similarity 0.30, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:257
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:261
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'they'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:261
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'they' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:261
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:269
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'they'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:269
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'they' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-05.md:269
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'they' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:271
+  - code: DIAL-AMBIG-001
+  - message: Ambiguous dialogue attribution: multiple candidates around line 271, likely 'marcus' with confidence 0.95.
+  - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+- Info final-draft-chapters/chapter-05.md:275
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:275
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'marcus' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:279
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:279
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'marcus' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-05.md:281
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'dara' (similarity 0.30, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Error final-draft-chapters/chapter-05.md:287
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-05.md:287
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'it' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:297
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'it'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:297
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'it' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-05.md:299
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'it'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-05.md:299
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'it' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-05.md:347
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-05.md:347
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'it' does not match active POV marker 'lena'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Blocker final-draft-chapters/chapter-05.md:351
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Blocker final-draft-chapters/chapter-05.md:353
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.23, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:375
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:375
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:379
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:379
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:381
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:381
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:385
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-05.md:385
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:399
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:399
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.32, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Blocker final-draft-chapters/chapter-05.md:403
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Blocker final-draft-chapters/chapter-05.md:407
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Error final-draft-chapters/chapter-05.md:409
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.28, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-05.md:411
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-05.md:411
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.27, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Error final-draft-chapters/chapter-05.md:457
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-05.md:457
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'i' does not match active POV marker 'juno'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-05.md:483
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-05.md:483
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'it' (similarity 0.28, weighted confidence 0.42).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Error final-draft-chapters/chapter-05.md:483
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'it' does not match active POV marker 'juno'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
