@@ -110,3 +110,7 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#59) Update `writing-artifacts/roadmap.md` chapter-11 row to `Completed draft (5,360)` and align its pacing metadata with `chapters/chapter-11.md` (blocked by #27) (B)
 - [x] (#60) Address failing chapter-11 quality gates in `writing-artifacts/quality/chapter-11/quality-orchestrator-1770992711.md` (notably `CLIC-CLICHÉ-01` and dialogue-tagging/ambiguity findings), then rerun quality checks so the chapter has a clean artifact before moving to `chapter-12.md` (blocked by #27) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#61) Update `writing-artifacts/roadmap.md` chapter-12 tracker row from `Not started` to `Completed draft (4,568)` and align its title/pacing/act metadata with `chapters/chapter-12.md` (blocked by #28)
+- [ ] (#62) Resolve the chapter-12 quality blockers (`VOICES`, `DIAL-*`, `POV-*`) in `chapters/chapter-12.md` and rerun `scripts/run-quality-session.sh` so `writing-artifacts/quality/chapter-12/quality-orchestrator-*` has a `status: passed` report before unfreezing downstream chapter work (blocked by #28)
