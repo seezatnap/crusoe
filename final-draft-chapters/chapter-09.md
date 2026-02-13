@@ -14,6 +14,8 @@ This morning it felt granular.
 
 ---
 
+<!-- pov: juno -->
+
 The cluster map loaded in the pale constellation of small icons she had come to know too well — each one a recording fragment, a metadata node, a witness chain with its own history of who had touched it and who had been refused. She expanded the view to the full EN-33 series and ran the chronological sort she had been building since the previous cycle.
 
 The sort returned a pattern she had not seen before.
@@ -42,6 +44,8 @@ Each one logged her name and returned nothing.
 
 ---
 
+<!-- pov: juno -->
+
 She did not know how long she sat with the eleven denials before the first practical thought arrived.
 
 The thought was not anger — not yet. It was geometry. Eleven entries, all from the same temporal band, all reclassified in the same cycle, all bearing the same Curator-level hold. The probability of eleven simultaneous reclassifications arising from routine maintenance was small enough to be a courtesy. Someone had made a decision about what she was allowed to see, and the decision had been made after her last session — after the notebook fragments, after Maren's warning, after Sable's margin notes had confirmed what the archive's silence had been suggesting for weeks.
@@ -57,6 +61,8 @@ Orin's signature sat in the access log with the neatness of something that had a
 She pressed her palms flat against the console and felt the granularity of the nothing beneath them — the texture of a system that had stopped accommodating her attention and started measuring its weight.
 
 ---
+
+<!-- pov: juno -->
 
 A message arrived in her private channel before she had composed the first line of her own response.
 
@@ -100,6 +106,8 @@ She sat back. The console's nothing had become slightly warmer under her palms �
 
 ---
 
+<!-- pov: juno -->
+
 She could have accepted the wall and returned to routine.
 
 She could have filed a formal inquiry through the channels Orin had specified and waited for a response that might never arrive, because *pending internal assessment* was the Lattice's polite way of saying *no one has been assigned to answer this*.
@@ -128,6 +136,8 @@ The archive had been edited the way a person edits a memory they cannot afford t
 
 ---
 
+<!-- pov: juno -->
+
 She needed to test this against something Orin could not control.
 
 The secondary index — the one that tracked provenance chains rather than content — was not under Curator jurisdiction. It belonged to the Archive's structural maintenance layer, a system designed to verify the integrity of access paths rather than the content they carried. Provenance chains could not be reclassified without triggering a maintenance alert, because reclassification of a provenance chain implied that the path to a record had been altered, and altered paths were the one thing the maintenance system was built to notice.
@@ -149,6 +159,8 @@ She checked the other ten entries. All ten carried the same notation.
 Orin was not just restricting her access. He was preparing to make these records unreachable.
 
 ---
+
+<!-- pov: juno -->
 
 The corridor outside lane six held its shape with the particular stillness of a space that was being watched. Juno stood and walked the length of it twice — not for exercise, not for a destination, but because walking was the only physical action the Lattice allowed her to perform without the architecture asking for a reason.
 
@@ -180,6 +192,8 @@ The system accepted the message without comment. In the Lattice, acceptance with
 
 ---
 
+<!-- pov: juno -->
+
 The response arrived faster than she had expected.
 
 `From: Tamsin / Archive Governance Liaison`
@@ -204,6 +218,8 @@ She closed the tracker and sat with the quiet.
 
 ---
 
+<!-- pov: juno -->
+
 The quiet did not last.
 
 Orin's next message arrived twelve minutes after Tamsin's — which meant he had been notified of the filing, which meant the governance liaison system had done exactly what it was designed to do: create a record and inform all parties that the record existed.
@@ -227,6 +243,8 @@ She typed one line.
 `I will be there at second bell.`
 
 ---
+
+<!-- pov: juno -->
 
 Orin's office had the same bronze light and the same careful distance she remembered from the commission chamber. The console between them. The absence of unnecessary gesture. The stillness of a man who had practised patience until patience had become the room itself.
 
@@ -339,6 +357,8 @@ She looked at him from the doorway.
 She left before the sentence could settle into the room's architecture.
 
 ---
+
+<!-- pov: juno -->
 
 The corridor outside Orin's office felt longer than it had on the way in. The floor lights adjusted to her pace, brightening and dimming in the shallow intervals the Lattice used to acknowledge a person's movement without interpreting its purpose.
 
