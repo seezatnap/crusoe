@@ -74,3 +74,7 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#44) Fix the malformed list marker in `writing-artifacts/postmortem-rubric.md` (`+- Must confirm:`) under Plot Progression so it renders as a valid bullet item and preserves consistent rubric formatting for postmortem checks. (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#45) Restore `chapters/chapter-01.md` in the active `chapters/` tree so task `#17` is actually deliverable and the claimed completed chapter sequence is present. (blocked by #17)
+- [ ] (#46) Reintroduce `writing-artifacts/style-and-voice-protocol.md` and verify it contains the JK Rowling-aligned protocol so the completed task state (`#8`/`#43`) matches actual repository artifacts. (blocked by #43)
