@@ -2,7 +2,7 @@
 artifact_id: "DOC-003"
 artifact_type: "planning"
 title: "High-Level Plot Outline"
-status: "in_progress"
+status: "approved"
 depends_on:
   - "DOC-001"
   - "DOC-002"
