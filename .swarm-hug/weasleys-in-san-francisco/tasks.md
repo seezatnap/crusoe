@@ -53,7 +53,7 @@
 - [x] (#25) Revise Act 1 (Chapters 1–5): verify POV consistency, comedic pacing, canon compliance, word-count targets (4k–6k each), continuity across chapters, and emotional arc progression [5 pts] (blocked by #10, #11, #12, #13, #14) (A)
 - [x] (#26) Revise Act 2 (Chapters 6–10): audit foreshadowing cadence, mystery-thread coherence, escalation logic, dialogue density, and character voice consistency [5 pts] (blocked by #15, #16, #17, #18, #19, #25) (A)
 - [x] (#27) Revise Acts 3–4 (Chapters 11–15): enforce climax coherence, thematic payoff, antagonist resolution logic, emotional stakes, and style consistency [5 pts] (blocked by #20, #21, #22, #23, #24, #26) (A)
-- [ ] (#28) Final integrated QA pass: reconcile all unresolved threads, verify chapter ordering and count, confirm canon compliance end-to-end, and produce release-ready chapter set in `chapters/` [5 pts] (blocked by #25, #26, #27)
+- [x] (#28) Final integrated QA pass: reconcile all unresolved threads, verify chapter ordering and count, confirm canon compliance end-to-end, and produce release-ready chapter set in `chapters/` [5 pts] (blocked by #25, #26, #27) (A)
 
 ## Follow-up tasks (from sprint review)
 - [x] (#29) [#6] Fix `writing-artifacts/summer-1994-15-chapter-story-spine.md` table formatting by adding the missing **Act** column values for all chapters after 3 (4–15), since rows currently shifted by one column and no longer explicitly encode the 4-act chapter ranges. (A)
