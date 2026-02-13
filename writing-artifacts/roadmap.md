@@ -44,7 +44,7 @@
 | 09 | 2 | Restricted archives and confrontation | Convert policy friction into active confrontation | 4,000–6,000 | Completed draft (5,995) |
 | 10 | 2 | Journal acquisition and living infrastructure reveal | End Act 2 with explicit realization of Rosetta Key agency | 4,000–6,000 | Completed draft (4,468) |
 | 11 | 3 | The Weather of Rupture | Shift from controlled investigation to unauthorized deep-jump access and immediate bleed risk | 4,000–6,000 | Completed draft (5,360) |
-| 12 | 3 | Sable direct perspective | Reveal structural constraints and systemic design intent | 4,000–6,000 | Not started |
+| 12 | 3 | The Quiet Architecture | Reveal the constraint architecture shaping perception, cognition, and self-modification | 4,000–6,000 | Completed draft (4,568) |
 | 13 | 3 | Orin escalation and ethical coercion | Escalate enforcement response and moral argument | 4,000–6,000 | Not started |
 | 14 | 3 | Maren’s final lucid truth and Key access | Deliver late-Act 3 payoff and irreversible entry point | 4,000–6,000 | Not started |
 | 15 | 4 | The triage of impossible options | Confront the three routes (remove limits, suppress truth, open truth) | 4,000–6,000 | Not started |
