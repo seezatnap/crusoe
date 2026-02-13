@@ -136,7 +136,7 @@ Every desk held the same white edges. Every monitor carried its own obedient glo
 
 The second had asked whether she was in.
 
-She had answered: "I am."
+Juno answered: "I am."
 
 That was true precisely, structurally, without the kind of weight that came from standing on a floor you could feel.
 
@@ -258,7 +258,7 @@ Their words were not loud. They were too careful.
 
 She wanted to say she was concentrating. She wanted to say she did not know what to do with the thing the room had shown her.
 
-She said: "I know."
+Juno said: "I know."
 
 Fen frowned.
 
@@ -386,7 +386,7 @@ They nodded once. "Then we do this your way: short run, full note, full stop if 
 
 "I can stand in the doorway and count."
 
-The way they said it carried the rhythm of something that predated the commission, the recordings, the version of herself the work had begun to rewrite.
+The way Fen said it carried the rhythm of something that predated the commission, the recordings, the version of herself the work had begun to rewrite.
 
 She returned to lane one and opened EN-33-156 to a controlled frame. The record began as background audio — three people moving in a narrow corridor, one of them turning a wrench nobody had asked her to identify.
 
@@ -450,7 +450,7 @@ He did not enter quickly. He held the threshold with the stillness he used in ga
 
 Her voice sounded flat.
 
-He gave a small, wry expression that arrived two beats late. "I came to return something you said you did not want."
+"I came to return something you told me you did not want," Cassiel said, his expression arriving two beats late — small, wry, and too careful to be casual.
 
 He held up a folded piece of paper bearing an old station seal — one that carried no legal force and all the force a person needed in private communication. It was a note she had sent him three weeks ago: a request for quiet, no details, no request for return.
 
@@ -478,11 +478,11 @@ She held it and returned it.
 
 Cassiel did not take it back. He let it rest between them.
 
-"You think I came because I'm sentimental," he said. "I came because Fen made this sound like neglect, not caution."
+"You think I came because I'm sentimental," Cassiel said. "I came because Fen made this sound like neglect, not caution."
 
 "Fen called it neglect," she said.
 
-"They called it alarm."
+"They called it alarm," Cassiel said.
 
 She could have argued with the word. But the argument required a distance she no longer had.
 
