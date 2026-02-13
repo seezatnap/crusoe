@@ -100,7 +100,7 @@ She moved toward the edge of the dock and sat. No ceremony and no performance of
 
 The word carried a weight that belonged to no single sentence — the weight of centuries in a substrate that had taught everyone inside it to mistake stability for honesty. Juno heard it and did not correct it.
 
-"I can keep my hearing order," she said. "I can keep my holds. I can keep their review schedules and panels and ethics language."
+"I can keep my hearing order," Juno said. "I can keep my holds. I can keep their review schedules and panels and ethics language."
 
 Maren raised her hand — two fingers, the shape of a point. "And yet you still want one thing from me."
 
@@ -134,9 +134,9 @@ The dock held its quiet. Wind existed only by memory. Still, the feeling of cold
 
 Maren's face moved slowly, and if there was grief she did not let it settle long enough to name.
 
-"Orin did not decide alone. He kept a standard and called it compassion."
+"Orin did not decide alone," Maren said. "He kept a standard and called it compassion."
 
-"You called it that too."
+"You called it that too," Juno said.
 
 "Once. Not now."
 
@@ -452,7 +452,7 @@ The phrase struck the air with the weight of something that had been written int
 
 Juno inhaled.
 
-"I am not asking for authority," she said. "I am asking for continuity with consequence."
+"I am not asking for authority," Juno said. "I am asking for continuity with consequence."
 
 The dock cracked open. Not with light — with sound. A low static, like a door closing on a mechanism older than any room that called itself governance.
 
@@ -644,7 +644,7 @@ The infrastructure display showed one warning:
 
 `recommended action: prepare external narrative`
 
-She did what the room asked. She began compiling a witness-safe export with strict metadata — not because she trusted the system's timing, but because the alternative was having nothing when the session closed.
+Juno did what the room asked. She began compiling a witness-safe export with strict metadata — not because she trusted the system's timing, but because the alternative was having nothing when the session closed.
 
 `warning: no unilateral edits`
 
