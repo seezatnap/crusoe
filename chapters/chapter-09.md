@@ -54,8 +54,7 @@ Ron turned to Harry. "You found this where?"
 
 Ron gave him a glance that could have been gratitude if it had ever happened before. "She'd better be right."
 
-Harry shrugged. "She is usually better than people think she's allowed to be.
-"
+Harry shrugged. "She is usually better than people think she's allowed to be."
 
 Molly came in then with bread and the kind of bright expression she used when she had made up her mind on a difficult plan. "There are two rules for any house with children and danger," she said. "One, keep the food hot. Two, stop pretending everyone can hide from what the grown-ups do."
 
@@ -177,20 +176,17 @@ Ron nodded. "Yes, but with one more thing before we commit: confirm this is not 
 
 Bill gave him a steady look. "You're asking for a check on the symbol itself. I can do that." He turned to Harry. "Ginny's notebook. Did she ever note the exact point where she first drew it and what happened around it?"
 
-Harry shook his head. "She wrote places and times in one column. Some are neat, some scratched out. She didn't write fear, which made me angry for a week because she thinks if she writes fear, it becomes a thing we can't move around it.
-"
+Harry shook his head. "She wrote places and times in one column. Some are neat, some scratched out. She didn't write fear, which made me angry for a week because she thinks if she writes fear, it becomes a thing we can't move around it."
 
 Ron closed his notebook. "That actually helps. Then the symbol isn't the fear. It is the trigger. The first time she saw it at Coit, she called it shape because that's all we had. We can keep that."
 
 Arthur sat next to him and looked at the map like it might answer one last domestic question.
 
-"If the convergence point is what you think, then every person in this house now has a role," Arthur said. "Not everyone goes down. Not everyone stays. But everybody knows where not to stand.
-"
+"If the convergence point is what you think, then every person in this house now has a role," Arthur said. "Not everyone goes down. Not everyone stays. But everybody knows where not to stand."
 
 Ron gave a small, practical smile. "First rule for us: no heroics, Arthur. If we're going to be useful, we become loud only after we are done useful."
 
-Arthur laughed softly. "That is a better rule for a family than any Ministry brief.
-"
+Arthur laughed softly. "That is a better rule for a family than any Ministry brief."
 
 ---
 
@@ -198,26 +194,21 @@ The room changed when Bill stood up and walked directly into the sunlight. That 
 
 "Listen," Bill said. "I want a full reconstruction before noon.
 
-"Ginny's symbol as-is is not enough. The sketch shows three variants, maybe more if the smudge is the fourth. One of them is identical to what I know from old curse-breaking records as a *release gate marker*. Not a reinforcement loop, not a perimeter warning. A breaker of held wards.
-"
+"Ginny's symbol as-is is not enough. The sketch shows three variants, maybe more if the smudge is the fourth. One of them is identical to what I know from old curse-breaking records as a *release gate marker*. Not a reinforcement loop, not a perimeter warning. A breaker of held wards."
 
-Ron looked up sharply. "A ward-breaking marker?" He had known the phrase but hearing it from Bill made something in his chest tighten. "You mean this does the opposite of strengthening?
-"
+Ron looked up sharply. "A ward-breaking marker?" He had known the phrase but hearing it from Bill made something in his chest tighten. "You mean this does the opposite of strengthening?"
 
 Bill nodded. "Yes. It marks where a boundary can be opened or forced. You use it when a room must be entered under pressure. Dangerous if someone who isn't expecting it gets hold of it. It is not common in our world because everyone who learns that sequence starts by learning to reseal it, and very few keep it for bad use."
 
-Molly came over then and knelt on the chair rung with one hand on her hip. "If people are using it intentionally, they're not breaking old things for fun. They are opening one on purpose and then moving through.
-"
+Molly came over then and knelt on the chair rung with one hand on her hip. "If people are using it intentionally, they're not breaking old things for fun. They are opening one on purpose and then moving through."
 
-Bill nodded. "Exactly. At the same time I can see in the shape how this one is written for repeat use. Not one-time breach. The mark appears where a sequence is intended to be re-cast. That means they are not improvising; they are rehearsing.
-"
+Bill nodded. "Exactly. At the same time I can see in the shape how this one is written for repeat use. Not one-time breach. The mark appears where a sequence is intended to be re-cast. That means they are not improvising; they are rehearsing."
 
 The words landed with weight but no panic. Ron had expected fear; he got a mechanism. That was worse and better. Mechanism meant there was a plan and a weakness.
 
 Harry was at the table, fingers on the map paper. "How sure are you?"
 
-Bill gave him a hard look. "As sure as anyone can be before compulsion or a full proof from the underlook. I need one more signature set for certainty. We need one direct trace from a live corridor. Which means this becomes urgency, not mystery.
-"
+Bill gave him a hard look. "As sure as anyone can be before compulsion or a full proof from the underlook. I need one more signature set for certainty. We need one direct trace from a live corridor. Which means this becomes urgency, not mystery."
 
 Ron folded his arms. "Then we do it now. Arthur, where are the logs?"
 
@@ -225,28 +216,23 @@ Arthur brought up the file. It looked less like a file and more like two days of
 
 Ron scanned for points and times, then made notes in his own format, then moved three pins again.
 
-"Convergence still holds. The pattern is geometric but not symmetrical. It's a folding sequence. See here—if we place the first point at Coit (call it C), then each subsequent point is mirrored not around a centre but around a moving point at tide stage two. That moving point is the Underlook mouth.
-"
+"Convergence still holds. The pattern is geometric but not symmetrical. It's a folding sequence. See here—if we place the first point at Coit (call it C), then each subsequent point is mirrored not around a centre but around a moving point at tide stage two. That moving point is the Underlook mouth."
 
 He explained as if this was all ordinary.
 
 "In chess terms," he said, "it's like a rook that keeps changing rank because the board is rotating and you're still trying to keep your king alive. The only way you get away with it is if you know the next move before it happens."
 
-Fred let out a low whistle. "You made our maps sound like sorcery.
-"
+Fred let out a low whistle. "You made our maps sound like sorcery."
 
 "It's the same thing," said Ron.
 
-Bill set one hand on the table near the symbol. "Then we can tell Tomo exactly where to walk tomorrow. She will not appreciate being asked to test this with a sketchbook and a guess. She'll take one controlled entry point, one legal witness, one escape route. If this converges where you say, it means the first walk can happen in the Underlook mouth corridor.
-"
+Bill set one hand on the table near the symbol. "Then we can tell Tomo exactly where to walk tomorrow. She will not appreciate being asked to test this with a sketchbook and a guess. She'll take one controlled entry point, one legal witness, one escape route. If this converges where you say, it means the first walk can happen in the Underlook mouth corridor."
 
 Arthur asked, "And what about the other disturbance points that are only probable?"
 
-Ron nodded to his list. "Keep as probable until tested. But they are likely the same hand correcting for drift. The probable points are guard points, not anchors. The symbols tell them where to adjust.
-"
+Ron nodded to his list. "Keep as probable until tested. But they are likely the same hand correcting for drift. The probable points are guard points, not anchors. The symbols tell them where to adjust."
 
-Bill took a breath and looked at Marisol. "No children in the first walk. No twins in the first walk. No experiments with joke products near the entry unless it is pre-cleared. We keep this to professional footprint plus one or two of us who understand this network already.
-"
+Bill took a breath and looked at Marisol. "No children in the first walk. No twins in the first walk. No experiments with joke products near the entry unless it is pre-cleared. We keep this to professional footprint plus one or two of us who understand this network already."
 
 Marisol opened her mouth, closed it, then nodded. "Understood. We'll keep the family safe and keep the night from becoming a story no one will tell."
 
@@ -256,8 +242,7 @@ Ron reached under the table and pulled out a small chessboard he had once used o
 
 Bill grunted in a way that meant he approved.
 
-"We'll proceed in one line tomorrow," Bill said. "Official support from Tomo. Controlled access under dawn fog. Arthur and I, with one witness and one ward specialist. If the line holds, we bring back anchor points for the whole family to decide next step in daylight.
-"
+"We'll proceed in one line tomorrow," Bill said. "Official support from Tomo. Controlled access under dawn fog. Arthur and I, with one witness and one ward specialist. If the line holds, we bring back anchor points for the whole family to decide next step in daylight."
 
 Ron wrote that on the margin: *One line at dawn. Underlook mouth. Controlled walk. Return if compromised.*
 
@@ -267,62 +252,45 @@ Ron wrote that on the margin: *One line at dawn. Underlook mouth. Controlled wal
 
 As evening went on, Tomo arrived without ceremony and with her own stack of papers under her coat. She came from the BMA office and left no introduction because she had already made three rounds with Arthur and Bill earlier that day.
 
-"The channel watch reports came in," she said. "No one on this record is naming us. That is a good thing. It might also be a bad thing.
-"
+"The channel watch reports came in," she said. "No one on this record is naming us. That is a good thing. It might also be a bad thing."
 
 Her eyes scanned the room like she was counting exits by memory.
 
-Ron gestured to the table. "We have one to discuss. Underlook mouth convergence from known markers. Controlled walk tomorrow at dawn, if your office can keep legal cover.
-"
+Ron gestured to the table. "We have one to discuss. Underlook mouth convergence from known markers. Controlled walk tomorrow at dawn, if your office can keep legal cover."
 
-Tomo didn't move. "You think convergence because we can line points on paper, but what I have from official readings this afternoon says your map isn't the only one with that structure. There are unregistered pressure pulses along three routes. The pulses did not come from the city system. They came in rhythm with your family's movement through Fog Hollow in the past two days.
-"
+Tomo didn't move. "You think convergence because we can line points on paper, but what I have from official readings this afternoon says your map isn't the only one with that structure. There are unregistered pressure pulses along three routes. The pulses did not come from the city system. They came in rhythm with your family's movement through Fog Hollow in the past two days."
 
-Arthur's mouth tightened. "Our movement?
-"
+Arthur's mouth tightened. "Our movement?"
 
-Tomo said it like a warning. "Yes. You are no longer invisible as a harmless tourist group. We did not ask for that, but the corridor is being tested against you.
-"
+Tomo said it like a warning. "Yes. You are no longer invisible as a harmless tourist group. We did not ask for that, but the corridor is being tested against you."
 
-Ron leaned forward. "Who's testing us?
-"
+Ron leaned forward. "Who's testing us?"
 
 Tomo was careful with the answer. "No one with a name yet. We have signatures and one repeating marker. The signature appears with the fog-lane, yes, but the repetition has intent. They know what you have found or how close you are. Either way, they are watching."
 
-Ron sat back. For one beat, his face emptied of certainty and replaced with something colder. "How do you know that and not just guess?
-"
+Ron sat back. For one beat, his face emptied of certainty and replaced with something colder. "How do you know that and not just guess?"
 
-She pointed at the printout. "Because there are no weather reasons for this sequence. Two pulses at dawn, one on the same minute you were all in the map room, one on the minute after Tomo's office called for witness logs. Then a soft counter-pulse at tide change that lines with no active construction and no municipal utility update.
-"
+She pointed at the printout. "Because there are no weather reasons for this sequence. Two pulses at dawn, one on the same minute you were all in the map room, one on the minute after Tomo's office called for witness logs. Then a soft counter-pulse at tide change that lines with no active construction and no municipal utility update."
 
-Bill frowned. "Counter-surveillance. Or bluff.
-"
+Bill frowned. "Counter-surveillance. Or bluff."
 
 Ron looked from one to the other and then at Harry, then back to the map.
 
-"If it's bluff," he said, voice low, "they're too close for bluff.
-"
+"If it's bluff," he said, voice low, "they're too close for bluff."
 
-Tomo nodded once. "Then yes. We should assume you are being watched.
-"
+Tomo nodded once. "Then yes. We should assume you are being watched."
 
-Molly came in then, drying her hands on a dish towel and making a face as if she were deciding whether to let panic at all. "Everyone needs something to make a decision. If someone is watching, we either keep going in a disciplined pattern, or we stop and become useful in the long run.
-"
+Molly came in then, drying her hands on a dish towel and making a face as if she were deciding whether to let panic at all. "Everyone needs something to make a decision. If someone is watching, we either keep going in a disciplined pattern, or we stop and become useful in the long run."
 
-Ron lifted the notebook and turned to the children. "I can't stop us from being watched by being less curious. I can only make them pay for watching in all the wrong places.
-"
+Ron lifted the notebook and turned to the children. "I can't stop us from being watched by being less curious. I can only make them pay for watching in all the wrong places."
 
-Arthur gave him a small approving nod. "Say it in less dramatic terms: we continue by plan.
-"
+Arthur gave him a small approving nod. "Say it in less dramatic terms: we continue by plan."
 
-Tomo spread the papers and pointed at the one line she had marked in blue. "I can assign two field officers from this office for tomorrow's outer tunnel walk. They will be visible enough to be legal. If anything deviates from their log, we have stronger grounds than fear.
-"
+Tomo spread the papers and pointed at the one line she had marked in blue. "I can assign two field officers from this office for tomorrow's outer tunnel walk. They will be visible enough to be legal. If anything deviates from their log, we have stronger grounds than fear."
 
-Ron exhaled. "Then that's the plan. Controlled line, controlled logs, no improvisation. And no one tells children the map is done unless we're ready.
-"
+Ron exhaled. "Then that's the plan. Controlled line, controlled logs, no improvisation. And no one tells children the map is done unless we're ready."
 
-Bill nodded and reached for the board. "We'll send to this tonight: the convergence point, pin set, probable route, and confidence grade. Ron, you wrote this.
-"
+Bill nodded and reached for the board. "We'll send to this tonight: the convergence point, pin set, probable route, and confidence grade. Ron, you wrote this."
 
 Ron gave him his own folder without flourish.
 
@@ -342,13 +310,11 @@ No one moved for several seconds. Even Ron, who liked certainty, had to admit un
 
 "Not all watchers are people," Arthur said.
 
-"No," Tomo said, and she sounded as if she could not decide if that frightened her. "Could be a creature being used. Could be an animal moved in training. Either way, we do not ignore it.
-"
+"No," Tomo said, and she sounded as if she could not decide if that frightened her. "Could be a creature being used. Could be an animal moved in training. Either way, we do not ignore it."
 
 Fred made an old joke that landed too late. "Harlan's pelican?"
 
-Tomo gave him the exact look professionals reserve for children with useful courage. "If it is, then he has better resources than we thought.
-"
+Tomo gave him the exact look professionals reserve for children with useful courage. "If it is, then he has better resources than we thought."
 
 Ron wrote one line beneath the map legend:
 
@@ -366,19 +332,15 @@ Bill took it and held it under the light.
 
 "From what kind of line?"
 
-"Not rope," said Ron before Bill could answer. "Not utility. Someone wrapped signal wrap around something to make a pull test. That is intentional.
-"
+"Not rope," said Ron before Bill could answer. "Not utility. Someone wrapped signal wrap around something to make a pull test. That is intentional."
 
-Tomo wrote it down without showing surprise. "We call that a trailing marker. Somebody wanted to know if the sill had been touched recently. It's the sort of thing you use when you are testing the habits of a target.
-"
+Tomo wrote it down without showing surprise. "We call that a trailing marker. Somebody wanted to know if the sill had been touched recently. It's the sort of thing you use when you are testing the habits of a target."
 
 Ron looked at everyone, not because he wanted consensus but because they now had one. "Then there is no ambiguity. The line we're mapping is not only underground. It is above-ground watch as well."
 
-Arthur's answer was a dry sound, almost laugh, almost not. "Then it is settled. We were not wrong yesterday. We're not wrong today.
-"
+Arthur's answer was a dry sound, almost laugh, almost not. "Then it is settled. We were not wrong yesterday. We're not wrong today."
 
-Bill added, "And if we are being watched, we do not stop. We tighten.
-"
+Bill added, "And if we are being watched, we do not stop. We tighten."
 
 There was no question now of retreat.
 
@@ -386,20 +348,17 @@ Harry stood with his hand on the edge of the table. "I'll stay with Ginny and th
 
 Ron put down the pen and gave Harry a long look. "No heroics. You call first, then decide. I hate this line in our family but it keeps us from losing three people at once."
 
-Harry, who had learned the phrase from Arthur and often from pain, nodded. "Understood.
-"
+Harry, who had learned the phrase from Arthur and often from pain, nodded. "Understood."
 
 Ron turned to Molly. "Can you keep everyone from running to the maproom tonight?"
 
-Molly crossed one hand over the other and made it into something like a seal. "I'll keep them fed and fed to purpose. No one eats panic.
-"
+Molly crossed one hand over the other and made it into something like a seal. "I'll keep them fed and fed to purpose. No one eats panic."
 
 Tomo stood to leave and then stopped at the door.
 
 "One more condition if we're being watched,” she said. "No notes by open window. No pages pinned up for display. No obvious symbols out. We keep your house as ordinary as possible until we know what this is. If they see disorder, they adapt. If we look normal, they may keep overconfidence."
 
-Ron nodded. "We're good at looking normal when we're terrified.
-"
+Ron nodded. "We're good at looking normal when we're terrified."
 
 She gave him a faint nod of respect. "That is an underused defense."
 
@@ -465,15 +424,13 @@ He looked around and lowered his paper.
 
 Bill added quickly, "And no improvised entry without legal cover. No surprises. No heroics outside plan."
 
-Tomo nodded once, as if agreeing to a treaty. "You will have one escort and one witness line from office logs. If a pulse shifts, you retreat and reclassify.
-"
+Tomo nodded once, as if agreeing to a treaty. "You will have one escort and one witness line from office logs. If a pulse shifts, you retreat and reclassify."
 
 Arthur kept it plain. "We don't wait for perfect certainty. We move with enough certainty to keep everyone safe."
 
 Ron set a hand on the map and looked from family to visitors. "Then yes. Investigation crystallized: one target, one line, one phase. If we move now with that line, this becomes response, not panic."
 
-Bill met his eyes. "If the Undertow is what we're suspecting, this is where they meet us and we do not give them the luxury of confusion.
-"
+Bill met his eyes. "If the Undertow is what we're suspecting, this is where they meet us and we do not give them the luxury of confusion."
 
 "Understood," Ron said.
 
@@ -493,14 +450,11 @@ Arthur came down for it and read. He did not speak for a moment. Then he folded 
 
 Ron saw in Arthur's eyes the same thing he recognized as resolve without appetite for delay.
 
-"Now we know," Arthur said quietly. "No one else told us we were watched. The city is saying it in pieces.
-"
+"Now we know," Arthur said quietly. "No one else told us we were watched. The city is saying it in pieces."
 
-Bill held out his hand. "Then we keep the line and keep moving.
-"
+Bill held out his hand. "Then we keep the line and keep moving."
 
-Ron said, almost to himself, "Tomorrow we follow this line out of sequence.
-"
+Ron said, almost to himself, "Tomorrow we follow this line out of sequence."
 
 No one in the room interrupted.
 
