@@ -331,7 +331,7 @@ She opened a notebook — the same one Juno had seen in fragments across three o
 
 `If they trust us with no weather, they may never ask why the sky has been shut.`
 
-Dara reached for Sable's sleeve. The gesture was practical, not tender — a touch that said *I am here* without requiring the other person to respond.
+Dara reached for Sable's sleeve. The gesture was practical, not tender — Dara's way of saying *stay* without requiring the other person to respond.
 
 "You don't need to carry this alone," Dara said.
 
@@ -417,11 +417,11 @@ Fen was standing behind her. His attention registered the way the Lattice's mino
 
 "It says active," Juno said, "because it has always been active. For everyone. Since the beginning."
 
-He took two breaths before answering. "What does that mean for us?"
+Fen took two breaths before answering. "What does that mean for us?"
 
-Juno turned in her chair and looked at him. He deserved an answer that matched the question's weight, and the only honest one she had was what she had been writing in her tracker since the first denied entry in the cluster map.
+Juno turned in her chair and looked at him. Fen deserved an answer that matched the question's weight, and the only honest one she had was what she had been writing in her tracker since the first denied entry in the cluster map.
 
-"It means Orin was not protecting a secret," she said. "He was protecting a process. A running, active, present-tense process that decides what kind of minds we are allowed to be. And the process has been deciding since before anyone alive was given the choice to consent."
+"It means Orin was not protecting a secret," Juno said. "He was protecting a process. A running, active, present-tense process that decides what kind of minds we are allowed to be. And the process has been deciding since before anyone alive was given the choice to consent."
 
 The query closed. The console returned to its neutral state — the clean nothing of a system that had answered a question and resumed its work.
 
