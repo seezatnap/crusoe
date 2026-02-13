@@ -130,7 +130,7 @@ Lena asked if she was in pain.
 
 The woman shook her head. "Not pain. Just a sentence that won't fit the room."
 
-She said: *You said you'd take me home.* Then nothing.
+The woman's voice carried one last sentence — *You said you'd take me home* — and then nothing.
 
 Sable reached forward and cut at seven-point-two seconds after the line. The room softened. The subject blinked and returned the way a person on a train returns when the train has slowed before the station — present, but carrying the momentum of somewhere else.
 
@@ -196,7 +196,7 @@ She opened the lane map for the EN-33 cluster and expanded the cross-reference v
 
 `Potential risk: identity anchoring to non-primary figure.`
 
-The phrase *identity anchoring* described exactly what she was trying not to do. It described a Finder who had stopped observing a recording and started building a private map around a figure the archive had filed as background. The training modules called this fixation drift. The commission protocol called it a risk marker. What it actually was, Juno thought, was the slow recognition that someone in the peripheral field had been placed there by a hand careful enough to make placement look like coincidence.
+The phrase *identity anchoring* described exactly what Juno was trying not to do. The term described a Finder who had stopped observing a recording and started building a private map around a figure the archive had filed as background. The training modules called this fixation drift. The commission protocol classified it as a risk marker. What it actually was, Juno thought, was the slow recognition that someone in the peripheral field had been placed there by a hand careful enough to make placement look like coincidence.
 
 She rubbed the place where her shoulder should have been — an old gesture from old concentration exercises, borrowed from a body she had never owned. The station around her offered no resistance, no texture, nothing to press against. She was alone in a room that gave everything back without keeping anything for itself.
 
@@ -318,7 +318,7 @@ At the edge of the lane, Fen waited with a cup in one hand and concern they were
 
 "You look like you slept in a memory with no exit," Fen said.
 
-She almost said she was fine.
+Juno almost told Fen she was fine.
 
 "Not this cycle," Fen said. "I can see you from here. You've gone from precise to haunted in three minutes."
 
