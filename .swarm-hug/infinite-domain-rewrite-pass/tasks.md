@@ -20,7 +20,7 @@
 
 - [x] (#8) Rewrite `final-draft-chapters/chapter-07.md` preserving all structural beats and POV/layer alternation rules from the roadmap, using targeted `style-reference` calibration before drafting, and deliver a standalone 4,000–6,000 word rewrite anchored to prior rewritten chapters [5 pts] (blocked by #7) (A)
 
-- [ ] (#9) Rewrite `final-draft-chapters/chapter-08.md` by reconstituting plot flow, emotional arcs, and reveals from first draft under final continuity constraints, including cross-checks against transition-era timeline and unresolved-thread log; maintain 4,000–6,000 words [5 pts] (blocked by #8)
+- [A] (#9) Rewrite `final-draft-chapters/chapter-08.md` by reconstituting plot flow, emotional arcs, and reveals from first draft under final continuity constraints, including cross-checks against transition-era timeline and unresolved-thread log; maintain 4,000–6,000 words [5 pts] (blocked by #8)
 
 - [ ] (#10) Rewrite `final-draft-chapters/chapter-09.md` with complete pre-read pass and sequential dependency on rewritten prior chapters; improve sensory grounding in both Lattice and recording sequences, and enforce anti-cliche prose targets in 4,000–6,000 words [5 pts] (blocked by #9)
 
@@ -68,7 +68,7 @@
 - [x] (#32) Clean up the 4 duplicate voice-consistency reports for chapter-05 (timestamps 1771003623, 1771003627, 1771003631, 1771003640) generated during task #28 — all 4 are identical and only one should be retained (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#33) Add missing section-level `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-07.md` at scene and recording-fragment transitions — the chapter has only a top-level POV marker but 8 section breaks and a recording fragment, matching the same gap that required follow-up in chapters 05 and 06 (blocked by #8)
-- [ ] (#34) Run quality-orchestrator on `final-draft-chapters/chapter-07.md` (not `chapters/chapter-07.md`) — all 4 existing chapter-07 quality reports target the stale first-draft path and are invalid for the rewritten file (blocked by #8)
-- [ ] (#35) Run a continuity-check diagnostic on `final-draft-chapters/chapter-07.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–06 in tasks #23, #24, #27, and #29 (blocked by #8)
+- [B] (#33) Add missing section-level `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-07.md` at scene and recording-fragment transitions — the chapter has only a top-level POV marker but 8 section breaks and a recording fragment, matching the same gap that required follow-up in chapters 05 and 06 (blocked by #8)
+- [B] (#34) Run quality-orchestrator on `final-draft-chapters/chapter-07.md` (not `chapters/chapter-07.md`) — all 4 existing chapter-07 quality reports target the stale first-draft path and are invalid for the rewritten file (blocked by #8)
+- [B] (#35) Run a continuity-check diagnostic on `final-draft-chapters/chapter-07.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–06 in tasks #23, #24, #27, and #29 (blocked by #8)
 - [ ] (#36) Fix 6 error-level voice-consistency findings in `final-draft-chapters/chapter-06.md` — 3 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 133, 199, 321 using `you`/`it`/`she` instead of named characters) and 3 corresponding POV-DRIFT-001 errors that persist in the post-rewrite quality report despite task #31 POV marker additions (blocked by #9)
