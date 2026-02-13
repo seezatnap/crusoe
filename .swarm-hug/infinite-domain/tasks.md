@@ -58,3 +58,6 @@
 - [ ] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30)
 - [ ] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33)
 - [ ] (#38) Execute final integration release checklist: rerun tooling (#15), finalize roadmaps and unresolved-thread log, freeze artifact outputs, and produce final deliverable bundle for editorial handoff [5 pts] (blocked by #34, #35, #36, #37, #15)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#39) Update `analysis-contracts` `AnalysisInput` to resolve `target` against `working_directory` and use that resolved path in `validate_target_exists`, plus add tests for non-root working-directory invocation (currently only related paths are resolved, which can cause false “missing target” failures). (blocked by #11)
