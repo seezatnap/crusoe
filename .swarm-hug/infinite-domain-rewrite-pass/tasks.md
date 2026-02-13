@@ -16,7 +16,7 @@
 
 - [x] (#6) Rewrite `final-draft-chapters/chapter-05.md` after ingesting chapter-05-specific postmortem and all governing bibles/roadmap/continuity artifacts plus prior rewritten chapters and first-draft chapter 05, then produce a polished 4,000–6,000 word chapter aligned to sequence and reveal timing [5 pts] (blocked by #5) (A)
 
-- [ ] (#7) Rewrite `final-draft-chapters/chapter-06.md` with full required reads (`character/setting/style/roadmap/continuity/timeline/thread log/postmortem`, prior rewrites, first draft), then rebuild chapter in unified authorial voice with stronger transitions and scene rhythm, enforcing 4,000–6,000 words [5 pts] (blocked by #6)
+- [x] (#7) Rewrite `final-draft-chapters/chapter-06.md` with full required reads (`character/setting/style/roadmap/continuity/timeline/thread log/postmortem`, prior rewrites, first draft), then rebuild chapter in unified authorial voice with stronger transitions and scene rhythm, enforcing 4,000–6,000 words [5 pts] (blocked by #6) (A)
 
 - [ ] (#8) Rewrite `final-draft-chapters/chapter-07.md` preserving all structural beats and POV/layer alternation rules from the roadmap, using targeted `style-reference` calibration before drafting, and deliver a standalone 4,000–6,000 word rewrite anchored to prior rewritten chapters [5 pts] (blocked by #7)
 
@@ -57,6 +57,12 @@
 - [x] (#25) Fix the quality-orchestrator target path so it validates `final-draft-chapters/chapter-XX.md` instead of `chapters/chapter-XX.md` — the mismatch caused chapter-04 quality checks to run against a stale file (word count reported 4,367 vs actual 5,213) (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#26) Run quality-orchestrator checks on `final-draft-chapters/chapter-05.md` (not `chapters/chapter-05.md`) — all existing chapter-05 quality reports validated the stale first-draft file (4,828 words, 0 dialogue blocks) instead of the rewritten file (5,259 words), so cliche, voice-consistency, and dialogue-tag results are invalid (blocked by #25)
-- [ ] (#27) Run a continuity-check diagnostic on `final-draft-chapters/chapter-05.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–04 in tasks #23 and #24 (blocked by #6)
-- [ ] (#28) Add missing `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-05.md` — the voice-consistency analyzer flagged 11 POV-MARKER-001 info findings on the old draft, and the rewrite likely inherits or worsens this gap since no POV markers were added during the rewrite (blocked by #6)
+- [x] (#26) Run quality-orchestrator checks on `final-draft-chapters/chapter-05.md` (not `chapters/chapter-05.md`) — all existing chapter-05 quality reports validated the stale first-draft file (4,828 words, 0 dialogue blocks) instead of the rewritten file (5,259 words), so cliche, voice-consistency, and dialogue-tag results are invalid (blocked by #25) (B)
+- [x] (#27) Run a continuity-check diagnostic on `final-draft-chapters/chapter-05.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–04 in tasks #23 and #24 (blocked by #6) (B)
+- [x] (#28) Add missing `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-05.md` — the voice-consistency analyzer flagged 11 POV-MARKER-001 info findings on the old draft, and the rewrite likely inherits or worsens this gap since no POV markers were added during the rewrite (blocked by #6) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#29) Run a continuity-check diagnostic on `final-draft-chapters/chapter-06.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–05 in tasks #23, #24, and #27 (blocked by #7)
+- [ ] (#30) Run quality-orchestrator on `final-draft-chapters/chapter-06.md` to get a unified quality report against the rewritten file — the existing quality-orchestrator reports for chapter-06 predate the rewrite and validated a stale file (blocked by #7)
+- [ ] (#31) Add missing section-level `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-06.md` at scene/recording transitions — the voice-consistency report flagged multiple POV-DRIFT-001 warnings because only the top-level POV marker exists, the same gap chapter-05 had before task #28 (blocked by #7)
+- [ ] (#32) Clean up the 4 duplicate voice-consistency reports for chapter-05 (timestamps 1771003623, 1771003627, 1771003631, 1771003640) generated during task #28 — all 4 are identical and only one should be retained
