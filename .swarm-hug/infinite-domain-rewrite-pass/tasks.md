@@ -51,3 +51,7 @@
 - [x] (#21) Address 23 Blocker-level VOICE-STYLE-001 findings in `final-draft-chapters/chapter-03.md` (concentrated in Juno and Orin dialogue lines ~97–193) by reconciling diction and rhythm with established character voice baselines from chapters 01–02 (blocked by #4) (B)
 - [x] (#22) Add explicit dialogue tags to the 2 untagged and 3 ambiguous dialogue blocks in `final-draft-chapters/chapter-03.md` flagged by DIAL-TAG-001 and DIAL-AMBIG-001 (lines 45, 49, 91, 119) to resolve speaker-attribution warnings before chapter 04 builds on this text (blocked by #4) (B)
 - [x] (#23) Run a continuity-check diagnostic on `final-draft-chapters/chapter-03.md` against `continuity-reveal-matrices.md` and produce an explicit continuity report artifact — the commit claims 0 violations but no continuity report was generated to verify (blocked by #4) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#24) Run a continuity-check diagnostic on `final-draft-chapters/chapter-04.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapter 03 in task #23 (blocked by #5)
+- [ ] (#25) Fix the quality-orchestrator target path so it validates `final-draft-chapters/chapter-XX.md` instead of `chapters/chapter-XX.md` — the mismatch caused chapter-04 quality checks to run against a stale file (word count reported 4,367 vs actual 5,213)
