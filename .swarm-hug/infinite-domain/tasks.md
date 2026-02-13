@@ -56,7 +56,7 @@
 - [x] (#34) Run postmortem and revision cycle for `chapter-01.md`–`chapter-04.md` against all gates in #9; re-run all Rust checks and style workflow until chapter package is within spec [5 pts] (blocked by #17, #18, #19, #20) (B)
 - [x] (#35) Run postmortem and revision cycle for `chapter-05.md`–`chapter-10.md` with special review of tone transitions, act-level escalation, and continuity with #6 and #5 [5 pts] (blocked by #21, #22, #23, #24, #25, #26) (B)
 - [x] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30) (B)
-- [ ] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33)
+- [x] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33) (A)
 - [ ] (#38) Execute final integration release checklist: rerun tooling (#15), finalize roadmaps and unresolved-thread log, freeze artifact outputs, and produce final deliverable bundle for editorial handoff [5 pts] (blocked by #34, #35, #36, #37, #15)
 
 ## Follow-up tasks (from sprint review)
@@ -132,4 +132,9 @@
 - [x] (#70) Update `writing-artifacts/roadmap.md` chapter-16 tracker row from `Not started` to `Completed draft (4,706)` (or authoritative word count from canonical script) and align status metadata with `chapters/chapter-16.md` now that draft delivery task `#32` is marked complete (blocked by #32) (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#71) Update `writing-artifacts/roadmap.md` chapter 17 tracker row from `Not started` to `Completed draft (4,057)` and sync its pacing/title metadata with `chapters/chapter-17.md` (`The Honest Daybreak` / present-layer framing) (blocked by #33)
+- [x] (#71) Update `writing-artifacts/roadmap.md` chapter 17 tracker row from `Not started` to `Completed draft (4,057)` and sync its pacing/title metadata with `chapters/chapter-17.md` (`The Honest Daybreak` / present-layer framing) (blocked by #33) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#72) Update `writing-artifacts/roadmap.md` chapter-15 row count from `Completed draft (4,847)` to `Completed draft (4,843)` to match the actual `chapters/chapter-15.md` word count and quality/postmortem evidence.
+- [ ] (#73) Correct `writing-artifacts/postmortems/chapter-15-postmortem-2026-02-13.md`, `writing-artifacts/postmortems/chapter-16-postmortem-2026-02-13.md`, and `writing-artifacts/postmortems/chapter-17-postmortem-2026-02-13.md` to reference existing quality artifacts (`quality-orchestrator-1770995444.md`) instead of non-existent `...1770995384.md` (blocked by #37).
+- [ ] (#74) Add quote-based dialogue formatting or parser-compatible dialogue markers in `chapters/chapter-16.md` and `chapters/chapter-17.md` (or adjust analyzer expectations) because `writing-artifacts/quality/chapter-16/quality-orchestrator-1770995444.md` and `writing-artifacts/quality/chapter-17/quality-orchestrator-1770995444.md` report `total_dialogue_blocks: 0` despite spoken dialogue present, then rerun quality sessions (blocked by #37).
