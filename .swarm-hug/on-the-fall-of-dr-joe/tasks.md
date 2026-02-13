@@ -56,3 +56,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#42) Correct `writing-artifacts/DOC-004-chapter-by-chapter-outline.md` clue-range notation in the “Notation” section to match actual clue IDs used in the outline (`C-001` through `C-073`), since it currently states `C-001` through `C-025`. (blocked by #5) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#43) Repair `rust/Cargo.toml` workspace configuration so `cargo build --workspace` and `cargo test --workspace` succeed (currently failing because `rust/crates/*/Cargo.toml` does not exist in the repo).
