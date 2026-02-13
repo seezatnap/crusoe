@@ -5,17 +5,17 @@
 | Metric | Value |
 |---|---|
 | Total chapters | 17 |
-| Completed | 0 |
+| Completed | 1 |
 | In progress | 0 |
-| Not started | 17 |
-| Overall progress | 0% |
+| Not started | 16 |
+| Overall progress | 6% |
 
 ## Chapter Status
 
 | Chapter | Act | Task | Status | Word Count | Started | Completed | Notes |
 |---|---|---|---|---|---|---|---|
-| 01 | 1 | #2 | NOT STARTED | — | — | — | Blocked by #1 (plan setup) |
-| 02 | 1 | #3 | NOT STARTED | — | — | — | Blocked by #2 |
+| 01 | 1 | #2 | COMPLETED | 4,215 | 2026-02-13 | 2026-02-13 | Rewritten from scratch; quality pipeline: 0 cliche, 0 continuity, length pass |
+| 02 | 1 | #3 | NOT STARTED | — | — | — | Unblocked by #2 |
 | 03 | 1 | #4 | NOT STARTED | — | — | — | Blocked by #3 |
 | 04 | 1 | #5 | NOT STARTED | — | — | — | Blocked by #4 |
 | 05 | 2 | #6 | NOT STARTED | — | — | — | Blocked by #5 |
@@ -36,7 +36,7 @@
 
 | Act | Chapters | Completed | Progress |
 |---|---|---|---|
-| Act 1: The Commission | 01–04 | 0/4 | 0% |
+| Act 1: The Commission | 01–04 | 1/4 | 25% |
 | Act 2: The Descent | 05–10 | 0/6 | 0% |
 | Act 3: The Truth | 11–14 | 0/4 | 0% |
 | Act 4: The Choice | 15–17 | 0/3 | 0% |
