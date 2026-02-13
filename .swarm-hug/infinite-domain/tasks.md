@@ -10,7 +10,7 @@
 - [x] (#6) Build continuity and reveal matrices mapping each character arc, unresolved threads, and cross-chapter dependency graph from Act 1 through Act 4 [5 pts] (blocked by #3, #5) (A)
 - [x] (#7) Publish chapter-level POV/scene alternation rules and thematic progression (present-Lattice vs recording chapters), with required emotional pacing and perspective shifts per chapter [5 pts] (blocked by #2, #4, #6) (A)
 - [x] (#8) Define the style-and-voice protocol targeting literary sci-fi in the vein of Ted Chiang meets Kazuo Ishiguro: precise, humane, quietly devastating prose with emotional restraint and moments of devastating clarity; include anti-cliché constraints and tone-alternation rules for Lattice vs recording chapters [5 pts] (blocked by #2, #7) (A)
-- [ ] (#9) Define the postmortem rubric with mandatory checks: word-count compliance, plot progression, continuity, cliches, dialogue realism, pacing, tone stability, and lore safety flags [5 pts] (blocked by #7, #8)
+- [A] (#9) Define the postmortem rubric with mandatory checks: word-count compliance, plot progression, continuity, cliches, dialogue realism, pacing, tone stability, and lore safety flags [5 pts] (blocked by #7, #8)
 - [ ] (#10) Create an unresolved-thread log and risk register in `writing-artifacts/`, linking all open questions, secrets, and ethical dilemmas to specific chapters [5 pts] (blocked by #6, #9)
 
 ## Technical Tooling
@@ -24,7 +24,7 @@
 
 ## Act 1 Drafting (Chapters 01–04)
 
-- [ ] (#17) Draft `chapters/chapter-01.md` in the 4,000–6,000-word range: establish present-day Lattice reality, Juno’s guarded profession as a Finder, her emotional isolation, and first visit to drifted Maren; encode her core curiosity about origin [5 pts] (blocked by #7, #8, #15, #16, #2)
+- [B] (#17) Draft `chapters/chapter-01.md` in the 4,000–6,000-word range: establish present-day Lattice reality, Juno’s guarded profession as a Finder, her emotional isolation, and first visit to drifted Maren; encode her core curiosity about origin [5 pts] (blocked by #7, #8, #15, #16, #2)
 - [ ] (#18) Draft `chapters/chapter-02.md` in the 4,000–6,000-word range: begin Juno’s earliest jumps into peripheral recordings, contrast digital abstraction with embodied 2030s detail (coffee, weather, pain, smell), and seed the Rosetta Key thread [5 pts] (blocked by #17)
 - [ ] (#19) Draft `chapters/chapter-03.md` in the 4,000–6,000-word range: deliver Orin’s commission for Engram-linked recovery work with unusual compensation, hidden restrictions, and Juno’s uneasy acceptance [5 pts] (blocked by #18)
 - [ ] (#20) Draft `chapters/chapter-04.md` in the 4,000–6,000-word range: escalate to the first emotionally transformative Lena jump; end Act 1 with a decisive hook into obsession and altered behavior [5 pts] (blocked by #19)
@@ -70,4 +70,4 @@
 - [x] (#42) Reconcile user-facing examples for `quality-orchestrator` flags so `./scripts/run-quality-session.sh`/`./scripts/pre-draft-session.sh` guidance matches actual accepted CLI options (use `--fail-on` and `--no-artifact`, or add underscore aliases in `rust/crates/quality-orchestrator`). (blocked by #16) (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#43) Update `writing-artifacts/style-and-voice-protocol.md` to align the protocol with the project’s required JK Rowling style direction in AGENTS.md, including any contradictory references currently framing style as Ted Chiang/Kazuo Ishiguro, and sync task `#8` wording to match. (blocked by #8)
+- [A] (#43) Update `writing-artifacts/style-and-voice-protocol.md` to align the protocol with the project’s required JK Rowling style direction in AGENTS.md, including any contradictory references currently framing style as Ted Chiang/Kazuo Ishiguro, and sync task `#8` wording to match. (blocked by #8)
