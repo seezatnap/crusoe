@@ -2,7 +2,7 @@
 
 ## Pre-Production & Governance
 
-- [A] (#1) Stand up the rewrite pass workflow on `feature/infinite-domain-rewrite-pass`, verify required source artifacts exist and are untouched (`first-draft-codex-chapters/`, `writing-artifacts/`), create/confirm `final-draft-chapters/`, and define the chapter-by-chapter execution plan with logging and status tracking [5 pts]
+- [x] (#1) Stand up the rewrite pass workflow on `feature/infinite-domain-rewrite-pass`, verify required source artifacts exist and are untouched (`first-draft-codex-chapters/`, `writing-artifacts/`), create/confirm `final-draft-chapters/`, and define the chapter-by-chapter execution plan with logging and status tracking [5 pts] (A)
 
 ## Sequential Chapter Rewrites
 
