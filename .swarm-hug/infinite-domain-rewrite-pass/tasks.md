@@ -8,7 +8,7 @@
 
 - [x] (#2) Rewrite `final-draft-chapters/chapter-01.md` from scratch by first reading `writing-artifacts/character-bible.md`, `writing-artifacts/setting-bible.md`, `writing-artifacts/style-and-voice-protocol.md`, `writing-artifacts/roadmap.md`, `writing-artifacts/continuity-reveal-matrices.md`, `writing-artifacts/transition-era-timeline.md`, `writing-artifacts/unresolved-thread-log.md`, and `writing-artifacts/postmortems/chapter-01-postmortem-*.md`; then read `first-draft-codex-chapters/chapter-01.md`; run targeted `style-reference narrative/dialogue --count 5` samples; preserve all beats, reveals, POV/POV-layer rules, and emotional progression; write a cohesive 4,000–6,000 word chapter in final style [5 pts] (blocked by #1) (A)
 
-- [A] (#3) Rewrite `final-draft-chapters/chapter-02.md` with the same required-reading flow for chapter 02 artifacts, including all prior rewritten chapters (`final-draft-chapters/chapter-01.md`), preserve continuity and transition logic into chapter 02, and produce a 4,000–6,000 word standalone chapter with unified voice and anti-cliche constraints [5 pts] (blocked by #2)
+- [x] (#3) Rewrite `final-draft-chapters/chapter-02.md` with the same required-reading flow for chapter 02 artifacts, including all prior rewritten chapters (`final-draft-chapters/chapter-01.md`), preserve continuity and transition logic into chapter 02, and produce a 4,000–6,000 word standalone chapter with unified voice and anti-cliche constraints [5 pts] (blocked by #2) (A)
 
 - [ ] (#4) Rewrite `final-draft-chapters/chapter-03.md` using the full source stack (`character-bible`, `setting-bible`, `style-and-voice-protocol`, relevant roadmap section, continuity/reveal matrices, timeline, thread log, chapter-03 postmortem), prior rewritten chapters, and first draft baseline; calibrate prose via `style-reference` samples; deliver 4,000–6,000 words with preserved structure and pacing [5 pts] (blocked by #3)
 
@@ -45,4 +45,4 @@
 - [ ] (#19) Run a full manuscript-level pass over `final-draft-chapters/chapter-01.md` through `chapter-17.md` to verify word counts (4,000–6,000 each), continuity with `continuity-reveal-matrices.md`, roadmap pacing/POV adherence, anti-cliche and repetition diagnostics, unresolved-thread closure, and unresolved risks; compile final handoff report and status for remaining gaps [5 pts] (blocked by #18)
 
 ## Follow-up tasks (from sprint review)
-- [A] (#20) Build or stub the `style-reference` CLI tool so that chapter rewrites can run automated style calibration instead of manual calibration (referenced in tasks #3–#18 and noted as missing in the chapter-01 rewrite log) (blocked by #2)
+- [x] (#20) Build or stub the `style-reference` CLI tool so that chapter rewrites can run automated style calibration instead of manual calibration (referenced in tasks #3–#18 and noted as missing in the chapter-01 rewrite log) (blocked by #2) (A)
