@@ -76,7 +76,7 @@ last_updated_utc: "2026-02-13T00:00:00Z"
 ## Dependency Notes
 
 - Every planning artifact and chapter must list upstream dependencies.
-- If a dependency blocks drafting, record it in `writing-artifacts/dependency-notes.md`.
+- If a dependency blocks drafting, record it in [`dependency-notes.md`](./dependency-notes.md).
 - If the dependency changes, log the change in the next handoff.
 
 ## Recommended Artifact Handoff Order
@@ -93,5 +93,5 @@ last_updated_utc: "2026-02-13T00:00:00Z"
 ## Tracking and Handoff Convention
 
 - Use `writing-artifacts/word-count.md` for chapter length governance.
-- Use `writing-artifacts/dependency-notes.md` for cross-document constraints.
-- Use `writing-artifacts/handoff-format.md` for every handoff between contributors.
+- Use [`dependency-notes.md`](./dependency-notes.md) for cross-document constraints.
+- Use [`handoff-format.md`](./handoff-format.md) for every handoff between contributors.
