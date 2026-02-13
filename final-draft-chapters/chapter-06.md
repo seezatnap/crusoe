@@ -422,7 +422,7 @@ The third:
 
 `If we call mercy an event, we can finally give it permission.`
 
-Juno stood in the borrowed quiet and held the lines the way a person holds a cup of something too hot to drink. They were not addressed to her. They were not addressed to anyone in particular. They were the private record of a person who had understood that the distance between mercy and policy was not a gap but a decision — a decision someone had made in a room like this one, in a year when decisions still had names and consequences still had faces.
+Juno stood in the borrowed quiet and held the lines the way a person holds a letter they have not yet decided to open. They were not addressed to her. They were not addressed to anyone in particular. They were the private record of a person who had understood that the distance between mercy and policy was not a gap but a decision — a decision someone had made in a room like this one, in a year when decisions still had names and consequences still had faces.
 
 Lena turned the page. The lines were smaller, sharper, written after too much silence and too much coffee.
 
