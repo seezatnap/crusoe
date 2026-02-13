@@ -62,3 +62,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#44) Reconcile Chapter 2 word-count metadata: recalculate `CH-002` and update `word_count_current` in `chapters/CH-002-the-first-ledger.md` plus `LOG-WC-002` `words` and `delta_to_min` in `writing-artifacts/word-count.md` (currently `5222` vs actual `wc -w` result `5219`). (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#45) Update `tasks.md` to mark `#10` as complete so task tracking matches the committed `CH-001-the-strange-request.md` delivery (word-complete chapter in `ready_for_review`).
