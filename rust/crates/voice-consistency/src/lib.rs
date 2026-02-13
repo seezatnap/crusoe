@@ -680,11 +680,19 @@ fn tokenize_content(text: &str) -> Vec<String> {
 }
 
 fn extract_dialogue_body(text: &str) -> String {
-    let open = text.find('"').or_else(|| text.find('“'));
-    let close = text.rfind('"').or_else(|| text.rfind('”')).or_else(|| text.rfind('\"'));
-    if let (Some(open), Some(close)) = (open, close) {
-        if close > open + 1 {
-            return text[open + 1..close].to_string();
+    let open = text
+        .char_indices()
+        .find(|(_, ch)| matches!(ch, '"' | '“'))
+        .map(|(idx, ch)| (idx, ch.len_utf8()));
+    if let Some((open_idx, open_width)) = open {
+        let close_idx = text
+            .char_indices()
+            .rev()
+            .find(|(idx, ch)| *idx > open_idx + open_width && matches!(ch, '"' | '”'))
+            .map(|(idx, _)| idx);
+
+        if let Some(close_idx) = close_idx {
+            return text[open_idx + open_width..close_idx].to_string();
         }
     }
     text.to_string()
@@ -984,6 +992,12 @@ mod tests {
         assert_eq!(candidates[0].name, "lena");
         assert_eq!(candidates[0].source, AttributionSource::ExplicitName);
         assert_eq!(candidates[0].confidence, config.explicit_name_confidence);
+    }
+
+    #[test]
+    fn extract_dialogue_body_handles_curly_quotes() {
+        let body = extract_dialogue_body("“Walk,” Fen said from a side channel, his voice close to the ear.");
+        assert_eq!(body, "Walk,");
     }
 
     #[test]
