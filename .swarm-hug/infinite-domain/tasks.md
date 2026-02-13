@@ -7,7 +7,7 @@
 - [x] (#3) Build and maintain a canonical character bible covering Juno, Orin, Maren, Cassiel, Fen, Lena, Sable, Dara, Marcus, and Curator/Faded roles with secrets, motivations, relationships, and reveal timing [5 pts] (blocked by #1, #2) (A)
 - [x] (#4) Build the setting and mechanics bible for the Lattice, Archive, drift, noise, mind-jump bleed, and transition-era context, including what is explicit vs forbidden lore [5 pts] (blocked by #3) (A)
 - [x] (#5) Construct a historical timeline for the Transition Era (2025–2090) tied to Lena, Sable, Marcus, and major Engram milestones, including scene anchors for each major recording-era beat [5 pts] (blocked by #3, #4) (A)
-- [ ] (#6) Build continuity and reveal matrices mapping each character arc, unresolved threads, and cross-chapter dependency graph from Act 1 through Act 4 [5 pts] (blocked by #3, #5)
+- [A] (#6) Build continuity and reveal matrices mapping each character arc, unresolved threads, and cross-chapter dependency graph from Act 1 through Act 4 [5 pts] (blocked by #3, #5)
 - [ ] (#7) Publish chapter-level POV/scene alternation rules and thematic progression (present-Lattice vs recording chapters), with required emotional pacing and perspective shifts per chapter [5 pts] (blocked by #2, #4, #6)
 - [ ] (#8) Define the style-and-voice protocol targeting literary sci-fi in the vein of Ted Chiang meets Kazuo Ishiguro: precise, humane, quietly devastating prose with emotional restraint and moments of devastating clarity; include anti-cliché constraints and tone-alternation rules for Lattice vs recording chapters [5 pts] (blocked by #2, #7)
 - [ ] (#9) Define the postmortem rubric with mandatory checks: word-count compliance, plot progression, continuity, cliches, dialogue realism, pacing, tone stability, and lore safety flags [5 pts] (blocked by #7, #8)
@@ -67,4 +67,4 @@
 - [x] (#41) Add regression tests for all three analyzer crates (`cliche-detection`, `voice-consistency`, `continuity-check`) that use a non-root `working_directory` with relative targets to confirm path resolution is applied end-to-end, including report metadata and file access (blocked by #39) (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#42) Reconcile user-facing examples for `quality-orchestrator` flags so `./scripts/run-quality-session.sh`/`./scripts/pre-draft-session.sh` guidance matches actual accepted CLI options (use `--fail-on` and `--no-artifact`, or add underscore aliases in `rust/crates/quality-orchestrator`). (blocked by #16)
+- [A] (#42) Reconcile user-facing examples for `quality-orchestrator` flags so `./scripts/run-quality-session.sh`/`./scripts/pre-draft-session.sh` guidance matches actual accepted CLI options (use `--fail-on` and `--no-artifact`, or add underscore aliases in `rust/crates/quality-orchestrator`). (blocked by #16)
