@@ -182,15 +182,15 @@ Arthur did not answer. He nodded at the officers and they took two measured step
 
 Harlan spat a hard line into the wet floor and then laughed without humor. “You think this buys anything?”
 
-No one did not hear him. They heard Voss first.
+No one missed Harlan’s challenge.
 
-"I did not create the compulsion," Harlan said, as if that made the whole thing his invention. "You are lucky the room collapsed in the way it did. You’re lucky there was a tide. I would have—"
+“Voss, you did not make this compulsion what it became. You are lucky the room collapsed in the way it did. You’re lucky there was a tide. I would have—” Harlan said.
 
 A second officer touched Voss’s wrist with a ringed band and a soft blue light held it there.
 
 The band clicked like a tiny lock.
 
-"Voss stays where I can keep an eye on him," Arthur said. He did not use the name. He did not call him sir. He had no title to offer for what had happened.
+“Voss stays where I can keep an eye on him,” Arthur said. He did not use the name. He did not call him sir. He had no title to offer for what had happened.
 
 Voss made a soft noise of distaste.
 
@@ -236,16 +236,21 @@ The room was practical rather than impressive, a converted cellar with a bell an
 
 Arthur, Bill, and Tomo entered first; Harry stayed close, because leaving that room would have felt like leaving school before assembly finished.
 
-Tomo’s words were plain and fast. "Both have custody and both remain available for questioning in sequence." The inspector looked at her, then at the cane fragment with the false-warded slot still threaded through it, and at the resin seals from the lower tunnels." That gets me where I want to be," she said.
+Tomo’s words were plain and fast. “Both have custody, and both remain available for questioning in sequence,” she said. The inspector looked at her, then at the cane fragment with the false-warded slot still threaded through it, and at the resin seals from the lower tunnels.
 
-"Is there full compulsion evidence?" she asked.
-"On Harry and the children. Multiple nodes. We can give you sequence windows and witness maps," Tomo said." Keep the sequence clean and this city keeps its next few years."
+“That gets me where I need to be,” Tomo added, almost to herself.
 
-Arthur added,"Write the wave itself, not the theory. We need every person who cast and every person who stood still because they were trying not to obey."
+“Is there full compulsion evidence?” she asked.
 
-A clerk led Isolde in from a side passage. She came without ceremony, coat still damp, hands marked by potion glass. For a moment everyone made space without being told to."I did not finish the final matrix," she said, voice steady." I saw the children in the room and stopped at the last step. That does not absolve me. It merely gives this city one less body to bury."
+“On Harry and the children. Multiple nodes. We can give you sequence windows and witness maps,” Tomo said. “Keep the sequence clean and this city keeps its next few years.”
 
-She handed over wrapped notes and ledgers."My records," she said, "and every line with my marks. Harlan’s procurement line is there. Voss never had a perfect chain, only a chain he believed justified."
+Arthur added, “Write the wave itself, not the theory. We need every person who cast and every person who stood still because they were trying not to obey.”
+
+A clerk led Isolde in from a side passage. She came without ceremony, coat still damp, hands marked by potion glass. For a moment everyone made space without being told to.
+
+“I did not finish the final matrix,” she said, voice steady. “I saw the children in the room and stopped at the last step. That does not absolve me. It merely gives this city one less body to bury.”
+
+She handed over wrapped notes and ledgers. “My records,” she said, “and every line with my marks. Harlan’s procurement line is there. Voss never had a perfect chain, only a chain he believed justified.”
 
 Arthur’s face softened one inch and then closed again. "Thank you," he said. "Not for the past. For the door you left open this hour."
 
@@ -254,7 +259,7 @@ The inspector stamped the packet, passed one final question about names, then si
 
 When the first bound door closed behind Voss, Harry realized how little noise was required to claim victory. Fear had had its room. The city did not have to like it. It only had to survive.
 
-Arthur put a hand on his shoulder as the others rejoined. "You gave the room one minute." Harry nodded."That was all it needed."
+Arthur put a hand on his shoulder as the others rejoined. “You gave the room one minute.” Harry nodded. “That was all it needed.”
 
 ---
 
