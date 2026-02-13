@@ -143,3 +143,8 @@
 - [x] (#85) Fix 16 error-level findings in `final-draft-chapters/chapter-16.md` — 8 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 217, 247, 273, 279, 323, 415, 503, 505) and 8 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771014239, which caused the report to fail with 2 blocking reports (blocked by #18) (B)
 - [x] (#86) Clean up the stale chapter-15 quality-orchestrator report 1771013005 which was generated pre-fix before task #75 completed — report 1771014748 is the valid post-fix replacement (B)
 - [x] (#87) Clean up the stale chapter-13 quality-orchestrator report 1771011052 which was generated pre-fix before task #65 completed — report 1771012694 is the valid post-fix replacement (C)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#88) Fix 2 error-level findings in `final-draft-chapters/chapter-17.md` — 1 DIAL-TAG-001 weak pronoun-based speaker attribution (`she said` at line 173) and 1 corresponding POV-DRIFT-001 error flagged in quality-orchestrator report 1771015807 (blocked by #18)
+- [ ] (#89) Re-run quality-orchestrator on `final-draft-chapters/chapter-16.md` to produce a valid post-fix report — report 1771015696 was generated before the task #85 dialogue-tag fixes were applied (the report shows 4 errors at lines 217 and 279 that appear resolved in the current chapter text), so it does not reflect the actual post-fix state (blocked by #85)
+- [ ] (#90) Clean up the stale chapter-16 quality-orchestrator report 1771014239 which was generated pre-fix before task #85 completed — report 1771015696 is the current replacement but itself needs re-running per the previous task
