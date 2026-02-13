@@ -5,7 +5,7 @@ Purpose: track draft word counts for every chapter against the 4,000–6,000 tar
 | log_id | updated_utc | chapter_id | chapter_file | status | words | target_min | target_max | delta_to_min | dependency_state | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LOG-WC-001 | 2026-02-13T02:20:00Z | CH-001 | CH-001-the-strange-request.md | ready_for_review | 5095 | 4000 | 6000 | +1095 | dependencies satisfied (DOC-001, DOC-002, DOC-003, DOC-004, DOC-005, DOC-006, DOC-007) | Chapter 1 draft complete; clues seeded per DOC-004 scene order. |
-| LOG-WC-002 | 2026-02-13T00:00:00Z | CH-002 | CH-002-unnamed.md | blocked | 0 | 4000 | 6000 | -4000 | blocked (DOC-001, DOC-002, DOC-004) | Initial entry |
+| LOG-WC-002 | 2026-02-13T02:20:27Z | CH-002 | CH-002-the-first-ledger.md | ready_for_review | 5222 | 4000 | 6000 | +1222 | dependencies satisfied (DOC-001, DOC-002, DOC-003, DOC-004, DOC-005, DOC-006, DOC-007) | Chapter 2 full draft complete; clue lock-in advances from room scene to clinic-code investigation. |
 | LOG-WC-003 | 2026-02-13T00:00:00Z | CH-003 | CH-003-unnamed.md | blocked | 0 | 4000 | 6000 | -4000 | blocked (DOC-001, DOC-002, DOC-004) | Initial entry |
 | LOG-WC-004 | 2026-02-13T00:00:00Z | CH-004 | CH-004-unnamed.md | blocked | 0 | 4000 | 6000 | -4000 | blocked (DOC-001, DOC-002, DOC-004) | Initial entry |
 | LOG-WC-005 | 2026-02-13T00:00:00Z | CH-005 | CH-005-unnamed.md | blocked | 0 | 4000 | 6000 | -4000 | blocked (DOC-001, DOC-002, DOC-004) | Initial entry |
