@@ -46,7 +46,7 @@
 | 11 | 3 | The Weather of Rupture | Shift from controlled investigation to unauthorized deep-jump access and immediate bleed risk | 4,000–6,000 | Completed draft (5,360) |
 | 12 | 3 | The Quiet Architecture | Reveal the constraint architecture shaping perception, cognition, and self-modification | 4,000–6,000 | Completed draft (4,568) |
 | 13 | 3 | The Quiet Siege | Shift from investigative motive to coercive institutional enforcement and protective-ethics arguments | 4,000–6,000 | Completed draft (5,890) |
-| 14 | 3 | Maren’s final lucid truth and Key access | Deliver late-Act 3 payoff and irreversible entry point | 4,000–6,000 | Not started |
+| 14 | 3 | The Name Beneath the Key | Deliver late-Act 3 payoff and irreversible entry point | 4,000–6,000 | Completed draft (5,997) |
 | 15 | 4 | The triage of impossible options | Confront the three routes (remove limits, suppress truth, open truth) | 4,000–6,000 | Not started |
 | 16 | 4 | Public exposure and resistance | Resolve the governance/public struggle and alliance dynamics | 4,000–6,000 | Not started |
 | 17 | 4 | Resolution and return to honesty | Complete emotional closure while preserving strategic ambiguity | 4,000–6,000 | Not started |
