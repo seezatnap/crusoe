@@ -47,5 +47,5 @@ Examples:
 
 - The scripts call the workspace binaries through `cargo run`:
   - `quality-orchestrator` from `rust/crates/quality-orchestrator`
-  - `style-reference` from `rust/crates/excerpt-extract`
+  - `style-reference` from `rust/crates/style-reference`
 - For local automation, these scripts require a working Rust toolchain with `cargo`.

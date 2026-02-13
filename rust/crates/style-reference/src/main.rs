@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 use clap::{Parser, ValueEnum};
-use excerpt_extract::{pick_examples, collect_cached_examples, ExtractMode};
+use style_reference::{pick_examples, collect_cached_examples, ExtractMode};
 
 #[derive(Parser)]
 #[command(name = "style-reference")]
