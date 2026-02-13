@@ -34,13 +34,13 @@
 - [x] (#21) Draft `chapters/chapter-05.md` in the 4,000–6,000-word range: map the Engram arc through Lena’s eyes, showing breakthroughs, ethical strain, and emotional cost while deepening first-person present/past contrast [5 pts] (blocked by #20) (A)
 - [x] (#22) Draft `chapters/chapter-06.md` in the 4,000–6,000-word range: expand Juno’s fixation as Sable appears in background details, and increase subtle bleed symptoms in present scenes [5 pts] (blocked by #21) (A)
 - [x] (#23) Draft `chapters/chapter-07.md` in the 4,000–6,000-word range: show Juno’s withdrawal at work, Fen’s alarm, and Cassiel’s return as concern that strains their history [5 pts] (blocked by #22) (A)
-- [A] (#24) Draft `chapters/chapter-08.md` in the 4,000–6,000-word range: stage Maren’s lucid warning moment with initially opaque reference to the Rosetta Key that becomes legible through subsequent beats [5 pts] (blocked by #23)
-- [ ] (#25) Draft `chapters/chapter-09.md` in the 4,000–6,000-word range: Juno hits missing/restricted recordings, confronts Orin, and handles his deflection without resolving the deception yet [5 pts] (blocked by #24)
-- [ ] (#26) Draft `chapters/chapter-10.md` in the 4,000–6,000-word range: secure Sable journal recordings, reveal the hidden active infrastructure thesis, and close Act 2 with Juno realizing the Key is a living process [5 pts] (blocked by #25)
+- [x] (#24) Draft `chapters/chapter-08.md` in the 4,000–6,000-word range: stage Maren’s lucid warning moment with initially opaque reference to the Rosetta Key that becomes legible through subsequent beats [5 pts] (blocked by #23) (A)
+- [x] (#25) Draft `chapters/chapter-09.md` in the 4,000–6,000-word range: Juno hits missing/restricted recordings, confronts Orin, and handles his deflection without resolving the deception yet [5 pts] (blocked by #24) (A)
+- [x] (#26) Draft `chapters/chapter-10.md` in the 4,000–6,000-word range: secure Sable journal recordings, reveal the hidden active infrastructure thesis, and close Act 2 with Juno realizing the Key is a living process [5 pts] (blocked by #25) (A)
 
 ## Act 3 Drafting (Chapters 11–14)
 
-- [ ] (#27) Draft `chapters/chapter-11.md` in the 4,000–6,000-word range: Juno goes rogue with unauthorized deep jumps into restricted/degraded files and accepts immediate risk from prolonged bleed [5 pts] (blocked by #26)
+- [A] (#27) Draft `chapters/chapter-11.md` in the 4,000–6,000-word range: Juno goes rogue with unauthorized deep jumps into restricted/degraded files and accepts immediate risk from prolonged bleed [5 pts] (blocked by #26)
 - [ ] (#28) Draft `chapters/chapter-12.md` in the 4,000–6,000-word range: shift into Sable’s direct perspective to reveal the constraint architecture governing perception, cognition, and self-modification [5 pts] (blocked by #27)
 - [ ] (#29) Draft `chapters/chapter-13.md` in the 4,000–6,000-word range: escalate confrontation with Orin and Curator enforcement; frame protective-deception ethics and civilizational-stability arguments [5 pts] (blocked by #28)
 - [ ] (#30) Draft `chapters/chapter-14.md` in the 4,000–6,000-word range: Maren’s final lucid confession confirms the hidden generational secret, and Juno finally gains access to Rosetta Key infrastructure [5 pts] (blocked by #29)
@@ -54,7 +54,7 @@
 ## Quality Assurance and Release
 
 - [x] (#34) Run postmortem and revision cycle for `chapter-01.md`–`chapter-04.md` against all gates in #9; re-run all Rust checks and style workflow until chapter package is within spec [5 pts] (blocked by #17, #18, #19, #20) (B)
-- [ ] (#35) Run postmortem and revision cycle for `chapter-05.md`–`chapter-10.md` with special review of tone transitions, act-level escalation, and continuity with #6 and #5 [5 pts] (blocked by #21, #22, #23, #24, #25, #26)
+- [B] (#35) Run postmortem and revision cycle for `chapter-05.md`–`chapter-10.md` with special review of tone transitions, act-level escalation, and continuity with #6 and #5 [5 pts] (blocked by #21, #22, #23, #24, #25, #26)
 - [ ] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30)
 - [ ] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33)
 - [ ] (#38) Execute final integration release checklist: rerun tooling (#15), finalize roadmaps and unresolved-thread log, freeze artifact outputs, and produce final deliverable bundle for editorial handoff [5 pts] (blocked by #34, #35, #36, #37, #15)
@@ -95,4 +95,14 @@
 - [x] (#53) Update `writing-artifacts/roadmap.md` chapter tracker entry for `chapter-06` to `Completed draft (5,650)` so the roadmap reflects the delivered draft and actual word count (blocked by #22) (A)
 
 ## Follow-up tasks (from sprint review)
-- [A] (#54) Update `writing-artifacts/roadmap.md` chapter-07 tracker status from `Not started` to `Completed draft (5,585)` and keep related chapter-level metadata consistent with the completed draft state (blocked by #23)
+- [x] (#54) Update `writing-artifacts/roadmap.md` chapter-07 tracker status from `Not started` to `Completed draft (5,585)` and keep related chapter-level metadata consistent with the completed draft state (blocked by #23) (A)
+
+## Follow-up tasks (from sprint review)
+- [x] (#55) Update `writing-artifacts/roadmap.md` to mark `chapter-08` as completed with its actual draft word count and confirm chapter-level metadata (pacing objective/act notes) matches the delivered draft `(blocked by #24)` (A)
+
+## Follow-up tasks (from sprint review)
+- [x] (#56) Update `writing-artifacts/roadmap.md` chapter-09 entry to `Completed draft (...)` with the actual committed word count and synchronized act/pacing metadata now that `chapters/chapter-09.md` was drafted (blocked by #25) (A)
+
+## Follow-up tasks (from sprint review)
+- [B] (#57) Update `writing-artifacts/roadmap.md` chapter-10 status from `Not started` to `Completed draft (4,468)` and verify status metadata (pacing objective/act note) matches `chapters/chapter-10.md` (blocked by #26)
+- [A] (#58) Consolidate chapter-10 quality artifacts by removing/renaming `writing-artifacts/quality/chapter-10-work/quality-orchestrator-1770992364.md` and ensure only canonical `writing-artifacts/quality/chapter-10/quality-orchestrator-*` reports are retained, all targeting `chapters/chapter-10.md` (blocked by #26)
