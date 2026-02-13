@@ -48,3 +48,8 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#37) Reconcile status enums across `chapters/README.md`, `writing-artifacts/README.md`, and `writing-artifacts/word-count.md` so blocked/review/finalization states are defined once and used consistently in both templates and tracking rows (`blocked` vs `draft`/`ready_for_review` mismatch). (blocked by #1) (B)
 - [x] (#38) Replace the placeholder `CH-000` example in `chapters/README.md` with an explicit “no predecessor” pattern so invalid chapter IDs are not copied into production frontmatter. (blocked by #1) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#39) Correct the frontmatter example in `chapters/README.md` so the chapter-outline dependency ID/comment matches the canonical map (`DOC-004` for chapter outline, `DOC-005` for mystery architecture) (blocked by #1)
+- [ ] (#40) Reconcile status vocabulary in `writing-artifacts/README.md` by replacing the artifact comment token `deprecated` with the canonical `archived` value or removing it so all status examples align (blocked by #37)
+- [ ] (#41) Add the referenced process artifacts or remove dead references in `writing-artifacts/README.md`: `writing-artifacts/dependency-notes.md` and `writing-artifacts/handoff-format.md` (blocked by #1)
