@@ -1,7 +1,7 @@
 # Chapter 07
 <!-- pov: juno -->
 
-Juno took the same lane as always and stood as if she had been carved to stand there.
+Juno took the same lane as always and stood as though she had been carved to stand there.
 
 The intake wall did not greet her. It offered only the standard menu of private channels, queue light, and a row of neutral symbols that had never once had a face but had learned to ask too much with their silence.
 
@@ -37,7 +37,7 @@ On her screen, the metadata for packet EN-33-156 was already incomplete:
 
 There was no human note.
 
-At first she thought it was a system fault and tapped the icon once, as if one tap could restore a human voice.
+At first she thought it was a system fault and tapped the icon once, as though one tap could restore a human voice.
 
 `open with review lock`
 
@@ -83,7 +83,7 @@ By the time she returned to the wall she had used the old voice in her head to c
 
 She deleted the line before she could send it to anyone.
 
-The station did what stations do when one person has taken one step away from them. It kept moving as if everything were unchanged.
+The station did what stations do when one person has taken one step away from them. It kept moving as though everything were unchanged.
 
 A junior Finder stood by the shared table, looked in her direction, and lowered a stack of run forms.
 
@@ -255,7 +255,7 @@ The fragment ended there, at a line about rooms and keeping, and no one in the L
 
 When Juno returned the corridor was at a different angle.
 
-She stood with her hands clasped in front of her as if she were cold.
+She stood with her hands clasped in front of her as though she were cold.
 
 She could still hear the fragment in the corner of her hearing and hated it.
 
@@ -347,7 +347,7 @@ Fen did not miss it. He knew the rhythm now.
 
 He gave a small, bitter laugh.
 
-"""You""'re doing this work as if it is a confession booth and everyone else is optional."""
+"""You""'re doing this work as though it is a confession booth and everyone else is optional."""
 
 She opened her private channel and wrote:
 
@@ -541,7 +541,7 @@ The warning appeared anyway.
 
 Fen did not answer.
 
-He slid a hand to the nearest console and muted one of her peripheral channels anyway, as if he had a right.
+He slid a hand to the nearest console and muted one of her peripheral channels anyway, as though he had a right.
 
 """That""'s me exercising the right of a friend,""" he said.
 
@@ -639,7 +639,7 @@ It was enough.
 
 By the time the private channel opened, Cassiel stood in the doorway.
 
-He did not enter quickly. He stood at the threshold with the same stillness he used in galleries, as if he expected a room to reveal itself only if he did not demand its name.
+He did not enter quickly. He stood at the threshold with the same stillness he used in galleries, as though he expected a room to reveal itself only if he did not demand its name.
 
 She had seen him first in the Archive of older cities and in her private walk-throughs, in rooms made by his hands where rivers and stars could coexist if someone asked them politely.
 
@@ -827,7 +827,7 @@ She moved the conversation before either man could fill the gap.
 
 He did not pretend.
 
-"""I want your attention for five minutes with no archive between us. I want you to tell me the shape of the danger as if this room did not exist."""  
+"""I want your attention for five minutes with no archive between us. I want you to tell me the shape of the danger as though this room did not exist."""  
 
 """I want to know if you are going to let your work turn into a weather pattern you call mission."""
 
@@ -887,7 +887,7 @@ She could have done anything that would have preserved her dignity.
 
 She said nothing.
 
-She looked at Fen, who was looking at both of them as if this conversation had never ended in any version of their history and could still be edited.
+She looked at Fen, who was looking at both of them as though this conversation had never ended in any version of their history and could still be edited.
 
 She looked back at Cassiel.
 
@@ -1011,7 +1011,7 @@ Cassiel looked from her to the warning and then to Fen.
 
 """It means she is beginning to write from someone else""'s residue."""
 
-The old wound reopened because he spoke `residue` as if this were a technical term, and to her it felt exactly personal.
+The old wound reopened because he spoke `residue` as though this were a technical term, and to her it felt exactly personal.
 
 She looked at her own hands and saw only the outline of decision.
 

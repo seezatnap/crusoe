@@ -83,7 +83,7 @@ No door marked Maren's cell.
 
 No nameplate identified her own route.
 
-The place had always made her suspicious when she first visited it years ago: a place so carefully unremarkable that it felt contrived in a different way. The walls had no sharp interfaces. The light was dim but not dark. The corners were rounded as if someone wanted to remove argument.
+The place had always made her suspicious when she first visited it years ago: a place so carefully unremarkable that it felt contrived in a different way. The walls had no sharp interfaces. The light was dim but not dark. The corners were rounded as though someone wanted to remove argument.
 
 Every path ended in a bench. Each bench had a different view of a sky that did not follow any star field and no time. Some benches looked east to a city that never existed. Others faced a field of rainless water. On this visit she walked past three false horizons before she found Maren seated at the center of the oldest view: an endless, low-lit dock where no boat could dock.
 
@@ -91,9 +91,9 @@ Maren's outline was still present and still impossible.
 
 The woman she had first met when she herself was little more than a careful dream had become the kind of presence that could not be made of the present or the past, only of all the choices that passed through both.
 
-She was not seated at all and yet she looked as if she were about to sit.
+She was not seated at all and yet she looked as though she were about to sit.
 
-`good evening, Juno`, Maren said, and then, as if correcting herself, `No. Not evening. In your time perhaps middle-light.`
+`good evening, Juno`, Maren said, and then, as though correcting herself, `No. Not evening. In your time perhaps middle-light.`
 
 Juno sat beside the bench anyway.
 
@@ -105,7 +105,7 @@ She had learned that now too late and with worse manners.
 
 "Yes. I requested it."
 
-"No one requests me." Maren did not look at her when she answered. She said it as if she were describing rain.
+"No one requests me." Maren did not look at her when she answered. She said it as though she were describing rain.
 
 The warning was already there, in her voice, not in the room.
 
@@ -179,7 +179,7 @@ Juno felt the old ache behind her eyes.
 
 "Why tell me this now?"
 
-Maren smiled as if she had rehearsed the answer and hated herself for knowing it.
+Maren smiled as though she had rehearsed the answer and hated herself for knowing it.
 
 "Because the room has begun to speak through you, and because when it speaks through you, you will take that as authority and never question it. You are very good at obeying what sounds wise." 
 
@@ -258,7 +258,7 @@ By the time she reached the station, her status icon had changed itself twice.
 
 She sat down at lane two and found Fen and Cassiel waiting in practical silence.
 
-Cassiel had a paper cup in his hands. Fen had both hands flat on the console, as if he had decided that if he removed them they would start reaching for her again.
+Cassiel had a paper cup in his hands. Fen had both hands flat on the console, as though he had decided that if he removed them they would start reaching for her again.
 
 "You disappeared long enough to make the tea bitter," Fen said.
 
@@ -499,13 +499,13 @@ The image snapped into a narrow lab corridor she recognized by smell rather than
 
 The old rain smell came back exactly. She had not touched it before today except as a residue in a few runs.
 
-Sable stood at a side table with a ledger printout. She had seen Sable in glimpses before, always as a moving point. Here she was still, not moving, jaw tight and tired, shoulders fixed as if she had become the hinge of the room.
+Sable stood at a side table with a ledger printout. She had seen Sable in glimpses before, always as a moving point. Here she was still, not moving, jaw tight and tired, shoulders fixed as though she had become the hinge of the room.
 
 A man in the background—the same Marcus from old jumps—crossed from one wall to the next, arguing with Lena about consent windows.
 
-Sable was writing with a mechanical pencil because no machine was allowed to record at this stage. She wrote each word as if each stroke were one chance.
+Sable was writing with a mechanical pencil because no machine was allowed to record at this stage. She wrote each word as though each stroke were one chance.
 
-Juno did not interrupt. The old footage had no sound she could trust yet, but the written text came as if waiting for a reader.
+Juno did not interrupt. The old footage had no sound she could trust yet, but the written text came as though waiting for a reader.
 
 `L 17:43` 
 
@@ -579,7 +579,7 @@ Juno had no words for the room's sudden coldness. She reached for it like she re
 
 The old line ended there.
 
-Juno stared at the ending as if it had moved in from the corridor in a coat.
+Juno stared at the ending as though it had moved in from the corridor in a coat.
 
 Then a new annotation appeared on the same line, almost hidden under a later pen.
 
@@ -772,7 +772,7 @@ Juno stared at it until the letters stopped flickering.
 
 Fen appeared at her left shoulder.
 
-"You look as if it's not a request," he said.
+"You look as though it's not a request," he said.
 
 "It isn't," she said.
 
@@ -970,7 +970,7 @@ Then he sent one more.
 
 Cassiel, for once, did not wait for an invitation.
 
-He stood at her shoulder, watching as if the station had become weather and she the only one still naming it.
+He stood at her shoulder, watching as though the station had become weather and she the only one still naming it.
 
 "I am here," he said.
 
@@ -990,7 +990,7 @@ She let it pass.
 
 ---
 
-The next line in her private field arrived with no sender name, as if the system had done what the room had done before and made a sentence out of mercy.
+The next line in her private field arrived with no sender name, as though the system had done what the room had done before and made a sentence out of mercy.
 
 `If this is the key: open it only with witnesses and a return contract.`
 
