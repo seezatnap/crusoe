@@ -1,3 +1,15 @@
+---
+artifact_id: "DOC-002"
+artifact_type: "planning"
+title: "Character Bible"
+status: "approved"
+depends_on:
+  - "DOC-001"
+depends_on_note: "Character constraints depend on world rules and timeline plausibility in DOC-001."
+last_updated_utc: "2026-02-13T00:00:00Z"
+owner: "Agent Aaron"
+---
+
 # Character Bible — *On the Fall of Dr. Joe*
 
 ## Core Principle

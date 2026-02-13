@@ -2,7 +2,7 @@
 artifact_id: "DOC-004"
 artifact_type: "planning"
 title: "Chapter-by-Chapter Outline"
-status: "in_progress"
+status: "approved"
 depends_on:
   - "DOC-001"
   - "DOC-002"

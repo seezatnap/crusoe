@@ -2,7 +2,7 @@
 artifact_id: "DOC-007"
 artifact_type: "planning"
 title: "Theme and Motif Guide"
-status: "ready_for_review"
+status: "approved"
 depends_on:
   - "DOC-001"
   - "DOC-002"
