@@ -1,0 +1,122 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-16.md
+- generated_at_unix: 1770996320
+- fail_threshold: error
+- total_findings: 16
+- total_blocking_reports: 0
+- status: passed
+
+## cliche-detection
+- findings: 0
+- target: chapters/chapter-16.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 501
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-16.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-16.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-16.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-16.md
+  - words: 4739
+- findings: none
+
+## voice-consistency
+- findings: 16
+- target: chapters/chapter-16.md
+- metadata:
+  - ambiguous_dialogue_blocks: 1
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: let's, everyone, dialogue: district witness, some, that's, dialogue: cassiel, what, at, dialogue: orin, now, if, we're, but, fen, the, tonight, and, juno, dialogue: juno
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - pronoun_tag_confidence: 0.42
+  - target: chapters/chapter-16.md
+  - total_dialogue_blocks: 27
+  - tracked_characters: 19
+  - untagged_dialogue_blocks: 0
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-AMBIG-001 at chapters/chapter-16.md:38:1
+    - Ambiguous dialogue attribution: multiple candidates around line 38, likely 'everyone' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:22:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:34:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:82:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:145:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:211:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:305:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:411:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:417:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:425:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:447:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:449:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-16.md:504:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-16.md:318:1
+    - Voice drift risk for 'if' (similarity 0.33, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-16.md:444:1
+    - Voice drift risk for 'dialogue: orin' (similarity 0.26, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at chapters/chapter-16.md:545:1
+    - Voice drift risk for 'dialogue: juno' (similarity 0.40, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:fb44d18c455b823a

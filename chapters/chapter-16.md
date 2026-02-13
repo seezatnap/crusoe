@@ -1,6 +1,5 @@
 # Chapter 16
 ## The Open Street
-<!-- pov: juno -->
 
 The first wave reached her at 03:18.
 
@@ -200,6 +199,7 @@ Orin spoke first.
 
 I did not ask you to hide what is true, he said. The first time she heard the care in his tone and the steel underneath it.
 
+<!-- dialogue: orin -->
 I asked you not to hand this to panic. I asked you to give this city a structure it can bear. I know this is not what you wanted. I know this is still not what the city asked yesterday. But this is not the same as betrayal. This is restraint, in a season that can confuse mercy with surrender.
 
 She waited for him to stop and then stood.
@@ -247,12 +247,14 @@ He flinched once.
 
 She held that line and did not press more.
 
+<!-- dialogue: juno -->
 If the city receives what we did not name, she said, we are not safer. We are just quieter about who held the knife.
 
 The square behind the glass wall erupted, not in applause, not in jeers. In that half-second where everyone stopped being polite and became specific.
 
 A woman near the third tier held up a slate and spoke to no one and everyone.
 
+<!-- dialogue: district witness -->
 I was archived into this process at fourteen, she said. I know what it means to call caution a kindness. It does not stop pain. It only decides who gets blamed for it.
 
 Orin did not answer. The old steward did.
@@ -271,6 +273,7 @@ He came out from the console with both hands black with marker residue.
 
 They are trying to route me, he said. If people cannot hear the translation module, the first wave goes from six districts to two. We need alternatives.
 
+<!-- dialogue: juno -->
 You're not done yet, she said. I knew they would counter, but I didn't know they would do it here.
 
 Fen looked at her and laughed once, bitterly.
@@ -307,6 +310,7 @@ She stood and said nothing.
 
 Cassiel stood beside her and read one line aloud.
 
+<!-- dialogue: cassiel -->
 Listen to them, he said. They are not asking if the architecture is evil. They are asking if the architecture belongs to them. We can't answer by decree. We answer by witness and by labor.
 
 He reached out and touched the edge of the chalk map.
@@ -428,6 +432,7 @@ No one noticed at first. It was not a flourish. It was old handwriting from a pe
 
 He looked up.
 
+<!-- dialogue: orin -->
 I can witness this language, he said. I can witness the protocol. I do not witness its approval.
 
 Cassiel stood and asked for the mic.
@@ -436,6 +441,7 @@ That's not refusal, he said. That's the beginning of the same sentence.
 
 Orin did not turn around.
 
+<!-- dialogue: orin -->
 You ask for a new city by taking old terms from old mouths, he said. I understand the impatience. He faced no one now, no one and everyone.
 
 You ask me to stand in the middle of your broadcast and call every failure likely by construction. But do you understand what that means? It means if someone chooses a high-risk profile and is harmed, this room is the first to be blamed.
@@ -533,10 +539,11 @@ That combination gets us through public rooms.
 
 Cassiel appeared at her shoulder with his coat half-unbuttoned and hair still damp from the rain outside.
 
+<!-- dialogue: cassiel -->
 The next message is coming from the school ring, he said. They want a plain-language walkthrough tomorrow morning. You don't get to skip it.
 
-No, she said. We do it. 
-
+<!-- dialogue: juno -->
+No, she said. We do it.
 He looked from Fen to her to the channels.
 
 If this is the day we started this, he said, then this is the first good sign: no one thought it was clean, and still they came.
@@ -597,6 +604,6 @@ just enough for the city to decide what to do with it.
 
 She did not let the silence trick her into calling it peace.
 
-She called it the first honest burden.
+She named it the first honest burden.
 
 And then she let the room breathe.

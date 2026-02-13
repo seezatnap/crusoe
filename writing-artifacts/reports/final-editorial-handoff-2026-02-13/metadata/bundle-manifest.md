@@ -44,12 +44,12 @@ Scope: Chapters 01–17 + planning + quality + postmortem artifacts
 - chapter-13-quality-orchestrator-1770995773.md
 - chapter-14-quality-orchestrator-1770995773.md
 - chapter-15-quality-orchestrator-1770995773.md
-- chapter-16-quality-orchestrator-1770995773.md
-- chapter-17-quality-orchestrator-1770995773.md
+- chapter-16-quality-orchestrator-1770996320.md
+- chapter-17-quality-orchestrator-1770996321.md
 
 ## Quality rerun
 - Command executed: ./scripts/run-quality-session.sh chapters --fail-on blocker
-- Result: generated fresh quality-orchestrator artifacts under writing-artifacts/quality/chapter-*/quality-orchestrator-1770995772.md and quality-orchestrator-1770995773.md
+- Result: generated fresh quality-orchestrator artifacts under writing-artifacts/quality/chapter-*/quality-orchestrator-1770995772.md, quality-orchestrator-1770995773.md, quality-orchestrator-1770996320.md, and quality-orchestrator-1770996321.md
 - Blocker findings remain for chapters: 02,06,07,08,09,11,14,15 (voice-consistency, cliche where noted).
 - Pass/no-blocker chapters: 01,03,04,05,10,12,13,16,17.
 
