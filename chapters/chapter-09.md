@@ -508,7 +508,7 @@ No one in the room interrupted.
 
 The end of the day found Ron in his room with the paper on his lap and the board by the window, the way he once kept chess problems when he had no room in the world for a full table.
 
-"Harry had gone. Ron closed the notebook and wrote the final line he would carry into dawn in his own hand:
+Harry had gone. Ron closed the notebook and wrote the final line he would carry into dawn in his own hand:
 
 The symbols on Ginny's paper were not weather. The symbols were a door.
 
