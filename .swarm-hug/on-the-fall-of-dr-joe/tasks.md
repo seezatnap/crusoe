@@ -5,11 +5,11 @@
 - [x] (#1) Establish the writing workspace and project conventions in `chapters/` and `writing-artifacts/` (file naming, chapter IDs, metadata, word-count tracking, dependency notes, and handoff format) [5 pts] (A)
 - [x] (#2) Write the World Design Document covering setting, era, locations, atmosphere, and governing world rules with explicit mystery-genre constraints [5 pts] (blocked by #1) (A)
 - [x] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1) (A)
-- [ ] (#4) Create the High-Level Plot Outline for all 25 chapters with inciting incident, rising action, midpoint reversal, climax, and denouement [5 pts] (blocked by #2, #3)
+- [x] (#4) Create the High-Level Plot Outline for all 25 chapters with inciting incident, rising action, midpoint reversal, climax, and denouement [5 pts] (blocked by #2, #3) (A)
 - [ ] (#5) Produce the Chapter-by-Chapter Outline for all 25 chapters: scene sequencing, POV map, key revelations, clue placements, red herrings, and emotional beats [5 pts] (blocked by #2, #3, #4)
 - [ ] (#6) Build the Mystery Architecture: crime definition, clue tree, misdirection plan, reveal logic, and fair-play checklist to guarantee solvability [5 pts] (blocked by #2, #3, #4, #5)
 - [ ] (#7) Create the Timeline and Continuity Tracker: chronological event table, timeline integrity rules, and unresolved-thread log [5 pts] (blocked by #4, #5)
-- [ ] (#8) Publish the Theme and Motif Guide with recurring symbols, tonal arc, rhythm guidance, and chapter voice/POV standards aligned to the target prose style [5 pts] (blocked by #2, #3)
+- [x] (#8) Publish the Theme and Motif Guide with recurring symbols, tonal arc, rhythm guidance, and chapter voice/POV standards aligned to the target prose style [5 pts] (blocked by #2, #3) (A)
 - [ ] (#9) Finalize and freeze all foundational artifacts as an approved package, resolving cross-document gaps before chapter drafting begins [5 pts] (blocked by #2, #3, #4, #5, #6, #7, #8)
 
 ## Chapter Prose Authoring
@@ -50,6 +50,6 @@
 - [x] (#38) Replace the placeholder `CH-000` example in `chapters/README.md` with an explicit “no predecessor” pattern so invalid chapter IDs are not copied into production frontmatter. (blocked by #1) (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#39) Correct the frontmatter example in `chapters/README.md` so the chapter-outline dependency ID/comment matches the canonical map (`DOC-004` for chapter outline, `DOC-005` for mystery architecture) (blocked by #1)
-- [ ] (#40) Reconcile status vocabulary in `writing-artifacts/README.md` by replacing the artifact comment token `deprecated` with the canonical `archived` value or removing it so all status examples align (blocked by #37)
-- [ ] (#41) Add the referenced process artifacts or remove dead references in `writing-artifacts/README.md`: `writing-artifacts/dependency-notes.md` and `writing-artifacts/handoff-format.md` (blocked by #1)
+- [x] (#39) Correct the frontmatter example in `chapters/README.md` so the chapter-outline dependency ID/comment matches the canonical map (`DOC-004` for chapter outline, `DOC-005` for mystery architecture) (blocked by #1) (B)
+- [x] (#40) Reconcile status vocabulary in `writing-artifacts/README.md` by replacing the artifact comment token `deprecated` with the canonical `archived` value or removing it so all status examples align (blocked by #37) (C)
+- [x] (#41) Add the referenced process artifacts or remove dead references in `writing-artifacts/README.md`: `writing-artifacts/dependency-notes.md` and `writing-artifacts/handoff-format.md` (blocked by #1) (C)
