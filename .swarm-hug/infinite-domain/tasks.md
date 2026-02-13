@@ -71,3 +71,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#43) Update `writing-artifacts/style-and-voice-protocol.md` to align the protocol with the project’s required JK Rowling style direction in AGENTS.md, including any contradictory references currently framing style as Ted Chiang/Kazuo Ishiguro, and sync task `#8` wording to match. (blocked by #8) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#44) Fix the malformed list marker in `writing-artifacts/postmortem-rubric.md` (`+- Must confirm:`) under Plot Progression so it renders as a valid bullet item and preserves consistent rubric formatting for postmortem checks.
