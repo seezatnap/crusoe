@@ -109,13 +109,14 @@ impl ClicheDetector {
 
     pub fn analyze_path(&self, input: &AnalysisInput) -> Result<AnalysisReport, AnalysisError> {
         input.validate_target_exists()?;
-        let content = fs::read_to_string(&input.target).map_err(|err| AnalysisError::Io {
-            path: input.target.display().to_string(),
+        let target = input.resolve_target_path();
+        let content = fs::read_to_string(&target).map_err(|err| AnalysisError::Io {
+            path: target.display().to_string(),
             reason: err.to_string(),
         })?;
 
         let sentences = extract_sentences(&content);
-        let mut report = AnalysisReport::new("cliche-detection", &input.target)
+        let mut report = AnalysisReport::new("cliche-detection", &target)
             .add_metadata("sentences", sentences.len().to_string())
             .add_metadata("duplicate_warning_threshold", self.config.duplicate_warning_threshold.to_string())
             .add_metadata("duplicate_error_threshold", self.config.duplicate_error_threshold.to_string())
@@ -133,15 +134,15 @@ impl ClicheDetector {
             &mut report,
             sentences.as_slice(),
             &self.config,
-            &input.target,
+            &target,
         );
         add_opening_pattern_findings(
             &mut report,
             sentences.as_slice(),
             &self.config,
-            &input.target,
+            &target,
         );
-        add_cliche_phrase_findings(&mut report, sentences.as_slice(), &self.config, &input.target);
+        add_cliche_phrase_findings(&mut report, sentences.as_slice(), &self.config, &target);
 
         Ok(report)
     }
@@ -550,5 +551,30 @@ mod tests {
         assert_eq!((sentences[0].line, sentences[0].column), (1, 1));
         assert_eq!((sentences[1].line, sentences[1].column), (2, 1));
         assert_eq!((sentences[2].line, sentences[2].column), (3, 1));
+    }
+
+    #[test]
+    fn resolves_relative_target_with_working_directory() {
+        let mut workdir = std::env::temp_dir();
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .expect("clock")
+            .as_nanos();
+        workdir.push(format!("cliche-detection-tests-{nanos}"));
+        std::fs::create_dir_all(&workdir).unwrap();
+
+        let expected = workdir.join("chapter-01.md");
+        std::fs::write(&expected, "A quiet paragraph with no notable repeats.").unwrap();
+
+        let detector = ClicheDetector::default();
+        let input = AnalysisInput::new("chapter-01.md").with_working_directory(&workdir);
+        let report = detector
+            .run(&input)
+            .expect("analysis should resolve working-directory target");
+
+        assert_eq!(report.target, expected);
+
+        let _ = std::fs::remove_file(&expected);
+        let _ = std::fs::remove_dir(&workdir);
     }
 }
