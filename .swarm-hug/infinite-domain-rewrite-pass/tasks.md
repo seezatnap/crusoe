@@ -165,4 +165,4 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#101) Mark tasks #97, #99, and #100 as complete — #99 duplicates the work done in task #96 (same 11 stale reports already deleted), and #97/#100 duplicate each other and were fulfilled by task #98's quality-orchestrator re-run producing passing report 1771018914 (C)
-- [B] (#102) Clean up 2 intermediate quality-orchestrator reports for chapter-05 (timestamps 1771018592, 1771018694) generated during the task #95 fix process — only report 1771018914 (from task #98 verification) is the definitive post-fix result
+- [x] (#102) Clean up 2 intermediate quality-orchestrator reports for chapter-05 (timestamps 1771018592, 1771018694) generated during the task #95 fix process — only report 1771018914 (from task #98 verification) is the definitive post-fix result (B)
