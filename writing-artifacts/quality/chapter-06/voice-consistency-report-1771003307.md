@@ -1,0 +1,240 @@
+# Voice/POV Report: final-draft-chapters/chapter-06.md
+
+## Summary
+- Analyzer: voice-consistency
+- Findings: 52
+- ambiguous_dialogue_blocks: 3
+- ambiguous_margin: 0.12
+- analyzer: voice-consistency
+- blocker_confidence: 0.25
+- character_list: lena, juno, it, no hold, you, she, sable, marcus, fen
+- continuation_confidence: 0.72
+- error_confidence: 0.45
+- explicit_name_confidence: 0.95
+- it:avg_confidence: 0.42
+- juno:avg_confidence: 0.77
+- pronoun_tag_confidence: 0.42
+- sable:avg_confidence: 0.80
+- she:avg_confidence: 0.42
+- target: final-draft-chapters/chapter-06.md
+- total_dialogue_blocks: 32
+- tracked_characters: 9
+- untagged_dialogue_blocks: 0
+- voice_blocker_similarity: 0.25
+- voice_error_similarity: 0.40
+- voice_min_sample_words: 24
+- voice_top_words: 8
+- voice_warning_similarity: 0.55
+- warning_confidence: 0.70
+- you:avg_confidence: 0.42
+
+## Findings
+
+- Info final-draft-chapters/chapter-06.md:87
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-06.md:87
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:113
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'sable'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-06.md:113
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:115
+  - code: DIAL-AMBIG-001
+  - message: Ambiguous dialogue attribution: multiple candidates around line 115, likely 'no hold' with confidence 0.95.
+  - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+- Warning final-draft-chapters/chapter-06.md:127
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.48, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-06.md:129
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-06.md:129
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:129
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-06.md:131
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'you'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-06.md:131
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'you' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-06.md:195
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-06.md:195
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'it' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-06.md:231
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.31, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-06.md:237
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-06.md:237
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'marcus' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:239
+  - code: DIAL-AMBIG-001
+  - message: Ambiguous dialogue attribution: multiple candidates around line 239, likely 'marcus' with confidence 0.95.
+  - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+- Blocker final-draft-chapters/chapter-06.md:239
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'marcus' (similarity 0.25, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Error final-draft-chapters/chapter-06.md:253
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.31, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-06.md:255
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-06.md:255
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.27, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:255
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Blocker final-draft-chapters/chapter-06.md:257
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-06.md:259
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'lena'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-06.md:259
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.27, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:259
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-06.md:313
+  - code: DIAL-TAG-001
+  - message: Speaker attribution is weak (0.42) for 'she'; source is pronoun-based tag.
+  - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+- Error final-draft-chapters/chapter-06.md:313
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'she' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:317
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'fen'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-06.md:317
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'fen' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:317
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'fen' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:319
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'fen'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-06.md:319
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'fen' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:319
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'fen' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:323
+  - code: DIAL-AMBIG-001
+  - message: Ambiguous dialogue attribution: multiple candidates around line 323, likely 'fen' with confidence 0.95.
+  - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+- Error final-draft-chapters/chapter-06.md:323
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'fen' (similarity 0.28, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Blocker final-draft-chapters/chapter-06.md:435
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'lena' (similarity 0.22, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-06.md:439
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'juno'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Warning final-draft-chapters/chapter-06.md:439
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'juno' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:441
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'juno'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-06.md:441
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:441
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'juno' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:443
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'juno'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-06.md:443
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:443
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'juno' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Info final-draft-chapters/chapter-06.md:473
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'juno'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Error final-draft-chapters/chapter-06.md:473
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'juno' (similarity 0.30, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:473
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'juno' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+- Error final-draft-chapters/chapter-06.md:475
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'fen' (similarity 0.30, weighted confidence 0.95).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Info final-draft-chapters/chapter-06.md:477
+  - code: DIAL-TAG-002
+  - message: Dialogue uses continuation inference for 'fen'; confidence 0.72.
+  - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+- Blocker final-draft-chapters/chapter-06.md:477
+  - code: VOICE-STYLE-001
+  - message: Voice drift risk for 'fen' (similarity 0.25, weighted confidence 0.72).
+  - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+- Warning final-draft-chapters/chapter-06.md:477
+  - code: POV-DRIFT-001
+  - message: Dialogue speaker 'fen' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present → recording → present'.
+  - suggestion: If the POV changed, insert a POV marker before this dialogue block.
