@@ -239,7 +239,7 @@ POV: Ron | Act III
 
 ## Chapter 10 — Underlook first contact
 
-POV: Harry | Act II
+POV: Harry | Act III
 
 - Setup
   - Bill and Tomo stage a controlled perimeter walk into the Underlook's outer tunnels.
