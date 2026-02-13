@@ -59,3 +59,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#43) Repair `rust/Cargo.toml` workspace configuration so `cargo build --workspace` and `cargo test --workspace` succeed (currently failing because `rust/crates/*/Cargo.toml` does not exist in the repo). (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#44) Reconcile Chapter 2 word-count metadata: recalculate `CH-002` and update `word_count_current` in `chapters/CH-002-the-first-ledger.md` plus `LOG-WC-002` `words` and `delta_to_min` in `writing-artifacts/word-count.md` (currently `5222` vs actual `wc -w` result `5219`).
