@@ -10,7 +10,7 @@
 
 - [x] (#3) Rewrite `final-draft-chapters/chapter-02.md` with the same required-reading flow for chapter 02 artifacts, including all prior rewritten chapters (`final-draft-chapters/chapter-01.md`), preserve continuity and transition logic into chapter 02, and produce a 4,000–6,000 word standalone chapter with unified voice and anti-cliche constraints [5 pts] (blocked by #2) (A)
 
-- [A] (#4) Rewrite `final-draft-chapters/chapter-03.md` using the full source stack (`character-bible`, `setting-bible`, `style-and-voice-protocol`, relevant roadmap section, continuity/reveal matrices, timeline, thread log, chapter-03 postmortem), prior rewritten chapters, and first draft baseline; calibrate prose via `style-reference` samples; deliver 4,000–6,000 words with preserved structure and pacing [5 pts] (blocked by #3)
+- [x] (#4) Rewrite `final-draft-chapters/chapter-03.md` using the full source stack (`character-bible`, `setting-bible`, `style-and-voice-protocol`, relevant roadmap section, continuity/reveal matrices, timeline, thread log, chapter-03 postmortem), prior rewritten chapters, and first draft baseline; calibrate prose via `style-reference` samples; deliver 4,000–6,000 words with preserved structure and pacing [5 pts] (blocked by #3) (A)
 
 - [ ] (#5) Rewrite `final-draft-chapters/chapter-04.md` from scratch with the same evidence-driven process, ensuring chapter-to-chapter connective tissue with chapter 03 is seamless and all planned plot/character arcs are intact while avoiding cliché language and staying within 4,000–6,000 words [5 pts] (blocked by #4)
 
