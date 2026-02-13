@@ -142,3 +142,7 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#75) Resolve remaining `DIAL-TAG-001`/`POV-DRIFT-001` blockers in `chapters/chapter-16.md` and `chapters/chapter-17.md` from the latest quality runs (`writing-artifacts/quality/chapter-16/quality-orchestrator-1770996056.md`, `writing-artifacts/quality/chapter-17/quality-orchestrator-1770996055.md`) and rerun quality sessions until status is `passed` before considering the chapter block complete. (blocked by #74) (A)
 - [x] (#76) Regenerate final handoff/postmortem quality references for chapter 16/17 to point at the newest quality sessions after the dialogue-parser fix, replacing stale links to pre-fix `1770995444`/`1770995773` outputs. (blocked by #74) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#77) Recompute and sync chapter-16 artifact metadata to the latest draft length (4,739 words): update `writing-artifacts/roadmap.md`, `writing-artifacts/postmortems/chapter-16-postmortem-2026-02-13.md`, and `writing-artifacts/reports/final-editorial-handoff-2026-02-13/metadata/bundle-manifest.md` so they no longer show `4,706`. (blocked by #75, #76)
+- [ ] (#78) Recompute and sync chapter-17 artifact metadata to the latest draft length (4,055 words): update `writing-artifacts/roadmap.md`, `writing-artifacts/postmortems/chapter-17-postmortem-2026-02-13.md`, and `writing-artifacts/reports/final-editorial-handoff-2026-02-13/metadata/bundle-manifest.md` so they no longer show `4,057`. (blocked by #75, #76)
