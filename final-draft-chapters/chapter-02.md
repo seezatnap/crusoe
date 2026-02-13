@@ -1,6 +1,5 @@
 # Chapter 02
 
-<!-- pov: juno | layer: recording (lead) | shifts: present → recording → present -->
 
 She prepared for the first jump the way she prepared for everything: alone, in a room shaped by repetition rather than design.
 

@@ -1,6 +1,5 @@
 # Chapter 01
 
-<!-- pov: juno | layer: present-lattice | single-layer -->
 
 The gap between one consensus and the next had a texture Juno had never been able to name. It was not silence. Silence implied a medium that could carry sound and had chosen not to. This was something less generous: the moment when a shared space stopped being held and had not yet decided what to become. She stood inside that moment now, at the entrance to the Hall of Intake, and let it press against her like standing water.
 

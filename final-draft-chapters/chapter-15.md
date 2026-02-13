@@ -1,6 +1,5 @@
 # Chapter 15
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → public deliberation → present -->
 
 She had not slept. Sleep required a willingness to relinquish the shape of things, and the shape of things had changed in the hours since Maren's dock, and Juno was not yet willing to let go of the new geometry. She sat at her work table with one palm flat against the grain and the other hovering above a console that displayed three documents she had written between the session's end and the first administrative chime of the new cycle.
 
@@ -46,7 +45,6 @@ She read the message twice. The public feed was open. That detail changed everyt
 
 ---
 
-<!-- pov: juno -->
 
 Fen stood at her threshold twenty minutes before departure. He wore the same jacket he always wore to formal proceedings — dark, unstructured, the collar open in the specific way of a man who wanted the room to know he had dressed for function and not for performance. The brass disc was in his pocket. She could see its outline against the fabric.
 
@@ -82,7 +80,6 @@ She put her hand on the table one more time. The grain held its temperature — 
 
 ---
 
-<!-- pov: juno -->
 
 The Continuity Hall occupied a space the Lattice had been holding since the first migration cohort agreed that some rooms should carry memory. The architecture was old in the way the Lattice understood oldness — not by decay but by accumulated intention. The walls held the geometry of high ribs and narrow lines that someone, centuries ago, had modelled after buildings where people once gathered to decide things that could not be decided alone. A central circle where consensus nodes hovered in slow rotation, each one representing a district, a cohort, a thread of civic attention that the system maintained as proof that governance could be distributed even when the decisions it produced were not.
 
@@ -258,7 +255,6 @@ Juno did not ask who. The sentence did not require a name.
 
 ---
 
-<!-- pov: juno -->
 
 The debate shifted from principle to mechanics, and Juno was grateful.
 
@@ -310,7 +306,6 @@ He closed his eyes. One breath. When he opened them, the institutional distance 
 
 ---
 
-<!-- pov: juno -->
 
 She opened the third document. The proposal.
 
@@ -374,7 +369,6 @@ That was the sound she had needed. Not victory. Work.
 
 ---
 
-<!-- pov: juno -->
 
 She found Fen and Cassiel at the station outside the hall where the architecture returned to its ordinary register — consensus surfaces, habitual light, the comfortable geometry of a world that would continue looking the same even though the people inside it now knew what held the shape.
 

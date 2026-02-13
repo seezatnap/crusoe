@@ -45,7 +45,7 @@ Scope: Chapters 01–17 + planning + quality + postmortem artifacts
 - chapter-14-quality-orchestrator-1770995773.md
 - chapter-15-quality-orchestrator-1770995773.md
 - chapter-16-quality-orchestrator-1771016923.md
-- chapter-17: stale reports removed; fresh run against final-draft-chapters/chapter-17.md pending
+- chapter-17-quality-orchestrator-1771017446.md
 
 ## Quality rerun
 - Command executed: ./scripts/run-quality-session.sh chapters --fail-on blocker
