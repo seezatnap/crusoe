@@ -36,7 +36,7 @@
 - [x] (#23) Draft `chapters/chapter-07.md` in the 4,000–6,000-word range: show Juno’s withdrawal at work, Fen’s alarm, and Cassiel’s return as concern that strains their history [5 pts] (blocked by #22) (A)
 - [x] (#24) Draft `chapters/chapter-08.md` in the 4,000–6,000-word range: stage Maren’s lucid warning moment with initially opaque reference to the Rosetta Key that becomes legible through subsequent beats [5 pts] (blocked by #23) (A)
 - [x] (#25) Draft `chapters/chapter-09.md` in the 4,000–6,000-word range: Juno hits missing/restricted recordings, confronts Orin, and handles his deflection without resolving the deception yet [5 pts] (blocked by #24) (A)
-- [A] (#26) Draft `chapters/chapter-10.md` in the 4,000–6,000-word range: secure Sable journal recordings, reveal the hidden active infrastructure thesis, and close Act 2 with Juno realizing the Key is a living process [5 pts] (blocked by #25)
+- [x] (#26) Draft `chapters/chapter-10.md` in the 4,000–6,000-word range: secure Sable journal recordings, reveal the hidden active infrastructure thesis, and close Act 2 with Juno realizing the Key is a living process [5 pts] (blocked by #25) (A)
 
 ## Act 3 Drafting (Chapters 11–14)
 
@@ -101,4 +101,4 @@
 - [x] (#55) Update `writing-artifacts/roadmap.md` to mark `chapter-08` as completed with its actual draft word count and confirm chapter-level metadata (pacing objective/act notes) matches the delivered draft `(blocked by #24)` (A)
 
 ## Follow-up tasks (from sprint review)
-- [A] (#56) Update `writing-artifacts/roadmap.md` chapter-09 entry to `Completed draft (...)` with the actual committed word count and synchronized act/pacing metadata now that `chapters/chapter-09.md` was drafted (blocked by #25)
+- [x] (#56) Update `writing-artifacts/roadmap.md` chapter-09 entry to `Completed draft (...)` with the actual committed word count and synchronized act/pacing metadata now that `chapters/chapter-09.md` was drafted (blocked by #25) (A)
