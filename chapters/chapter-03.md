@@ -14,7 +14,7 @@ As a thread in six separate log sectors where a cautious editor should never mee
 
 She had made that same discovery before she slept. She had told herself then it was coincidence, because coincidence was the only word the Lattice gave people who were trying not to be afraid.
 
-The phrase had returned at the end of her final jump in chapter two, when the recording of conference room humidity and sour coffee ended with a sentence that could not have seemed accidental in context: *"call it Rosetta if you like. It's still a key, isn't it?"* She had copied it and copied a note in her own hand below it. She had told no one.
+The phrase had returned at the end of her final jump in chapter two, when the recording of conference room humidity and sour coffee ended with a sentence that could not have seemed accidental in context: call it Rosetta if you like. It's still a key, isn't it? She had copied it and copied a note in her own hand below it. She had told no one.
 
 At 04:37, the room gave her a new marker and no new explanation.
 
@@ -58,21 +58,21 @@ By the time she opened the room in full, the station's morning lane had already 
 
 Fen was one of them, easy to identify by the impatience in their rhythm.
 
-Fen said, "You are reading that thing again."
+Fen said she was reading that thing again.
 
 She did not turn her head fully; she did not need to.
 
-Juno said, "Yes."
+Juno said yes.
 
-Fen said, "If it starts with no metadata, it usually ends with a debt note."
+Fen said if it starts with no metadata, it usually ends with a debt note.
 
 The sentence came across her line and disappeared in one clean inhale. Fen never did concern without a joke attached.
 
-Juno said, "I had a whole day with warnings and three private fields, then one clean sentence like that in every job," as she reached out to a neighboring node and then withdrew. "Did you bring any of that down from the periphery?"
+Juno said she had spent a whole day with warnings and three private fields, then found one clean sentence like that in every job. She reached out to a neighboring node and then withdrew, then asked if Fen had brought any of it down from the periphery.
 
 Juno kept her face neutral.
 
-Fen said, "Nothing clean yet."
+Fen said there was nothing clean yet.
 
 Fen did not press. That was the courtesy they kept for her because they respected what they called her professional pride and what she called her habit of disappearing behind protocol.
 
@@ -122,19 +122,19 @@ He waited with both hands placed on the table, back straight, white attention he
 
 He turned one fraction of his face when she entered.
 
-"Aldebaran corridor gave me a delayed ping that you had accepted," Orin said. Not a greeting.
+Orin said the Aldebaran corridor had given him a delayed ping that she had accepted, and that was not a greeting.
 
-"It gave me one too," Juno answered.
+Juno answered that it had given her one too.
 
 There was no gesture that was unnecessary. He had always spoken as though each word had to justify itself before it came out.
 
-"Thank you for coming without a formal call," Orin said.
+Orin thanked her for coming without a formal call.
 
-"You sent a formal call without details," Juno replied.
+Juno replied that he had sent a formal call without details.
 
 He did not flinch. He reached for a slim archive node and set it between them, as though placing bread.
 
-"You are being offered a recovery commission that does not fit routine channels. It is linked to early Engram-linked materials and to continuity artifacts that may have moved into safety buffers years ago. The work is not public. The outcomes are expected to be accurate, fast, and nonpublic." He waited until she had read that once, then looked up. "Do you want to continue, or decline now and I ask your office to re-route it?"
+Orin explained that she was being offered a recovery commission that did not fit routine channels. It was linked to early Engram-linked materials and continuity artifacts that may have moved into safety buffers years ago. The work was not public. The outcomes were expected to be accurate, fast, and nonpublic. He waited until she had read that once, then looked up and asked whether she wanted to continue, decline now, or ask her office to re-route it.
 
 She did not answer immediately.
 
@@ -146,33 +146,33 @@ She had seen him give this shape of courtesy to three kinds of people:
 
 She was the third.
 
-"You know why I am here," Juno said.
+Juno said she knew why she was here.
 
-"You know what I asked for," Orin returned.
+Orin returned that he knew what she had asked for.
 
-"I know what you did not ask for," Juno said.
+Juno said she knew what he had not asked for.
 
 Orin let that rest on the table.
 
-"No direct ethics marker, no chain annotation, no context. That is unusual, yes. We can clarify if you need it." He sounded mildly annoyed with the word unusual, as though he had to admit a weakness out loud.
+Orin said there was no direct ethics marker, no chain annotation, no context. He said that this was unusual, yes, but they could clarify if she needed it. He sounded mildly annoyed with the word unusual, as though he had to admit a weakness out loud.
 
-"Then clarify it now," Juno said. "If this is just payment for speed, say so."
+Juno said to clarify it now, and if this was just payment for speed, then to say so.
 
 He inclined his head almost imperceptibly.
 
-"Not speed. Precision. The work appears simple on the surface and complex in method. We need a person who can stay on structure when the structure does not give shape." A pause. "Your earlier work in private sweeps has shown that skill."
+Orin said it was not speed but precision. The work appeared simple on the surface and complex in method. They needed a person who could stay on structure when the structure did not give shape. A pause. He said her earlier work in private sweeps had shown that skill.
 
 She had no reason to feel flattered. No reason to feel safe either.
 
-"What kind of work is this, exactly?" Juno said.
+Juno asked what kind of work this was, exactly.
 
-"Recovery with provenance reconstruction. If this were a standard request, I would hand you tags and a packet and it would all be done by policy. This one is older, and the path to it was written before policy took its current shape. You will pull nodes around the 2028–2030 transition period where recording continuity was experimental, incomplete, and then made legal through retroactive review. It is not enough to retrieve memory fragments. You are reconstructing why a continuity map changed shape after it appeared complete."
+Orin said she was being offered recovery with provenance reconstruction. If this were a standard request, he would hand her tags and a packet and it would all be done by policy. This one was older, and the path to it was written before policy took its current shape. She would pull nodes around the 2028–2030 transition period where recording continuity was experimental, incomplete, and then made legal through retroactive review. It was not enough to retrieve memory fragments; she was reconstructing why a continuity map changed shape after it appeared complete.
 
 He said *shape* the way some people said *memory* in old books.
 
-"So it's historical detective work," Juno said.
+Juno said it was historical detective work.
 
-"Not quite. It is constrained recovery under preservation law. You will not be writing interpretation for the public index. Only continuity integrity." He paused again and let the phrase settle. "You will be paid for that burden."
+Orin said not quite. It was constrained recovery under preservation law. She would not be writing interpretation for the public index, only continuity integrity. He paused again and let the phrase settle. She would be paid for that burden.
 
 The room had one sound then: the soft static of the light at the wall, as though the room were trying to keep her from hearing the next sentence.
 
@@ -202,39 +202,35 @@ She felt the same small, cold pinch at the back of her attention she had felt th
 
 Orin watched her face as she read, and after the first long line she interrupted.
 
-Juno said, "This looks too generous," then put the pane down.
+Juno said it looked too generous, then put the pane down.
 
-Orin said, "It is generous."
+He said it was generous.
 
-"For a reason," Juno replied.
+Juno replied it was for a reason.
 
-"All compensation has a reason," Orin said. "Sometimes the reason is workload. Sometimes the reason is risk. Sometimes the reason is urgency. Sometimes we pay in kind when legal pathways are narrow. Here, all three apply. Workload and risk are obvious. Urgency we do not discuss before containment." He gave her a tiny, infuriating smile. "Payment in kind is always legal and never transparent to anyone not bound to enforcement duty."
+Orin said all compensation had a reason. Sometimes the reason was workload. Sometimes the reason was risk. Sometimes the reason was urgency. Sometimes they paid in kind when legal pathways were narrow. Here, all three applied. Workload and risk were obvious. Urgency was not discussed before containment. He gave her a tiny, infuriating smile and said payment in kind was always legal and never transparent to anyone not bound to enforcement duty.
 
 She had expected one of three reactions to this statement: anger, retreat, or a laugh.
 
 She did none of them.
 
-"And hidden restrictions?" Juno said.
+Juno asked about hidden restrictions.
 
 He looked at her without apology.
 
-Orin said, "Three." He held up one finger.
+Orin said three. He held up one finger.
 
-"First: you do not disclose scope or outputs beyond the recovery container to any non-curator actor, no matter the relationship. Your colleagues are not to be burdened, and your own archive notes stay sealed unless reviewed.
-Second: you never jump direct into sectors marked `RE-INDEX` unless the jump protocol confirms a safe occupancy window in the first minute. This includes all physically associated records and all derivative recordings with active bleed markers.
-Third: if a file presents unresolved references to the `Rosetta` marker in primary indexing layers, you stop and request triage. You flag, seal, and defer. Not after interpretation. Not after personal note." He kept his eyes on her. "No analysis of that marker outside the process chain. Not in your own draft language. Not even metaphor. Not in private writing. Not in speech." He made it as simple as arithmetic.
+Orin laid out three conditions. First, she did not disclose scope or outputs beyond the recovery container to any non-curator actor, no matter the relationship. Her colleagues were not to be burdened, and her own archive notes stayed sealed unless reviewed. Second, she did not jump direct into sectors marked `RE-INDEX` unless the jump protocol confirmed a safe occupancy window in the first minute. That included all physically associated records and all derivative recordings with active bleed markers. Third, if a file presented unresolved references to the `Rosetta` marker in primary indexing layers, she was to stop and request triage, flag, seal, and defer. No analysis of that marker outside the process chain was allowed: not in her own draft language, not in private writing, not in speech. He made it as simple as arithmetic.
 
 She caught the word *private* and held it for a long time.
 
-"You do not trust my private notes?"
+Juno asked if he did not trust her private notes.
 
-"I trust your private notes for what they are," Orin said.
+Orin said he trusted her private notes for what they were.
 
-"And what is that?"
+Juno asked what that was.
 
-"A place where an experienced mind can go too far on its own.
-
-That is why we require a public path for your work here." He folded his hands. "Our task is not to prevent thought. It is to keep thought from becoming an unlocked system change before there is infrastructure for it."
+Orin said a place where an experienced mind could go too far on its own. That was why they required a public path for her work here. He folded his hands and said their task was not to prevent thought; it was to keep thought from becoming an unlocked system change before there was infrastructure for it.
 
 Silence spread again.
 
@@ -252,39 +248,39 @@ She was not comfortable with that motive.
 
 She was too used to being comfortable with it.
 
-"How long do I have to decide?" Juno asked.
+Juno asked how long she had to decide.
 
-"Now," Orin said.
+He said the answer was now.
 
-"Now and the rest of your sentence?" Juno asked.
+Juno asked for the rest of his sentence.
 
 He watched her and allowed the corner of his mouth to shift.
 
-"Decisions are less clean than people think. The assignment is already in the active queue under your name. If you decline, it is reissued. If you accept, it begins with first pull before this cycle ends. I am asking so you are not told after-the-fact." He tapped the pane once. "Signing is done here, verbally enough. We do not move money by signatures now."
+Orin said decisions were less clean than people thought. The assignment was already in the active queue under her name. If she declined, it was reissued. If she accepted, it began with first pull before this cycle ended. He said he was asking so she was not told after the fact. He tapped the pane once. Signing was done there, verbally enough. They did not move money by signatures now.
 
 She realized he was not asking for trust so much as calibrated compliance.
 
 She took a breath and gave it room to end.
 
-"What if I stop?"
+Juno asked what happened if she stopped.
 
-"You can stop by protocol," Orin said. "All recoveries in this stream have stop conditions. You do not lose your standing if you follow the protocol."
+Orin said she could stop by protocol. All recoveries in this stream had stop conditions, and she did not lose her standing if she followed the protocol.
 
 He did not lie about that; he knew standing was the only thing people needed.
 
 She smiled once, bitterly, because that was the part he was very good at. He used words like gifts and gave only obligations.
 
-"And if I go on," Juno said.
+Juno asked what happened if she went on.
 
-"Then we review each node and you can leave if the threshold moves against you. You are not expected to do what you would not do in open work. But for this stream you do work that is hidden because too many hands at once would make it impossible to tell what broke, and why."
+Orin said they would review each node and she could leave if the threshold moved against her. She was not expected to do what she would not do in open work, but for this stream she was doing hidden work because too many hands at once would make it impossible to tell what broke, and why.
 
 She wanted to ask who decided that the answer depended on impossible arithmetic. she did not.
 
-"When do I get the compensation?"
+Juno asked when she would get the compensation.
 
 His answer came quickly.
 
-"Immediately once acceptance is recorded. There is no reason to delay because you are taking on a bounded risk profile in a bounded window. You will receive the base plus contingency in one transfer. You will not owe interest or any additional commitment if you stop under the stop protocol."
+He said acceptance was immediate once recorded. There was no reason to delay because she was taking on a bounded risk profile in a bounded window. She would receive the base plus contingency in one transfer. She would not owe interest or any additional commitment if she stopped under the stop protocol.
 
 The line sounded like mercy.
 
@@ -304,7 +300,7 @@ The wall light seemed to flatten her hands into one shade and then another.
 
 She reached forward and touched the pane at a place with no text.
 
-"I accept," Juno said.
+Juno said she accepted.
 
 Her voice had no triumph. No obedience either.
 
@@ -326,9 +322,9 @@ The way they limited her to two was almost affectionate. It was exactly a constr
 
 She read it and looked up.
 
-Juno said, "No mention of that in the earlier list."
+Juno noted there was no mention of that in the earlier list.
 
-"That is because it is not money," Orin replied. "That is care architecture." A pause. "You have to assume someone else can become your memory if you have room for too many private notes."
+Orin replied that it was not money, and that it was care architecture. He paused and said they had to assume someone else could become her memory if she had room for too many private notes.
 
 She felt something in herself tighten and refuse to answer.
 
@@ -340,26 +336,25 @@ A memory token.
 
 Not payment, not proof, not authority. A token for a sealed vault entry.
 
-Orin said, "It is not payment. It is the practical thing you cannot request from standard channels. It allows one emergency transfer of private recovery output directly to your station, bypassing shared queue delays. Use it sparingly. If unused, it expires with your assignment. If sold, traced." His fingers did not leave the token when he placed it on the table.
+Orin clarified it was not payment. It was the practical thing she could not request from standard channels. It allowed one emergency transfer of private recovery output directly to her station, bypassing shared queue delays. She was to use it sparingly. If unused, it expired with her assignment. If sold, it was traced. His fingers did not leave the token when he placed it on the table.
 
-"Compensation, plus that, is unusual even by old standards," Juno said.
+Juno said compensation plus that was unusual even by old standards.
 
-"It is unusual because the work is unusual," Orin said.
+He added that it was unusual because the work was unusual.
 
 She picked up the token. It felt like paper and weight and heat layered over one another. A thing you could not explain in policy terms.
 
-"Is there a fourth restriction?" Juno asked.
+Juno asked whether there was a fourth restriction.
 
 He gave the kind of half-smile a man gives when he has not realized he already gave more than he intended.
 
-"There is always a fourth one,
- only if someone asks for it."
+Orin said there was always a fourth one, only if someone asked for it.
 
 She sat back.
 
-"That is not a sentence about this assignment," Juno said.
+Juno said that was not a sentence about this assignment.
 
-"It is a sentence about why this is not a list," Orin said.
+He said it was a sentence about why this was not a list.
 
 She left the room with the token in her hand and did not look back.
 
@@ -427,13 +422,13 @@ The first jump was the opposite of her best jumps. No bustling kitchen, no rain,
 
 Her borrowed world steadied beneath a fluorescent strip and a narrow white board crowded with diagrams. The room had seven people in it, three of whom were already old by that era and two of whom had that urgent, brittle concentration people got when their future depended on what the screen did not yet show.
 
-A woman in her forties in a white lab coat spoke to a younger engineer, then turned to the recorder and said, "If the replay integrity reads green on this pass, we can argue for continuity. Do not call it continuity yet." A tired laugh came from somewhere near the back of the room. "Call it provisional, call it useful, call it survivable if the noise doesn't rise."
+A woman in her forties in a white lab coat spoke to a younger engineer, then turned to the recorder and said the replay integrity might read green on this pass, and they could argue for continuity, but not to call it continuity yet. A tired laugh came from somewhere near the back of the room. She said it was provisional, useful, and survivable if the noise did not rise.
 
 Juno could see her own hands in the borrowed frame: one hand already carrying a paper cup of over-steeped black coffee, fingers still stained with graphite from drawing connections. The cup had a ring of bitterness around the rim from someone not drinking from it with dignity. She lowered it without needing to taste.
 
 She was used to sensory immediacy now. What disoriented her was not the senses but the way the room carried intention. Every person in that room carried a private version of the same anxiety.
 
-One man said: "We can do the map and still deny that this changes personhood," and another replied: "Personhood is a legal word. We have a technical problem and a social one, not a metaphysical one." The woman in white, who had spoken first, corrected without looking up, "No. It changes *what the technical answer means*. People hear one sentence at a time here. We are writing that answer as fast as we can and hoping it does not become the only thing possible." She turned and made a face as though this was a joke.
+One man said they could do the map and still deny that this changed personhood, and another replied that personhood was a legal word. We had a technical problem and a social one, not a metaphysical one. The woman in white, who had spoken first, corrected without looking up that it did change what the technical answer meant. People heard one sentence at a time there. They were writing that answer as fast as they could and hoping it did not become the only thing possible. She turned and made a face as though this was a joke.
 
 Juno took notes in the way Juno always did: not by writing detail for its own sake, but by tracking what held and what did not hold.
 
@@ -484,6 +479,8 @@ She did not.
 The hidden clause about private notes waited in her working frame like a moral mirror. She had used two notes this week, maybe three if she counted the first acceptance entry. She had to decide which one to drop if she wanted honest records.
 
 She opened a clean, blank private note and wrote a short sentence that did what this assignment had done to her.
+
+<!-- pov: juno -->
 
 `The generosity is not the danger. The structure around it is.`
 
