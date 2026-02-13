@@ -31,7 +31,7 @@
 
 ## Act 2 Drafting (Chapters 05–10)
 
-- [ ] (#21) Draft `chapters/chapter-05.md` in the 4,000–6,000-word range: map the Engram arc through Lena’s eyes, showing breakthroughs, ethical strain, and emotional cost while deepening first-person present/past contrast [5 pts] (blocked by #20)
+- [A] (#21) Draft `chapters/chapter-05.md` in the 4,000–6,000-word range: map the Engram arc through Lena’s eyes, showing breakthroughs, ethical strain, and emotional cost while deepening first-person present/past contrast [5 pts] (blocked by #20)
 - [ ] (#22) Draft `chapters/chapter-06.md` in the 4,000–6,000-word range: expand Juno’s fixation as Sable appears in background details, and increase subtle bleed symptoms in present scenes [5 pts] (blocked by #21)
 - [ ] (#23) Draft `chapters/chapter-07.md` in the 4,000–6,000-word range: show Juno’s withdrawal at work, Fen’s alarm, and Cassiel’s return as concern that strains their history [5 pts] (blocked by #22)
 - [ ] (#24) Draft `chapters/chapter-08.md` in the 4,000–6,000-word range: stage Maren’s lucid warning moment with initially opaque reference to the Rosetta Key that becomes legible through subsequent beats [5 pts] (blocked by #23)
@@ -53,7 +53,7 @@
 
 ## Quality Assurance and Release
 
-- [ ] (#34) Run postmortem and revision cycle for `chapter-01.md`–`chapter-04.md` against all gates in #9; re-run all Rust checks and style workflow until chapter package is within spec [5 pts] (blocked by #17, #18, #19, #20)
+- [B] (#34) Run postmortem and revision cycle for `chapter-01.md`–`chapter-04.md` against all gates in #9; re-run all Rust checks and style workflow until chapter package is within spec [5 pts] (blocked by #17, #18, #19, #20)
 - [ ] (#35) Run postmortem and revision cycle for `chapter-05.md`–`chapter-10.md` with special review of tone transitions, act-level escalation, and continuity with #6 and #5 [5 pts] (blocked by #21, #22, #23, #24, #25, #26)
 - [ ] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30)
 - [ ] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33)
@@ -84,5 +84,5 @@
 - [x] (#48) Fix failing quality issues in `chapters/chapter-03.md` so it can pass `quality-orchestrator` (resolve blocker-level voice-consistency findings and dialogue attribution/POV clarity issues, and rerun the orchestrator until the chapter reports clean). (blocked by #19) (B)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#49) Resolve remaining `voice-consistency` blockers in `chapters/chapter-04/chapter-03` (`VOICE-STYLE-001`, `DIAL-AMBIG-001`, `DIAL-TAG-002`) and generate a final passing `writing-artifacts/quality/chapter-03/quality-orchestrator-*` report before unfreezing completion of chapter-03 quality work. (blocked by #48)
-- [ ] (#50) Reconcile `#8` in `.swarm-hug/infinite-domain/tasks.md` with the JK Rowling-only target; it still contains the legacy “Ted Chiang/Kazuo Ishiguro” language despite prior style alignment work. (blocked by #47)
+- [B] (#49) Resolve remaining `voice-consistency` blockers in `chapters/chapter-04/chapter-03` (`VOICE-STYLE-001`, `DIAL-AMBIG-001`, `DIAL-TAG-002`) and generate a final passing `writing-artifacts/quality/chapter-03/quality-orchestrator-*` report before unfreezing completion of chapter-03 quality work. (blocked by #48)
+- [A] (#50) Reconcile `#8` in `.swarm-hug/infinite-domain/tasks.md` with the JK Rowling-only target; it still contains the legacy “Ted Chiang/Kazuo Ishiguro” language despite prior style alignment work. (blocked by #47)
