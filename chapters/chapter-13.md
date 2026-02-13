@@ -98,8 +98,6 @@ Tomo had already answered before Bill had finished.
 
 “Four minutes past the quarter mark,” she said. “No less than that. The pressure in the lower sea corridor was tested at 3:12. We picked up two transients after dusk yesterday, three after tonight’s bell. That is not random drift. They are rehearsing.”
 
-Harry remembered from chapter eleven and earlier how Tomo measured rhythm the way Arthur measured weather.
-
 Bill nodded.
 
 “Tomo, if Anchor One shifts,” he said, “what holds?”
