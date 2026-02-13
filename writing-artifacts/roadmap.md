@@ -43,7 +43,7 @@
 | 08 | 2 | Maren’s lucid warning | Deliver opaque clue and prepare re-interpretation | 4,000–6,000 | Completed draft (5,945) |
 | 09 | 2 | Restricted archives and confrontation | Convert policy friction into active confrontation | 4,000–6,000 | Completed draft (5,995) |
 | 10 | 2 | Journal acquisition and living infrastructure reveal | End Act 2 with explicit realization of Rosetta Key agency | 4,000–6,000 | Not started |
-| 11 | 3 | Rogue jumps and deep bleed risk | Shift from investigation to active self-endangerment for truth | 4,000–6,000 | Not started |
+| 11 | 3 | The Weather of Rupture | Shift from controlled investigation to unauthorized deep-jump access and immediate bleed risk | 4,000–6,000 | Completed draft (5,360) |
 | 12 | 3 | Sable direct perspective | Reveal structural constraints and systemic design intent | 4,000–6,000 | Not started |
 | 13 | 3 | Orin escalation and ethical coercion | Escalate enforcement response and moral argument | 4,000–6,000 | Not started |
 | 14 | 3 | Maren’s final lucid truth and Key access | Deliver late-Act 3 payoff and irreversible entry point | 4,000–6,000 | Not started |
@@ -78,7 +78,7 @@
 | 08 | Present-Lattice | Present → Memory echo → Present | Preserve uncertainty while escalating dread | Maren’s warning becomes emotionally legible by sequence |
 | 09 | Present-Lattice | Present → Access-denied record scene → Present | Convert policy friction into active confrontation | Restriction and deflection become undeniable narrative force |
 | 10 | Recording | Present → Recording → Present | Deliver first hard reveal: infrastructure is active and strategic | End Act 2 with technical truth as emotional event |
-| 11 | Present-Lattice | Present → Recording → Present | Break safety rhythm by choosing dangerous access | Mark the first major rogue-jump cost decision point |
+| 11 | Present-Lattice | Present → Recording → Present | Break safety rhythm by entering restricted, degraded jumps for critical truth | Mark the first major rogue-jump cost decision point |
 | 12 | Recording | Present → Recording → Present | Resolve uncertainty around constraints; deepen stakes of choice | Show maintenance logic as care-with-boundaries paradox |
 | 13 | Present-Lattice | Present → Institutional forum → Present | Shift from motive to control through policy enforcement | Orin’s protective strategy is now explicit and coercive |
 | 14 | Recording | Present → Recording → Present | Move from inquiry to responsibility and explicit confession | Maren/Key linkage reaches emotional and historical closure |
