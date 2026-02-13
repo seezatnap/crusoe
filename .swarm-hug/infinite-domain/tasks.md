@@ -102,3 +102,7 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#56) Update `writing-artifacts/roadmap.md` chapter-09 entry to `Completed draft (...)` with the actual committed word count and synchronized act/pacing metadata now that `chapters/chapter-09.md` was drafted (blocked by #25) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#57) Update `writing-artifacts/roadmap.md` chapter-10 status from `Not started` to `Completed draft (4,468)` and verify status metadata (pacing objective/act note) matches `chapters/chapter-10.md` (blocked by #26)
+- [ ] (#58) Consolidate chapter-10 quality artifacts by removing/renaming `writing-artifacts/quality/chapter-10-work/quality-orchestrator-1770992364.md` and ensure only canonical `writing-artifacts/quality/chapter-10/quality-orchestrator-*` reports are retained, all targeting `chapters/chapter-10.md` (blocked by #26)
