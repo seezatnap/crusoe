@@ -32,7 +32,7 @@
 
 - [x] (#14) Rewrite `final-draft-chapters/chapter-13.md` based on required bibles, roadmap chapter constraints, continuity/reveal matrices, thread log, prior rewrites, and chapter 13 first draft; ensure scene transitions and chapter linkage are seamless, 4,000–6,000 words [5 pts] (blocked by #13) (A)
 
-- [ ] (#15) Rewrite `final-draft-chapters/chapter-14.md` by first reconciling all lore and timeline constraints with prior chapters, then rewriting chapter 14 in final voice with emotional precision, preserve all twists/reveals, and keep length within 4,000–6,000 words [5 pts] (blocked by #14)
+- [x] (#15) Rewrite `final-draft-chapters/chapter-14.md` by first reconciling all lore and timeline constraints with prior chapters, then rewriting chapter 14 in final voice with emotional precision, preserve all twists/reveals, and keep length within 4,000–6,000 words [5 pts] (blocked by #14) (A)
 
 - [ ] (#16) Rewrite `final-draft-chapters/chapter-15.md` after full-reference read + prior rewrite chain validation, then produce a coherent, stylistically aligned 4,000–6,000 word chapter with consistent dialogue cadence and narrative momentum [5 pts] (blocked by #15)
 
@@ -107,8 +107,16 @@
 - [x] (#59) Clean up the 5 stale quality-orchestrator reports for chapter-12 (timestamps 1770992994, 1770993017, 1770993475, 1770993489, 1770993740) that target `chapters/chapter-12.md` instead of `final-draft-chapters/chapter-12.md` (C)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#60) Fix 4 error-level findings in `final-draft-chapters/chapter-12.md` — 2 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 103, 143 using 'it' instead of named characters) and 2 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771009897, which caused the report to fail with 2 blocking reports (blocked by #14)
-- [ ] (#61) Run quality-orchestrator on `final-draft-chapters/chapter-13.md` (not `chapters/chapter-13.md`) — both existing chapter-13 quality reports (timestamps 1770993486, 1770993823) target the stale first-draft path and are invalid for the rewritten file (blocked by #14)
-- [ ] (#62) Clean up the 2 stale quality-orchestrator reports for chapter-13 (timestamps 1770993486, 1770993823) that target `chapters/chapter-13.md` instead of `final-draft-chapters/chapter-13.md`
-- [ ] (#63) Run a continuity-check diagnostic on `final-draft-chapters/chapter-13.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–12 in tasks #23, #24, #27, #29, #35, #38, #43, #47, #51, and #58 (blocked by #14)
-- [ ] (#64) Clean up the stale chapter-11 quality-orchestrator report 1771010017 which shows status: failed — it was generated mid-fix before task #56 completed, and report 1771010043 is the valid passing replacement
+- [x] (#60) Fix 4 error-level findings in `final-draft-chapters/chapter-12.md` — 2 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 103, 143 using 'it' instead of named characters) and 2 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771009897, which caused the report to fail with 2 blocking reports (blocked by #14) (A)
+- [x] (#61) Run quality-orchestrator on `final-draft-chapters/chapter-13.md` (not `chapters/chapter-13.md`) — both existing chapter-13 quality reports (timestamps 1770993486, 1770993823) target the stale first-draft path and are invalid for the rewritten file (blocked by #14) (B)
+- [x] (#62) Clean up the 2 stale quality-orchestrator reports for chapter-13 (timestamps 1770993486, 1770993823) that target `chapters/chapter-13.md` instead of `final-draft-chapters/chapter-13.md` (C)
+- [x] (#63) Run a continuity-check diagnostic on `final-draft-chapters/chapter-13.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–12 in tasks #23, #24, #27, #29, #35, #38, #43, #47, #51, and #58 (blocked by #14) (B)
+- [x] (#64) Clean up the stale chapter-11 quality-orchestrator report 1771010017 which shows status: failed — it was generated mid-fix before task #56 completed, and report 1771010043 is the valid passing replacement (C)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#65) Fix 16 error-level findings in `final-draft-chapters/chapter-13.md` — 8 DIAL-TAG-001 weak pronoun-based speaker attributions (lines 111, 183, 271, 279, 321, 429, 477, 557) and 8 corresponding POV-DRIFT-001 errors flagged in quality-orchestrator report 1771011052, which caused the report to fail (blocked by #15)
+- [ ] (#66) Run quality-orchestrator on `final-draft-chapters/chapter-14.md` (not `chapters/chapter-14.md`) — the only existing chapter-14 quality report (timestamp 1770994354) targets the stale first-draft path and is invalid for the rewritten file (blocked by #15)
+- [ ] (#67) Run a continuity-check diagnostic on `final-draft-chapters/chapter-14.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–13 in tasks #23, #24, #27, #29, #35, #38, #43, #47, #51, #58, and #63 (blocked by #15)
+- [ ] (#68) Clean up the stale chapter-14 quality-orchestrator report 1770994354 which targets `chapters/chapter-14.md` instead of `final-draft-chapters/chapter-14.md`
+- [ ] (#69) Clean up the duplicate voice-consistency report for chapter-12 (timestamps 1771011554 and 1771011559 are near-identical) — retain one and remove the duplicate
+- [ ] (#70) Clean up the stale chapter-12 quality-orchestrator report 1771009897 which was generated pre-fix before task #60 completed — report 1771011575 is the valid post-fix replacement
