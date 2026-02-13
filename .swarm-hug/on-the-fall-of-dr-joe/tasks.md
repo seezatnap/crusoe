@@ -3,8 +3,8 @@
 ## Creative Foundation and Planning
 
 - [x] (#1) Establish the writing workspace and project conventions in `chapters/` and `writing-artifacts/` (file naming, chapter IDs, metadata, word-count tracking, dependency notes, and handoff format) [5 pts] (A)
-- [ ] (#2) Write the World Design Document covering setting, era, locations, atmosphere, and governing world rules with explicit mystery-genre constraints [5 pts] (blocked by #1)
-- [ ] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1)
+- [x] (#2) Write the World Design Document covering setting, era, locations, atmosphere, and governing world rules with explicit mystery-genre constraints [5 pts] (blocked by #1) (A)
+- [x] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1) (A)
 - [ ] (#4) Create the High-Level Plot Outline for all 25 chapters with inciting incident, rising action, midpoint reversal, climax, and denouement [5 pts] (blocked by #2, #3)
 - [ ] (#5) Produce the Chapter-by-Chapter Outline for all 25 chapters: scene sequencing, POV map, key revelations, clue placements, red herrings, and emotional beats [5 pts] (blocked by #2, #3, #4)
 - [ ] (#6) Build the Mystery Architecture: crime definition, clue tree, misdirection plan, reveal logic, and fair-play checklist to guarantee solvability [5 pts] (blocked by #2, #3, #4, #5)
@@ -46,5 +46,10 @@
 - [ ] (#36) Perform final novel-level integration edit across all 25 chapters for pacing arc, thematic completion, lore integrity, and unresolved-thread closure, then produce the release draft [5 pts] (blocked by #35, #34)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#37) Reconcile status enums across `chapters/README.md`, `writing-artifacts/README.md`, and `writing-artifacts/word-count.md` so blocked/review/finalization states are defined once and used consistently in both templates and tracking rows (`blocked` vs `draft`/`ready_for_review` mismatch). (blocked by #1)
-- [ ] (#38) Replace the placeholder `CH-000` example in `chapters/README.md` with an explicit “no predecessor” pattern so invalid chapter IDs are not copied into production frontmatter. (blocked by #1)
+- [x] (#37) Reconcile status enums across `chapters/README.md`, `writing-artifacts/README.md`, and `writing-artifacts/word-count.md` so blocked/review/finalization states are defined once and used consistently in both templates and tracking rows (`blocked` vs `draft`/`ready_for_review` mismatch). (blocked by #1) (B)
+- [x] (#38) Replace the placeholder `CH-000` example in `chapters/README.md` with an explicit “no predecessor” pattern so invalid chapter IDs are not copied into production frontmatter. (blocked by #1) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#39) Correct the frontmatter example in `chapters/README.md` so the chapter-outline dependency ID/comment matches the canonical map (`DOC-004` for chapter outline, `DOC-005` for mystery architecture) (blocked by #1)
+- [ ] (#40) Reconcile status vocabulary in `writing-artifacts/README.md` by replacing the artifact comment token `deprecated` with the canonical `archived` value or removing it so all status examples align (blocked by #37)
+- [ ] (#41) Add the referenced process artifacts or remove dead references in `writing-artifacts/README.md`: `writing-artifacts/dependency-notes.md` and `writing-artifacts/handoff-format.md` (blocked by #1)

@@ -27,7 +27,7 @@ chapter_id: "CH-001"
 chapter_number: 1
 title: "Chapter 1: The Strange Request"
 slug: "the-strange-request"
-status: "in_progress" # draft | in_progress | complete | revisions_needed
+status: "in_progress"
 word_count_target_min: 4000
 word_count_target_max: 6000
 word_count_current: 0
@@ -37,8 +37,7 @@ dependency_ids:
   - "DOC-001"  # world_design
   - "DOC-002"  # character_bible
   - "DOC-005"  # chapter_outline
-depends_on_chapter_ids:
-  - "CH-000"   # if directly continuing from a prior chapter
+depends_on_chapter_ids: []  # no predecessor (first chapter); do not use CH-000
 dependencies_note:
   - "Uses Dr. Joe’s clinic setting and chapter-beat requirements."
 word_count_updated_utc: "2026-02-13T00:00:00Z"
@@ -46,6 +45,9 @@ author: "Agent Aaron"
 ---
 ```
 
+The allowed values for `status` are the canonical chapter status enum in
+`writing-artifacts/README.md` under [Status Enum](#status-enum), currently:
+`draft | blocked | in_progress | ready_for_review | revisions_needed | approved`.
 ## Content Template
 
 After frontmatter, use this section order:

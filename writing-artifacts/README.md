@@ -3,6 +3,19 @@
 This directory stores planning, continuity, and process documents required by the
 team before drafting chapter prose.
 
+## Status Enum
+
+- `draft`
+- `in_progress`
+- `blocked`
+- `ready_for_review`
+- `revisions_needed`
+- `approved`
+- `archived`
+
+Use this status enum for chapter-facing metadata and all chapter tracking rows in
+`word-count.md`.
+
 ## Artifact ID System
 
 - **Format:** `DOC-###` for project artifacts, `LOG-###` for tracking docs.
@@ -35,7 +48,7 @@ Artifact files that represent planning documents should include:
 artifact_id: "DOC-001"
 artifact_type: "planning"    # planning | continuity | process
 title: "World Design Document"
-status: "draft"             # draft | review | approved | deprecated
+status: "draft"             # draft | in_progress | blocked | ready_for_review | revisions_needed | approved | deprecated
 depends_on:
   - "DOC-000"               # parent/precedent dependency if any
 depends_on_note: "Dependency status and risk notes"
@@ -52,7 +65,7 @@ must include:
 log_id: "LOG-001"
 log_type: "word_count"      # word_count | dependencies | handoff | post_mortem
 scope: "project-wide"       # chapter | project-wide
-status: "live"              # draft | live | archived
+status: "draft"             # draft | in_progress | blocked | ready_for_review | revisions_needed | approved | archived
 source_refs:
   - "DOC-001"
   - "DOC-002"
