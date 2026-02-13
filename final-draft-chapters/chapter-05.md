@@ -44,6 +44,8 @@ The transfer pulled her through.
 
 ## Recording: Engram Lab Cluster, Winter 2031
 
+<!-- pov: lena -->
+
 She woke to fluorescent light and a body that had been awake before the light arrived.
 
 Lena's apartment in early March was damp, the city cold in the way cold persists in buildings that have never been warm enough to remember warmth. The alarm had sounded at six. The bed was narrow and smelled of cotton that had dried too slowly. Lena sat up with the metallic aftertaste of coffee gone cold in the sink, ran her tongue over her teeth, and placed both feet on a floor that punished contact.
@@ -170,6 +172,8 @@ Lena turned with a face that held more fatigue than she was willing to show. "I 
 
 ## Present-Lattice Interlude
 
+<!-- pov: juno -->
+
 Juno returned to her station with a dryness behind her eyes she had never experienced before the commission began. Not pain — pain required a body. This was the ghost of exhaustion, a somatic echo from a woman who had stood beside a machine that borrowed people and given back the parts it chose to keep.
 
 She sat at her desk and opened the session logs in a side channel. The first log was clean. The second carried seven untagged flags — anomalies the system had identified but refused to classify.
@@ -201,6 +205,8 @@ The phrase *not public* had always been the one that invited trouble. She opened
 ---
 
 ## Recording: Engram Lab Corridor, Spring 2032
+
+<!-- pov: lena -->
 
 The lab was crowded in the way rooms become crowded when everyone agrees on a word and no one agrees on what it means. The word that spring was *breakthrough*, spoken with the caution of people who feared they were naming a thing before it had finished becoming itself.
 
@@ -298,6 +304,8 @@ She held the cup with both hands and noticed the crack at the rim — hairline, 
 
 ## Present-Lattice Interlude
 
+<!-- pov: juno -->
+
 Juno returned to the station with a sensation she could not file under any category the training modules provided. Not bleed — the duration had been within limits. Not residue — the physical details were fading as protocol predicted. What remained was something the system had no metric for: the awareness that she was watching people build the architecture she now lived inside, and that the architecture had been built by hands that trembled while they worked.
 
 She opened her hand and found one of Fen's old messages at the bottom of her private buffer.
@@ -329,6 +337,8 @@ The room folded into a smaller, drier, quieter year.
 ---
 
 ## Recording: Private Notebook Sequence, 2033
+
+<!-- pov: lena -->
 
 The recording was not in the lab. It was in a rented studio above a print shop, and the window showed rain — not because the season required it but because someone inside had wanted to remember what ordinary sound could be.
 
@@ -417,6 +427,8 @@ Juno held those lines in borrowed hands and felt them arrive not as history but 
 ---
 
 ## Return
+
+<!-- pov: juno -->
 
 Juno returned to a corridor that had never known a draft.
 
