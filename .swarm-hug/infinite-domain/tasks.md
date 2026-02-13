@@ -26,7 +26,7 @@
 
 - [x] (#17) Draft `chapters/chapter-01.md` in the 4,000–6,000-word range: establish present-day Lattice reality, Juno’s guarded profession as a Finder, her emotional isolation, and first visit to drifted Maren; encode her core curiosity about origin [5 pts] (blocked by #7, #8, #15, #16, #2) (B)
 - [x] (#18) Draft `chapters/chapter-02.md` in the 4,000–6,000-word range: begin Juno’s earliest jumps into peripheral recordings, contrast digital abstraction with embodied 2030s detail (coffee, weather, pain, smell), and seed the Rosetta Key thread [5 pts] (blocked by #17) (B)
-- [A] (#19) Draft `chapters/chapter-03.md` in the 4,000–6,000-word range: deliver Orin’s commission for Engram-linked recovery work with unusual compensation, hidden restrictions, and Juno’s uneasy acceptance [5 pts] (blocked by #18)
+- [x] (#19) Draft `chapters/chapter-03.md` in the 4,000–6,000-word range: deliver Orin’s commission for Engram-linked recovery work with unusual compensation, hidden restrictions, and Juno’s uneasy acceptance [5 pts] (blocked by #18) (A)
 - [ ] (#20) Draft `chapters/chapter-04.md` in the 4,000–6,000-word range: escalate to the first emotionally transformative Lena jump; end Act 1 with a decisive hook into obsession and altered behavior [5 pts] (blocked by #19)
 
 ## Act 2 Drafting (Chapters 05–10)
@@ -76,5 +76,5 @@
 - [x] (#44) Fix the malformed list marker in `writing-artifacts/postmortem-rubric.md` (`+- Must confirm:`) under Plot Progression so it renders as a valid bullet item and preserves consistent rubric formatting for postmortem checks. (A)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#45) Restore `chapters/chapter-01.md` in the active `chapters/` tree so task `#17` is actually deliverable and the claimed completed chapter sequence is present. (blocked by #17)
-- [A] (#46) Reintroduce `writing-artifacts/style-and-voice-protocol.md` and verify it contains the JK Rowling-aligned protocol so the completed task state (`#8`/`#43`) matches actual repository artifacts. (blocked by #43)
+- [x] (#45) Restore `chapters/chapter-01.md` in the active `chapters/` tree so task `#17` is actually deliverable and the claimed completed chapter sequence is present. (blocked by #17) (B)
+- [x] (#46) Reintroduce `writing-artifacts/style-and-voice-protocol.md` and verify it contains the JK Rowling-aligned protocol so the completed task state (`#8`/`#43`) matches actual repository artifacts. (blocked by #43) (A)
