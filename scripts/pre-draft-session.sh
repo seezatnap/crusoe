@@ -13,8 +13,8 @@ Runs contributor reminders before drafting:
 
 Examples:
   scripts/pre-draft-session.sh
-  scripts/pre-draft-session.sh chapters/chapter-01.md
-  scripts/pre-draft-session.sh chapters --fail-on blocker
+  scripts/pre-draft-session.sh final-draft-chapters/chapter-01.md
+  scripts/pre-draft-session.sh final-draft-chapters --fail-on blocker
 USAGE
 }
 
@@ -27,7 +27,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
-TARGET="chapters"
+TARGET="final-draft-chapters"
 if [[ "${#}" -gt 0 && ! "$1" == --* ]]; then
   TARGET="$1"
   shift

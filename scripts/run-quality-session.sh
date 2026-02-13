@@ -10,9 +10,9 @@ Runs the full quality pipeline (cliche detection, voice consistency, continuity,
 length checks) via the quality-orchestrator binary.
 
 Examples:
-  scripts/run-quality-session.sh chapters/chapter-01.md
-  scripts/run-quality-session.sh chapters --fail-on blocker
-  scripts/run-quality-session.sh chapters/chapter-03.md --no-artifact
+  scripts/run-quality-session.sh final-draft-chapters/chapter-01.md
+  scripts/run-quality-session.sh final-draft-chapters --fail-on blocker
+  scripts/run-quality-session.sh final-draft-chapters/chapter-03.md --no-artifact
 USAGE
 }
 
