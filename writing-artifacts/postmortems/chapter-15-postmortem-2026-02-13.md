@@ -27,7 +27,7 @@
 
 ## Validation Note
 
-- Full quality session run for this chapter now uses `quality-orchestrator-1771013005.md` (targeting `final-draft-chapters/chapter-15.md`) and fails at error threshold (`status: failed`, total findings: 131).
+- Full quality session run for this chapter now uses `quality-orchestrator-1771014748.md` (targeting `final-draft-chapters/chapter-15.md`) and passes at error threshold (`status: passed`, total findings: 123, 0 blocking reports).
 - Remaining warnings are dialogue-attribution hygiene and should be treated as a cleanup pass, not a lore/continuity blocker.
 
 ## Final Gate Decision

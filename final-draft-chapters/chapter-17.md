@@ -32,6 +32,8 @@ The response felt insufficient. Every response felt insufficient. She sent it an
 
 ---
 
+<!-- pov: juno -->
+
 By mid-morning, the districts had begun answering themselves.
 
 Fen arrived with routing reports and a face that suggested he had slept even less than she had. He set his relay panels on the table and pulled up the district-level summary without being asked.
@@ -88,6 +90,8 @@ She nodded and opened the station's public broadcast channel.
 
 ---
 
+<!-- pov: juno -->
+
 They spent the morning moving. Three neighbourhoods before noon, relay panels under their arms, responding to translation requests in person because the institutional templates could not carry the weight of what people were actually asking.
 
 In district three, a portable relay kept dropping packets whenever too many people requested simultaneous witness signatures. Fen tapped the side of the unit with one finger and routed a secondary channel through maintenance-level infrastructure that predated the current governance layer.
@@ -115,6 +119,8 @@ He looked at her. "That is not bureaucratese."
 She copied it into six plain-language versions and posted them to the translation channel. One with fewer verbs. One with fewer nouns. One with all technical terms replaced by descriptions. One written by a district-three school group that had refused to use words under four syllables and had produced the clearest version of the lot.
 
 ---
+
+<!-- pov: juno -->
 
 At midday she found Orin waiting.
 
@@ -194,6 +200,8 @@ He left with one small bow toward neither of them — the old formal gesture str
 
 ---
 
+<!-- pov: juno -->
+
 The afternoon moved in three registers at once.
 
 The public channel recorded 3,721 completed disclosure acknowledgements. The support queue held 1,992 active requests. The unresolved submissions — people who had read the documentation and not yet responded — numbered 6,881.
@@ -237,6 +245,8 @@ He opened a drawer and placed the brass disc in her hand — the old tuning char
 She took it not because the door to Maren's room needed a key but because she needed to cross a threshold the system could not negotiate for her.
 
 ---
+
+<!-- pov: juno -->
 
 The room where Maren spent her last clear hours was quieter than the station and held no projection lights.
 
@@ -372,6 +382,8 @@ Maren did not ask to be remembered exactly. She asked to be carried honestly.
 
 ---
 
+<!-- pov: juno -->
+
 On the way out, Fen waited with a relay panel in his hand and an expression he had rehearsed into steadiness.
 
 "How long?" he said.
@@ -418,6 +430,8 @@ No room had become a single story. The line between people who wanted no change 
 
 ---
 
+<!-- pov: juno -->
+
 She found Cassiel in the relay station at dusk. He arrived from a translation run with his coat unbuttoned and no dramatic air at all. He set his cup beside hers and read one line from the public channel.
 
 "Heard about your visit."
@@ -460,6 +474,8 @@ He read the numbers and smiled — not because the news was good, but because th
 
 ---
 
+<!-- pov: juno -->
+
 She sent the evening update through the public channel. The language had taken her an hour to write because she refused to let it sound like prophecy.
 
 `public register: phase-2 options available`
@@ -498,6 +514,8 @@ Each entry arrived without ceremony. Each one carried the weight of a person dis
 
 ---
 
+<!-- pov: juno -->
+
 She did the last work of the night in the district-eleven square. The space was still occupied — not loud, only alert. An old transit shelter had been converted into a temporary support station for people who had asked for no change but still wanted to be present. On one side a teenager read the rollback-rights section to three others in a voice that suggested she had memorised the language not because she agreed with it but because she believed everyone deserved to understand what they were refusing.
 
 In another corner a small group had agreed to a trial reduction on one narrow sensory channel and were waiting for the first results with the specific patience of people who understood that patience was itself a form of choice.
@@ -527,6 +545,8 @@ Cassiel answered from somewhere behind Juno — not grandly, not as authority, b
 "We can build a line for that too."
 
 ---
+
+<!-- pov: juno -->
 
 She left the square at midnight with no sign that the city had chosen anything final.
 
@@ -581,6 +601,8 @@ No line was large enough to resolve the world. No line was small enough to ignor
 She sent both to the public archive under a section the council had never used before: *unresolved outcomes*.
 
 ---
+
+<!-- pov: juno -->
 
 She stood from the floor when the station clock crossed from night into the first neutral hour — the one the city used to say was the hour before regret.
 
