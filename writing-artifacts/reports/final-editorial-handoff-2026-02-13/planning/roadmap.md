@@ -54,8 +54,8 @@
 | 13 | 3 | The Quiet Siege | Shift from investigative motive to coercive institutional enforcement and protective-ethics arguments | 4,000–6,000 | Completed draft (5,890) |
 | 14 | 3 | The Name Beneath the Key | Deliver late-Act 3 payoff and irreversible entry point | 4,000–6,000 | Completed draft (6,000) |
 | 15 | 4 | The Third Gate | Confront the three routes (remove limits, suppress truth, or open truth via witness-first disclosure) | 4,000–6,000 | Completed draft (4,847) |
-| 16 | 4 | Public exposure and resistance | Resolve the governance/public struggle and alliance dynamics | 4,000–6,000 | Completed draft (4,706) |
-| 17 | 4 | The Honest Daybreak | Present-layer framing | 4,000–6,000 | Completed draft (4,057) |
+| 16 | 4 | Public exposure and resistance | Resolve the governance/public struggle and alliance dynamics | 4,000–6,000 | Completed draft (4,739) |
+| 17 | 4 | The Honest Daybreak | Present-layer framing | 4,000–6,000 | Completed draft (4,055) |
 
 ## Chapter-level POV / scene alternation rules and emotional progression (Task #7)
 

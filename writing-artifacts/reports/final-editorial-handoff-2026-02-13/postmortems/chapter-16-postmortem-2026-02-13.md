@@ -3,14 +3,14 @@
 - Chapter: `chapters/chapter-16.md`
 - Timestamp: 2026-02-13
 - Reviewer: Agent Aaron
-- Word count: `4,706`
+- Word count: `4,739`
 - Task focus: postmortem and revision cycle for chapter-15.md–chapter-17.md, validating ending coherence, emotional closure, and open-thread posture.
 
 ## Gate Matrix
 
 | Check | Status | Findings | Action | Owner | Target date |
 |---|---|---|---|---|---|
-| Word-Count Compliance | PASS | 4,706 words (within 4,000–6,000). | None. | - | - |
+| Word-Count Compliance | PASS | 4,739 words (within 4,000–6,000). | None. | - | - |
 | Plot Progression | PASS | Chapter-16 translates the third option into public execution and resistance, and creates measurable civic engagement before stabilization. | Keep final lines of chapter-17 explicit about unresolved district outcomes as the next forward vector. | Agent Aaron | 2026-02-20 |
 | Continuity | PASS | Public disclosure mechanics in this chapter follow Chapter-15’s witness policy and extend Orin/Cassiel/Fen roles without contradiction. | Preserve the sequence: release → countermeasures → signatures → public queue expansion. | - | - |
 | Cliches | PASS | No cliche blockers in latest run. | Maintain practical language over abstract declarative language in expanded public scenes. | Writing QA | 2026-02-26 |

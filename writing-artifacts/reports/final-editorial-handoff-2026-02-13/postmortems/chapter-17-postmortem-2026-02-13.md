@@ -3,14 +3,14 @@
 - Chapter: `chapters/chapter-17.md`
 - Timestamp: 2026-02-13
 - Reviewer: Agent Aaron
-- Word count: `4,057`
+- Word count: `4,055`
 - Task focus: postmortem and revision cycle for chapter-15.md–chapter-17.md, validating ending coherence, emotional closure, and open-thread posture.
 
 ## Gate Matrix
 
 | Check | Status | Findings | Action | Owner | Target date |
 |---|---|---|---|---|---|
-| Word-Count Compliance | PASS | 4,057 words (within 4,000–6,000). | None. | - | - |
+| Word-Count Compliance | PASS | 4,055 words (within 4,000–6,000). | None. | - | - |
 | Plot Progression | PASS | Chapter-17 resolves Act-4 execution into practical outcomes (district-level divergence, partial reductions, no panic outcomes) and carries forward the register for phase-2 adaptation. | Keep one explicit forward-reference hook to unresolved physical-world/lore questions in the final sequence for next-cycle continuity. | Agent Aaron | 2026-02-23 |
 | Continuity | PASS | Final Maren visit and public roll-forward behavior follow established grief/legacy motifs and do not contradict chapter-16’s witness process. | Preserve the mixed-results map in unresolved outcomes to avoid narrative flattening. | - | - |
 | Cliches | PASS | No cliche blocker findings in latest run. | Maintain the restrained register in closing emotional scenes. | - | - |
