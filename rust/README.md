@@ -10,6 +10,7 @@ The `rust/` directory is a workspace for narrative-analysis tooling.
   - Analysis runner trait and error type
 - `crates/excerpt-extract` currently houses the style-reference extraction utility.
 - `crates/dr-joe-support` holds support helpers.
+- `crates/cliche-detection` contains the literary cliché and sentence-pattern CLI.
 
 All new binaries should consume `analysis-contracts` for:
 
