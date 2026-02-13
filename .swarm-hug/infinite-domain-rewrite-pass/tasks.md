@@ -148,3 +148,9 @@
 - [x] (#88) Fix 2 error-level findings in `final-draft-chapters/chapter-17.md` — 1 DIAL-TAG-001 weak pronoun-based speaker attribution (`she said` at line 173) and 1 corresponding POV-DRIFT-001 error flagged in quality-orchestrator report 1771015807 (blocked by #18) (A)
 - [x] (#89) Re-run quality-orchestrator on `final-draft-chapters/chapter-16.md` to produce a valid post-fix report — report 1771015696 was generated before the task #85 dialogue-tag fixes were applied (the report shows 4 errors at lines 217 and 279 that appear resolved in the current chapter text), so it does not reflect the actual post-fix state (blocked by #85) (B)
 - [x] (#90) Clean up the stale chapter-16 quality-orchestrator report 1771014239 which was generated pre-fix before task #85 completed — report 1771015696 is the current replacement but itself needs re-running per the previous task (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#91) Clean up the stale chapter-17 quality-orchestrator report 1771015807 which was generated pre-fix before task #88 completed — report 1771017446 is the valid post-fix replacement
+- [ ] (#92) Fix medium-priority cross-chapter simile repetition: "weather follows a person through a doorway" appears near-identically in `final-draft-chapters/chapter-05.md` (line 435) and `final-draft-chapters/chapter-06.md` (line 455) — revise one instance to eliminate consecutive-chapter echo
+- [ ] (#93) Fix medium-priority cross-chapter metaphor repetition: "cup of something too hot to drink" pattern appears in `final-draft-chapters/chapter-04.md` (line 351) and `final-draft-chapters/chapter-06.md` (line 425) — revise one instance to eliminate the echo
+- [ ] (#94) Strip `-- pov juno --` and other `<!-- pov: -->` structural metadata markers from all 17 final-draft chapters before publication — these non-prose markers are triggering false-positive cliche-detection blockers in quality reports and must not appear in the published manuscript
