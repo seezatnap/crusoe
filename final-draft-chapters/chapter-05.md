@@ -82,11 +82,11 @@ Lena did not correct him. She had stopped correcting certain things when she lea
 
 At eight-forty, they loaded the subject.
 
-The volunteer was a courier from a medical freight company. His hands were callused from loading-dock rail. His posture said he had a wife at home who had taught him to carry groceries and grief without making either one a speech. He signed forms at the desk while muttering about bad coffee and bad weather, because people with no reason to be brave still brought humour to the edge of medical rooms.
+The volunteer was a courier from a medical freight company. His hands were callused from loading-dock rail. His posture suggested a wife at home who had taught him to carry groceries and grief without making either one a speech. The courier signed forms at the desk while muttering about bad coffee and bad weather, because people with no reason to be brave still brought humour to the edge of medical rooms.
 
 Lena asked him directly. "You know what this is trying to do?"
 
-He answered with the practical honesty of someone who did not understand the room but understood the paperwork. "I was told you will take my brain and hand back parts of me in a cleaner place."
+The courier answered with the practical honesty of someone who did not understand the room but understood the paperwork. "I was told you will take my brain and hand back parts of me in a cleaner place."
 
 Dara raised one brow. "Cleaner is not the right word. It makes everyone feel safer while we work out what safer means."
 
@@ -222,11 +222,11 @@ Dara arrived with a stack of files and a coat she had not unbuttoned. "The volun
 
 Lena looked at her. "Did they read the new annex?"
 
-"No. They said they were being practical."
+"No," Dara said. "Their word was practical."
 
 Marcus shifted his weight. "Practical is what gets us here, Lena. If you need all volunteers to accept language we have not written down yet, you will run out of people before you run out of funding."
 
-Lena looked past his shoulder, down the corridor where two technicians were rolling carts into a storage alcove. "Then we should stop pretending we are not taking from people for this."
+Lena looked past his shoulder, down the corridor where two technicians were rolling carts into a storage alcove. "Then we should stop pretending we are not taking from people for this," Lena said.
 
 The first subject that morning was a teacher in her mid-forties who had agreed to six sessions if paid enough and had convinced herself she was helping a future she would not occupy as a body. She arrived before six, carrying a thermos and a small tin of peppermint hard candies that smelled of a kitchen with people in it.
 
@@ -280,11 +280,11 @@ Marcus turned toward her and then looked away — the motion of a man who had he
 
 That afternoon, while the run list rolled over another subject, Lena wrote three lines in the private notebook she kept folded under the monitor:
 
-`If we gain duration but lose consent, we have copied a door and called it medicine.`
+`If we gain duration but lose consent, we have copied a door and labelled the copy medicine.`
 
 `If we gain memory and lose context, we have invented language to carry our shame.`
 
-`If this keeps going, we need witness names from the same side that pays for outcomes.`
+Lena wrote the third line without pausing: `If this keeps going, we need witness names from the same side that pays for outcomes.`
 
 By evening she had one victory and two debts. The victory: the continuity map held longer and carried recognisable autobiographical anchors. The debts were less clean. Sable had begun to speak of maintenance scripts in public channels. Marcus had begun using the phrase *acceptable loss* without flinching.
 
@@ -338,13 +338,13 @@ The recording was not in the lab. It was in a rented studio above a print shop, 
 
 The studio had two folding tables and a blackboard with three equations no one could verify without six hours and better coffee. Lena had brought Sable here at the end of a long spring, when the city had decided it was worth trying to keep its own memory of light.
 
-Dara was away with camera inserts across the borough. Marcus sent updates from the lab every six hours and called it collaboration. It was not collaboration. It was governance.
+Dara was away with camera inserts across the borough. Marcus sent updates from the lab every six hours and labelled the arrangement collaboration. The word was wrong. The practice was governance.
 
 Lena set two cups on the table. One tea, one coffee so dark it looked like varnish.
 
 Sable asked without preface: "How long can we keep this running without losing the person in the room?"
 
-Lena answered as though she were making a promise she could keep: "Long enough to make one map and one lie look identical if we say both are necessary."
+"Long enough to make one map and one lie look identical if we say both are necessary," Lena said, her voice carrying the weight of a promise she could keep.
 
 Sable did not laugh. She had learned that laughter in rooms like this made people think you had finished with yourself.
 
@@ -447,13 +447,13 @@ The room did not become cleaner. It became clearer about what was no longer nego
 
 She sat at the station wall. Through the corridor, she could hear the ordinary sounds of the Lattice's morning shifting into its afternoon — work clusters rearranging, younger Finders trading notes in bright, clipped phrases, the soft static of spaces being held and released by collective attention. None of it registered as comfort. All of it registered as architecture, and she could no longer hear architecture without hearing the people who had built it.
 
-She thought of the courier from the first recording — the man with callused hands who had said *I am fine* while holding his own shoes. She thought of the teacher who had remembered a song that had not played. She thought of the older man whose confusion the room had decided not to name. Three volunteers who had given their bodies to a process that could not yet explain itself and who had walked away carrying gaps they would never be told were there.
+She thought of the courier from the first recording — the man with callused hands who had insisted *I am fine* while holding his own shoes. She thought of the teacher who had remembered a song that had not played. She thought of the older man whose confusion the room had decided not to name. Three volunteers who had given their bodies to a process that could not yet explain itself and who had walked away carrying gaps they would never be told were there.
 
 She thought of Lena writing *Not all continuities are progress* in a notebook she kept folded under a monitor, in a lab that smelled of cold concrete and burnt coffee, in a year when the future was still being built by people who argued about what to call it.
 
 She opened EN-33-088 one last time and did not jump. She looked at the access record — the chain of timestamps showing when the notebook had been opened and by whom. The earliest entry was Lena's. The most recent was hers. Between them, three hundred years of curated silence.
 
-A message from Fen appeared in the queue, marked low-priority and personal:
+A message from Fen appeared in the queue, marked low-priority and personal. Fen wrote:
 
 `you have been quiet for almost two full cycles. that is not a complaint. it is a measurement.`
 
@@ -465,7 +465,7 @@ Juno stood at the intake lane with the same silence she had carried into the mor
 
 `One witness. One line. One return.`
 
-`If there is mercy, it must be named before it becomes a policy.`
+Juno added one more line beneath it: `If there is mercy, it must be named before it becomes a policy.`
 
 She saved the line. She closed the station. She walked the transit lane home with the careful, measured pace of a person who understood that what she was carrying could not be put down and could not yet be shared, and that the weight of it — the specific, unreducible weight of knowing where the architecture began — had become the thing she would spend the next cycle deciding what to do with.
 
@@ -473,4 +473,4 @@ The Lattice adjusted around her. Patient. Careful. Responsive to attention and d
 
 She let it carry her home, and she did not call it mercy, and she did not call it work.
 
-She called it the cost of having looked.
+She named the weight: the cost of having looked.

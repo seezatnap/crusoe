@@ -1,0 +1,326 @@
+# Quality Orchestrator Report
+- target: final-draft-chapters/chapter-05.md
+- generated_at_unix: 1771018694
+- fail_threshold: error
+- total_findings: 83
+- total_blocking_reports: 0
+- status: passed
+
+## cliche-detection
+- findings: 0
+- target: final-draft-chapters/chapter-05.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 449
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: final-draft-chapters/chapter-05.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: final-draft-chapters/chapter-05.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: final-draft-chapters/chapter-05.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: final-draft-chapters/chapter-05.md
+  - words: 5259
+- findings: none
+
+## voice-consistency
+- findings: 83
+- target: final-draft-chapters/chapter-05.md
+- metadata:
+  - ambiguous_dialogue_blocks: 2
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: marcus, lena, sable, dara, no dara
+  - continuation_confidence: 0.72
+  - dara:avg_confidence: 0.77
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - lena:avg_confidence: 0.79
+  - pronoun_tag_confidence: 0.42
+  - sable:avg_confidence: 0.77
+  - target: final-draft-chapters/chapter-05.md
+  - total_dialogue_blocks: 54
+  - tracked_characters: 5
+  - untagged_dialogue_blocks: 0
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-05.md:225:1
+    - Ambiguous dialogue attribution: multiple candidates around line 225, likely 'no dara' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-05.md:267:1
+    - Ambiguous dialogue attribution: multiple candidates around line 267, likely 'marcus' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:63:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:65:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:67:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:77:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:79:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:89:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:91:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:93:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:95:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:139:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:151:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:153:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:155:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:157:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:159:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:161:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:163:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:165:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:167:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:215:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:217:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:219:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:221:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:223:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:227:1
+    - Dialogue uses continuation inference for 'no dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:251:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:253:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:257:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:265:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:271:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:275:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:293:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:295:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:369:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:373:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:375:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:379:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:393:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:405:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] POV-MARKER-001 at final-draft-chapters/chapter-05.md:235:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at final-draft-chapters/chapter-05.md:450:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:67:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:77:1
+    - Voice drift risk for 'dara' (similarity 0.33, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:79:1
+    - Voice drift risk for 'dara' (similarity 0.30, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:89:1
+    - Voice drift risk for 'lena' (similarity 0.19, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:91:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:93:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:95:1
+    - Voice drift risk for 'lena' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:123:1
+    - Voice drift risk for 'lena' (similarity 0.23, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:139:1
+    - Voice drift risk for 'lena' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:155:1
+    - Voice drift risk for 'sable' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:157:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:159:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:161:1
+    - Voice drift risk for 'sable' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:163:1
+    - Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:165:1
+    - Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:167:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:215:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:217:1
+    - Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:219:1
+    - Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:221:1
+    - Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:223:1
+    - Voice drift risk for 'sable' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:229:1
+    - Voice drift risk for 'lena' (similarity 0.23, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:251:1
+    - Voice drift risk for 'lena' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:253:1
+    - Voice drift risk for 'lena' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:257:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:265:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:277:1
+    - Voice drift risk for 'dara' (similarity 0.30, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:293:1
+    - Voice drift risk for 'dara' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:295:1
+    - Voice drift risk for 'dara' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:345:1
+    - Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:347:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:369:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:373:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:375:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:379:1
+    - Voice drift risk for 'lena' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:393:1
+    - Voice drift risk for 'lena' (similarity 0.32, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:397:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:401:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:403:1
+    - Voice drift risk for 'lena' (similarity 0.32, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:405:1
+    - Voice drift risk for 'lena' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:224714c7c2f6afc3
