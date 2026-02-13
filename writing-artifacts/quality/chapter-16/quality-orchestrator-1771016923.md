@@ -1,9 +1,9 @@
 # Quality Orchestrator Report
 - target: final-draft-chapters/chapter-16.md
-- generated_at_unix: 1771014239
+- generated_at_unix: 1771016923
 - fail_threshold: error
-- total_findings: 143
-- total_blocking_reports: 2
+- total_findings: 124
+- total_blocking_reports: 1
 - status: failed
 
 ## cliche-detection
@@ -21,7 +21,7 @@
   - opening_pattern_error_threshold: 8
   - opening_pattern_warning_threshold: 5
   - opening_word_count: 4
-  - sentences: 464
+  - sentences: 463
 - details:
   - [blocker] CLIC-PATTERN-01 at final-draft-chapters/chapter-16.md:57:3
     - Similar sentence start repeated 12 times: "-- pov juno --".
@@ -45,30 +45,31 @@
   - max_words: 6000
   - min_words: 4000
   - target: final-draft-chapters/chapter-16.md
-  - words: 5169
+  - words: 5178
 - findings: none
 
 ## voice-consistency
-- findings: 142
+- findings: 123
 - target: final-draft-chapters/chapter-16.md
 - metadata:
   - ambiguous_dialogue_blocks: 0
   - ambiguous_margin: 0.12
   - analyzer: voice-consistency
   - blocker_confidence: 0.25
-  - character_list: we, juno, i, if, you, not, there, a, they
+  - character_list: reva, if, cassiel, there, no juno, orin, lien, not, a, juno
   - continuation_confidence: 0.72
   - error_confidence: 0.45
   - explicit_name_confidence: 0.95
-  - i:avg_confidence: 0.68
   - if:avg_confidence: 0.79
+  - lien:avg_confidence: 0.80
   - not:avg_confidence: 0.77
+  - orin:avg_confidence: 0.76
   - pronoun_tag_confidence: 0.42
+  - reva:avg_confidence: 0.76
   - target: final-draft-chapters/chapter-16.md
   - there:avg_confidence: 0.74
-  - they:avg_confidence: 0.42
   - total_dialogue_blocks: 62
-  - tracked_characters: 9
+  - tracked_characters: 10
   - untagged_dialogue_blocks: 7
   - voice_blocker_similarity: 0.12
   - voice_error_similarity: 0.12
@@ -76,8 +77,6 @@
   - voice_top_words: 8
   - voice_warning_similarity: 0.55
   - warning_confidence: 0.70
-  - we:avg_confidence: 0.57
-  - you:avg_confidence: 0.66
 - details:
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:115:1
     - Dialogue uses continuation inference for 'not'; confidence 0.72.
@@ -101,37 +100,37 @@
     - Dialogue uses continuation inference for 'if'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:221:1
-    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:225:1
-    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:229:1
-    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:235:1
-    - Dialogue uses continuation inference for 'you'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:251:1
-    - Dialogue uses continuation inference for 'we'; confidence 0.72.
+    - Dialogue uses continuation inference for 'lien'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:263:1
-    - Dialogue uses continuation inference for 'we'; confidence 0.72.
+    - Dialogue uses continuation inference for 'lien'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:283:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'reva'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:295:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'reva'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:297:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'reva'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:299:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'reva'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:303:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'reva'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:329:1
     - Dialogue uses continuation inference for 'if'; confidence 0.72.
@@ -176,28 +175,28 @@
     - Dialogue uses continuation inference for 'there'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:417:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:421:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:425:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:493:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:495:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:497:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:499:1
-    - Dialogue uses continuation inference for 'i'; confidence 0.72.
+    - Dialogue uses continuation inference for 'orin'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-16.md:509:1
-    - Dialogue uses continuation inference for 'we'; confidence 0.72.
+    - Dialogue uses continuation inference for 'no juno'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [warning] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:37:1
     - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
@@ -242,37 +241,37 @@
     - Dialogue speaker 'if' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:221:1
-    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:225:1
-    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:229:1
-    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:235:1
-    - Dialogue speaker 'you' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:251:1
-    - Dialogue speaker 'we' does not match active POV marker 'juno'.
+    - Dialogue speaker 'lien' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:263:1
-    - Dialogue speaker 'we' does not match active POV marker 'juno'.
+    - Dialogue speaker 'lien' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:283:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'reva' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:295:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'reva' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:297:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'reva' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:299:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'reva' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:303:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'reva' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:329:1
     - Dialogue speaker 'if' does not match active POV marker 'juno'.
@@ -317,28 +316,28 @@
     - Dialogue speaker 'there' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:417:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:421:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:425:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:493:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:495:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:497:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:499:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
+    - Dialogue speaker 'orin' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:509:1
-    - Dialogue speaker 'we' does not match active POV marker 'juno'.
+    - Dialogue speaker 'no juno' does not match active POV marker 'juno'.
     - suggestion: If the POV changed, insert a POV marker before this dialogue block.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:117:1
     - Voice drift risk for 'not' (similarity 0.25, weighted confidence 0.72).
@@ -359,31 +358,28 @@
     - Voice drift risk for 'if' (similarity 0.24, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:225:1
-    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:229:1
-    - Voice drift risk for 'you' (similarity 0.27, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.27, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:235:1
-    - Voice drift risk for 'you' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:263:1
-    - Voice drift risk for 'we' (similarity 0.25, weighted confidence 0.72).
-    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
-  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:273:1
-    - Voice drift risk for 'we' (similarity 0.28, weighted confidence 0.42).
+    - Voice drift risk for 'lien' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:295:1
-    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'reva' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:297:1
-    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'reva' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:299:1
-    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'reva' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:303:1
-    - Voice drift risk for 'i' (similarity 0.28, weighted confidence 0.72).
+    - Voice drift risk for 'reva' (similarity 0.28, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:327:1
     - Voice drift risk for 'if' (similarity 0.28, weighted confidence 0.95).
@@ -428,83 +424,29 @@
     - Voice drift risk for 'there' (similarity 0.26, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:415:1
-    - Voice drift risk for 'i' (similarity 0.35, weighted confidence 0.42).
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.95).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:417:1
-    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:421:1
-    - Voice drift risk for 'i' (similarity 0.32, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.27, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:425:1
-    - Voice drift risk for 'i' (similarity 0.28, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.28, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:493:1
-    - Voice drift risk for 'i' (similarity 0.25, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.25, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:495:1
-    - Voice drift risk for 'i' (similarity 0.22, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.30, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:497:1
-    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.24, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:499:1
-    - Voice drift risk for 'i' (similarity 0.24, weighted confidence 0.72).
+    - Voice drift risk for 'orin' (similarity 0.24, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
-  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:505:1
-    - Voice drift risk for 'we' (similarity 0.25, weighted confidence 0.42).
-    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
-  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-16.md:509:1
-    - Voice drift risk for 'we' (similarity 0.36, weighted confidence 0.72).
-    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:217:1
-    - Speaker attribution is weak (0.42) for 'you'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:247:1
-    - Speaker attribution is weak (0.42) for 'we'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:273:1
-    - Speaker attribution is weak (0.42) for 'we'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:279:1
-    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:323:1
-    - Speaker attribution is weak (0.42) for 'they'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:415:1
-    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:503:1
-    - Speaker attribution is weak (0.42) for 'they'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-16.md:505:1
-    - Speaker attribution is weak (0.42) for 'we'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:217:1
-    - Dialogue speaker 'you' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:247:1
-    - Dialogue speaker 'we' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:273:1
-    - Dialogue speaker 'we' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:279:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:323:1
-    - Dialogue speaker 'they' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:415:1
-    - Dialogue speaker 'i' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:503:1
-    - Dialogue speaker 'they' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
-  - [error] POV-DRIFT-001 at final-draft-chapters/chapter-16.md:505:1
-    - Dialogue speaker 'we' does not match active POV marker 'juno'.
-    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
 
 
-signature: fnv1a64:d31a60bd9db8c683
+signature: fnv1a64:bdbd2608ea96401b

@@ -1,0 +1,358 @@
+# Quality Orchestrator Report
+- target: final-draft-chapters/chapter-04.md
+- generated_at_unix: 1771016919
+- fail_threshold: error
+- total_findings: 93
+- total_blocking_reports: 0
+- status: passed
+
+## cliche-detection
+- findings: 0
+- target: final-draft-chapters/chapter-04.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 475
+- findings: none
+
+## continuity-check
+- findings: 0
+- target: final-draft-chapters/chapter-04.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: final-draft-chapters/chapter-04.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: final-draft-chapters/chapter-04.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: final-draft-chapters/chapter-04.md
+  - words: 5213
+- findings: none
+
+## voice-consistency
+- findings: 93
+- target: final-draft-chapters/chapter-04.md
+- metadata:
+  - ambiguous_dialogue_blocks: 6
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: juno, lena, because, the, dara, marcus, and, one, cleaner, sable
+  - continuation_confidence: 0.72
+  - dara:avg_confidence: 0.79
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - marcus:avg_confidence: 0.78
+  - one:avg_confidence: 0.80
+  - pronoun_tag_confidence: 0.42
+  - sable:avg_confidence: 0.77
+  - target: final-draft-chapters/chapter-04.md
+  - the:avg_confidence: 0.78
+  - total_dialogue_blocks: 51
+  - tracked_characters: 10
+  - untagged_dialogue_blocks: 1
+  - voice_blocker_similarity: 0.12
+  - voice_error_similarity: 0.12
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-04.md:75:1
+    - Ambiguous dialogue attribution: multiple candidates around line 75, likely 'sable' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-04.md:93:1
+    - Ambiguous dialogue attribution: multiple candidates around line 93, likely 'marcus' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-04.md:221:1
+    - Ambiguous dialogue attribution: multiple candidates around line 221, likely 'cleaner' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-04.md:223:1
+    - Ambiguous dialogue attribution: multiple candidates around line 223, likely 'marcus' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-04.md:231:1
+    - Ambiguous dialogue attribution: multiple candidates around line 231, likely 'because' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-04.md:253:1
+    - Ambiguous dialogue attribution: multiple candidates around line 253, likely 'lena' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:65:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:71:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:77:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:81:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:87:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:89:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:91:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:97:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:117:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:119:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:131:1
+    - Dialogue uses continuation inference for 'the'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:137:1
+    - Dialogue uses continuation inference for 'the'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:139:1
+    - Dialogue uses continuation inference for 'the'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:153:1
+    - Dialogue uses continuation inference for 'and'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:173:1
+    - Dialogue uses continuation inference for 'one'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:175:1
+    - Dialogue uses continuation inference for 'one'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:183:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:193:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:195:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:197:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:205:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:219:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:225:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:235:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:237:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:239:1
+    - Dialogue uses continuation inference for 'sable'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:257:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:259:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:261:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at final-draft-chapters/chapter-04.md:265:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [warning] DIAL-TAG-001 at final-draft-chapters/chapter-04.md:55:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:65:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:71:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:77:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:81:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:87:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:89:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:91:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:97:1
+    - Dialogue speaker 'marcus' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:117:1
+    - Dialogue speaker 'marcus' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:119:1
+    - Dialogue speaker 'marcus' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:131:1
+    - Dialogue speaker 'the' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:137:1
+    - Dialogue speaker 'the' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:139:1
+    - Dialogue speaker 'the' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:153:1
+    - Dialogue speaker 'and' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:173:1
+    - Dialogue speaker 'one' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:175:1
+    - Dialogue speaker 'one' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:183:1
+    - Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:193:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:195:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:197:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:205:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:219:1
+    - Dialogue speaker 'dara' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:225:1
+    - Dialogue speaker 'marcus' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:235:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:237:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:239:1
+    - Dialogue speaker 'sable' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:257:1
+    - Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:259:1
+    - Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:261:1
+    - Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] POV-DRIFT-001 at final-draft-chapters/chapter-04.md:265:1
+    - Dialogue speaker 'lena' does not match active POV marker 'juno | layer: recording (lead) | shifts: present → recording → present'.
+    - suggestion: If the POV changed, insert a POV marker before this dialogue block.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:81:1
+    - Voice drift risk for 'sable' (similarity 0.28, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:87:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:89:1
+    - Voice drift risk for 'sable' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:91:1
+    - Voice drift risk for 'sable' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:119:1
+    - Voice drift risk for 'marcus' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:139:1
+    - Voice drift risk for 'the' (similarity 0.17, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:157:1
+    - Voice drift risk for 'marcus' (similarity 0.27, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:183:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:195:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:197:1
+    - Voice drift risk for 'dara' (similarity 0.33, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:203:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:205:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:219:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:223:1
+    - Voice drift risk for 'marcus' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:225:1
+    - Voice drift risk for 'marcus' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:229:1
+    - Voice drift risk for 'dara' (similarity 0.12, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:233:1
+    - Voice drift risk for 'sable' (similarity 0.30, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:235:1
+    - Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:237:1
+    - Voice drift risk for 'sable' (similarity 0.34, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:239:1
+    - Voice drift risk for 'sable' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:249:1
+    - Voice drift risk for 'dara' (similarity 0.31, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:253:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:257:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:259:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:261:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-04.md:265:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:0d1da35a1006a86b
