@@ -21,7 +21,7 @@ Use chapter IDs `CH-001` through `CH-025` and align directly with `DOC-001`, `DO
 
 ## Notation
 
-- **Clue IDs:** `C-001` through `C-025`.
+- **Clue IDs:** `C-001` through `C-073`.
 - **POV Map:** one scene = one POV unless explicitly marked as “cross-scene cut”.
 - **Continuity anchors:** `access`, `telegraph`, `sedative stock`, `documents`, `tide/clock alignment`.
 
