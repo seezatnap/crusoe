@@ -170,7 +170,7 @@ She held his eyes.
 
 He did not like the word. She watched him process it — the small contraction around his mouth that she had learned to read over months of confrontation, the moment where institutional certainty met the possibility that institutional certainty was itself a constraint.
 
-"I asked no one to promise the city a miracle," she said. "I asked no one to keep a secret. I did not ask anyone to choose in ignorance."
+"I asked no one to promise the city a miracle," Juno said. "I asked no one to keep a secret. I did not ask anyone to choose in ignorance."
 
 "And I did not ask to inherit a system that required silence to function." His voice dropped. "Stop speaking as though I chose deception out of convenience. I chose it because I had watched what happened to people who were given everything at once."
 
