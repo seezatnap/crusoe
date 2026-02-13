@@ -1,6 +1,6 @@
 # Infinite Domain — Style and Voice Protocol
 
-Task tie-in: `#8` (Define the style-and-voice protocol targeting literary sci-fi in the vein of Ted Chiang meets Kazuo Ishiguro)
+Task tie-in: `#8` (Define the style-and-voice protocol for prose in the style of J. K. Rowling)
 Last updated: 2026-02-13
 
 ## Purpose
@@ -16,18 +16,18 @@ Drafting is not complete until the chapter satisfies both the roadmap rules and 
 
 ## Core voice model
 
-The target is **clear, precise, humane, and quiet**.
+The target is **clear, character-forward, humane, and quietly escalating**.
 
-- Ted Chiang-like clarity: ideas are specific, technical, and concrete.
-- Kazuo Ishiguro-like restraint: emotion is carried by action, silence, and consequence, not by emotional commentary.
-- Narrative momentum is maintained through scene pressure and decision points, not exposition-heavy explanation.
-- Devastation should feel earned by the scene’s logic, not by intensity of wording.
+- Rowling-like scene-first architecture: emotion and revelation are driven by character behavior, consequence, and a few concrete details before abstraction.
+- Character logic first: point of view should feel anchored in what a character can observe, remember, fear, and choose.
+- Momentum is maintained through concrete action, social pressure, and moral choice, not explanatory summaries.
+- Clarity should come from scene mechanics and motivation; tonal impact should arrive through what a scene forces a character to do.
 
 Drafting guardrail:
 
-- A paragraph should state one idea or one pressure point; avoid layering two independent ideas unless the bridge is clear.
-- If a sentence can be shortened without losing meaning, shorten it.
-- If a metaphor makes meaning easier to miss, remove it.
+- A paragraph should carry one pressure point clearly; if two stakes are present, bridge them inside the scene’s causality.
+- If a sentence can be shortened without weakening rhythm, shorten it.
+- If a metaphor clouds meaning, remove it and replace with concrete action or sensory fact.
 
 ## Anti-cliché constraints
 
@@ -35,9 +35,9 @@ Drafting guardrail:
 
 - Do not use known emotional shorthand labels (for example: “shattered,” “devastated,” “heartbroken,” “on the brink,” “at her wit’s end,” “breaks her heart,” “a ghost of a smile”) as narration shortcuts.
 - Do not use generic “atmosphere” language as emotional substitute (for example: “the air hung heavy,” “the silence screamed,” “time stood still,” “numb as stone”).
-- Do not narratively define a character as “strong,” “weak,” “broken,” “cynical,” “naive,” or “compassionate” without showing the behavior.
+- Do not define a character by label (“strong,” “broken,” “naive,” “cold,” “purely kind”) without evidence in action, dialogue, and consequence.
 - Do not use “as if” chains repeatedly to explain emotional states.
-- Do not announce moral conclusions in narrator language (“this proved that...,” “she knew now forever”). Let characters discover meaning through action and aftermath.
+- Do not announce moral conclusions in narrator language (“this proved that...,” “she knew now forever”). Let meaning emerge through action, reaction, and aftermath.
 - No decorative chapter openers (“It was the kind of morning that changed everything”). Every opening sentence must do concrete scene work.
 
 ### Repetition constraints
@@ -62,7 +62,7 @@ Drafting guardrail:
 ### Shared baseline
 
 - Every chapter must preserve emotional restraint and precise mechanics.
-- Dialogue tags should remain specific and minimal (prefer action around dialogue over tag-heavy clarification).
+- Dialogue should be driven by intention and interruption, with minimal tags and maximum stage direction (posture, glance, delay).
 - Character response should arrive as posture, breath, gesture, time taken, and choice.
 
 ### Present-Lattice chapters (abstract-present texture)
@@ -73,7 +73,7 @@ Use when lead layer is Present-Lattice.
 - Space is unstable and consensual: treat locations as formed by intention and collective pressure.
 - Sensory description is selective, not immersive world-building.
 - Emphasis is on the cost of continuity: pauses, edits in thought, memory distortion, social distance, governance pressure.
-- Rhythm: more short-to-medium sentences, allowing emotional residue to surface as controlled understatement.
+- Rhythm: controlled sentence variation, with short-to-medium sentences in pressure moments and longer sentences for reflective turn-backs.
 - Endings: should often land on a practical consequence rather than an emotional declaration.
 
 ### Recording chapters (physical-past texture)
@@ -83,7 +83,7 @@ Use when lead layer is Recording.
 - Preferred register: embodied, concrete, sensory, and local.
 - Prioritize bodily sensation and immediate setting details (weather, smell, fatigue, time, light, physical labor, small discomforts).
 - Show ethical friction through ordinary details: consent paperwork, coffee smell, tired eyes, cramped posture, institutional routine.
-- Rhythm: allow longer, grounded paragraphs for scene texture, but keep internal monologue anchored to perception.
+- Rhythm: allow fuller scene texture in recording chapters, but keep thought tied to immediate perception and present consequence.
 - Endings: should register emotional cost in physical residue (e.g., altered gait, withheld gesture, cramped hands, insomnia carryover).
 
 ### Alternation implementation
@@ -118,7 +118,7 @@ Before considering a chapter draft complete, run this list and record any except
 
 1. Does the prose stay specific and avoid abstraction drift for the chapter’s lead layer?
 2. Are emotional turns shown through behavior rather than statement?
-3. Is there at least one line of devastating clarity that lands through image + action, not narration?
+3. Is there at least one line of emotional clarity that lands through image + action, not narration?
 4. Did the paragraph cadence vary enough to avoid uniform rhythm?
 5. Are prohibited cliche patterns absent except where character-specific repetition is intentional?
 6. Does the chapter’s tone contrast appropriately with the preceding chapter per lead-layer alternation?
@@ -127,5 +127,5 @@ Before considering a chapter draft complete, run this list and record any except
 ## Authorial signature rules
 
 - Use precise verbs and specific nouns over ornamental adjectives.
-- Prefer uncertainty stated through action, not introspective certainty.
-- Keep each chapter’s emotional weight high with restrained language, then release intensity through a single concrete turn.
+- Prefer uncertainty stated through action, not explanatory certainty.
+- Keep each chapter’s emotional weight controlled, then release intensity through a single, concrete turn.
