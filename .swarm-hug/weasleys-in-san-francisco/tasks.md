@@ -30,7 +30,7 @@
 
 - [x] (#15) Write Chapter 6 (4,000–6,000 words): Alcatraz tour — Harry senses dark magic wrongness, Bill identifies ward degradation on the decommissioned magical wing, connecting anomalies across Fog Hollow and the island [5 pts] (blocked by #14) (A)
 - [x] (#16) Write Chapter 7 (4,000–6,000 words): Fred, George, and Marisol's nighttime Fog Hollow exploration, discovery of Undertow activity near the waterfront, Barnacle the pelican's first ominous appearance, comic mischief layered over genuine discovery [5 pts] (blocked by #15) (A)
-- [A] (#17) Write Chapter 8 (4,000–6,000 words): Arthur and Gus bonding over government careers and family life, Gus shares Alcatraz ward history and Eileen's legacy, Tomo Sato's introduction as reluctant BMA ally, Bill and Tomo's first professional exchange [5 pts] (blocked by #16)
+- [x] (#17) Write Chapter 8 (4,000–6,000 words): Arthur and Gus bonding over government careers and family life, Gus shares Alcatraz ward history and Eileen's legacy, Tomo Sato's introduction as reluctant BMA ally, Bill and Tomo's first professional exchange [5 pts] (blocked by #16) (A)
 
 ## Act Two–Three Bridge (Chapters 9–10)
 
