@@ -8,7 +8,7 @@ Instead the sound was Molly's soft voice at the staircase.
 
 "Molly's up early," he heard her murmur. "I told him no one gets out to buy tea before the kettle settles."
 
-Which him?
+Which one?
 
 Arthur.
 
