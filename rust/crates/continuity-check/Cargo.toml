@@ -1,0 +1,13 @@
+[package]
+name = "continuity-check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+analysis-contracts = { path = "../analysis-contracts" }
+clap = { version = "4.5", features = ["derive"] }
+
+[[bin]]
+name = "continuity-check"
+path = "src/main.rs"
+
