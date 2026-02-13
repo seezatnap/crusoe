@@ -23,6 +23,11 @@
 - Use those samples for structure, pacing, and voice modeling only; do not copy content.
 - Choose the closest fit before drafting, then adjust sentence rhythm and beat timing to match.
 
+## Style-Reference Access Rules
+- Never open `style-reference` source files directly in full; they are large and token-expensive.
+- Only use commands or tools that read targeted subsections (for example line ranges, matched excerpts, or sampled outputs).
+- Prefer `style-reference ...` binary output for examples instead of raw file reads whenever possible.
+
 ## Process and Quality
 - Use post-mortems after each chapter:
   - verify plot progression and character continuity,

@@ -12,6 +12,13 @@ pub enum ExtractMode {
     Dialogue,
 }
 
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+enum LengthTier {
+    Short,
+    Medium,
+    Long,
+}
+
 #[derive(Debug)]
 pub enum ExtractError {
     Io(std::io::Error),
@@ -128,6 +135,31 @@ fn has_narrative_punctuation(paragraph: &str) -> bool {
         .any(|ch| matches!(ch, '.' | '!' | '?' | ':' | ';' | ',' | '"' | '”' | '’'))
 }
 
+fn word_count(text: &str) -> usize {
+    text.split_whitespace().count()
+}
+
+fn length_tier(text: &str) -> LengthTier {
+    let count = word_count(text);
+    if count <= 75 {
+        LengthTier::Short
+    } else if count <= 150 {
+        LengthTier::Medium
+    } else {
+        LengthTier::Long
+    }
+}
+
+fn take_long(long: &mut Vec<String>, require_under_500: bool) -> Option<String> {
+    if !require_under_500 {
+        return long.pop();
+    }
+
+    long.iter()
+        .position(|candidate| word_count(candidate) < 500)
+        .map(|index| long.swap_remove(index))
+}
+
 fn collect_text_files(root: &Path, out: &mut Vec<PathBuf>) -> Result<(), ExtractError> {
     if root.is_file() {
         if is_text_file(root) {
@@ -214,10 +246,68 @@ pub fn pick_examples(mut examples: Vec<String>, count: usize) -> Vec<String> {
         return Vec::new();
     }
 
-    let count = count.min(examples.len());
+    let mut short = Vec::new();
+    let mut medium = Vec::new();
+    let mut long = Vec::new();
+
+    for example in examples.drain(..) {
+        match length_tier(&example) {
+            LengthTier::Short => short.push(example),
+            LengthTier::Medium => medium.push(example),
+            LengthTier::Long => long.push(example),
+        }
+    }
+
     let mut rng = rand::thread_rng();
-    examples.shuffle(&mut rng);
-    examples.into_iter().take(count).collect()
+    short.shuffle(&mut rng);
+    medium.shuffle(&mut rng);
+    long.shuffle(&mut rng);
+
+    let mut desired_tiers = Vec::with_capacity(count);
+    while desired_tiers.len() < count {
+        let mut batch = [LengthTier::Short, LengthTier::Medium, LengthTier::Long];
+        batch.shuffle(&mut rng);
+        for tier in batch {
+            if desired_tiers.len() == count {
+                break;
+            }
+            desired_tiers.push(tier);
+        }
+    }
+
+    let mut selected = Vec::new();
+    let mut require_under_500_for_next_long = false;
+    for desired in desired_tiers {
+        let candidate = match desired {
+            LengthTier::Short => short.pop().or_else(|| medium.pop()).or_else(|| {
+                take_long(&mut long, require_under_500_for_next_long).or_else(|| long.pop())
+            }),
+            LengthTier::Medium => medium.pop().or_else(|| short.pop()).or_else(|| {
+                take_long(&mut long, require_under_500_for_next_long).or_else(|| long.pop())
+            }),
+            LengthTier::Long => take_long(&mut long, require_under_500_for_next_long)
+                .or_else(|| medium.pop())
+                .or_else(|| short.pop())
+                .or_else(|| long.pop()),
+        };
+
+        match candidate {
+            Some(example) => {
+                let words = word_count(&example);
+                if words > 150 {
+                    if require_under_500_for_next_long {
+                        require_under_500_for_next_long = words >= 500;
+                    } else if words > 1000 {
+                        require_under_500_for_next_long = true;
+                    }
+                }
+                selected.push(example);
+            }
+            None => break,
+        }
+    }
+
+    selected
 }
 
 #[cfg(test)]
@@ -288,6 +378,136 @@ mod tests {
         let examples = vec!["A".to_string(), "B".to_string()];
         let sampled = pick_examples(examples, 5);
         assert_eq!(sampled.len(), 2);
+    }
+
+    fn words(count: usize) -> String {
+        (0..count)
+            .map(|idx| format!("w{idx}"))
+            .collect::<Vec<_>>()
+            .join(" ")
+    }
+
+    fn tiers_for(excerpts: &[String]) -> Vec<LengthTier> {
+        excerpts.iter().map(|excerpt| length_tier(excerpt)).collect()
+    }
+
+    fn long_counts_for(excerpts: &[String]) -> Vec<usize> {
+        excerpts
+            .iter()
+            .map(|excerpt| word_count(excerpt))
+            .filter(|count| *count > 150)
+            .collect()
+    }
+
+    #[test]
+    fn picks_one_of_each_tier_for_three() {
+        let examples = vec![words(12), words(110), words(220)];
+        let sampled = pick_examples(examples, 3);
+        let mut tiers = tiers_for(&sampled);
+        tiers.sort_by_key(|tier| match tier {
+            LengthTier::Short => 0,
+            LengthTier::Medium => 1,
+            LengthTier::Long => 2,
+        });
+
+        assert_eq!(sampled.len(), 3);
+        assert_eq!(
+            tiers,
+            vec![LengthTier::Short, LengthTier::Medium, LengthTier::Long]
+        );
+    }
+
+    #[test]
+    fn each_full_batch_of_three_contains_one_of_each_tier() {
+        let examples = vec![
+            words(10),
+            words(11),
+            words(100),
+            words(101),
+            words(180),
+            words(181),
+        ];
+        let sampled = pick_examples(examples, 6);
+        let mut first = tiers_for(&sampled[0..3]);
+        let mut second = tiers_for(&sampled[3..6]);
+        first.sort_by_key(|tier| match tier {
+            LengthTier::Short => 0,
+            LengthTier::Medium => 1,
+            LengthTier::Long => 2,
+        });
+        second.sort_by_key(|tier| match tier {
+            LengthTier::Short => 0,
+            LengthTier::Medium => 1,
+            LengthTier::Long => 2,
+        });
+
+        assert_eq!(sampled.len(), 6);
+        assert_eq!(
+            first,
+            vec![LengthTier::Short, LengthTier::Medium, LengthTier::Long]
+        );
+        assert_eq!(
+            second,
+            vec![LengthTier::Short, LengthTier::Medium, LengthTier::Long]
+        );
+    }
+
+    #[test]
+    fn under_three_returns_distinct_tiers() {
+        let examples = vec![words(20), words(80), words(200)];
+        let sampled = pick_examples(examples, 2);
+        let tiers = tiers_for(&sampled);
+
+        assert_eq!(sampled.len(), 2);
+        assert_ne!(tiers[0], tiers[1]);
+    }
+
+    #[test]
+    fn next_long_after_over_1000_is_under_500_when_available() {
+        let examples = vec![
+            words(10),
+            words(11),
+            words(12),
+            words(80),
+            words(90),
+            words(100),
+            words(1201),
+            words(1300),
+            words(300),
+        ];
+
+        for _ in 0..50 {
+            let sampled = pick_examples(examples.clone(), 6);
+            let longs = long_counts_for(&sampled);
+            for window in longs.windows(2) {
+                if window[0] > 1000 {
+                    assert!(
+                        window[1] < 500,
+                        "expected next long under 500, got {}",
+                        window[1]
+                    );
+                }
+            }
+        }
+    }
+
+    #[test]
+    fn avoids_second_long_when_only_over_1000_longs_exist() {
+        let examples = vec![
+            words(10),
+            words(11),
+            words(12),
+            words(80),
+            words(90),
+            words(100),
+            words(1201),
+            words(1300),
+        ];
+
+        let sampled = pick_examples(examples, 6);
+        let longs = long_counts_for(&sampled);
+        assert_eq!(longs.len(), 1);
+        assert!(longs[0] > 1000);
     }
 
     #[test]
