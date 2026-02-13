@@ -82,3 +82,7 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#47) Reconcile task wording in `.swarm-hug/infinite-domain/tasks.md` by updating `#8` to match the JK Rowling-only style target in `writing-artifacts/style-and-voice-protocol.md` instead of the outdated “Ted Chiang meets Kazuo Ishiguro” phrasing. (blocked by #43) (A)
 - [x] (#48) Fix failing quality issues in `chapters/chapter-03.md` so it can pass `quality-orchestrator` (resolve blocker-level voice-consistency findings and dialogue attribution/POV clarity issues, and rerun the orchestrator until the chapter reports clean). (blocked by #19) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#49) Resolve remaining `voice-consistency` blockers in `chapters/chapter-04/chapter-03` (`VOICE-STYLE-001`, `DIAL-AMBIG-001`, `DIAL-TAG-002`) and generate a final passing `writing-artifacts/quality/chapter-03/quality-orchestrator-*` report before unfreezing completion of chapter-03 quality work. (blocked by #48)
+- [ ] (#50) Reconcile `#8` in `.swarm-hug/infinite-domain/tasks.md` with the JK Rowling-only target; it still contains the legacy “Ted Chiang/Kazuo Ishiguro” language despite prior style alignment work. (blocked by #47)
