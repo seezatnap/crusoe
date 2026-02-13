@@ -24,7 +24,7 @@
 
 ## Act One–Two Bridge (Chapter 5)
 
-- [ ] (#14) Write Chapter 5 (4,000–6,000 words): Coit Academy visit, Percy's itinerary friction, Muggle Integration class contrast, Ginny's journal sketching begins — she draws a symbol she sees without understanding it, early magical anomaly hints [5 pts] (blocked by #13)
+- [x] (#14) Write Chapter 5 (4,000–6,000 words): Coit Academy visit, Percy's itinerary friction, Muggle Integration class contrast, Ginny's journal sketching begins — she draws a symbol she sees without understanding it, early magical anomaly hints [5 pts] (blocked by #13) (A)
 
 ## Act Two: Discovery (Chapters 6–8)
 
