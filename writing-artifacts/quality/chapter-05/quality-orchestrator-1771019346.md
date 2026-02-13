@@ -1,10 +1,10 @@
 # Quality Orchestrator Report
 - target: final-draft-chapters/chapter-05.md
-- generated_at_unix: 1771018592
+- generated_at_unix: 1771019346
 - fail_threshold: error
-- total_findings: 86
-- total_blocking_reports: 1
-- status: failed
+- total_findings: 83
+- total_blocking_reports: 0
+- status: passed
 
 ## cliche-detection
 - findings: 0
@@ -42,32 +42,28 @@
   - max_words: 6000
   - min_words: 4000
   - target: final-draft-chapters/chapter-05.md
-  - words: 5256
+  - words: 5259
 - findings: none
 
 ## voice-consistency
-- findings: 86
+- findings: 83
 - target: final-draft-chapters/chapter-05.md
 - metadata:
-  - ambiguous_dialogue_blocks: 1
+  - ambiguous_dialogue_blocks: 2
   - ambiguous_margin: 0.12
   - analyzer: voice-consistency
   - blocker_confidence: 0.25
-  - character_list: i, lena, they, marcus, he, dara, sable, it
+  - character_list: dara, marcus, no dara, lena, sable
   - continuation_confidence: 0.72
-  - dara:avg_confidence: 0.79
+  - dara:avg_confidence: 0.77
   - error_confidence: 0.45
   - explicit_name_confidence: 0.95
-  - he:avg_confidence: 0.42
-  - i:avg_confidence: 0.42
-  - it:avg_confidence: 0.54
   - lena:avg_confidence: 0.79
   - pronoun_tag_confidence: 0.42
   - sable:avg_confidence: 0.77
   - target: final-draft-chapters/chapter-05.md
-  - they:avg_confidence: 0.57
-  - total_dialogue_blocks: 59
-  - tracked_characters: 8
+  - total_dialogue_blocks: 54
+  - tracked_characters: 5
   - untagged_dialogue_blocks: 0
   - voice_blocker_similarity: 0.12
   - voice_error_similarity: 0.12
@@ -76,6 +72,9 @@
   - voice_warning_similarity: 0.55
   - warning_confidence: 0.70
 - details:
+  - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-05.md:225:1
+    - Ambiguous dialogue attribution: multiple candidates around line 225, likely 'no dara' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
   - [info] DIAL-AMBIG-001 at final-draft-chapters/chapter-05.md:267:1
     - Ambiguous dialogue attribution: multiple candidates around line 267, likely 'marcus' with confidence 0.95.
     - suggestion: Use a stronger tag so named-character tracking is unambiguous.
@@ -152,7 +151,7 @@
     - Dialogue uses continuation inference for 'sable'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:227:1
-    - Dialogue uses continuation inference for 'they'; confidence 0.72.
+    - Dialogue uses continuation inference for 'no dara'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:251:1
     - Dialogue uses continuation inference for 'lena'; confidence 0.72.
@@ -173,10 +172,10 @@
     - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:293:1
-    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:295:1
-    - Dialogue uses continuation inference for 'it'; confidence 0.72.
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] DIAL-TAG-002 at final-draft-chapters/chapter-05.md:369:1
     - Dialogue uses continuation inference for 'lena'; confidence 0.72.
@@ -197,6 +196,9 @@
     - Dialogue uses continuation inference for 'lena'; confidence 0.72.
     - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
   - [info] POV-MARKER-001 at final-draft-chapters/chapter-05.md:235:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at final-draft-chapters/chapter-05.md:450:1
     - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
     - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:67:1
@@ -280,6 +282,12 @@
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:277:1
     - Voice drift risk for 'dara' (similarity 0.30, weighted confidence 0.95).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:293:1
+    - Voice drift risk for 'dara' (similarity 0.29, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:295:1
+    - Voice drift risk for 'dara' (similarity 0.23, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:345:1
     - Voice drift risk for 'sable' (similarity 0.23, weighted confidence 0.95).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
@@ -313,27 +321,6 @@
   - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:405:1
     - Voice drift risk for 'lena' (similarity 0.28, weighted confidence 0.72).
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
-  - [warning] VOICE-STYLE-001 at final-draft-chapters/chapter-05.md:476:1
-    - Voice drift risk for 'it' (similarity 0.28, weighted confidence 0.42).
-    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-05.md:85:1
-    - Speaker attribution is weak (0.42) for 'he'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-05.md:225:1
-    - Speaker attribution is weak (0.42) for 'they'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-05.md:283:1
-    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-05.md:341:1
-    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-05.md:450:1
-    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
-  - [error] DIAL-TAG-001 at final-draft-chapters/chapter-05.md:476:1
-    - Speaker attribution is weak (0.42) for 'it'; source is pronoun-based tag.
-    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
 
 
-signature: fnv1a64:e50496e4486cc31e
+signature: fnv1a64:768c9ed2335e62be

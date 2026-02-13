@@ -1,6 +1,6 @@
 # Quality Orchestrator Report
 - target: final-draft-chapters/chapter-05.md
-- generated_at_unix: 1771018694
+- generated_at_unix: 1771019174
 - fail_threshold: error
 - total_findings: 83
 - total_blocking_reports: 0
@@ -53,7 +53,7 @@
   - ambiguous_margin: 0.12
   - analyzer: voice-consistency
   - blocker_confidence: 0.25
-  - character_list: marcus, lena, sable, dara, no dara
+  - character_list: marcus, lena, dara, sable, no dara
   - continuation_confidence: 0.72
   - dara:avg_confidence: 0.77
   - error_confidence: 0.45
@@ -323,4 +323,4 @@
     - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
 
 
-signature: fnv1a64:224714c7c2f6afc3
+signature: fnv1a64:f0889fd3e285f3f1
