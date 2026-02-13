@@ -27,7 +27,7 @@
 
 ## Validation Note
 
-- Full quality session run passed at blocker threshold with `writing-artifacts/quality/chapter-16/quality-orchestrator-1770996320.md`.
+- Full quality session run for this chapter now uses `quality-orchestrator-1771014239.md` (targeting `final-draft-chapters/chapter-16.md`) and fails at error threshold (`status: failed`, total findings: 143, 2 blocking reports).
 
 ## Final Gate Decision
 

@@ -44,7 +44,7 @@ Scope: Chapters 01–17 + planning + quality + postmortem artifacts
 - chapter-13-quality-orchestrator-1770995773.md
 - chapter-14-quality-orchestrator-1770995773.md
 - chapter-15-quality-orchestrator-1770995773.md
-- chapter-16-quality-orchestrator-1770996320.md
+- chapter-16-quality-orchestrator-1771014239.md
 - chapter-17-quality-orchestrator-1770996321.md
 
 ## Quality rerun
