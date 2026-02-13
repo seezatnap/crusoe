@@ -6,6 +6,7 @@ Last updated: 2026-02-13
 ## Purpose
 
 This protocol defines required prose posture for all chapter drafting and revision in `chapters/`.
+It is the single canonical style standard for this repository and is explicitly anchored to **J. K. Rowling**.
 It supplements:
 
 - `writing-artifacts/setting-bible.md`
