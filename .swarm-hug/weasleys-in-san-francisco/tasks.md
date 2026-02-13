@@ -39,7 +39,7 @@
 
 ## Act Three: Confrontation (Chapters 11–12)
 
-- [ ] (#20) Write Chapter 11 (4,000–6,000 words): Voss initiates a compulsion-laced fog across Fog Hollow as a test/warning — confusion and memory loss ripple through the community, Arthur and Molly's emotionally charged argument about staying vs. fleeing, the compromise: adults handle it, kids stay safe [5 pts] (blocked by #19)
+- [x] (#20) Write Chapter 11 (4,000–6,000 words): Voss initiates a compulsion-laced fog across Fog Hollow as a test/warning — confusion and memory loss ripple through the community, Arthur and Molly's emotionally charged argument about staying vs. fleeing, the compromise: adults handle it, kids stay safe [5 pts] (blocked by #19) (A)
 - [ ] (#21) Write Chapter 12 (4,000–6,000 words): the kids break the safety rules — Fred, George, Ron, Ginny, Harry, and Marisol infiltrate the Underlook, Harlan catches them, tense confrontation and escape using joke products, Ron's tactics, and Harry's instinctive magic. Isolde's crisis of conscience when she sees children in danger [5 pts] (blocked by #20)
 
 ## Act Four: Resolution (Chapters 13–15)
@@ -51,7 +51,7 @@
 ## Revision
 
 - [x] (#25) Revise Act 1 (Chapters 1–5): verify POV consistency, comedic pacing, canon compliance, word-count targets (4k–6k each), continuity across chapters, and emotional arc progression [5 pts] (blocked by #10, #11, #12, #13, #14) (A)
-- [ ] (#26) Revise Act 2 (Chapters 6–10): audit foreshadowing cadence, mystery-thread coherence, escalation logic, dialogue density, and character voice consistency [5 pts] (blocked by #15, #16, #17, #18, #19, #25)
+- [x] (#26) Revise Act 2 (Chapters 6–10): audit foreshadowing cadence, mystery-thread coherence, escalation logic, dialogue density, and character voice consistency [5 pts] (blocked by #15, #16, #17, #18, #19, #25) (A)
 - [ ] (#27) Revise Acts 3–4 (Chapters 11–15): enforce climax coherence, thematic payoff, antagonist resolution logic, emotional stakes, and style consistency [5 pts] (blocked by #20, #21, #22, #23, #24, #26)
 - [ ] (#28) Final integrated QA pass: reconcile all unresolved threads, verify chapter ordering and count, confirm canon compliance end-to-end, and produce release-ready chapter set in `chapters/` [5 pts] (blocked by #25, #26, #27)
 

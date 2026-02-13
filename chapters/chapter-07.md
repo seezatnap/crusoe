@@ -505,16 +505,23 @@ Harry nodded and held up the camera and tag. He felt suddenly as if he had becom
 
 Harry sat and found words with less hesitation than he expected.
 
-He spoke in short pieces, because the details came easiest that way.
+“Go in sequence,” Ron said, and Harry did.
 
-- They went by back lane under pretext of changing a sign.
-- They watched unlit craft unload marked crates at unguarded dock.
-- Symbols matched the pattern near Ward line points.
-- A giant pelican behaved like a sensor.
-- Signal line, padded wheels, private transfer.
-- Hidden ring and tag with tide marker.
-- One clip captured enough for two clear frames.
-- They escaped by alternate route via old printing press and tunnel.
+“Back lane first. We went out under the pretext of changing a sign.”
+
+“Then we watched an unlit craft unload marked crates at a dock with no city logs or permits.”
+
+“The symbols matched the same pattern from the ward-line points.”
+
+“Then the pelican. It was too still, too watchful.”
+
+“There was a signal line, padded wheels, and a private transfer move.”
+
+“A hidden ring, then a tag with a tide marker.”
+
+“One clip was enough for two clear angles.”
+
+“And we got out by an alternate route through the old printing press tunnel.”
 
 Ron wrote none of it down for maybe forty seconds and then looked up with eyes that had gone darker.
 
@@ -534,7 +541,7 @@ Ron nodded. “Good. Confusion is our ally.”
 
 “Fine,” Ron said. “Now we count what made it useful.”
 
-He laid the brass tag next to the map and held a pen over it, drawing three circles connected by arrows. “This is no local smuggling racket. This is structured movement tied to a symbol and timed points. Harry, the pattern in your chest and Marisol’s patrol route are matching. That means they are using a city path as an extension, not a cover.”
+He laid the brass tag next to the map and held a pen over it, drawing three circles connected by arrows. “This is no local smuggling racket. This is structured movement tied to a symbol and timed points. Harry, the pattern in your chest and Marisol’s patrol route are matching. That means they are using a city path as an extension, not a cover. And this sign family is the same one we saw on Alcatraz.”
 
 Harry had never had Ron say that word, *city path,* before.
 
