@@ -11,9 +11,9 @@
 ## Plot Architecture
 
 - [x] (#6) Lock the 15-chapter story spine from the 4-act PRD structure with chapter-level objectives, cliffhangers, reversals, POV assignments (Harry primary, plus one Ginny, one Ron, one Arthur chapter minimum), and end-of-act resolution conditions [5 pts] (blocked by #2, #3, #4, #5) (A)
-- [A] (#7) Draft scene-by-scene breakdowns for each chapter: setup, escalation, complication, mini-resolution, with required character beats and stakes progression [5 pts] (blocked by #6)
-- [B] (#8) Map foreshadowing and evidence for the mystery thread (Ginny's sigil sketch, ward decay clues, fog compulsion preview, Barnacle sightings) to ensure payoffs and reveal timing across Acts 2–4 [3 pts] (blocked by #6)
-- [B] (#9) Map thematic threads (belonging, family as shelter, institutional failure, UK-US magical contrast) to specific character beats and chapter transitions [3 pts] (blocked by #6)
+- [x] (#7) Draft scene-by-scene breakdowns for each chapter: setup, escalation, complication, mini-resolution, with required character beats and stakes progression [5 pts] (blocked by #6) (A)
+- [x] (#8) Map foreshadowing and evidence for the mystery thread (Ginny's sigil sketch, ward decay clues, fog compulsion preview, Barnacle sightings) to ensure payoffs and reveal timing across Acts 2–4 [3 pts] (blocked by #6) (B)
+- [x] (#9) Map thematic threads (belonging, family as shelter, institutional failure, UK-US magical contrast) to specific character beats and chapter transitions [3 pts] (blocked by #6) (B)
 
 ## Act One: Arrival (Chapters 1–4)
 
@@ -56,4 +56,4 @@
 - [ ] (#28) Final integrated QA pass: reconcile all unresolved threads, verify chapter ordering and count, confirm canon compliance end-to-end, and produce release-ready chapter set in `chapters/` [5 pts] (blocked by #25, #26, #27)
 
 ## Follow-up tasks (from sprint review)
-- [A] (#29) [#6] Fix `writing-artifacts/summer-1994-15-chapter-story-spine.md` table formatting by adding the missing **Act** column values for all chapters after 3 (4–15), since rows currently shifted by one column and no longer explicitly encode the 4-act chapter ranges.
+- [x] (#29) [#6] Fix `writing-artifacts/summer-1994-15-chapter-story-spine.md` table formatting by adding the missing **Act** column values for all chapters after 3 (4–15), since rows currently shifted by one column and no longer explicitly encode the 4-act chapter ranges. (A)
