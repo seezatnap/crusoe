@@ -1,0 +1,235 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-09.md
+- generated_at_unix: 1770992008
+- fail_threshold: error
+- total_findings: 52
+- total_blocking_reports: 1
+- status: failed
+
+## cliche-detection
+- findings: 2
+- target: chapters/chapter-09.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 550
+- details:
+  - [warning] CLIC-CLICHÉ-01 at chapters/chapter-09.md:80:70
+    - Cliche phrase repeated 3 times: "in a way".
+    - suggestion: Replace repeated phrase usage with image-grounded, character-specific language.
+  - [warning] CLIC-CLICHÉ-01 at chapters/chapter-09.md:86:1
+    - Cliche phrase repeated 3 times: "as if".
+    - suggestion: Replace repeated phrase usage with image-grounded, character-specific language.
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-09.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-09.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-09.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-09.md
+  - words: 5981
+- findings: none
+
+## voice-consistency
+- findings: 50
+- target: chapters/chapter-09.md
+- metadata:
+  - ambiguous_dialogue_blocks: 4
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: show, now, i'm, people, limited your, cost, is, who, juno, what, someone, and, because, no, good trouble, up, that's, found, tamsin, then, talk, by, there, council-level, on, at, did, which, from orb- eleven, you've, i've, how, that, so, can, minute, to, i
+  - continuation_confidence: 0.72
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - good trouble:avg_confidence: 0.80
+  - i:avg_confidence: 0.42
+  - juno:avg_confidence: 0.78
+  - pronoun_tag_confidence: 0.42
+  - target: chapters/chapter-09.md
+  - that:avg_confidence: 0.80
+  - total_dialogue_blocks: 75
+  - tracked_characters: 38
+  - untagged_dialogue_blocks: 4
+  - voice_blocker_similarity: 0.25
+  - voice_error_similarity: 0.40
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+  - what:avg_confidence: 0.76
+- details:
+  - [info] DIAL-AMBIG-001 at chapters/chapter-09.md:411:1
+    - Ambiguous dialogue attribution: multiple candidates around line 411, likely 'tamsin' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-09.md:421:1
+    - Ambiguous dialogue attribution: multiple candidates around line 421, likely 'good trouble' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-09.md:431:1
+    - Ambiguous dialogue attribution: multiple candidates around line 431, likely 'juno' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-09.md:433:1
+    - Ambiguous dialogue attribution: multiple candidates around line 433, likely 'now' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:117:1
+    - Dialogue uses continuation inference for 'talk'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:129:1
+    - Dialogue uses continuation inference for 'that's'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:163:1
+    - Dialogue uses continuation inference for 'so'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:175:1
+    - Dialogue uses continuation inference for 'by'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:183:1
+    - Dialogue uses continuation inference for 'to'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:187:1
+    - Dialogue uses continuation inference for 'what'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:189:1
+    - Dialogue uses continuation inference for 'what'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:191:1
+    - Dialogue uses continuation inference for 'what'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:195:1
+    - Dialogue uses continuation inference for 'what'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:197:1
+    - Dialogue uses continuation inference for 'what'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:211:1
+    - Dialogue uses continuation inference for 'did'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:215:1
+    - Dialogue uses continuation inference for 'that'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:217:1
+    - Dialogue uses continuation inference for 'that'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:219:1
+    - Dialogue uses continuation inference for 'that'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:227:1
+    - Dialogue uses continuation inference for 'that'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:229:1
+    - Dialogue uses continuation inference for 'that'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:241:1
+    - Dialogue uses continuation inference for 'then'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:247:1
+    - Dialogue uses continuation inference for 'who'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:271:1
+    - Dialogue uses continuation inference for 'that'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:415:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:417:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:419:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:425:1
+    - Dialogue uses continuation inference for 'good trouble'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-09.md:427:1
+    - Dialogue uses continuation inference for 'good trouble'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] POV-MARKER-001 at chapters/chapter-09.md:53:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-09.md:275:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-09.md:307:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-09.md:337:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-09.md:383:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-09.md:397:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [warning] DIAL-TAG-001 at chapters/chapter-09.md:18:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-09.md:37:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-09.md:49:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [warning] DIAL-TAG-001 at chapters/chapter-09.md:94:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [error] DIAL-TAG-001 at chapters/chapter-09.md:235:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] DIAL-TAG-001 at chapters/chapter-09.md:261:1
+    - Speaker attribution is weak (0.42) for 'i'; source is pronoun-based tag.
+    - suggestion: Replace weak or pronoun-only tag with a named character tag for stronger continuity tracking.
+  - [error] VOICE-STYLE-001 at chapters/chapter-09.md:249:1
+    - Voice drift risk for 'who' (similarity 0.31, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:129:1
+    - Voice drift risk for 'that's' (similarity 0.12, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:191:1
+    - Voice drift risk for 'what' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:195:1
+    - Voice drift risk for 'what' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:197:1
+    - Voice drift risk for 'what' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:227:1
+    - Voice drift risk for 'that' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:229:1
+    - Voice drift risk for 'that' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:265:1
+    - Voice drift risk for 'that' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:271:1
+    - Voice drift risk for 'that' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-09.md:431:1
+    - Voice drift risk for 'juno' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:3e89a39d58ae3a1f
