@@ -500,11 +500,12 @@ pub fn run_continuity_check(
     options: ContinuityOptions,
 ) -> Result<AnalysisReport, AnalysisError> {
     input.validate_target_exists()?;
-    let scenes = collect_scene_sequence(&input.target)?;
+    let target = input.resolve_target_path();
+    let scenes = collect_scene_sequence(&target)?;
 
-    let mut report = AnalysisReport::new("continuity-check", &input.target)
+    let mut report = AnalysisReport::new("continuity-check", &target)
         .add_metadata("analyzer", "continuity-check")
-        .add_metadata("target", input.target.display().to_string());
+        .add_metadata("target", target.display().to_string());
 
     let mut state = ReportState { findings: Vec::new() };
     check_timeline(&scenes, &options, &mut state);
@@ -702,5 +703,47 @@ noise
             .findings
             .iter()
             .any(|finding| finding.code == "CONT-REVEAL-001"));
+    }
+
+    #[test]
+    fn resolves_relative_target_with_working_directory_and_reads_content() {
+        let mut workdir = env::temp_dir();
+        let nanos = SystemTime::now()
+            .duration_since(UNIX_EPOCH)
+            .expect("clock")
+            .as_nanos();
+        workdir.push(format!("continuity-check-tests-{nanos}"));
+        std::fs::create_dir_all(&workdir).unwrap();
+        let chapter_dir = workdir.join("chapter-files");
+        std::fs::create_dir_all(&chapter_dir).unwrap();
+
+        let expected = chapter_dir.join("chapter-01.md");
+        std::fs::write(
+            &expected,
+            "<!-- continuity:scene id=scene-a timeline=2050 drift=1 -->\nText.\n<!-- continuity:scene id=scene-b timeline=2040 drift=1 requires=scene-a -->\nText.\n",
+        )
+        .unwrap();
+
+        let input = AnalysisInput::new("chapter-files/chapter-01.md").with_working_directory(&workdir);
+        let report = run_continuity_check(&input, default_options()).unwrap();
+
+        assert_eq!(report.target, expected);
+        assert!(report.findings.iter().any(|finding| finding.code == "CONT-TL-001"));
+        assert_eq!(
+            report
+                .metadata
+                .get("target")
+                .expect("target metadata should be present"),
+            &expected.display().to_string()
+        );
+        assert_eq!(
+            report
+                .metadata
+                .get("first_scene_file")
+                .expect("first_scene_file metadata should be present"),
+            &expected.display().to_string()
+        );
+
+        let _ = std::fs::remove_dir_all(&workdir);
     }
 }
