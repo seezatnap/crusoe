@@ -39,8 +39,8 @@ Examples:
 
 ```bash
 ./scripts/run-quality-session.sh chapters/chapter-01.md
-./scripts/run-quality-session.sh chapters --fail_on blocker
-./scripts/run-quality-session.sh chapters/chapter-03.md --no_artifact
+./scripts/run-quality-session.sh chapters --fail-on blocker
+./scripts/run-quality-session.sh chapters/chapter-03.md --no-artifact
 ```
 
 ## Notes
@@ -49,4 +49,3 @@ Examples:
   - `quality-orchestrator` from `rust/crates/quality-orchestrator`
   - `style-reference` from `rust/crates/excerpt-extract`
 - For local automation, these scripts require a working Rust toolchain with `cargo`.
-
