@@ -7,8 +7,8 @@
 - [x] (#3) Build the Character Bible with full sketches for every named character including backstory, motivation, relationships, speech patterns, secrets, and POV behavior [5 pts] (blocked by #1) (A)
 - [x] (#4) Create the High-Level Plot Outline for all 25 chapters with inciting incident, rising action, midpoint reversal, climax, and denouement [5 pts] (blocked by #2, #3) (A)
 - [x] (#5) Produce the Chapter-by-Chapter Outline for all 25 chapters: scene sequencing, POV map, key revelations, clue placements, red herrings, and emotional beats [5 pts] (blocked by #2, #3, #4) (A)
-- [ ] (#6) Build the Mystery Architecture: crime definition, clue tree, misdirection plan, reveal logic, and fair-play checklist to guarantee solvability [5 pts] (blocked by #2, #3, #4, #5)
-- [ ] (#7) Create the Timeline and Continuity Tracker: chronological event table, timeline integrity rules, and unresolved-thread log [5 pts] (blocked by #4, #5)
+- [x] (#6) Build the Mystery Architecture: crime definition, clue tree, misdirection plan, reveal logic, and fair-play checklist to guarantee solvability [5 pts] (blocked by #2, #3, #4, #5) (A)
+- [x] (#7) Create the Timeline and Continuity Tracker: chronological event table, timeline integrity rules, and unresolved-thread log [5 pts] (blocked by #4, #5) (B)
 - [x] (#8) Publish the Theme and Motif Guide with recurring symbols, tonal arc, rhythm guidance, and chapter voice/POV standards aligned to the target prose style [5 pts] (blocked by #2, #3) (A)
 - [ ] (#9) Finalize and freeze all foundational artifacts as an approved package, resolving cross-document gaps before chapter drafting begins [5 pts] (blocked by #2, #3, #4, #5, #6, #7, #8)
 
@@ -55,4 +55,7 @@
 - [x] (#41) Add the referenced process artifacts or remove dead references in `writing-artifacts/README.md`: `writing-artifacts/dependency-notes.md` and `writing-artifacts/handoff-format.md` (blocked by #1) (C)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#42) Correct `writing-artifacts/DOC-004-chapter-by-chapter-outline.md` clue-range notation in the “Notation” section to match actual clue IDs used in the outline (`C-001` through `C-073`), since it currently states `C-001` through `C-025`. (blocked by #5)
+- [x] (#42) Correct `writing-artifacts/DOC-004-chapter-by-chapter-outline.md` clue-range notation in the “Notation” section to match actual clue IDs used in the outline (`C-001` through `C-073`), since it currently states `C-001` through `C-025`. (blocked by #5) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#43) Repair `rust/Cargo.toml` workspace configuration so `cargo build --workspace` and `cargo test --workspace` succeed (currently failing because `rust/crates/*/Cargo.toml` does not exist in the repo).
