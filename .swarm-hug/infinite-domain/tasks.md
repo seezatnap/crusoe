@@ -90,3 +90,6 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#51) Update `writing-artifacts/roadmap.md` chapter tracker status for chapters 01–05 so it reflects completed draft state (and current word counts) instead of all entries remaining “Not started,” now that the drafts are in place. (blocked by #21) (A)
 - [x] (#52) Resolve remaining `POV-MARKER-001`/voice-consistency metadata gaps in `chapters/chapter-05.md` (either by adding supported POV/dialogue markers or adjusting parser expectations) and rerun `scripts/run-quality-session.sh` to capture a cleaner `writing-artifacts/quality/chapter-05/quality-orchestrator-*` report. (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#53) Update `writing-artifacts/roadmap.md` chapter tracker entry for `chapter-06` to `Completed draft (5,650)` so the roadmap reflects the delivered draft and actual word count (blocked by #22)
