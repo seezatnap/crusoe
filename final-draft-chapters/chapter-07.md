@@ -72,6 +72,8 @@ She deleted the line before she could send it to anyone.
 
 ---
 
+<!-- pov: juno -->
+
 A junior Finder stood by the shared table, looked in her direction, and lowered a stack of run forms.
 
 "Good morning, Juno."
@@ -83,6 +85,8 @@ At the far edge of the wall, an older curator turned from a monitoring cluster a
 She read the gesture as a warning and pretended she had not.
 
 ---
+
+<!-- pov: juno -->
 
 The first thing she did after the mid-cycle break was miss a handoff.
 
@@ -123,6 +127,8 @@ She closed the draft and sent it as-is. Incomplete. No second paragraph. No expl
 Fen would read the silence as data. Fen always read her silences more accurately than her speech.
 
 ---
+
+<!-- pov: juno -->
 
 By the time the queue moved through mid-cycle, the workroom had become too clean.
 
@@ -166,6 +172,8 @@ She opened an unsanctioned link.
 
 ### Recording fragment
 
+<!-- pov: lena -->
+
 No alarm sounded. There was no alarm for that path. The first sign was a line of grey at the edge of her vision, a trace of how old recordings presented themselves before anyone taught a Finder to ignore their borders.
 
 The fragment was not a jump. Not cleanly. It was a splinter of recording — a memory that was not hers pressing against her own attention with the insistence of a hand at a door.
@@ -201,6 +209,8 @@ Lena turned from the board to the older woman with a look that held no argument 
 The fragment ended there — at a line about rooms and keeping.
 
 ---
+
+<!-- pov: juno -->
 
 When Juno returned, the corridor was at a different angle.
 
@@ -301,6 +311,8 @@ She pressed confirm.
 She returned to lane three and let five cycles pass in which she made no changes to anyone's life except her own.
 
 ---
+
+<!-- pov: juno -->
 
 Around second bell, the workroom shifted.
 
@@ -403,6 +415,8 @@ Fen did not answer. They reached to the nearest console and muted one of her per
 The sentence startled her. Some friendships were too practical to deserve this kind of care, and some were too old to refuse it.
 
 ---
+
+<!-- pov: juno -->
 
 Around that time, as though timing had been waiting for her to stop running, an alert arrived without fanfare.
 
@@ -633,6 +647,8 @@ She opened her private notes and rewrote the section that mattered most.
 She sent the note to both of them.
 
 ---
+
+<!-- pov: juno -->
 
 The station quieted as the cycle shifted toward its end.
 
