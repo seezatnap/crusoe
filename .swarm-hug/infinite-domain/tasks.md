@@ -41,7 +41,7 @@
 ## Act 3 Drafting (Chapters 11–14)
 
 - [x] (#27) Draft `chapters/chapter-11.md` in the 4,000–6,000-word range: Juno goes rogue with unauthorized deep jumps into restricted/degraded files and accepts immediate risk from prolonged bleed [5 pts] (blocked by #26) (A)
-- [A] (#28) Draft `chapters/chapter-12.md` in the 4,000–6,000-word range: shift into Sable’s direct perspective to reveal the constraint architecture governing perception, cognition, and self-modification [5 pts] (blocked by #27)
+- [x] (#28) Draft `chapters/chapter-12.md` in the 4,000–6,000-word range: shift into Sable’s direct perspective to reveal the constraint architecture governing perception, cognition, and self-modification [5 pts] (blocked by #27) (A)
 - [ ] (#29) Draft `chapters/chapter-13.md` in the 4,000–6,000-word range: escalate confrontation with Orin and Curator enforcement; frame protective-deception ethics and civilizational-stability arguments [5 pts] (blocked by #28)
 - [ ] (#30) Draft `chapters/chapter-14.md` in the 4,000–6,000-word range: Maren’s final lucid confession confirms the hidden generational secret, and Juno finally gains access to Rosetta Key infrastructure [5 pts] (blocked by #29)
 
@@ -108,5 +108,5 @@
 - [x] (#58) Consolidate chapter-10 quality artifacts by removing/renaming `writing-artifacts/quality/chapter-10-work/quality-orchestrator-1770992364.md` and ensure only canonical `writing-artifacts/quality/chapter-10/quality-orchestrator-*` reports are retained, all targeting `chapters/chapter-10.md` (blocked by #26) (A)
 
 ## Follow-up tasks (from sprint review)
-- [B] (#59) Update `writing-artifacts/roadmap.md` chapter-11 row to `Completed draft (5,360)` and align its pacing metadata with `chapters/chapter-11.md` (blocked by #27)
-- [B] (#60) Address failing chapter-11 quality gates in `writing-artifacts/quality/chapter-11/quality-orchestrator-1770992711.md` (notably `CLIC-CLICHÉ-01` and dialogue-tagging/ambiguity findings), then rerun quality checks so the chapter has a clean artifact before moving to `chapter-12.md` (blocked by #27)
+- [x] (#59) Update `writing-artifacts/roadmap.md` chapter-11 row to `Completed draft (5,360)` and align its pacing metadata with `chapters/chapter-11.md` (blocked by #27) (B)
+- [x] (#60) Address failing chapter-11 quality gates in `writing-artifacts/quality/chapter-11/quality-orchestrator-1770992711.md` (notably `CLIC-CLICHÉ-01` and dialogue-tagging/ambiguity findings), then rerun quality checks so the chapter has a clean artifact before moving to `chapter-12.md` (blocked by #27) (B)
