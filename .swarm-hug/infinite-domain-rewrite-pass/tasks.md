@@ -14,7 +14,7 @@
 
 - [x] (#5) Rewrite `final-draft-chapters/chapter-04.md` from scratch with the same evidence-driven process, ensuring chapter-to-chapter connective tissue with chapter 03 is seamless and all planned plot/character arcs are intact while avoiding cliché language and staying within 4,000–6,000 words [5 pts] (blocked by #4) (A)
 
-- [ ] (#6) Rewrite `final-draft-chapters/chapter-05.md` after ingesting chapter-05-specific postmortem and all governing bibles/roadmap/continuity artifacts plus prior rewritten chapters and first-draft chapter 05, then produce a polished 4,000–6,000 word chapter aligned to sequence and reveal timing [5 pts] (blocked by #5)
+- [x] (#6) Rewrite `final-draft-chapters/chapter-05.md` after ingesting chapter-05-specific postmortem and all governing bibles/roadmap/continuity artifacts plus prior rewritten chapters and first-draft chapter 05, then produce a polished 4,000–6,000 word chapter aligned to sequence and reveal timing [5 pts] (blocked by #5) (A)
 
 - [ ] (#7) Rewrite `final-draft-chapters/chapter-06.md` with full required reads (`character/setting/style/roadmap/continuity/timeline/thread log/postmortem`, prior rewrites, first draft), then rebuild chapter in unified authorial voice with stronger transitions and scene rhythm, enforcing 4,000–6,000 words [5 pts] (blocked by #6)
 
@@ -53,5 +53,10 @@
 - [x] (#23) Run a continuity-check diagnostic on `final-draft-chapters/chapter-03.md` against `continuity-reveal-matrices.md` and produce an explicit continuity report artifact — the commit claims 0 violations but no continuity report was generated to verify (blocked by #4) (A)
 
 ## Follow-up tasks (from sprint review)
-- [ ] (#24) Run a continuity-check diagnostic on `final-draft-chapters/chapter-04.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapter 03 in task #23 (blocked by #5)
-- [ ] (#25) Fix the quality-orchestrator target path so it validates `final-draft-chapters/chapter-XX.md` instead of `chapters/chapter-XX.md` — the mismatch caused chapter-04 quality checks to run against a stale file (word count reported 4,367 vs actual 5,213)
+- [x] (#24) Run a continuity-check diagnostic on `final-draft-chapters/chapter-04.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapter 03 in task #23 (blocked by #5) (A)
+- [x] (#25) Fix the quality-orchestrator target path so it validates `final-draft-chapters/chapter-XX.md` instead of `chapters/chapter-XX.md` — the mismatch caused chapter-04 quality checks to run against a stale file (word count reported 4,367 vs actual 5,213) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#26) Run quality-orchestrator checks on `final-draft-chapters/chapter-05.md` (not `chapters/chapter-05.md`) — all existing chapter-05 quality reports validated the stale first-draft file (4,828 words, 0 dialogue blocks) instead of the rewritten file (5,259 words), so cliche, voice-consistency, and dialogue-tag results are invalid (blocked by #25)
+- [ ] (#27) Run a continuity-check diagnostic on `final-draft-chapters/chapter-05.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–04 in tasks #23 and #24 (blocked by #6)
+- [ ] (#28) Add missing `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-05.md` — the voice-consistency analyzer flagged 11 POV-MARKER-001 info findings on the old draft, and the rewrite likely inherits or worsens this gap since no POV markers were added during the rewrite (blocked by #6)

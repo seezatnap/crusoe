@@ -3,7 +3,7 @@
 ## Project
 - This repository is a **novel writing project**.
 - Primary output is long-form fiction delivered in chapter files.
-- All chapter drafts should be written to: `chapters/`.
+- All chapter drafts should be written to: `final-draft-chapters/`.
 - Analytical or tooling outputs should be written to: `writing-artifacts/`.
 
 ## Chapter Length
