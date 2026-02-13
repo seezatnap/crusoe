@@ -46,3 +46,8 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#20) Build or stub the `style-reference` CLI tool so that chapter rewrites can run automated style calibration instead of manual calibration (referenced in tasks #3–#18 and noted as missing in the chapter-01 rewrite log) (blocked by #2) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#21) Address 23 Blocker-level VOICE-STYLE-001 findings in `final-draft-chapters/chapter-03.md` (concentrated in Juno and Orin dialogue lines ~97–193) by reconciling diction and rhythm with established character voice baselines from chapters 01–02 (blocked by #4)
+- [ ] (#22) Add explicit dialogue tags to the 2 untagged and 3 ambiguous dialogue blocks in `final-draft-chapters/chapter-03.md` flagged by DIAL-TAG-001 and DIAL-AMBIG-001 (lines 45, 49, 91, 119) to resolve speaker-attribution warnings before chapter 04 builds on this text (blocked by #4)
+- [ ] (#23) Run a continuity-check diagnostic on `final-draft-chapters/chapter-03.md` against `continuity-reveal-matrices.md` and produce an explicit continuity report artifact — the commit claims 0 violations but no continuity report was generated to verify (blocked by #4)
