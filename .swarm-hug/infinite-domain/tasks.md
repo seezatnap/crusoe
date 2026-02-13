@@ -78,3 +78,7 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#45) Restore `chapters/chapter-01.md` in the active `chapters/` tree so task `#17` is actually deliverable and the claimed completed chapter sequence is present. (blocked by #17) (B)
 - [x] (#46) Reintroduce `writing-artifacts/style-and-voice-protocol.md` and verify it contains the JK Rowling-aligned protocol so the completed task state (`#8`/`#43`) matches actual repository artifacts. (blocked by #43) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#47) Reconcile task wording in `.swarm-hug/infinite-domain/tasks.md` by updating `#8` to match the JK Rowling-only style target in `writing-artifacts/style-and-voice-protocol.md` instead of the outdated “Ted Chiang meets Kazuo Ishiguro” phrasing. (blocked by #43)
+- [ ] (#48) Fix failing quality issues in `chapters/chapter-03.md` so it can pass `quality-orchestrator` (resolve blocker-level voice-consistency findings and dialogue attribution/POV clarity issues, and rerun the orchestrator until the chapter reports clean). (blocked by #19)
