@@ -44,3 +44,7 @@
 
 - [ ] (#35) Establish and run a mandatory chapter post-mortem workflow after each draft: 4,000-6,000 word check, continuity tracker updates, fairness audit for clue visibility, dialogue/POV consistency, and style rhythm scan [5 pts] (blocked by #9, #10, #11, #12, #13, #14, #15, #16, #17, #18, #19, #20, #21, #22, #23, #24, #25, #26, #27, #28, #29, #30, #31, #32, #33, #34)
 - [ ] (#36) Perform final novel-level integration edit across all 25 chapters for pacing arc, thematic completion, lore integrity, and unresolved-thread closure, then produce the release draft [5 pts] (blocked by #35, #34)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#37) Reconcile status enums across `chapters/README.md`, `writing-artifacts/README.md`, and `writing-artifacts/word-count.md` so blocked/review/finalization states are defined once and used consistently in both templates and tracking rows (`blocked` vs `draft`/`ready_for_review` mismatch). (blocked by #1)
+- [ ] (#38) Replace the placeholder `CH-000` example in `chapters/README.md` with an explicit “no predecessor” pattern so invalid chapter IDs are not copied into production frontmatter. (blocked by #1)
