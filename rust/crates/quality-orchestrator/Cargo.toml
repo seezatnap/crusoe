@@ -1,0 +1,15 @@
+[package]
+name = "quality-orchestrator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+analysis-contracts = { path = "../analysis-contracts" }
+clap = { version = "4.5", features = ["derive"] }
+cliche-detection = { path = "../cliche-detection" }
+continuity-check = { path = "../continuity-check" }
+voice-consistency = { path = "../voice-consistency" }
+
+[[bin]]
+name = "quality-orchestrator"
+path = "src/main.rs"

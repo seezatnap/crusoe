@@ -1,0 +1,71 @@
+# Voice/POV Report: chapters/chapter-05.md
+
+## Summary
+- Analyzer: voice-consistency
+- Findings: 11
+- ambiguous_dialogue_blocks: 0
+- ambiguous_margin: 0.12
+- analyzer: voice-consistency
+- blocker_confidence: 0.25
+- character_list: 
+- continuation_confidence: 0.72
+- error_confidence: 0.45
+- explicit_name_confidence: 0.95
+- pronoun_tag_confidence: 0.42
+- target: chapters/chapter-05.md
+- total_dialogue_blocks: 0
+- tracked_characters: 0
+- untagged_dialogue_blocks: 0
+- voice_blocker_similarity: 0.25
+- voice_error_similarity: 0.40
+- voice_min_sample_words: 24
+- voice_top_words: 8
+- voice_warning_similarity: 0.55
+- warning_confidence: 0.70
+
+## Findings
+
+- Info chapters/chapter-05.md:82
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:110
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:177
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:229
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:317
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:353
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:355
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:357
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:397
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:616
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+- Info chapters/chapter-05.md:618
+  - code: POV-MARKER-001
+  - message: First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+  - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
