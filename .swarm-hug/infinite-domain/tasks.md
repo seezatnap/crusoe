@@ -3,7 +3,7 @@
 ## Foundation and Planning
 
 - [x] (#1) Create the project’s chapter/artifact delivery contract so every draft is written to `chapters/chapter-01.md` through `chapters/chapter-17.md` and all analytical outputs land in `writing-artifacts/` with explicit update rules and retention policy [5 pts] (A)
-- [ ] (#2) Establish the master chapter tracker (`writing-artifacts/roadmap.md`) with act boundaries (1–4, 5–10, 11–14, 15–17), pacing goals, and mandatory 4,000–6,000-word target range per chapter [5 pts] (blocked by #1)
+- [x] (#2) Establish the master chapter tracker (`writing-artifacts/roadmap.md`) with act boundaries (1–4, 5–10, 11–14, 15–17), pacing goals, and mandatory 4,000–6,000-word target range per chapter [5 pts] (blocked by #1) (A)
 - [ ] (#3) Build and maintain a canonical character bible covering Juno, Orin, Maren, Cassiel, Fen, Lena, Sable, Dara, Marcus, and Curator/Faded roles with secrets, motivations, relationships, and reveal timing [5 pts] (blocked by #1, #2)
 - [ ] (#4) Build the setting and mechanics bible for the Lattice, Archive, drift, noise, mind-jump bleed, and transition-era context, including what is explicit vs forbidden lore [5 pts] (blocked by #3)
 - [ ] (#5) Construct a historical timeline for the Transition Era (2025–2090) tied to Lena, Sable, Marcus, and major Engram milestones, including scene anchors for each major recording-era beat [5 pts] (blocked by #3, #4)
@@ -15,7 +15,7 @@
 
 ## Technical Tooling
 
-- [ ] (#11) Scaffold `rust/` as a Cargo workspace and establish shared crate layout plus utility contracts for all analysis binaries [5 pts] (blocked by #1)
+- [x] (#11) Scaffold `rust/` as a Cargo workspace and establish shared crate layout plus utility contracts for all analysis binaries [5 pts] (blocked by #1) (A)
 - [ ] (#12) Implement a Rust CLI for repetitive cliché and sentence-pattern detection with per-chapter output and severity thresholds tuned for literary prose [5 pts] (blocked by #11)
 - [ ] (#13) Implement a Rust CLI for dialogue-tag, POV, and character-voice consistency validation with named-character state tracking and confidence scoring [5 pts] (blocked by #11)
 - [ ] (#14) Implement a Rust CLI for continuity checks (timeline, lore constraints, drift progression, scene dependencies, revealed information order) with diff-style violation reports [5 pts] (blocked by #11)
@@ -58,3 +58,6 @@
 - [ ] (#36) Run postmortem and revision cycle for `chapter-11.md`–`chapter-14.md` with emphasis on revelation logic, antagonist evolution, and ethical stakes alignment [5 pts] (blocked by #27, #28, #29, #30)
 - [ ] (#37) Run postmortem and revision cycle for `chapter-15.md`–`chapter-17.md`, validating ending coherence, emotional closure, and open-thread posture [5 pts] (blocked by #31, #32, #33)
 - [ ] (#38) Execute final integration release checklist: rerun tooling (#15), finalize roadmaps and unresolved-thread log, freeze artifact outputs, and produce final deliverable bundle for editorial handoff [5 pts] (blocked by #34, #35, #36, #37, #15)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#39) Update `analysis-contracts` `AnalysisInput` to resolve `target` against `working_directory` and use that resolved path in `validate_target_exists`, plus add tests for non-root working-directory invocation (currently only related paths are resolved, which can cause false “missing target” failures). (blocked by #11)
