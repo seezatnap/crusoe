@@ -203,6 +203,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "quality-orchestrator"
+version = "0.1.0"
+dependencies = [
+ "analysis-contracts",
+ "clap",
+ "cliche-detection",
+ "continuity-check",
+ "voice-consistency",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
