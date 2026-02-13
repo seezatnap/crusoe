@@ -1,0 +1,298 @@
+# Quality Orchestrator Report
+- target: chapters/chapter-04.md
+- generated_at_unix: 1770990285
+- fail_threshold: error
+- total_findings: 73
+- total_blocking_reports: 2
+- status: failed
+
+## cliche-detection
+- findings: 1
+- target: chapters/chapter-04.md
+- metadata:
+  - cliche_blocker_threshold: 8
+  - cliche_error_threshold: 5
+  - cliche_warning_threshold: 3
+  - duplicate_blocker_threshold: 9
+  - duplicate_error_threshold: 6
+  - duplicate_warning_threshold: 4
+  - min_duplicate_sentence_words: 8
+  - opening_pattern_blocker_threshold: 11
+  - opening_pattern_error_threshold: 8
+  - opening_pattern_warning_threshold: 5
+  - opening_word_count: 4
+  - sentences: 443
+- details:
+  - [error] CLIC-CLICHÉ-01 at chapters/chapter-04.md:205:1
+    - Cliche phrase repeated 6 times: "as if".
+    - suggestion: Replace repeated phrase usage with image-grounded, character-specific language.
+
+## continuity-check
+- findings: 0
+- target: chapters/chapter-04.md
+- metadata:
+  - analyzer: continuity-check
+  - scene_count: 0
+  - status: no_scenes_found
+  - target: chapters/chapter-04.md
+- findings: none
+
+## length-check
+- findings: 0
+- target: chapters/chapter-04.md
+- metadata:
+  - analyzer: length-check
+  - max_words: 6000
+  - min_words: 4000
+  - target: chapters/chapter-04.md
+  - words: 4330
+- findings: none
+
+## voice-consistency
+- findings: 72
+- target: chapters/chapter-04.md
+- metadata:
+  - ambiguous_dialogue_blocks: 6
+  - ambiguous_margin: 0.12
+  - analyzer: voice-consistency
+  - blocker_confidence: 0.25
+  - character_list: juno, protocol, sable, marcus, stay, no lena, tonight, correction, dara, lena, this, why dara
+  - continuation_confidence: 0.72
+  - correction:avg_confidence: 0.80
+  - dara:avg_confidence: 0.80
+  - error_confidence: 0.45
+  - explicit_name_confidence: 0.95
+  - juno:avg_confidence: 0.77
+  - pronoun_tag_confidence: 0.42
+  - stay:avg_confidence: 0.80
+  - target: chapters/chapter-04.md
+  - this:avg_confidence: 0.80
+  - total_dialogue_blocks: 62
+  - tracked_characters: 12
+  - untagged_dialogue_blocks: 1
+  - voice_blocker_similarity: 0.25
+  - voice_error_similarity: 0.40
+  - voice_min_sample_words: 24
+  - voice_top_words: 8
+  - voice_warning_similarity: 0.55
+  - warning_confidence: 0.70
+- details:
+  - [info] DIAL-AMBIG-001 at chapters/chapter-04.md:97:1
+    - Ambiguous dialogue attribution: multiple candidates around line 97, likely 'correction' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-04.md:113:1
+    - Ambiguous dialogue attribution: multiple candidates around line 113, likely 'marcus' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-04.md:115:1
+    - Ambiguous dialogue attribution: multiple candidates around line 115, likely 'protocol' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-04.md:197:1
+    - Ambiguous dialogue attribution: multiple candidates around line 197, likely 'marcus' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-04.md:297:1
+    - Ambiguous dialogue attribution: multiple candidates around line 297, likely 'marcus' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-AMBIG-001 at chapters/chapter-04.md:299:1
+    - Ambiguous dialogue attribution: multiple candidates around line 299, likely 'lena' with confidence 0.95.
+    - suggestion: Use a stronger tag so named-character tracking is unambiguous.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:77:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:85:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:87:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:93:1
+    - Dialogue uses continuation inference for 'juno'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:101:1
+    - Dialogue uses continuation inference for 'correction'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:105:1
+    - Dialogue uses continuation inference for 'correction'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:119:1
+    - Dialogue uses continuation inference for 'protocol'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:169:1
+    - Dialogue uses continuation inference for 'stay'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:173:1
+    - Dialogue uses continuation inference for 'stay'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:177:1
+    - Dialogue uses continuation inference for 'stay'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:189:1
+    - Dialogue uses continuation inference for 'stay'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:201:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:209:1
+    - Dialogue uses continuation inference for 'marcus'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:213:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:215:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:219:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:231:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:241:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:245:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:257:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:267:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:269:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:273:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:277:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:289:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:293:1
+    - Dialogue uses continuation inference for 'dara'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:317:1
+    - Dialogue uses continuation inference for 'no lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:345:1
+    - Dialogue uses continuation inference for 'this'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:349:1
+    - Dialogue uses continuation inference for 'this'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:355:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] DIAL-TAG-002 at chapters/chapter-04.md:410:1
+    - Dialogue uses continuation inference for 'lena'; confidence 0.72.
+    - suggestion: Add an explicit dialogue tag when the speaker switches or scene changes.
+  - [info] POV-MARKER-001 at chapters/chapter-04.md:389:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-04.md:451:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-04.md:485:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-04.md:517:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [info] POV-MARKER-001 at chapters/chapter-04.md:645:1
+    - First-person narration has no visible POV marker (`<!-- pov: <name> -->`).
+    - suggestion: Add a POV marker before this paragraph or confirm expected focalization shift in your chapter metadata.
+  - [warning] DIAL-TAG-001 at chapters/chapter-04.md:43:1
+    - Dialogue paragraph has no candidate speaker attribution; confidence could not be established.
+    - suggestion: Add a dialogue tag (named speaker or clear attribution) or keep character state explicit nearby.
+  - [error] VOICE-STYLE-001 at chapters/chapter-04.md:189:1
+    - Voice drift risk for 'stay' (similarity 0.31, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-04.md:235:1
+    - Voice drift risk for 'lena' (similarity 0.28, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [error] VOICE-STYLE-001 at chapters/chapter-04.md:293:1
+    - Voice drift risk for 'dara' (similarity 0.39, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:85:1
+    - Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:87:1
+    - Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:93:1
+    - Voice drift risk for 'juno' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:105:1
+    - Voice drift risk for 'correction' (similarity 0.22, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:169:1
+    - Voice drift risk for 'stay' (similarity 0.21, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:173:1
+    - Voice drift risk for 'stay' (similarity 0.17, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:177:1
+    - Voice drift risk for 'stay' (similarity 0.19, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:209:1
+    - Voice drift risk for 'marcus' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:241:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:245:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:257:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:259:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:265:1
+    - Voice drift risk for 'dara' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:267:1
+    - Voice drift risk for 'dara' (similarity 0.19, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:269:1
+    - Voice drift risk for 'dara' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:273:1
+    - Voice drift risk for 'dara' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:275:1
+    - Voice drift risk for 'dara' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:277:1
+    - Voice drift risk for 'dara' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:289:1
+    - Voice drift risk for 'dara' (similarity 0.24, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:297:1
+    - Voice drift risk for 'marcus' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:299:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:311:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:335:1
+    - Voice drift risk for 'dara' (similarity 0.24, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:351:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.95).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:355:1
+    - Voice drift risk for 'lena' (similarity 0.25, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+  - [blocker] VOICE-STYLE-001 at chapters/chapter-04.md:410:1
+    - Voice drift risk for 'lena' (similarity 0.19, weighted confidence 0.72).
+    - suggestion: Reconcile diction and rhythm with prior dialogue from this character.
+
+
+signature: fnv1a64:99594aa3f8205af6
