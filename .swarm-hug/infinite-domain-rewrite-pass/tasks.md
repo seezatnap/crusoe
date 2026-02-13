@@ -55,3 +55,8 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#24) Run a continuity-check diagnostic on `final-draft-chapters/chapter-04.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapter 03 in task #23 (blocked by #5) (A)
 - [x] (#25) Fix the quality-orchestrator target path so it validates `final-draft-chapters/chapter-XX.md` instead of `chapters/chapter-XX.md` — the mismatch caused chapter-04 quality checks to run against a stale file (word count reported 4,367 vs actual 5,213) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#26) Run quality-orchestrator checks on `final-draft-chapters/chapter-05.md` (not `chapters/chapter-05.md`) — all existing chapter-05 quality reports validated the stale first-draft file (4,828 words, 0 dialogue blocks) instead of the rewritten file (5,259 words), so cliche, voice-consistency, and dialogue-tag results are invalid (blocked by #25)
+- [ ] (#27) Run a continuity-check diagnostic on `final-draft-chapters/chapter-05.md` against `continuity-reveal-matrices.md` and produce a manual continuity report artifact, matching the format established for chapters 03–04 in tasks #23 and #24 (blocked by #6)
+- [ ] (#28) Add missing `<!-- pov: <name> -->` markers to `final-draft-chapters/chapter-05.md` — the voice-consistency analyzer flagged 11 POV-MARKER-001 info findings on the old draft, and the rewrite likely inherits or worsens this gap since no POV markers were added during the rewrite (blocked by #6)
