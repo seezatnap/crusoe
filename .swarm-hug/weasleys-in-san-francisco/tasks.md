@@ -70,3 +70,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#34) Clean up malformed dialogue formatting in `chapters/chapter-09.md` by removing standalone trailing quote lines so closing quotation marks stay on the same line as their sentence text (e.g., 46 occurrences of `"` on its own line). (blocked by #18) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#35) Trim `chapters/chapter-13.md` to stay within the required 4,000–6,000-word range (current count is 6,013 words), and re-validate chapter length after edits. (blocked by #22)
