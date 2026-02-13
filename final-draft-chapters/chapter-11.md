@@ -84,9 +84,9 @@ She looked at the routing map. The deep channels sat in the system's topography 
 
 "You know the bleed parameters."
 
-She turned from the console and faced him. His expression held the specific tension she had learned to read over decades — not anger, not disappointment, but the practical alarm of a person who has calculated the cost of what they are witnessing and found it higher than they can afford to pay alone.
+Juno turned from the console and faced him. His expression held the specific tension she had learned to read over decades — not anger, not disappointment, but the practical alarm of a person who has calculated the cost of what they are witnessing and found it higher than they can afford to pay alone.
 
-"If I take the safe route," she said, "I get thirty minutes and a profile that tells me nothing. The answers are in the degraded clusters. That is where Sable put them."
+"If I take the safe route," Juno said, "I get thirty minutes and a profile that tells me nothing. The answers are in the degraded clusters. That is where Sable put them."
 
 "Sable put them there because the clusters were already failing," Fen said. "She used degradation as camouflage. That does not make the degradation safe."
 
@@ -134,7 +134,7 @@ She turned to the console and set the session parameters.
 
 Three words that looked clean on the display and felt like crossing a line she had drawn herself.
 
-"I need one window," she said. "It will close after the first deep pull."
+"I need one window," Juno said. "It will close after the first deep pull."
 
 "Then make it count."
 
@@ -490,7 +490,7 @@ She closed her eyes.
 
 She was going rogue. The Archive would call that a violation. Orin would call it a breach of every commission term they had agreed to.
 
-She called it the first honest name of the Key.
+Juno called it the first honest name of the Key.
 
 Fen had not left. He stood at the entrance to the pod with the brass disc in his pocket and a face that held no judgement and no comfort — only the specific attention of a person who intended to remain present for whatever came next.
 
