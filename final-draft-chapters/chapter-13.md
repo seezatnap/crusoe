@@ -108,7 +108,7 @@ Fen turned the brass disc in his pocket — the scrape of metal against fabric, 
 
 <!-- pov: juno -->
 
-The corridor to the Forum had acquired the geometry of intent. Two verification gates stood between the intake hall and the forum atrium — identity confirmation, purpose declaration, a chain-of-custody stamp that required her to name what she carried before the hallway would hold its shape. She had learned to read policy by the pressure on the floor. These surfaces were tight. The light was even. The corridor said: you are being processed.
+The corridor to the Forum had acquired the geometry of intent. Two verification gates stood between the intake hall and the forum atrium — identity confirmation, purpose declaration, a chain-of-custody stamp that required her to name what she carried before the hallway would hold its shape. She had learned to read policy by the pressure on the floor. These surfaces were tight. The light was even. Every surface carried a single message: *you are being processed.*
 
 Fen walked beside her until the second threshold, where the floor texture shifted from smooth to rough. No face at the gate. No authority glyph. Just the threshold itself — the Lattice's way of saying that what lay beyond was not a place people entered but a condition people accepted.
 
@@ -180,7 +180,7 @@ A silence held the sentence without processing it.
 
 Orin lifted one hand — acknowledgment that stopped short of concession.
 
-"Second," he said, "you are not the first person to advocate total disclosure."
+"Second," Orin said, "you are not the first person to advocate total disclosure."
 
 "And you are not the first person to mistake managed silence for stability."
 
@@ -268,7 +268,7 @@ He opened a second exhibit.
 
 `status: archived`
 
-"No permanent deactivation," she said. "You are hiding this because it frightens people, not because it destroys them."
+"No permanent deactivation," Juno said. "You are hiding this because it frightens people, not because it destroys them."
 
 Orin set the panel aside. "Because fear is not the only measure of destruction. We can survive terror. We have not survived every kind of clarity."
 
@@ -276,7 +276,7 @@ He was no longer speaking policy. He was speaking from the weight of centuries w
 
 "You are describing protective deception," she said.
 
-"Protective deception has no comfort in it," he replied. "I did not inherit this system to produce heroes. I inherited it because there are people inside it who cannot repair the damage of a careless revelation. You call that concealment. I call it an obligation I did not choose and cannot set down."
+"Protective deception has no comfort in it," Orin replied. "I did not inherit this system to produce heroes. I inherited it because there are people inside it who cannot repair the damage of a careless revelation. You call that concealment. I call it an obligation I did not choose and cannot set down."
 
 "Then why am I here?"
 
@@ -318,7 +318,7 @@ Orin met her silence with his own, and then spoke without looking at her directl
 
 "Not obedience. Timing."
 
-"Timing is your most comfortable word," she said. "You apply it to everything you cannot own."
+"Timing is your most comfortable word," Juno said. "You apply it to everything you cannot own."
 
 He registered something — surprise, or the discomfort of hearing a sentence he had been avoiding put into language he could not deflect.
 
@@ -426,7 +426,7 @@ She heard Maren's voice beneath the words — thin, drifted, still clear enough 
 
 Orin's expression shifted by less than a degree.
 
-"Your evidence is enough to force a hearing," he said. "It is not enough to force a remedy."
+"Your evidence is enough to force a hearing," Orin said. "It is not enough to force a remedy."
 
 "Not remedy. Truth."
 
@@ -474,7 +474,7 @@ He did not contradict her. A panel opened to the right and displayed her latest 
 
 `SEVERE: none`
 
-"Not severe," she said. "You always frame that threshold as a kindness."
+"Not severe," Juno said. "You always frame that threshold as a kindness."
 
 "This is precisely why the order exists. Your risk profile is stable enough to argue and unstable enough to misjudge."
 
@@ -554,7 +554,7 @@ Then she spoke to the room itself.
 
 Orin did not move.
 
-"Civilizational stability is not obedience," she said. "It is consent before constraint."
+"Civilizational stability is not obedience," Juno said. "It is consent before constraint."
 
 He closed his eyes.
 
