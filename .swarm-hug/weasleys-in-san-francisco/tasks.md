@@ -63,3 +63,7 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#31) Correct `writing-artifacts/summer-1994-scene-by-scene-breakdowns.md` so Chapter 10 is marked as `Act III` instead of `Act II`, and audit all chapter `Act` labels against `writing-artifacts/summer-1994-15-chapter-story-spine.md` for any remaining drift (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#32) Fix opening-line typo in `chapters/chapter-08.md` by replacing “Which him?” with the intended phrasing (likely “Which one?”), then run a quick copy-edit pass around nearby lines for similar transcription artifacts.
+- [ ] (#33) Normalize Tomo’s naming in `chapters/chapter-08.md` by making the first introduction at “Tomoko Sato” consistent with later references (`Tomo Sato`) or explicitly establishing the full-form convention.
