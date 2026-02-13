@@ -9,7 +9,7 @@
 - [x] (#5) Construct a historical timeline for the Transition Era (2025–2090) tied to Lena, Sable, Marcus, and major Engram milestones, including scene anchors for each major recording-era beat [5 pts] (blocked by #3, #4) (A)
 - [x] (#6) Build continuity and reveal matrices mapping each character arc, unresolved threads, and cross-chapter dependency graph from Act 1 through Act 4 [5 pts] (blocked by #3, #5) (A)
 - [x] (#7) Publish chapter-level POV/scene alternation rules and thematic progression (present-Lattice vs recording chapters), with required emotional pacing and perspective shifts per chapter [5 pts] (blocked by #2, #4, #6) (A)
-- [x] (#8) Define the style-and-voice protocol for prose in the style of J. K. Rowling: clear, character-forward, humane, and quietly escalating narration; include anti-cliché constraints and tone-alternation rules for Lattice vs recording chapters [5 pts] (blocked by #2, #7) (A)
+- [x] (#8) Define the style-and-voice protocol targeting literary sci-fi in the vein of Ted Chiang meets Kazuo Ishiguro: precise, humane, quietly devastating prose with emotional restraint and moments of devastating clarity; include anti-cliché constraints and tone-alternation rules for Lattice vs recording chapters [5 pts] (blocked by #2, #7) (A)
 - [x] (#9) Define the postmortem rubric with mandatory checks: word-count compliance, plot progression, continuity, cliches, dialogue realism, pacing, tone stability, and lore safety flags [5 pts] (blocked by #7, #8) (A)
 - [x] (#10) Create an unresolved-thread log and risk register in `writing-artifacts/`, linking all open questions, secrets, and ethical dilemmas to specific chapters [5 pts] (blocked by #6, #9) (A)
 
@@ -27,7 +27,7 @@
 - [x] (#17) Draft `chapters/chapter-01.md` in the 4,000–6,000-word range: establish present-day Lattice reality, Juno’s guarded profession as a Finder, her emotional isolation, and first visit to drifted Maren; encode her core curiosity about origin [5 pts] (blocked by #7, #8, #15, #16, #2) (B)
 - [x] (#18) Draft `chapters/chapter-02.md` in the 4,000–6,000-word range: begin Juno’s earliest jumps into peripheral recordings, contrast digital abstraction with embodied 2030s detail (coffee, weather, pain, smell), and seed the Rosetta Key thread [5 pts] (blocked by #17) (B)
 - [x] (#19) Draft `chapters/chapter-03.md` in the 4,000–6,000-word range: deliver Orin’s commission for Engram-linked recovery work with unusual compensation, hidden restrictions, and Juno’s uneasy acceptance [5 pts] (blocked by #18) (A)
-- [A] (#20) Draft `chapters/chapter-04.md` in the 4,000–6,000-word range: escalate to the first emotionally transformative Lena jump; end Act 1 with a decisive hook into obsession and altered behavior [5 pts] (blocked by #19)
+- [x] (#20) Draft `chapters/chapter-04.md` in the 4,000–6,000-word range: escalate to the first emotionally transformative Lena jump; end Act 1 with a decisive hook into obsession and altered behavior [5 pts] (blocked by #19) (A)
 
 ## Act 2 Drafting (Chapters 05–10)
 
@@ -80,5 +80,5 @@
 - [x] (#46) Reintroduce `writing-artifacts/style-and-voice-protocol.md` and verify it contains the JK Rowling-aligned protocol so the completed task state (`#8`/`#43`) matches actual repository artifacts. (blocked by #43) (A)
 
 ## Follow-up tasks (from sprint review)
-- [A] (#47) Reconcile task wording in `.swarm-hug/infinite-domain/tasks.md` by updating `#8` to match the JK Rowling-only style target in `writing-artifacts/style-and-voice-protocol.md` instead of the outdated “Ted Chiang meets Kazuo Ishiguro” phrasing. (blocked by #43)
-- [B] (#48) Fix failing quality issues in `chapters/chapter-03.md` so it can pass `quality-orchestrator` (resolve blocker-level voice-consistency findings and dialogue attribution/POV clarity issues, and rerun the orchestrator until the chapter reports clean). (blocked by #19)
+- [x] (#47) Reconcile task wording in `.swarm-hug/infinite-domain/tasks.md` by updating `#8` to match the JK Rowling-only style target in `writing-artifacts/style-and-voice-protocol.md` instead of the outdated “Ted Chiang meets Kazuo Ishiguro” phrasing. (blocked by #43) (A)
+- [x] (#48) Fix failing quality issues in `chapters/chapter-03.md` so it can pass `quality-orchestrator` (resolve blocker-level voice-consistency findings and dialogue attribution/POV clarity issues, and rerun the orchestrator until the chapter reports clean). (blocked by #19) (B)
