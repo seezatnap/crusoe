@@ -27,7 +27,7 @@
 
 ## Validation Note
 
-- Stale quality reports (targeting `chapters/chapter-17.md`) have been removed. A fresh quality-orchestrator run against `final-draft-chapters/chapter-17.md` is pending.
+- Stale pre-fix quality report (`quality-orchestrator-1771015807.md`, 178 findings) has been removed. The valid post-fix report is `quality-orchestrator-1771017446.md` (167 findings), generated after task #88 resolved the DIAL-TAG-001 and POV-DRIFT-001 errors.
 
 ## Final Gate Decision
 
