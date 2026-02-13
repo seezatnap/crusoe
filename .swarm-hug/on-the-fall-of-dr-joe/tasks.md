@@ -15,7 +15,7 @@
 ## Chapter Prose Authoring
 
 - [x] (#10) Write Chapter 1 full prose (4,000-6,000 words), matching all foundational artifacts and chapter outline requirements (scene order, first-chapter hook, clue seeding, and POV continuity) [5 pts] (blocked by #9) (A)
-- [ ] (#11) Write Chapter 2 full prose (4,000-6,000 words), extending momentum, escalating stakes, and preserving character voice and timeline consistency [5 pts] (blocked by #9, #10)
+- [x] (#11) Write Chapter 2 full prose (4,000-6,000 words), extending momentum, escalating stakes, and preserving character voice and timeline consistency [5 pts] (blocked by #9, #10) (A)
 - [ ] (#12) Write Chapter 3 full prose (4,000-6,000 words), implementing planned revelations, emotional beat progression, and planned red herrings [5 pts] (blocked by #9, #11)
 - [ ] (#13) Write Chapter 4 full prose (4,000-6,000 words), deepening the investigative thread and advancing the mystery architecture constraints [5 pts] (blocked by #9, #12)
 - [ ] (#14) Write Chapter 5 full prose (4,000-6,000 words), balancing clue exposure and misdirection while preserving fair-play logic [5 pts] (blocked by #9, #13)
@@ -59,3 +59,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#43) Repair `rust/Cargo.toml` workspace configuration so `cargo build --workspace` and `cargo test --workspace` succeed (currently failing because `rust/crates/*/Cargo.toml` does not exist in the repo). (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#44) Reconcile Chapter 2 word-count metadata: recalculate `CH-002` and update `word_count_current` in `chapters/CH-002-the-first-ledger.md` plus `LOG-WC-002` `words` and `delta_to_min` in `writing-artifacts/word-count.md` (currently `5222` vs actual `wc -w` result `5219`).
