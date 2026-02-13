@@ -57,3 +57,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#29) [#6] Fix `writing-artifacts/summer-1994-15-chapter-story-spine.md` table formatting by adding the missing **Act** column values for all chapters after 3 (4–15), since rows currently shifted by one column and no longer explicitly encode the 4-act chapter ranges. (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#30) Normalize the chapter `Act` annotations in `summer-1994-scene-by-scene-breakdowns.md` (Chapters 5, 6, and 9 are currently marked as “Act I,” “Act I/II bridge,” and “Act II bridge” respectively) so they use canonical `Act I`–`Act IV` values from `summer-1994-15-chapter-story-spine.md` consistently. (blocked by #7)
