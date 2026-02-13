@@ -123,3 +123,7 @@
 ## Follow-up tasks (from sprint review)
 - [ ] (#66) Update `writing-artifacts/roadmap.md` chapter-14 tracker row from `Not started` to `Completed draft (5,997)` and align the row metadata with `chapters/chapter-14.md` (blocked by #30).
 - [x] (#67) Create the missing `writing-artifacts/quality/chapter-14/quality-orchestrator-*.md` artifact by running the chapter-14 quality session; there is currently no `chapter-14` quality directory or report (blocked by #30). (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#68) Resolve the blocking findings in `writing-artifacts/quality/chapter-14/quality-orchestrator-1770994354.md` (including cliche and voice-consistency blockers), then rerun quality for chapter-14 and replace the chapter-14 status with a passing report before treating the Act-3 postmortem cycle as truly complete. (blocked by #36)
+- [ ] (#69) Update `writing-artifacts/roadmap.md` chapter-15 tracker row from `Not started` to `Completed draft (4,847)` and sync its pacing/title metadata with `chapters/chapter-15.md`. (blocked by #31)
