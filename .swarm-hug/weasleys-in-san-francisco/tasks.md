@@ -40,7 +40,7 @@
 ## Act Three: Confrontation (Chapters 11–12)
 
 - [x] (#20) Write Chapter 11 (4,000–6,000 words): Voss initiates a compulsion-laced fog across Fog Hollow as a test/warning — confusion and memory loss ripple through the community, Arthur and Molly's emotionally charged argument about staying vs. fleeing, the compromise: adults handle it, kids stay safe [5 pts] (blocked by #19) (A)
-- [ ] (#21) Write Chapter 12 (4,000–6,000 words): the kids break the safety rules — Fred, George, Ron, Ginny, Harry, and Marisol infiltrate the Underlook, Harlan catches them, tense confrontation and escape using joke products, Ron's tactics, and Harry's instinctive magic. Isolde's crisis of conscience when she sees children in danger [5 pts] (blocked by #20)
+- [A] (#21) Write Chapter 12 (4,000–6,000 words): the kids break the safety rules — Fred, George, Ron, Ginny, Harry, and Marisol infiltrate the Underlook, Harlan catches them, tense confrontation and escape using joke products, Ron's tactics, and Harry's instinctive magic. Isolde's crisis of conscience when she sees children in danger [5 pts] (blocked by #20)
 
 ## Act Four: Resolution (Chapters 13–15)
 
