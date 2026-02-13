@@ -28,6 +28,8 @@ She opened the first readable fragment and began the work that the rogue jump ha
 
 ---
 
+<!-- pov: juno -->
+
 The fragment loaded without a clean header. Sable's voice arrived first — not from a specific room but from the recording's attempt to reconstruct a room that no longer held together. Walls resolved and dissolved. A desk appeared with papers stacked in the careful disorder of someone who filed by association rather than date. The overhead light flickered once, held, then shifted to the warmer spectrum of late afternoon.
 
 `FIELD OBSERVATION: 2055-06-14`
@@ -67,6 +69,8 @@ The fragment ended. No fade, no closing phrase. The recording simply stopped hol
 She opened the second fragment.
 
 ---
+
+<!-- pov: juno -->
 
 `FIELD OBSERVATION: 2057-03-22`
 
@@ -108,6 +112,8 @@ The fragment dissolved into noise — a wash of static that carried, beneath its
 
 ---
 
+<!-- pov: juno -->
+
 Juno stood. The work pod's geometry adjusted around her — walls finding their angles, light calibrating to her posture — and she let the adjustment happen without resistance. She had spent her life inside these automatic courtesies. She had never before understood them as decisions.
 
 The perception budget applied to this room. The walls appeared solid because the system decided she could bear solidity. The light felt natural because the system had calculated what natural meant for a person in her current state. Every surface, every shadow, every degree of temperature her awareness registered was the product of a constraint stack that had been running since before she existed, making choices about what she was permitted to experience with the steady patience of a process that never tired because it had never been alive.
@@ -125,6 +131,8 @@ She opened her bleed monitor.
 She did not cease. She opened the third fragment.
 
 ---
+
+<!-- pov: juno -->
 
 `FIELD OBSERVATION: 2058-11-09`
 
@@ -157,6 +165,8 @@ She picked up the clipboard and wrote one line Juno could read from the recordin
 The fragment held for another twelve seconds. The man in the chair looked toward the back wall, toward Sable, toward the place where the glass partition had been. His face held an expression Juno had seen once before, in Maren's eyes on a clear day: the recognition that the room was smaller than it appeared, and the willingness to live in it anyway.
 
 ---
+
+<!-- pov: juno -->
 
 She closed the fragment and sat with the silence.
 
@@ -193,6 +203,8 @@ She did not reply.
 She opened the fourth fragment.
 
 ---
+
+<!-- pov: juno -->
 
 `FIELD OBSERVATION: 2059-08-03`
 
@@ -232,6 +244,8 @@ She sat down. The chair did not creak. The room held its silence with the patien
 
 ---
 
+<!-- pov: juno -->
+
 Juno returned to the present and found her hands shaking.
 
 Not the fine-motor tremor of bleed contamination. A different kind — the involuntary response of a body, real or simulated, that has received information it cannot hold without physical expression. She gripped the edge of the console and waited for the shaking to become manageable.
@@ -243,6 +257,8 @@ She understood, in the narrow space between two breaths, why Orin had protected 
 The fifth fragment sat in the queue. She opened it.
 
 ---
+
+<!-- pov: juno -->
 
 `PERSONAL NOTE: 2060-01-17`
 
@@ -277,6 +293,8 @@ The phrase landed in Juno's attention with the force of recognition. She had hea
 The recording held her face for five more seconds. Then the degradation took it — the image fracturing into overlapping frames, Sable's mouth moving in three different timelines, each one saying something Juno could not quite hear. The last word that survived the noise was *honest*. Or possibly *house*. The recording did not clarify, and the distinction, Juno understood, was the entire question.
 
 ---
+
+<!-- pov: juno -->
 
 She closed the last fragment and sat in the work pod's neutral light.
 
