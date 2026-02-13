@@ -1,4 +1,5 @@
 # Chapter 05
+<!-- pov: juno -->
 
 Juno reached the intake corridor before dawn-cycle had reached a name. In the Lattice, dawn-cycle was never a temperature, never a color, never a smell. It was a pause in the architecture where everything seemed newly assembled, and that made it the only hour in the day when people made mistakes by looking too closely at the seams.
 
@@ -56,6 +57,7 @@ The transfer was abrupt, as though she had missed a handrail in a stairwell and 
 ---
 
 ## Recording: Engram Lab Cluster, Winter 2031
+<!-- pov: lena -->
 
 She woke first to fluorescent light.
 
@@ -246,6 +248,7 @@ And then, in her private notebook, she wrote something the report could not hold
 `He remembered the right to answer before we took him. We gave him the answer instead.`
 
 ## Present-Lattice Interlude
+<!-- pov: juno -->
 
 Juno came up from the recording with a sensation she had learned to label and not to admit: an old-world ache, exactly one half-breath long and too private for any archive. In the Lattice, she had no knees to ache. Yet the return had left her shoulders as though she had spent the morning climbing stairwells that did not exist.
 
@@ -287,6 +290,7 @@ The wall shifted and the room dissolved as the transfer pulled her backward thro
 ---
 
 ## Recording: Engram Lab Corridor, Spring 2032
+<!-- pov: lena -->
 
 The lab was crowded in the way rooms become crowded when everyone agrees on a word and no one agrees on its meaning. The word in this spring was breakthrough, spoken with the caution of people who feared they were naming a thing before it had fully formed.
 
@@ -465,6 +469,7 @@ The crack had been there for a week.
 And she had not cared because the room needed one more clean line before someone called this a disaster.
 
 ## Present-Lattice Interlude
+<!-- pov: juno -->
 
 Juno returned again to the station with a dryness behind the eyes she had never had before the 4th and 6th cycle. She sat at her own desk and opened the two logs from the morning in a side channel. The first was clean. The second had seven untagged flags.
 
@@ -512,6 +517,7 @@ The room folded into a smaller, drier, quieter year.
 ---
 
 ## Recording: Private Notebook Sequence, 2033
+<!-- pov: lena -->
 
 The file was not in the lab proper. It was in a rented studio above a print shop, and the window showed rain not because it needed weather but because someone inside wanted to remember what ordinary sound could be.
 
@@ -630,6 +636,7 @@ Lena wrote down four lines and did not look up.
 She copied them into her private notebook and then crossed them out once, as though one hard line might need to remain in the body if the page burned.
 
 ## Present-Lattice Interlude
+<!-- pov: juno -->
 
 Juno returned to a corridor that had never had a draft. It was all edges and practical light, and the line from the notebook arrived exactly as she stepped out of it.
 
