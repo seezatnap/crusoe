@@ -17,7 +17,7 @@
 - [x] (#10) Write Chapter 1 full prose (4,000-6,000 words), matching all foundational artifacts and chapter outline requirements (scene order, first-chapter hook, clue seeding, and POV continuity) [5 pts] (blocked by #9) (A)
 - [x] (#11) Write Chapter 2 full prose (4,000-6,000 words), extending momentum, escalating stakes, and preserving character voice and timeline consistency [5 pts] (blocked by #9, #10) (A)
 - [x] (#12) Write Chapter 3 full prose (4,000-6,000 words), implementing planned revelations, emotional beat progression, and planned red herrings [5 pts] (blocked by #9, #11) (A)
-- [A] (#13) Write Chapter 4 full prose (4,000-6,000 words), deepening the investigative thread and advancing the mystery architecture constraints [5 pts] (blocked by #9, #12)
+- [x] (#13) Write Chapter 4 full prose (4,000-6,000 words), deepening the investigative thread and advancing the mystery architecture constraints [5 pts] (blocked by #9, #12) (A)
 - [ ] (#14) Write Chapter 5 full prose (4,000-6,000 words), balancing clue exposure and misdirection while preserving fair-play logic [5 pts] (blocked by #9, #13)
 - [ ] (#15) Write Chapter 6 full prose (4,000-6,000 words), sustaining scene momentum and cross-character continuity across the midpoint approach [5 pts] (blocked by #9, #14)
 - [ ] (#16) Write Chapter 7 full prose (4,000-6,000 words), reinforcing thematic motifs and escalating tension in alignment with the plot arc [5 pts] (blocked by #9, #15)
