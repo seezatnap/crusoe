@@ -1,6 +1,5 @@
 # Chapter 04
 
-<!-- pov: juno | layer: recording (lead) | shifts: present → recording → present -->
 
 The assignment queue had a way of announcing the important work in the same voice it used for the routine. No colour shift, no elevated chime. The node appeared in Juno's recovery channel between a minor checksum request and a grief-index placeholder that no one had claimed, and it sat there for six seconds before she noticed the difference.
 

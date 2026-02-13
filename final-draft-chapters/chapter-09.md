@@ -1,6 +1,5 @@
 # Chapter 09
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → access-denied record scene → present -->
 
 The archive access corridor had changed its shape overnight.
 
@@ -14,7 +13,6 @@ This morning it felt granular.
 
 ---
 
-<!-- pov: juno -->
 
 The cluster map loaded in the pale constellation of small icons she had come to know too well — each one a recording fragment, a metadata node, a witness chain with its own history of who had touched it and who had been refused. She expanded the view to the full EN-33 series and ran the chronological sort she had been building since the previous cycle.
 
@@ -44,7 +42,6 @@ Each one logged her name and returned nothing.
 
 ---
 
-<!-- pov: juno -->
 
 She did not know how long she sat with the eleven denials before the first practical thought arrived.
 
@@ -62,7 +59,6 @@ She pressed her palms flat against the console and felt the granularity of the n
 
 ---
 
-<!-- pov: juno -->
 
 A message arrived in her private channel before she had composed the first line of her own response.
 
@@ -106,7 +102,6 @@ She sat back. The console's nothing had become slightly warmer under her palms �
 
 ---
 
-<!-- pov: juno -->
 
 She could have accepted the wall and returned to routine.
 
@@ -136,7 +131,6 @@ The archive had been edited the way a person edits a memory they cannot afford t
 
 ---
 
-<!-- pov: juno -->
 
 She needed to test this against something Orin could not control.
 
@@ -160,7 +154,6 @@ Orin was not just restricting her access. He was preparing to make these records
 
 ---
 
-<!-- pov: juno -->
 
 The corridor outside lane six held its shape with the particular stillness of a space that was being watched. Juno stood and walked the length of it twice — not for exercise, not for a destination, but because walking was the only physical action the Lattice allowed her to perform without the architecture asking for a reason.
 
@@ -192,7 +185,6 @@ The system accepted the message without comment. In the Lattice, acceptance with
 
 ---
 
-<!-- pov: juno -->
 
 The response arrived faster than she had expected.
 
@@ -218,7 +210,6 @@ She closed the tracker and sat with the quiet.
 
 ---
 
-<!-- pov: juno -->
 
 The quiet did not last.
 
@@ -244,7 +235,6 @@ She typed one line.
 
 ---
 
-<!-- pov: juno -->
 
 Orin's office had the same bronze light and the same careful distance she remembered from the commission chamber. The console between them. The absence of unnecessary gesture. The stillness of a man who had practised patience until patience had become the room itself.
 
@@ -358,7 +348,6 @@ She left before the sentence could settle into the room's architecture.
 
 ---
 
-<!-- pov: juno -->
 
 The corridor outside Orin's office felt longer than it had on the way in. The floor lights adjusted to her pace, brightening and dimming in the shallow intervals the Lattice used to acknowledge a person's movement without interpreting its purpose.
 

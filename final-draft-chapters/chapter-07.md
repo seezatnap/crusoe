@@ -1,6 +1,5 @@
 # Chapter 07
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → recording flash fragment → present -->
 
 The station did not greet her.
 
@@ -72,7 +71,6 @@ She deleted the line before she could send it to anyone.
 
 ---
 
-<!-- pov: juno -->
 
 A junior Finder stood by the shared table, looked in her direction, and lowered a stack of run forms.
 
@@ -86,7 +84,6 @@ She read the gesture as a warning and pretended she had not.
 
 ---
 
-<!-- pov: juno -->
 
 The first thing she did after the mid-cycle break was miss a handoff.
 
@@ -128,7 +125,6 @@ Fen would read the silence as data. Fen always read her silences more accurately
 
 ---
 
-<!-- pov: juno -->
 
 By the time the queue moved through mid-cycle, the workroom had become too clean.
 
@@ -172,7 +168,6 @@ She opened an unsanctioned link.
 
 ### Recording fragment
 
-<!-- pov: lena -->
 
 No alarm sounded. There was no alarm for that path. The first sign was a line of grey at the edge of her vision, a trace of how old recordings presented themselves before anyone taught a Finder to ignore their borders.
 
@@ -210,7 +205,6 @@ The fragment ended there — at a line about rooms and keeping.
 
 ---
 
-<!-- pov: juno -->
 
 When Juno returned, the corridor was at a different angle.
 
@@ -312,7 +306,6 @@ She returned to lane three and let five cycles pass in which she made no changes
 
 ---
 
-<!-- pov: juno -->
 
 Around second bell, the workroom shifted.
 
@@ -416,7 +409,6 @@ The sentence startled her. Some friendships were too practical to deserve this k
 
 ---
 
-<!-- pov: juno -->
 
 Around that time, as though timing had been waiting for her to stop running, an alert arrived without fanfare.
 
@@ -648,7 +640,6 @@ She sent the note to both of them.
 
 ---
 
-<!-- pov: juno -->
 
 The station quieted as the cycle shifted toward its end.
 

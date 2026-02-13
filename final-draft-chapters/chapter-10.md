@@ -1,6 +1,5 @@
 # Chapter 10
 
-<!-- pov: juno | layer: recording (lead) | shifts: present → recording → present -->
 
 The corridor gave her back her name three hours before second bell, and she had not asked for it.
 
@@ -40,7 +39,6 @@ Then she sent a message.
 
 ---
 
-<!-- pov: juno -->
 
 Fen arrived carrying two mugs of something that smelled like bruised mint and a silence that made the small space feel like it had walls instead of suggestions.
 
@@ -107,7 +105,6 @@ She did not open anything. She copied the manifest first — the full package, e
 
 ---
 
-<!-- pov: juno -->
 
 She selected `journal-17b-sable-private` and spoke the launch phrase.
 
@@ -157,7 +154,6 @@ She took a breath that had no lungs behind it and re-entered the recording at mi
 
 ---
 
-<!-- pov: juno -->
 
 The timestamp had changed. `Journal entry, 8/02/2065.`
 
@@ -211,7 +207,6 @@ The recording continued. Juno let it run.
 
 ---
 
-<!-- pov: juno -->
 
 She moved through the remaining journals without pausing between them, because pausing meant returning to the present and returning to the present meant processing what she was learning, and she was not ready to process it. She was ready to gather.
 
@@ -259,7 +254,6 @@ Sable looked at her own policy line and repeated it: "Default boundaries. Not be
 
 ---
 
-<!-- pov: juno -->
 
 In the maintenance alcove, Fen's hand appeared at the edge of her attention. He had not touched her — he would not touch a person mid-jump without her signal — but his presence registered as pressure — the Lattice translating proximity into something her attention could not ignore.
 
@@ -325,7 +319,6 @@ This was what Orin had sealed. Not the journals. Not the testimony from the gove
 
 ---
 
-<!-- pov: juno -->
 
 She opened the last journal.
 
@@ -369,7 +362,6 @@ The recording ended without a closing phrase. No goodbye. No date stamp. No sign
 
 ---
 
-<!-- pov: juno -->
 
 Juno returned to the maintenance alcove and found her hands steadier than they should have been.
 

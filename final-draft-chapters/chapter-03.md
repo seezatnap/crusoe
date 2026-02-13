@@ -1,6 +1,5 @@
 # Chapter 03
 
-<!-- pov: juno | layer: present-lattice (lead) | shifts: present → commission-room → present -->
 
 Juno left the archive graph open and did not close it.
 

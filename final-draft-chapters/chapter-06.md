@@ -1,6 +1,5 @@
 # Chapter 06
 
-<!-- pov: juno | layer: recording (lead) | shifts: present → recording → present → recording → present -->
 
 The intake lane had begun speaking before Juno arrived.
 
@@ -48,7 +47,6 @@ The transfer came in one long, quiet pulse, and the present fell away.
 
 ## Recording: Engram Lab Annex, Autumn 2033
 
-<!-- pov: lena -->
 
 The annex corridor smelled of metal and scorched coffee.
 
@@ -160,7 +158,6 @@ Lena did not need a manual for that. She had been watching what remained after p
 
 ---
 
-<!-- pov: juno -->
 
 Juno returned from the annex run with a sensation that had no honest name.
 
@@ -218,7 +215,6 @@ The transfer came with the old metallic smell and a whiteboard crowded with circ
 
 ## Recording: Engram Conference Room, Winter 2034
 
-<!-- pov: lena -->
 
 The conference room had one window nobody opened and one screen showing a map that pretended to be a view of outside. The fluorescent lights had the specific frequency of institutional lighting that made every skin tone look provisional.
 
@@ -284,7 +280,6 @@ Lena stared at the word. She reached for it and stopped. She did not know why sh
 
 ---
 
-<!-- pov: juno -->
 
 Juno returned from the conference run and had to sit down before the lane finished rebuilding around her.
 
@@ -400,7 +395,6 @@ The transfer returned her to a room where no tea had ever boiled and no one had 
 
 ---
 
-<!-- pov: lena -->
 
 The archive room was quiet when Lena entered, because the quiet was hers — she had arrived before the lights and before the screens and before the particular institutional hum that told a room it was expected to perform.
 
@@ -456,7 +450,6 @@ The run ended. The room folded into data. The notebook's words did not stay behi
 
 ---
 
-<!-- pov: juno -->
 
 She returned to a station that held no weather and no evidence of anything she had carried home.
 
