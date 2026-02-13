@@ -42,11 +42,11 @@ By the time she opened the room to its full ambient register, the station's morn
 
 Fen was one of them, easy to identify by the impatience in their rhythm.
 
-"She is reading that thing again."
+"She is reading that thing again," Fen murmured to one of the others.
 
 Juno did not turn her head fully. She did not need to.
 
-"Yes."
+"Yes," Juno said.
 
 "If it starts with no metadata," Fen said, "it usually ends with a debt note."
 
@@ -54,7 +54,7 @@ The sentence crossed her line and vanished in one clean inhale. Fen never did co
 
 "I have spent a whole day with warnings and three private fields," Juno said, "then found one clean sentence like that in every difficult job."
 
-"There was nothing clean about this one."
+"There was nothing clean about this one," Fen said.
 
 Fen did not press further. That was the courtesy they kept for her because they respected what they called her professional pride and what she called her habit of disappearing behind protocol. They sent one short clip, unsigned.
 
@@ -90,11 +90,11 @@ He turned one fraction of his face when she entered.
 
 "The Aldebaran corridor gave me a delayed ping that you had accepted," Orin said. "That was not a greeting."
 
-"It gave me one too."
+"It gave me one too," Juno said.
 
 There was no unnecessary gesture. He had always spoken as though each word had to justify itself before it came out, and the ones that survived carried the weight of having passed a private audit.
 
-"You accepted without a formal call. That was noted."
+"You accepted without a formal call," Orin said. "That was noted."
 
 "You sent a commission without clean details," Juno said. She kept her voice level. Protocol register — the voice she used when the work was difficult and the Lattice was listening.
 
