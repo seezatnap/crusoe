@@ -72,13 +72,7 @@ Ron wanted to snort but didn't. Instead he tapped the first page and began arran
 
 By nine that morning, Ron had moved into the old sitting room with the long table and a lamp that made everything seem both too serious and somehow right. He had laid out the notebook, sheets from chapter six and chapter seven, the map of the city pins from Bill, and old chalk marks from Arthur's bus route map.
 
-He lined up the evidence into categories the way he had done for years with chess problems:
-
-- Symbols observed
-- Physical markers
-- Disturbance reports
-- Tide-linked timing
-- Routes used by vessels or carts
+He split the evidence into five heaps on the table the way he had done for years with chess problems: symbols, markers, disturbance reports, tide timing, and the routes that repeated.
 
 He made no speech. He only worked.
 
@@ -407,18 +401,12 @@ Harry knocked once and stepped in with Ginny behind him. Ron gave her a brief no
 By the time the table filled again it felt like morning again in that particular way families did when they had not slept and still thought they might be useful for something no one had paid them to be useful for. Arthur had his pen. Bill and Tomo had the threshold list. Marisol had a folded note from Gus saying his office at dawn open for any legal call. Even Fred and George stopped joking for one full minute, which counted.
 
 Ron stood and read aloud, voice steady and annoyingly controlled.
-The marks in one line:
 
-- The symbol is being used where ward seams are intentionally cycled, especially in fog-stage windows.
-- Every point folds toward the Underlook mouth, and the pattern now behaves like one operative target.
-- This is not passive decay. Somebody is timing for pressure, then checking whether the room listens.
+The marks pointed three ways: the symbol appears where seams are cycled; each repeated point turned toward the Underlook mouth; and the rhythm matched pressure work rather than old decay.
 
-Operational plan for dawn:
+He gave the operational plan as a sequence, not a threat.
 
-- Bill and Tomo run the first controlled walk with legal witness coverage.
-- Arthur stays above as backstop if the field team is cut short.
-- No children go with the first team.
-- If the pulse shifts unexpectedly, we break and reclassify immediately.
+Bill and Tomo would take the first controlled walk with legal witness coverage. Arthur would stay above as backstop. No children with the first team. If the pulse shifted unexpectedly, we would break and reclassify immediately.
 
 He looked around and lowered his paper.
 
