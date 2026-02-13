@@ -60,3 +60,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#30) Normalize the chapter `Act` annotations in `summer-1994-scene-by-scene-breakdowns.md` (Chapters 5, 6, and 9 are currently marked as “Act I,” “Act I/II bridge,” and “Act II bridge” respectively) so they use canonical `Act I`–`Act IV` values from `summer-1994-15-chapter-story-spine.md` consistently. (blocked by #7) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#31) Correct `writing-artifacts/summer-1994-scene-by-scene-breakdowns.md` so Chapter 10 is marked as `Act III` instead of `Act II`, and audit all chapter `Act` labels against `writing-artifacts/summer-1994-15-chapter-story-spine.md` for any remaining drift
