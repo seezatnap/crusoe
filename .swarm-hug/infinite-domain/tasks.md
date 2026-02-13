@@ -96,3 +96,6 @@
 
 ## Follow-up tasks (from sprint review)
 - [x] (#54) Update `writing-artifacts/roadmap.md` chapter-07 tracker status from `Not started` to `Completed draft (5,585)` and keep related chapter-level metadata consistent with the completed draft state (blocked by #23) (A)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#55) Update `writing-artifacts/roadmap.md` to mark `chapter-08` as completed with its actual draft word count and confirm chapter-level metadata (pacing objective/act notes) matches the delivered draft `(blocked by #24)`
