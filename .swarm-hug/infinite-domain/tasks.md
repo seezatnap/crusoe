@@ -65,3 +65,6 @@
 ## Follow-up tasks (from sprint review)
 - [x] (#40) Update `cliche-detection`, `voice-consistency`, and `continuity-check` to use `AnalysisInput::resolve_target_path()` for validation, file reads, and report `target` paths so `with_working_directory(...)` and relative targets behave consistently (blocked by #39) (B)
 - [x] (#41) Add regression tests for all three analyzer crates (`cliche-detection`, `voice-consistency`, `continuity-check`) that use a non-root `working_directory` with relative targets to confirm path resolution is applied end-to-end, including report metadata and file access (blocked by #39) (B)
+
+## Follow-up tasks (from sprint review)
+- [ ] (#42) Reconcile user-facing examples for `quality-orchestrator` flags so `./scripts/run-quality-session.sh`/`./scripts/pre-draft-session.sh` guidance matches actual accepted CLI options (use `--fail-on` and `--no-artifact`, or add underscore aliases in `rust/crates/quality-orchestrator`). (blocked by #16)
