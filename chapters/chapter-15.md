@@ -262,7 +262,7 @@ Every participant arrived with a printed packet icon above their wrist, because 
 
 The first person to speak was Orin.
 
-He wore the older council seal as if it had never left his shoulder.
+He wore the older council seal as though it had never left his shoulder.
 
 "Thank you for coming," he said. "If this sounds theatrical, we did not choose this form."
 
@@ -302,7 +302,7 @@ She let that stand. A woman in the third ring coughed once.
 
 "Option two: suppress what we now know indefinitely." She turned to her notes. "That keeps us comfortable for a while. It makes the old story survive. It lets institutions say we are one generation with enough wisdom to carry the rest. But what it asks of anyone in this room is not wisdom. It asks for a silence we already used enough for one generation."
 
-She saw Orin's jaw shift as if he had expected the sentence and hated it.
+She saw Orin's jaw shift as though he had expected the sentence and hated it.
 
 "Option three: open the truth to the public. Not as confession, not as broadcast, not as victory. As witness architecture."
 
@@ -497,7 +497,7 @@ The names had no decoration. They had weight.
 
 Cassiel's face appeared at the edge of the circle now. He had walked in late and not asked to be seen. He watched in stillness, then lifted his right hand.
 
-He spoke with no ornament, as if the room were a private room.
+He spoke with no ornament, as though the room had become a private room.
 
 "I am not here to make this easier for you," he said. "I am here to say there is no longer any meaning in keeping a truth sealed for people's safety if that same safety cannot survive being named."
 
@@ -597,7 +597,7 @@ She sat between them and put her palms down.
 
 "It's open," she said.
 
-Cassiel closed his eyes once, as if testing whether the room had changed shape.
+Cassiel closed his eyes once, testing whether the room had changed shape.
 
 "Public?" he asked.
 
@@ -649,7 +649,7 @@ It was done, but not cleanly. That had never mattered.
 
 She could still not decide whether to be relieved.
 
-In the corner of her room, the old continuity feed resumed with ordinary shape, as if someone had turned the city back toward weather.
+In the corner of her room, the old continuity feed resumed with ordinary shape, as though someone had turned the city back toward weather.
 
 `public summary accepted`
 
@@ -863,7 +863,7 @@ She wrote the final note she would send before the first cycle began.
 
 `closing: we will not confuse transparency with speed`
 
-When the command went through, the chamber made a low tone, as if some old instrument had been struck beneath the floor.
+When the command went through, the chamber made a low tone, like an old instrument struck beneath the floor.
 
 No one had to tell her the city would not become kind because of this.
 
