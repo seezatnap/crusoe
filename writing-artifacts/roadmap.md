@@ -42,7 +42,7 @@
 | 07 | 2 | Isolation and returning relationships | Increase interpersonal pressure and emotional consequences | 4,000–6,000 | Completed draft (5,585) |
 | 08 | 2 | Maren’s lucid warning | Deliver opaque clue and prepare re-interpretation | 4,000–6,000 | Completed draft (5,945) |
 | 09 | 2 | Restricted archives and confrontation | Convert policy friction into active confrontation | 4,000–6,000 | Completed draft (5,995) |
-| 10 | 2 | Journal acquisition and living infrastructure reveal | End Act 2 with explicit realization of Rosetta Key agency | 4,000–6,000 | Not started |
+| 10 | 2 | Journal acquisition and living infrastructure reveal | End Act 2 with explicit realization of Rosetta Key agency | 4,000–6,000 | Completed draft (4,468) |
 | 11 | 3 | Rogue jumps and deep bleed risk | Shift from investigation to active self-endangerment for truth | 4,000–6,000 | Not started |
 | 12 | 3 | Sable direct perspective | Reveal structural constraints and systemic design intent | 4,000–6,000 | Not started |
 | 13 | 3 | Orin escalation and ethical coercion | Escalate enforcement response and moral argument | 4,000–6,000 | Not started |
