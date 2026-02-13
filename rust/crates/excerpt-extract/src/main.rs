@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 use clap::{Parser, ValueEnum};
-use excerpt_extract::{pick_examples, collect_cached_examples, ExtractMode};
+use excerpt_extract::{collect_cached_examples, pick_examples, pick_random_examples, ExtractMode};
 
 #[derive(Parser)]
 #[command(name = "style-reference")]
@@ -9,14 +9,17 @@ struct Cli {
     #[arg(value_enum)]
     mode: Mode,
 
-    #[arg(long, default_value_t = 5)]
-    count: usize,
+    #[arg(long)]
+    count: Option<usize>,
 }
 
 #[derive(ValueEnum, Clone)]
 enum Mode {
     Narrative,
     Dialogue,
+    Page,
+    ChapterStart,
+    ChapterEnd,
 }
 
 impl From<Mode> for ExtractMode {
@@ -24,7 +27,17 @@ impl From<Mode> for ExtractMode {
         match value {
             Mode::Narrative => ExtractMode::Narrative,
             Mode::Dialogue => ExtractMode::Dialogue,
+            Mode::Page => ExtractMode::Page,
+            Mode::ChapterStart => ExtractMode::ChapterStart,
+            Mode::ChapterEnd => ExtractMode::ChapterEnd,
         }
+    }
+}
+
+fn default_count_for(mode: ExtractMode) -> usize {
+    match mode {
+        ExtractMode::Narrative | ExtractMode::Dialogue => 5,
+        ExtractMode::Page | ExtractMode::ChapterStart | ExtractMode::ChapterEnd => 1,
     }
 }
 
@@ -33,9 +46,15 @@ fn main() {
     let source_dir = PathBuf::from(".downloads/style-reference");
 
     let mode = ExtractMode::from(args.mode);
+    let count = args.count.unwrap_or(default_count_for(mode));
     match collect_cached_examples(&source_dir, mode) {
         Ok(examples) => {
-            let selected = pick_examples(examples, args.count);
+            let selected = match mode {
+                ExtractMode::Narrative | ExtractMode::Dialogue => pick_examples(examples, count),
+                ExtractMode::Page | ExtractMode::ChapterStart | ExtractMode::ChapterEnd => {
+                    pick_random_examples(examples, count)
+                }
+            };
             match serde_json::to_string_pretty(&selected) {
                 Ok(json) => println!("{json}"),
                 Err(err) => {

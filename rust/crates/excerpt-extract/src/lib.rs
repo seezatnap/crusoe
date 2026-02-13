@@ -11,11 +11,18 @@ use rand::seq::SliceRandom;
 pub enum ExtractMode {
     Narrative,
     Dialogue,
+    Page,
+    ChapterStart,
+    ChapterEnd,
 }
 
-pub const STYLE_REFERENCE_URLS: &[&str] = &[
-    "https://dgoldberg.sdsu.edu/515/harrypotter.txt",
-];
+pub const STYLE_REFERENCE_URLS: &[&str] = &["https://dgoldberg.sdsu.edu/515/harrypotter.txt"];
+
+const DEFAULT_PAGE_WORDS: usize = 250;
+const PAGE_LINES: usize = 30;
+const MIN_PAGE_WORDS: usize = 140;
+const MAX_PAGE_WORDS: usize = 420;
+const MIN_CHAPTER_EDGE_WORDS: usize = 50;
 
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 enum LengthTier {
@@ -33,16 +40,16 @@ pub enum ExtractError {
 
 impl fmt::Display for ExtractError {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-    match self {
-        Self::Io(err) => write!(f, "I/O error: {err}"),
-        Self::NoMatchingFiles(path) => {
-            write!(f, "No readable text files found in {}", path.display())
-        }
-        Self::DownloadFailed { url, reason } => {
-            write!(f, "Failed to download {url}: {reason}")
+        match self {
+            Self::Io(err) => write!(f, "I/O error: {err}"),
+            Self::NoMatchingFiles(path) => {
+                write!(f, "No readable text files found in {}", path.display())
+            }
+            Self::DownloadFailed { url, reason } => {
+                write!(f, "Failed to download {url}: {reason}")
+            }
         }
     }
-}
 }
 
 impl Error for ExtractError {}
@@ -55,10 +62,7 @@ impl From<std::io::Error> for ExtractError {
 
 fn is_text_file(path: &Path) -> bool {
     match path.extension().and_then(OsStr::to_str) {
-        Some(ext) => matches!(
-            ext.to_ascii_lowercase().as_str(),
-            "txt" | "md" | "markdown"
-        ),
+        Some(ext) => matches!(ext.to_ascii_lowercase().as_str(), "txt" | "md" | "markdown"),
         None => false,
     }
 }
@@ -92,6 +96,184 @@ fn split_paragraphs(content: &str) -> Vec<String> {
     }
 
     paragraphs.into_iter().filter(|p| !p.is_empty()).collect()
+}
+
+fn is_chapter_heading_line(line: &str) -> bool {
+    let trimmed = line.trim();
+    if !trimmed.starts_with("CHAPTER ") {
+        return false;
+    }
+    !trimmed.chars().any(|ch| ch.is_ascii_lowercase())
+}
+
+fn is_chapter_heading_paragraph(paragraph: &str) -> bool {
+    is_chapter_heading_line(paragraph)
+}
+
+fn split_chapters(content: &str) -> Vec<String> {
+    let normalized = normalized_lines(content);
+    let mut chapters = Vec::new();
+    let mut current = Vec::new();
+    let mut saw_heading = false;
+
+    for line in normalized.lines() {
+        if is_chapter_heading_line(line) {
+            if saw_heading && !current.is_empty() {
+                chapters.push(current.join("\n"));
+            }
+            current.clear();
+            saw_heading = true;
+            continue;
+        }
+
+        current.push(line.to_string());
+    }
+
+    if !current.is_empty() {
+        chapters.push(current.join("\n"));
+    }
+
+    if saw_heading {
+        chapters
+            .into_iter()
+            .filter(|chapter| !chapter.trim().is_empty())
+            .collect()
+    } else if normalized.trim().is_empty() {
+        Vec::new()
+    } else {
+        vec![normalized]
+    }
+}
+
+fn chapter_edge_paragraphs(
+    paragraphs: &[String],
+    from_start: bool,
+    min_words: usize,
+) -> Option<String> {
+    if paragraphs.is_empty() {
+        return None;
+    }
+
+    let mut chosen = Vec::new();
+    let mut words = 0usize;
+
+    if from_start {
+        for paragraph in paragraphs {
+            if is_chapter_heading_paragraph(paragraph) {
+                continue;
+            }
+            words += word_count(paragraph);
+            chosen.push(paragraph.clone());
+            if words >= min_words {
+                break;
+            }
+        }
+    } else {
+        for paragraph in paragraphs.iter().rev() {
+            if is_chapter_heading_paragraph(paragraph) {
+                continue;
+            }
+            words += word_count(paragraph);
+            chosen.push(paragraph.clone());
+            if words >= min_words {
+                break;
+            }
+        }
+        chosen.reverse();
+    }
+
+    if chosen.is_empty() {
+        None
+    } else {
+        Some(chosen.join("\n\n"))
+    }
+}
+
+fn extract_chapter_edge_units_from_text(text: &str, from_start: bool) -> Vec<String> {
+    let mut units = Vec::new();
+    for chapter in split_chapters(text) {
+        let paragraphs = split_paragraphs(&chapter);
+        if let Some(unit) = chapter_edge_paragraphs(&paragraphs, from_start, MIN_CHAPTER_EDGE_WORDS)
+        {
+            units.push(unit);
+        }
+    }
+    units
+}
+
+fn extract_page_units_from_text(text: &str, page_word_target: usize) -> Vec<String> {
+    let paragraphs = split_paragraphs(text);
+    let mut units = Vec::new();
+
+    if paragraphs.is_empty() {
+        return units;
+    }
+
+    for start in 0..paragraphs.len() {
+        if is_chapter_heading_paragraph(&paragraphs[start]) {
+            continue;
+        }
+
+        let mut words = 0usize;
+        let mut chunk = Vec::new();
+        let mut index = start;
+
+        while index < paragraphs.len() {
+            let paragraph = &paragraphs[index];
+            if is_chapter_heading_paragraph(paragraph) {
+                if !chunk.is_empty() {
+                    break;
+                }
+                index += 1;
+                continue;
+            }
+
+            words += word_count(paragraph);
+            chunk.push(paragraph.clone());
+            index += 1;
+
+            if words >= page_word_target {
+                break;
+            }
+        }
+
+        if !chunk.is_empty() {
+            units.push(chunk.join("\n\n"));
+        }
+    }
+
+    units
+}
+
+fn estimate_average_page_words(texts: &[String]) -> usize {
+    let mut total_words = 0usize;
+    let mut total_lines = 0usize;
+
+    for text in texts {
+        let normalized = normalized_lines(text);
+        for line in normalized.lines() {
+            let trimmed = line.trim();
+            if trimmed.is_empty() || is_chapter_heading_line(trimmed) {
+                continue;
+            }
+
+            let words = word_count(trimmed);
+            if words == 0 {
+                continue;
+            }
+
+            total_words += words;
+            total_lines += 1;
+        }
+    }
+
+    if total_lines == 0 {
+        return DEFAULT_PAGE_WORDS;
+    }
+
+    let average_line_words = total_words as f64 / total_lines as f64;
+    let page_words = (average_line_words * PAGE_LINES as f64).round() as usize;
+    page_words.clamp(MIN_PAGE_WORDS, MAX_PAGE_WORDS)
 }
 
 fn source_filename(url: &str, index: usize) -> String {
@@ -278,6 +460,27 @@ fn collect_text_files(root: &Path, out: &mut Vec<PathBuf>) -> Result<(), Extract
 }
 
 pub fn extract_units_from_text(text: &str, mode: ExtractMode) -> Vec<String> {
+    let page_words = DEFAULT_PAGE_WORDS;
+    extract_units_with_page_words(text, mode, page_words)
+}
+
+fn extract_units_with_page_words(
+    text: &str,
+    mode: ExtractMode,
+    page_word_target: usize,
+) -> Vec<String> {
+    if matches!(mode, ExtractMode::Page) {
+        return extract_page_units_from_text(text, page_word_target);
+    }
+
+    if matches!(mode, ExtractMode::ChapterStart) {
+        return extract_chapter_edge_units_from_text(text, true);
+    }
+
+    if matches!(mode, ExtractMode::ChapterEnd) {
+        return extract_chapter_edge_units_from_text(text, false);
+    }
+
     let paragraphs = split_paragraphs(text);
     let mut result = Vec::new();
 
@@ -324,11 +527,21 @@ pub fn collect_examples(source_dir: &Path, mode: ExtractMode) -> Result<Vec<Stri
 
     files.sort();
 
-    let mut all_examples = Vec::new();
+    let mut texts = Vec::with_capacity(files.len());
     for file in files {
         let bytes = fs::read(file)?;
-        let contents = String::from_utf8_lossy(&bytes).into_owned();
-        all_examples.extend(extract_units_from_text(&contents, mode));
+        texts.push(String::from_utf8_lossy(&bytes).into_owned());
+    }
+
+    let page_word_target = if matches!(mode, ExtractMode::Page) {
+        estimate_average_page_words(&texts)
+    } else {
+        DEFAULT_PAGE_WORDS
+    };
+
+    let mut all_examples = Vec::new();
+    for text in &texts {
+        all_examples.extend(extract_units_with_page_words(text, mode, page_word_target));
     }
 
     Ok(all_examples)
@@ -411,6 +624,16 @@ pub fn pick_examples(mut examples: Vec<String>, count: usize) -> Vec<String> {
     selected
 }
 
+pub fn pick_random_examples(mut examples: Vec<String>, count: usize) -> Vec<String> {
+    if examples.is_empty() || count == 0 {
+        return Vec::new();
+    }
+
+    let mut rng = rand::thread_rng();
+    examples.shuffle(&mut rng);
+    examples.into_iter().take(count).collect()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -463,7 +686,10 @@ mod tests {
             "\"You did not come here in a cab?\" asked Sherlock Holmes.\n\nThe hallway remained quiet and empty.\n\n\"You are close to the King's training stables,\" said she.";
 
         let units = extract_units_from_text(content, ExtractMode::Narrative);
-        assert_eq!(units, vec!["The hallway remained quiet and empty.".to_string()]);
+        assert_eq!(
+            units,
+            vec!["The hallway remained quiet and empty.".to_string()]
+        );
     }
 
     #[test]
@@ -472,6 +698,50 @@ mod tests {
 
         let units = extract_units_from_text(content, ExtractMode::Narrative);
         assert_eq!(units, vec!["This one has punctuation.".to_string()]);
+    }
+
+    #[test]
+    fn page_units_preserve_whole_paragraphs() {
+        let first = format!("{}.", words(20));
+        let second = format!("{}.", words(21));
+        let third = format!("{}.", words(22));
+        let content = format!("{first}\n\n{second}\n\n{third}");
+
+        let units = extract_page_units_from_text(&content, 35);
+        assert!(!units.is_empty());
+        assert_eq!(units[0], format!("{first}\n\n{second}"));
+    }
+
+    #[test]
+    fn chapter_start_grows_to_minimum_words() {
+        let chapter_one_a = words(20);
+        let chapter_one_b = words(35);
+        let chapter_two = words(70);
+        let content = format!(
+            "CHAPTER ONE\n\n{chapter_one_a}\n\n{chapter_one_b}\n\nCHAPTER TWO\n\n{chapter_two}"
+        );
+
+        let units = extract_units_from_text(&content, ExtractMode::ChapterStart);
+        assert_eq!(units.len(), 2);
+        assert!(word_count(&units[0]) >= 50);
+        assert!(units[0].contains(&chapter_one_a));
+        assert!(units[0].contains(&chapter_one_b));
+    }
+
+    #[test]
+    fn chapter_end_grows_to_minimum_words() {
+        let chapter_one_a = words(20);
+        let chapter_one_b = words(35);
+        let chapter_two = words(55);
+        let content = format!(
+            "CHAPTER ONE\n\n{chapter_one_a}\n\n{chapter_one_b}\n\nCHAPTER TWO\n\n{chapter_two}"
+        );
+
+        let units = extract_units_from_text(&content, ExtractMode::ChapterEnd);
+        assert_eq!(units.len(), 2);
+        assert!(word_count(&units[0]) >= 50);
+        assert!(units[0].contains(&chapter_one_a));
+        assert!(units[0].contains(&chapter_one_b));
     }
 
     #[test]
@@ -489,7 +759,10 @@ mod tests {
     }
 
     fn tiers_for(excerpts: &[String]) -> Vec<LengthTier> {
-        excerpts.iter().map(|excerpt| length_tier(excerpt)).collect()
+        excerpts
+            .iter()
+            .map(|excerpt| length_tier(excerpt))
+            .collect()
     }
 
     fn long_counts_for(excerpts: &[String]) -> Vec<usize> {

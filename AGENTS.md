@@ -16,12 +16,14 @@
 - Prioritize clear scene momentum, character-forward narrative logic, and rhythmic sentence variation.
 - Preserve emotional clarity, purposeful pacing, and narrative consistency across chapters.
 
-## Paragraph and Dialogue Development
-- Before writing each new paragraph of exposition or dialogue sequence, sample five examples from source style:
-  - run `style-reference narrative --count 5` for prose exposition, or
-  - run `style-reference dialogue --count 5` for dialogue structure.
-- Use those samples for structure, pacing, and voice modeling only; do not copy content.
-- Choose the closest fit before drafting, then adjust sentence rhythm and beat timing to match.
+## Pre-Writing Style Calibration
+- Before writing each chapter draft, sample four style pages:
+  - run `style-reference page --count 4`
+- Before drafting chapter openings and closings, sample chapter-edge examples:
+  - run `style-reference chapter-start --count 2`
+  - run `style-reference chapter-end --count 2`
+- Use these samples for cadence, pacing, and voice calibration only; do not copy content.
+- Avoid overfitting literal structure; prioritize natural scene flow and character logic.
 
 ## Style-Reference Access Rules
 - Never open source text files directly in full; they are large and token-expensive.
@@ -37,6 +39,14 @@
   - enforce word-range compliance.
 - Perform language-level diagnostics for repetition and cliché patterns where relevant.
 - Treat style, structure, and cadence as production quality bars before moving to the next chapter.
+
+## Chapter Outline Artifacts
+- For every chapter outline in `writing-artifacts/`, explicitly list:
+  - scenes,
+  - locations,
+  - items.
+- Mark whether the chapter is a continuation of the previous chapter.
+- If it is not a continuation, explicitly note that it starts a new scene and/or time block.
 
 ## Rust tooling (./rust)
 - Maintain a **Cargo monorepo** in `./rust` for algorithmic writing support.
