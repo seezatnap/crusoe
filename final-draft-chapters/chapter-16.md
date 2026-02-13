@@ -214,7 +214,7 @@ Orin stood at the near end — no council seal, no enforcement officers. He wore
 
 He spoke first.
 
-"I did not ask you to hide what is true." His tone held the layered quality she had learned to read in him — care threaded through with the structural steel of a person who had been right about institutional risk often enough to mistake his track record for moral authority. "I asked you not to hand the truth to panic. I asked you to give this city a structure that could carry what you were about to place on it."
+"I did not ask you to hide what is true," Orin said, his tone holding the layered quality she had learned to read in him — care threaded through with the structural steel of a person who had been right about institutional risk often enough to mistake his track record for moral authority. "I asked you not to hand the truth to panic. I asked you to give this city a structure that could carry what you were about to place on it."
 
 He turned toward the room. Citizens had filled the benches — not in the ordered rings of the hearing but in the disordered arrangement of people who had walked in because the door was open.
 
@@ -244,7 +244,7 @@ Lien stood without invitation.
 
 He had been sitting at the side bench with his hands folded in the unhurried posture of a man who had learned, across decades of governance work, that the most useful thing a person could do in a room full of urgency was to move slowly.
 
-"No one here is asking for immediate removal," he said. "We are asking for auditable limits on who changes limits. If those rights are already public, Orin, then this becomes difficult only because your office has never operated in daylight. We have not built this crisis by making the architecture visible. We have built it by treating visibility as an administrative cost."
+"No one here is asking for immediate removal," Lien said. "We are asking for auditable limits on who changes limits. If those rights are already public, Orin, then this becomes difficult only because your office has never operated in daylight. We have not built this crisis by making the architecture visible. We have built it by treating visibility as an administrative cost."
 
 He did not sit. He never sat when he spoke — the habit of a person who had learned that sentences landed differently when the body delivering them remained upright.
 
@@ -270,13 +270,13 @@ He flinched — a contraction at the corner of his eye, a withdrawal of weight. 
 
 She held the line and did not press further.
 
-"If the city receives what we are too careful to name," she said, "we are not safer. We are quieter about who held the instrument."
+"If the city receives what we are too careful to name," Juno said, "we are not safer. We are quieter about who held the instrument."
 
 The citizen commentary on the public feed shifted from argument to specificity — people naming what the disclosure meant for their own experience.
 
-A woman in the third row stood and spoke to the room and to the feed.
+A woman in the third row — Reva, from the maintenance collective — stood and spoke to the room and to the feed.
 
-"I was archived into this continuity process at fourteen," she said. "I know what it means to call caution a kindness. It does not stop the experience. It decides who carries the account of it."
+"I was archived into this continuity process at fourteen," Reva said. "I know what it means to call caution a kindness. It does not stop the experience. It decides who carries the account of it."
 
 Orin did not respond. Lien did.
 
@@ -320,7 +320,7 @@ Juno stood in front of the map and did not speak. The questions held the quality
 
 Cassiel stood beside her and read one line aloud.
 
-"Listen to them," he said. "They are not asking whether the architecture is dangerous. They are asking whether the architecture belongs to them. We cannot answer that with a policy framework. We answer it by being present and by doing the work."
+"Listen to them," Cassiel said. "They are not asking whether the architecture is dangerous. They are asking whether the architecture belongs to them. We cannot answer that with a policy framework. We answer it by being present and by doing the work."
 
 He reached out and touched the edge of the chalk map — a gesture that looked involuntary, the reflex of a person who understood surfaces and needed to confirm that this one was real.
 
@@ -412,7 +412,7 @@ Orin took the pen. Not to sign. He set it on the table and wrote a single line i
 
 `witness protocol: external review to include moral burden, not only technical harm`
 
-"I can witness this language," he said. "I can witness the protocol. I do not witness its approval."
+"I can witness this language," Orin said. "I can witness the protocol. I do not witness its approval."
 
 Cassiel stepped forward. "That is not refusal. That is the beginning of the same sentence."
 
@@ -500,9 +500,9 @@ Juno looked at Fen. He handed her the canister of synthetic mint tea she had for
 
 Cassiel appeared at her shoulder. His coat was unbuttoned and his hair held the dampness of whatever weather pattern was running in the district outside.
 
-"The next message is from the school ring," he said. "They want the plain-language session tomorrow morning. You cannot skip it."
+"The next message is from the school ring," Cassiel said. "They want the plain-language session tomorrow morning. You cannot skip it."
 
-"No," she said. "We do it."
+"No," Juno said. "We do it."
 
 He looked from Fen to her to the relay channels where the citizen queries continued arriving in the steady cadence of a city that had started asking questions and would not stop.
 
